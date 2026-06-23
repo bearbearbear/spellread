@@ -1,0 +1,528 @@
+{
+  "book": 1,
+  "chapter": 4,
+  "title": "The Keeper of the Keys",
+  "lexile": 880,
+  "estimatedMinutes": 25,
+  "estimatedWords": 4500,
+  "vocabulary": [
+    {
+      "word": "giant",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a very large human-like creature",
+      "example": "Hagrid was a giant of a man.",
+      "pageHint": "p. 42"
+    },
+    {
+      "word": "wizard",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a person who uses magic",
+      "example": "Harry is a wizard.",
+      "pageHint": "p. 47"
+    },
+    {
+      "word": "birthday",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "the day you were born",
+      "example": "It was Harry's eleventh birthday.",
+      "pageHint": "p. 41"
+    },
+    {
+      "word": "truth",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "what is real and correct",
+      "example": "Hagrid told Harry the truth.",
+      "pageHint": "p. 48"
+    },
+    {
+      "word": "famous",
+      "tier": 1,
+      "partOfSpeech": "adjective",
+      "definition": "known by many people",
+      "example": "Harry is famous in the wizarding world.",
+      "pageHint": "p. 49"
+    },
+    {
+      "word": "orphan",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a child whose parents have died",
+      "example": "Harry is an orphan.",
+      "pageHint": "p. 48"
+    },
+    {
+      "word": "proud",
+      "tier": 1,
+      "partOfSpeech": "adjective",
+      "definition": "feeling pleased about yourself",
+      "example": "Hagrid was proud to be half-giant.",
+      "pageHint": "p. 44"
+    },
+    {
+      "word": "storm",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "very bad weather with rain and wind",
+      "example": "A storm raged outside the hut.",
+      "pageHint": "p. 41"
+    },
+    {
+      "word": "umbrella",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a device that keeps off rain",
+      "example": "Hagrid carried a pink umbrella.",
+      "pageHint": "p. 43"
+    },
+    {
+      "word": "astonished",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "very surprised",
+      "example": "Harry was astonished by the news.",
+      "pageHint": "p. 47"
+    },
+    {
+      "word": "guardian",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "someone who protects or cares for you",
+      "example": "The Dursleys were not good guardians.",
+      "pageHint": "p. 48"
+    },
+    {
+      "word": "Hogwarts",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "the school for witchcraft and wizardry",
+      "example": "Harry will go to Hogwarts.",
+      "pageHint": "p. 50"
+    }
+  ],
+  "background": {
+    "characters": [
+      {
+        "name": "Hagrid",
+        "description": "A giant man who is Keeper of Keys at Hogwarts."
+      },
+      {
+        "name": "Harry Potter",
+        "description": "Learns the truth about being a wizard."
+      },
+      {
+        "name": "Uncle Vernon",
+        "description": "Tries to stop Hagrid from telling Harry anything."
+      }
+    ],
+    "hook": "A giant man named Hagrid arrives on Harry's birthday and reveals that Harry is a wizard.",
+    "readingFocus": "Pay attention to what Hagrid tells Harry about his parents and his past."
+  },
+  "miniCheck": [
+    {
+      "id": "mc1",
+      "word": "giant",
+      "stem": "What does 'giant' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a very large human-like creature"
+        },
+        {
+          "id": "b",
+          "text": "very happy"
+        },
+        {
+          "id": "c",
+          "text": "extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "completely invisible"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc2",
+      "word": "wizard",
+      "stem": "What does 'wizard' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a person who uses magic"
+        },
+        {
+          "id": "b",
+          "text": "to run quickly"
+        },
+        {
+          "id": "c",
+          "text": "a kind of bird"
+        },
+        {
+          "id": "d",
+          "text": "a school subject"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc3",
+      "word": "birthday",
+      "stem": "What does 'birthday' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "the day you were born"
+        },
+        {
+          "id": "b",
+          "text": "very boring"
+        },
+        {
+          "id": "c",
+          "text": "a type of food"
+        },
+        {
+          "id": "d",
+          "text": "to sleep deeply"
+        }
+      ],
+      "correctId": "a"
+    }
+  ],
+  "quiz": {
+    "comprehension": [
+      {
+        "id": "c1",
+        "type": "main_idea",
+        "category": "comprehension",
+        "stem": "Who breaks down the door of the hut?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hagrid"
+          },
+          {
+            "id": "b",
+            "text": "Dumbledore"
+          },
+          {
+            "id": "c",
+            "text": "McGonagall"
+          },
+          {
+            "id": "d",
+            "text": "Dudley"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Hagrid. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      },
+      {
+        "id": "c2",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "What does Hagrid give Harry for his birthday?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A squashed birthday cake"
+          },
+          {
+            "id": "b",
+            "text": "A broomstick"
+          },
+          {
+            "id": "c",
+            "text": "An owl"
+          },
+          {
+            "id": "d",
+            "text": "A wand"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A squashed birthday cake. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      },
+      {
+        "id": "c3",
+        "type": "emotion",
+        "category": "comprehension",
+        "stem": "What shocking news does Hagrid share?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Harry is a wizard"
+          },
+          {
+            "id": "b",
+            "text": "Harry is a Muggle"
+          },
+          {
+            "id": "c",
+            "text": "Harry is Dudley's brother"
+          },
+          {
+            "id": "d",
+            "text": "Harry must stay with the Dursleys forever"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Harry is a wizard. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      },
+      {
+        "id": "c4",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What happened to Harry's parents?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They were killed by a dark wizard"
+          },
+          {
+            "id": "b",
+            "text": "They moved to America"
+          },
+          {
+            "id": "c",
+            "text": "They are hiding at Hogwarts"
+          },
+          {
+            "id": "d",
+            "text": "They gave Harry away"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: They were killed by a dark wizard. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      },
+      {
+        "id": "c5",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "Why is Harry famous among wizards?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He survived an attack that should have killed him"
+          },
+          {
+            "id": "b",
+            "text": "He won a Quidditch cup"
+          },
+          {
+            "id": "c",
+            "text": "He invented a spell"
+          },
+          {
+            "id": "d",
+            "text": "He is the richest wizard"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: He survived an attack that should have killed him. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      },
+      {
+        "id": "c6",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What does Uncle Vernon call wizards?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A lot of rubbish / freaks"
+          },
+          {
+            "id": "b",
+            "text": "His best friends"
+          },
+          {
+            "id": "c",
+            "text": "Teachers"
+          },
+          {
+            "id": "d",
+            "text": "Doctors"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A lot of rubbish / freaks. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      },
+      {
+        "id": "c7",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "Where will Harry learn magic?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Hogwarts School of Witchcraft and Wizardry"
+          },
+          {
+            "id": "b",
+            "text": "Smeltings Academy"
+          },
+          {
+            "id": "c",
+            "text": "The zoo"
+          },
+          {
+            "id": "d",
+            "text": "Privet Drive Primary"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Hogwarts School of Witchcraft and Wizardry. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 4"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "v1",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'astonished' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "very surprised"
+          },
+          {
+            "id": "b",
+            "text": "very tired"
+          },
+          {
+            "id": "c",
+            "text": "slightly hungry"
+          },
+          {
+            "id": "d",
+            "text": "completely bored"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'astonished' means: very surprised.",
+        "relatedWord": "astonished"
+      },
+      {
+        "id": "v2",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'orphan' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a child without parents"
+          },
+          {
+            "id": "b",
+            "text": "a type of bird"
+          },
+          {
+            "id": "c",
+            "text": "a magic spell"
+          },
+          {
+            "id": "d",
+            "text": "a school teacher"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'orphan' means: a child without parents.",
+        "relatedWord": "orphan"
+      },
+      {
+        "id": "v3",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'guardian' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "someone who cares for you"
+          },
+          {
+            "id": "b",
+            "text": "a locked door"
+          },
+          {
+            "id": "c",
+            "text": "a kind of cake"
+          },
+          {
+            "id": "d",
+            "text": "a postal stamp"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'guardian' means: someone who cares for you.",
+        "relatedWord": "guardian"
+      },
+      {
+        "id": "v4",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'famous' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "known by many people"
+          },
+          {
+            "id": "b",
+            "text": "completely unknown"
+          },
+          {
+            "id": "c",
+            "text": "very angry"
+          },
+          {
+            "id": "d",
+            "text": "always sleeping"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'famous' means: known by many people.",
+        "relatedWord": "famous"
+      },
+      {
+        "id": "v5",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'wizard' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a person who uses magic"
+          },
+          {
+            "id": "b",
+            "text": "a non-magical person"
+          },
+          {
+            "id": "c",
+            "text": "a zoo animal"
+          },
+          {
+            "id": "d",
+            "text": "a type of car"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'wizard' means: a person who uses magic.",
+        "relatedWord": "wizard"
+      }
+    ]
+  }
+}

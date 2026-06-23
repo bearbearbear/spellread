@@ -1,0 +1,528 @@
+{
+  "book": 1,
+  "chapter": 5,
+  "title": "Diagon Alley",
+  "lexile": 880,
+  "estimatedMinutes": 25,
+  "estimatedWords": 4500,
+  "vocabulary": [
+    {
+      "word": "alley",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a narrow street between buildings",
+      "example": "Diagon Alley is hidden from Muggles.",
+      "pageHint": "p. 55"
+    },
+    {
+      "word": "vault",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a secure room for storing valuables",
+      "example": "Harry's gold is in a vault.",
+      "pageHint": "p. 62"
+    },
+    {
+      "word": "robe",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a long loose garment",
+      "example": "Harry needs school robes.",
+      "pageHint": "p. 58"
+    },
+    {
+      "word": "cauldron",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a large pot for brewing",
+      "example": "Students need a pewter cauldron.",
+      "pageHint": "p. 59"
+    },
+    {
+      "word": "wand",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a stick used to cast spells",
+      "example": "Harry will buy a wand.",
+      "pageHint": "p. 64"
+    },
+    {
+      "word": "dragon",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a large mythical fire-breathing creature",
+      "example": "Gringotts guards are dragons.",
+      "pageHint": "p. 61"
+    },
+    {
+      "word": "goblin",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a small magical creature that runs the bank",
+      "example": "Goblins work at Gringotts.",
+      "pageHint": "p. 61"
+    },
+    {
+      "word": "supplies",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "things you need for a task",
+      "example": "Harry buys school supplies.",
+      "pageHint": "p. 59"
+    },
+    {
+      "word": "inherit",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to receive something from someone who died",
+      "example": "Harry inherited gold from his parents.",
+      "pageHint": "p. 62"
+    },
+    {
+      "word": "snobbish",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "thinking you are better than others",
+      "example": "Malfoy seemed snobbish.",
+      "pageHint": "p. 58"
+    },
+    {
+      "word": "engraved",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "carved into a surface",
+      "example": "The vault key was engraved.",
+      "pageHint": "p. 62"
+    },
+    {
+      "word": "parchment",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "writing material made from animal skin",
+      "example": "Harry needs parchment for school.",
+      "pageHint": "p. 59"
+    }
+  ],
+  "background": {
+    "characters": [
+      {
+        "name": "Harry Potter",
+        "description": "Sees the wizarding world for the first time."
+      },
+      {
+        "name": "Hagrid",
+        "description": "Guides Harry through Diagon Alley."
+      },
+      {
+        "name": "Draco Malfoy",
+        "description": "A boy Harry meets in a robe shop."
+      }
+    ],
+    "hook": "Harry visits the wizarding shopping street and learns about his family's past and his own wealth.",
+    "readingFocus": "Notice the shops, tools, and people that make up wizard daily life."
+  },
+  "miniCheck": [
+    {
+      "id": "mc1",
+      "word": "alley",
+      "stem": "What does 'alley' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a narrow street between buildings"
+        },
+        {
+          "id": "b",
+          "text": "very happy"
+        },
+        {
+          "id": "c",
+          "text": "extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "completely invisible"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc2",
+      "word": "vault",
+      "stem": "What does 'vault' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a secure room for storing valuables"
+        },
+        {
+          "id": "b",
+          "text": "to run quickly"
+        },
+        {
+          "id": "c",
+          "text": "a kind of bird"
+        },
+        {
+          "id": "d",
+          "text": "a school subject"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc3",
+      "word": "robe",
+      "stem": "What does 'robe' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a long loose garment"
+        },
+        {
+          "id": "b",
+          "text": "very boring"
+        },
+        {
+          "id": "c",
+          "text": "a type of food"
+        },
+        {
+          "id": "d",
+          "text": "to sleep deeply"
+        }
+      ],
+      "correctId": "a"
+    }
+  ],
+  "quiz": {
+    "comprehension": [
+      {
+        "id": "c1",
+        "type": "main_idea",
+        "category": "comprehension",
+        "stem": "How do Harry and Hagrid enter Diagon Alley?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Through the Leaky Cauldron and a secret brick wall"
+          },
+          {
+            "id": "b",
+            "text": "By flying broomstick"
+          },
+          {
+            "id": "c",
+            "text": "Through the zoo"
+          },
+          {
+            "id": "d",
+            "text": "By owl post"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Through the Leaky Cauldron and a secret brick wall. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      },
+      {
+        "id": "c2",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "Where does Harry get his money?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Gringotts Wizarding Bank"
+          },
+          {
+            "id": "b",
+            "text": "The Dursleys"
+          },
+          {
+            "id": "c",
+            "text": "Dudley's piggy bank"
+          },
+          {
+            "id": "d",
+            "text": "A street vendor"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Gringotts Wizarding Bank. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      },
+      {
+        "id": "c3",
+        "type": "emotion",
+        "category": "comprehension",
+        "stem": "Who runs Gringotts?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Goblins"
+          },
+          {
+            "id": "b",
+            "text": "Elves"
+          },
+          {
+            "id": "c",
+            "text": "Giants"
+          },
+          {
+            "id": "d",
+            "text": "Owls"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Goblins. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      },
+      {
+        "id": "c4",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What school supplies does Harry buy?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Robes, books, cauldron, wand, and more"
+          },
+          {
+            "id": "b",
+            "text": "Only a broomstick"
+          },
+          {
+            "id": "c",
+            "text": "A car and a phone"
+          },
+          {
+            "id": "d",
+            "text": "Nothing — it is all free"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Robes, books, cauldron, wand, and more. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      },
+      {
+        "id": "c5",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "Who does Harry meet in Madam Malkin's robe shop?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Draco Malfoy"
+          },
+          {
+            "id": "b",
+            "text": "Hermione Granger"
+          },
+          {
+            "id": "c",
+            "text": "Ron Weasley"
+          },
+          {
+            "id": "d",
+            "text": "Professor Snape"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Draco Malfoy. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      },
+      {
+        "id": "c6",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What does Harry learn about his parents' vault?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They left him money in Gringotts"
+          },
+          {
+            "id": "b",
+            "text": "It is empty"
+          },
+          {
+            "id": "c",
+            "text": "It was stolen by goblins"
+          },
+          {
+            "id": "d",
+            "text": "It does not exist"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: They left him money in Gringotts. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      },
+      {
+        "id": "c7",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What is in vault seven hundred and thirteen?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A mysterious package Hagrid collects"
+          },
+          {
+            "id": "b",
+            "text": "Harry's wand"
+          },
+          {
+            "id": "c",
+            "text": "A dragon egg"
+          },
+          {
+            "id": "d",
+            "text": "Dudley's old toys"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A mysterious package Hagrid collects. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 5"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "v1",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'inherit' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "receive from someone who died"
+          },
+          {
+            "id": "b",
+            "text": "buy at a shop"
+          },
+          {
+            "id": "c",
+            "text": "borrow temporarily"
+          },
+          {
+            "id": "d",
+            "text": "lose completely"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'inherit' means: receive from someone who died.",
+        "relatedWord": "inherit"
+      },
+      {
+        "id": "v2",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'vault' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a secure storage room"
+          },
+          {
+            "id": "b",
+            "text": "a type of broom"
+          },
+          {
+            "id": "c",
+            "text": "a school subject"
+          },
+          {
+            "id": "d",
+            "text": "a pet owl"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'vault' means: a secure storage room.",
+        "relatedWord": "vault"
+      },
+      {
+        "id": "v3",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'snobbish' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "thinking you are superior"
+          },
+          {
+            "id": "b",
+            "text": "being very kind"
+          },
+          {
+            "id": "c",
+            "text": "feeling very tired"
+          },
+          {
+            "id": "d",
+            "text": "being afraid of magic"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'snobbish' means: thinking you are superior.",
+        "relatedWord": "snobbish"
+      },
+      {
+        "id": "v4",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'goblin' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a magical bank worker"
+          },
+          {
+            "id": "b",
+            "text": "a type of dragon"
+          },
+          {
+            "id": "c",
+            "text": "a Muggle banker"
+          },
+          {
+            "id": "d",
+            "text": "a school teacher"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'goblin' means: a magical bank worker.",
+        "relatedWord": "goblin"
+      },
+      {
+        "id": "v5",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'cauldron' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a pot for brewing"
+          },
+          {
+            "id": "b",
+            "text": "a flying broom"
+          },
+          {
+            "id": "c",
+            "text": "a letter envelope"
+          },
+          {
+            "id": "d",
+            "text": "a school robe"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'cauldron' means: a pot for brewing.",
+        "relatedWord": "cauldron"
+      }
+    ]
+  }
+}

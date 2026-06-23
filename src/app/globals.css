@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+:root {
+  --parchment: #f4e8c8;
+  --parchment-dark: #e8d5a8;
+  --ink: #2c1810;
+  --ink-muted: #5c4033;
+  --burgundy: #6b1c2a;
+  --burgundy-light: #8b2e3d;
+  --gold: #c9a227;
+  --gold-light: #e8c547;
+  --forest: #1a3c2a;
+  --forest-light: #2d5a3f;
+  --sky: #4a6fa5;
+  --success: #2d6a4f;
+  --warning: #b8860b;
+  --error: #9b2335;
+  --background: var(--parchment);
+  --foreground: var(--ink);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-parchment: var(--parchment);
+  --color-parchment-dark: var(--parchment-dark);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-burgundy: var(--burgundy);
+  --color-burgundy-light: var(--burgundy-light);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+  --color-forest: var(--forest);
+  --color-forest-light: var(--forest-light);
+  --color-sky: var(--sky);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-error: var(--error);
+  --font-sans: var(--font-lexend);
+  --font-display: var(--font-crimson);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), system-ui, sans-serif;
+  min-height: 100vh;
+  background-image:
+    radial-gradient(ellipse at 20% 0%, rgba(201, 162, 39, 0.12) 0%, transparent 50%),
+    radial-gradient(ellipse at 80% 100%, rgba(107, 28, 42, 0.08) 0%, transparent 50%);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-display), Georgia, serif;
+}
+
+/* Parchment card texture */
+.parchment-card {
+  background: linear-gradient(135deg, var(--parchment) 0%, var(--parchment-dark) 100%);
+  border: 2px solid rgba(201, 162, 39, 0.4);
+  border-radius: 1rem;
+  box-shadow:
+    0 4px 12px rgba(44, 24, 16, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+
+/* Child-friendly focus ring */
+:focus-visible {
+  outline: 3px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Large touch targets for children */
+.btn-primary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-lg font-semibold transition-all;
+  background: linear-gradient(180deg, var(--burgundy-light) 0%, var(--burgundy) 100%);
+  color: white;
+  min-height: 48px;
+  min-width: 48px;
+  box-shadow: 0 4px 0 rgba(44, 24, 16, 0.3);
+}
+
+.btn-primary:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 0 rgba(44, 24, 16, 0.3);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: translateY(2px);
+  box-shadow: 0 2px 0 rgba(44, 24, 16, 0.3);
+}
+
+.btn-primary:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-6 py-3 text-lg font-semibold transition-all;
+  background: var(--parchment-dark);
+  color: var(--ink);
+  border: 2px solid var(--gold);
+  min-height: 48px;
+}
+
+.btn-secondary:hover:not(:disabled) {
+  background: var(--gold-light);
+}
+
+.progress-bar {
+  @apply h-3 w-full overflow-hidden rounded-full;
+  background: rgba(44, 24, 16, 0.15);
+}
+
+.progress-bar-fill {
+  @apply h-full rounded-full transition-all duration-500;
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 100%);
+}
+
+.house-gryffindor { --house-color: #740001; --house-accent: #d3a625; }
+.house-hufflepuff { --house-color: #ecb939; --house-accent: #372e29; }
+.house-ravenclaw { --house-color: #0e1a40; --house-accent: #946b2d; }
+.house-slytherin { --house-color: #1a472a; --house-accent: #aaaaaa; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

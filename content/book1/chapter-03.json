@@ -1,0 +1,524 @@
+{
+  "book": 1,
+  "chapter": 3,
+  "title": "The Letters from No One",
+  "lexile": 880,
+  "estimatedMinutes": 25,
+  "estimatedWords": 4500,
+  "vocabulary": [
+    {
+      "word": "letter",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a written message sent by post",
+      "example": "A letter arrived for Harry.",
+      "pageHint": "p. 31"
+    },
+    {
+      "word": "address",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "details of where someone lives",
+      "example": "The address was very specific.",
+      "pageHint": "p. 32"
+    },
+    {
+      "word": "deliver",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to bring something to a person",
+      "example": "Owls deliver the mail.",
+      "pageHint": "p. 35"
+    },
+    {
+      "word": "panic",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to feel sudden overwhelming fear",
+      "example": "Uncle Vernon began to panic.",
+      "pageHint": "p. 38"
+    },
+    {
+      "word": "furious",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "extremely angry",
+      "example": "Uncle Vernon was furious.",
+      "pageHint": "p. 34"
+    },
+    {
+      "word": "sealed",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "closed tightly",
+      "example": "The envelope was sealed with wax.",
+      "pageHint": "p. 33"
+    },
+    {
+      "word": "stamp",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a small sticker for mailing letters",
+      "example": "The letter had a strange stamp.",
+      "pageHint": "p. 32"
+    },
+    {
+      "word": "hide",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to keep out of sight",
+      "example": "They tried to hide from the letters.",
+      "pageHint": "p. 40"
+    },
+    {
+      "word": "chimney",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a pipe that carries smoke from a fire",
+      "example": "Letters came down the chimney.",
+      "pageHint": "p. 37"
+    },
+    {
+      "word": "refuse",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to say you will not accept something",
+      "example": "Uncle Vernon refused to let Harry read.",
+      "pageHint": "p. 34"
+    },
+    {
+      "word": "midnight",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "twelve o'clock at night",
+      "example": "Letters arrived at midnight.",
+      "pageHint": "p. 36"
+    },
+    {
+      "word": "desperate",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "feeling hopeless and willing to try anything",
+      "example": "The Dursleys grew desperate.",
+      "pageHint": "p. 39"
+    }
+  ],
+  "background": {
+    "characters": [
+      {
+        "name": "Harry Potter",
+        "description": "Receives strange letters addressed only to him."
+      },
+      {
+        "name": "The Dursleys",
+        "description": "Panic and flee to hide from the letters."
+      }
+    ],
+    "hook": "Mysterious letters arrive for Harry, and the Dursleys desperately try to stop him from reading them.",
+    "readingFocus": "Notice how far the Dursleys will go to keep Harry from learning the truth."
+  },
+  "miniCheck": [
+    {
+      "id": "mc1",
+      "word": "letter",
+      "stem": "What does 'letter' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a written message sent by post"
+        },
+        {
+          "id": "b",
+          "text": "very happy"
+        },
+        {
+          "id": "c",
+          "text": "extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "completely invisible"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc2",
+      "word": "address",
+      "stem": "What does 'address' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "details of where someone lives"
+        },
+        {
+          "id": "b",
+          "text": "to run quickly"
+        },
+        {
+          "id": "c",
+          "text": "a kind of bird"
+        },
+        {
+          "id": "d",
+          "text": "a school subject"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc3",
+      "word": "deliver",
+      "stem": "What does 'deliver' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "to bring something to a person"
+        },
+        {
+          "id": "b",
+          "text": "very boring"
+        },
+        {
+          "id": "c",
+          "text": "a type of food"
+        },
+        {
+          "id": "d",
+          "text": "to sleep deeply"
+        }
+      ],
+      "correctId": "a"
+    }
+  ],
+  "quiz": {
+    "comprehension": [
+      {
+        "id": "c1",
+        "type": "main_idea",
+        "category": "comprehension",
+        "stem": "Who are the letters addressed to?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Harry Potter"
+          },
+          {
+            "id": "b",
+            "text": "Mr. Dursley"
+          },
+          {
+            "id": "c",
+            "text": "Dudley Dursley"
+          },
+          {
+            "id": "d",
+            "text": "The whole family"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Harry Potter. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      },
+      {
+        "id": "c2",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "How do the Dursleys first try to stop the letters?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They board up the mail slot"
+          },
+          {
+            "id": "b",
+            "text": "They move to France"
+          },
+          {
+            "id": "c",
+            "text": "They burn the house"
+          },
+          {
+            "id": "d",
+            "text": "They call the police"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: They board up the mail slot. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      },
+      {
+        "id": "c3",
+        "type": "emotion",
+        "category": "comprehension",
+        "stem": "Where do the Dursleys flee to escape the letters?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A hut on a rock in the sea"
+          },
+          {
+            "id": "b",
+            "text": "Hogwarts"
+          },
+          {
+            "id": "c",
+            "text": "Diagon Alley"
+          },
+          {
+            "id": "d",
+            "text": "The zoo"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A hut on a rock in the sea. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      },
+      {
+        "id": "c4",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "How do letters reach the hut?",
+        "options": [
+          {
+            "id": "a",
+            "text": "An owl delivers one down the chimney"
+          },
+          {
+            "id": "b",
+            "text": "By boat"
+          },
+          {
+            "id": "c",
+            "text": "Through the window only"
+          },
+          {
+            "id": "d",
+            "text": "They stop completely"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: An owl delivers one down the chimney. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      },
+      {
+        "id": "c5",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "What is on the letter's seal?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A coat of arms with a lion, eagle, badger, and snake"
+          },
+          {
+            "id": "b",
+            "text": "A lightning bolt only"
+          },
+          {
+            "id": "c",
+            "text": "A picture of Dudley"
+          },
+          {
+            "id": "d",
+            "text": "Nothing unusual"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A coat of arms with a lion, eagle, badger, and snake. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      },
+      {
+        "id": "c6",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "Why won't Uncle Vernon let Harry read the letter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He wants to keep Harry from the wizarding world"
+          },
+          {
+            "id": "b",
+            "text": "The ink is wet"
+          },
+          {
+            "id": "c",
+            "text": "Harry is too young to read"
+          },
+          {
+            "id": "d",
+            "text": "The letter is blank"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: He wants to keep Harry from the wizarding world. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      },
+      {
+        "id": "c7",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "When is Harry's eleventh birthday in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The night they are in the hut"
+          },
+          {
+            "id": "b",
+            "text": "At the zoo"
+          },
+          {
+            "id": "c",
+            "text": "In October at school"
+          },
+          {
+            "id": "d",
+            "text": "Before the letters arrive"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: The night they are in the hut. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 3"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "v1",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'desperate' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "willing to try anything"
+          },
+          {
+            "id": "b",
+            "text": "calm and relaxed"
+          },
+          {
+            "id": "c",
+            "text": "very sleepy"
+          },
+          {
+            "id": "d",
+            "text": "completely happy"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'desperate' means: willing to try anything.",
+        "relatedWord": "desperate"
+      },
+      {
+        "id": "v2",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'sealed' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "closed tightly"
+          },
+          {
+            "id": "b",
+            "text": "opened wide"
+          },
+          {
+            "id": "c",
+            "text": "torn apart"
+          },
+          {
+            "id": "d",
+            "text": "painted green"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'sealed' means: closed tightly.",
+        "relatedWord": "sealed"
+      },
+      {
+        "id": "v3",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'furious' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "extremely angry"
+          },
+          {
+            "id": "b",
+            "text": "very hungry"
+          },
+          {
+            "id": "c",
+            "text": "slightly bored"
+          },
+          {
+            "id": "d",
+            "text": "deeply grateful"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'furious' means: extremely angry.",
+        "relatedWord": "furious"
+      },
+      {
+        "id": "v4",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'deliver' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "bring to someone"
+          },
+          {
+            "id": "b",
+            "text": "hide from someone"
+          },
+          {
+            "id": "c",
+            "text": "destroy completely"
+          },
+          {
+            "id": "d",
+            "text": "forget about"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'deliver' means: bring to someone.",
+        "relatedWord": "deliver"
+      },
+      {
+        "id": "v5",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'panic' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "feel sudden fear"
+          },
+          {
+            "id": "b",
+            "text": "fall asleep"
+          },
+          {
+            "id": "c",
+            "text": "eat dinner"
+          },
+          {
+            "id": "d",
+            "text": "write poetry"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'panic' means: feel sudden fear.",
+        "relatedWord": "panic"
+      }
+    ]
+  }
+}

@@ -1,0 +1,528 @@
+{
+  "book": 1,
+  "chapter": 2,
+  "title": "The Vanishing Glass",
+  "lexile": 880,
+  "estimatedMinutes": 25,
+  "estimatedWords": 4500,
+  "vocabulary": [
+    {
+      "word": "tantrum",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a sudden outburst of anger",
+      "example": "Dudley threw a tantrum.",
+      "pageHint": "p. 22"
+    },
+    {
+      "word": "vanished",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "disappeared completely",
+      "example": "The glass vanished into thin air.",
+      "pageHint": "p. 28"
+    },
+    {
+      "word": "miserable",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "very unhappy",
+      "example": "Harry felt miserable at the zoo.",
+      "pageHint": "p. 24"
+    },
+    {
+      "word": "reminder",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "something that makes you remember",
+      "example": "The scar was a reminder of the past.",
+      "pageHint": "p. 20"
+    },
+    {
+      "word": "punishment",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a penalty for bad behavior",
+      "example": "Harry feared punishment from Uncle Vernon.",
+      "pageHint": "p. 30"
+    },
+    {
+      "word": "cage",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "an enclosed space for animals",
+      "example": "The snake was in a glass cage.",
+      "pageHint": "p. 26"
+    },
+    {
+      "word": "boast",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to talk proudly about yourself",
+      "example": "Uncle Vernon liked to boast.",
+      "pageHint": "p. 21"
+    },
+    {
+      "word": "shudder",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to shake from fear or disgust",
+      "example": "Harry shuddered at the memory.",
+      "pageHint": "p. 20"
+    },
+    {
+      "word": "bizarre",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "very strange",
+      "example": "Something bizarre happened at the zoo.",
+      "pageHint": "p. 28"
+    },
+    {
+      "word": "apologize",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to say you are sorry",
+      "example": "The zoo director had to apologize.",
+      "pageHint": "p. 30"
+    },
+    {
+      "word": "shrinking",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "becoming smaller",
+      "example": "Dudley's sweater was shrinking.",
+      "pageHint": "p. 23"
+    },
+    {
+      "word": "snake",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a long reptile with no legs",
+      "example": "Harry spoke to the snake.",
+      "pageHint": "p. 27"
+    }
+  ],
+  "background": {
+    "characters": [
+      {
+        "name": "Harry Potter",
+        "description": "A ten-year-old boy who lives with the Dursleys."
+      },
+      {
+        "name": "Dudley Dursley",
+        "description": "Harry's spoiled cousin who bullies him."
+      },
+      {
+        "name": "Uncle Vernon",
+        "description": "Harry's angry uncle who hates anything unusual."
+      }
+    ],
+    "hook": "Harry's tenth birthday brings strange events at the zoo, including a vanishing glass and a talking snake.",
+    "readingFocus": "Watch how Harry's unusual abilities appear when he is upset or scared."
+  },
+  "miniCheck": [
+    {
+      "id": "mc1",
+      "word": "tantrum",
+      "stem": "What does 'tantrum' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "a sudden outburst of anger"
+        },
+        {
+          "id": "b",
+          "text": "very happy"
+        },
+        {
+          "id": "c",
+          "text": "extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "completely invisible"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc2",
+      "word": "vanished",
+      "stem": "What does 'vanished' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "disappeared completely"
+        },
+        {
+          "id": "b",
+          "text": "to run quickly"
+        },
+        {
+          "id": "c",
+          "text": "a kind of bird"
+        },
+        {
+          "id": "d",
+          "text": "a school subject"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc3",
+      "word": "miserable",
+      "stem": "What does 'miserable' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "very unhappy"
+        },
+        {
+          "id": "b",
+          "text": "very boring"
+        },
+        {
+          "id": "c",
+          "text": "a type of food"
+        },
+        {
+          "id": "d",
+          "text": "to sleep deeply"
+        }
+      ],
+      "correctId": "a"
+    }
+  ],
+  "quiz": {
+    "comprehension": [
+      {
+        "id": "c1",
+        "type": "main_idea",
+        "category": "comprehension",
+        "stem": "Where does the Dursley family go on Dudley's birthday?",
+        "options": [
+          {
+            "id": "a",
+            "text": "To the zoo"
+          },
+          {
+            "id": "b",
+            "text": "To the beach"
+          },
+          {
+            "id": "c",
+            "text": "To Hogwarts"
+          },
+          {
+            "id": "d",
+            "text": "To London"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: To the zoo. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      },
+      {
+        "id": "c2",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "What happens to the glass in front of the snake?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It vanishes"
+          },
+          {
+            "id": "b",
+            "text": "It breaks into pieces"
+          },
+          {
+            "id": "c",
+            "text": "It turns green"
+          },
+          {
+            "id": "d",
+            "text": "It freezes"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: It vanishes. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      },
+      {
+        "id": "c3",
+        "type": "emotion",
+        "category": "comprehension",
+        "stem": "How does Harry communicate with the snake?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He speaks to it and it understands"
+          },
+          {
+            "id": "b",
+            "text": "He uses a spell"
+          },
+          {
+            "id": "c",
+            "text": "Dudley translates"
+          },
+          {
+            "id": "d",
+            "text": "He reads its mind clearly"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: He speaks to it and it understands. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      },
+      {
+        "id": "c4",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "Why is Uncle Vernon angry at the end of the chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Strange things happened and he blames Harry"
+          },
+          {
+            "id": "b",
+            "text": "Harry got better grades"
+          },
+          {
+            "id": "c",
+            "text": "The car broke down"
+          },
+          {
+            "id": "d",
+            "text": "Dudley apologized to Harry"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Strange things happened and he blames Harry. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      },
+      {
+        "id": "c5",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "How does Harry feel about his abilities at this point?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Confused and worried"
+          },
+          {
+            "id": "b",
+            "text": "Proud and excited"
+          },
+          {
+            "id": "c",
+            "text": "Angry at Dumbledore"
+          },
+          {
+            "id": "d",
+            "text": "Completely unaware"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Confused and worried. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      },
+      {
+        "id": "c6",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What does Dudley do when he cannot have more food?",
+        "options": [
+          {
+            "id": "a",
+            "text": "He throws a tantrum"
+          },
+          {
+            "id": "b",
+            "text": "He reads a book"
+          },
+          {
+            "id": "c",
+            "text": "He helps Harry"
+          },
+          {
+            "id": "d",
+            "text": "He falls asleep"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: He throws a tantrum. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      },
+      {
+        "id": "c7",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What is unusual about the boa constrictor?",
+        "options": [
+          {
+            "id": "a",
+            "text": "It winks at Harry"
+          },
+          {
+            "id": "b",
+            "text": "It has two heads"
+          },
+          {
+            "id": "c",
+            "text": "It is bright red"
+          },
+          {
+            "id": "d",
+            "text": "It can fly"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: It winks at Harry. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 2"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "v1",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'vanished' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "disappeared completely"
+          },
+          {
+            "id": "b",
+            "text": "became larger"
+          },
+          {
+            "id": "c",
+            "text": "turned blue"
+          },
+          {
+            "id": "d",
+            "text": "started talking"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'vanished' means: disappeared completely.",
+        "relatedWord": "vanished"
+      },
+      {
+        "id": "v2",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'miserable' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "very unhappy"
+          },
+          {
+            "id": "b",
+            "text": "extremely wealthy"
+          },
+          {
+            "id": "c",
+            "text": "magically powerful"
+          },
+          {
+            "id": "d",
+            "text": "perfectly normal"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'miserable' means: very unhappy.",
+        "relatedWord": "miserable"
+      },
+      {
+        "id": "v3",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'tantrum' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "an angry outburst"
+          },
+          {
+            "id": "b",
+            "text": "a type of cake"
+          },
+          {
+            "id": "c",
+            "text": "a magic spell"
+          },
+          {
+            "id": "d",
+            "text": "a school subject"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'tantrum' means: an angry outburst.",
+        "relatedWord": "tantrum"
+      },
+      {
+        "id": "v4",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'bizarre' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "very strange"
+          },
+          {
+            "id": "b",
+            "text": "very boring"
+          },
+          {
+            "id": "c",
+            "text": "very tiny"
+          },
+          {
+            "id": "d",
+            "text": "very old"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'bizarre' means: very strange.",
+        "relatedWord": "bizarre"
+      },
+      {
+        "id": "v5",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'shudder' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "shake from fear"
+          },
+          {
+            "id": "b",
+            "text": "sing loudly"
+          },
+          {
+            "id": "c",
+            "text": "run quickly"
+          },
+          {
+            "id": "d",
+            "text": "laugh happily"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'shudder' means: shake from fear.",
+        "relatedWord": "shudder"
+      }
+    ]
+  }
+}

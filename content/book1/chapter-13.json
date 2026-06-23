@@ -1,0 +1,536 @@
+{
+  "book": 1,
+  "chapter": 13,
+  "title": "Nicolas Flamel",
+  "lexile": 880,
+  "estimatedMinutes": 25,
+  "estimatedWords": 4500,
+  "vocabulary": [
+    {
+      "word": "courage",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "bravery in facing danger",
+      "example": "Harry showed great courage.",
+      "pageHint": "p. 103"
+    },
+    {
+      "word": "mystery",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "something unknown or secret",
+      "example": "The mystery deepened.",
+      "pageHint": "p. 101"
+    },
+    {
+      "word": "secret",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "something kept hidden",
+      "example": "They shared a secret.",
+      "pageHint": "p. 102"
+    },
+    {
+      "word": "castle",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a large fortified building",
+      "example": "Hogwarts is a castle.",
+      "pageHint": "p. 103"
+    },
+    {
+      "word": "spell",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "words that create magic",
+      "example": "Hermione knew the spell.",
+      "pageHint": "p. 104"
+    },
+    {
+      "word": "potion",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a magical liquid mixture",
+      "example": "Snape taught potions.",
+      "pageHint": "p. 105"
+    },
+    {
+      "word": "friendship",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a close bond between friends",
+      "example": "Their friendship grew.",
+      "pageHint": "p. 106"
+    },
+    {
+      "word": "danger",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "the possibility of harm",
+      "example": "They sensed danger.",
+      "pageHint": "p. 107"
+    },
+    {
+      "word": "discover",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to find something new",
+      "example": "Harry discovered the truth.",
+      "pageHint": "p. 108"
+    },
+    {
+      "word": "challenge",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a difficult task",
+      "example": "Each challenge was harder.",
+      "pageHint": "p. 109"
+    },
+    {
+      "word": "loyal",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "faithful to friends",
+      "example": "Ron was loyal to Harry.",
+      "pageHint": "p. 110"
+    },
+    {
+      "word": "brave",
+      "tier": 1,
+      "partOfSpeech": "adjective",
+      "definition": "willing to face fear",
+      "example": "Hermione was brave.",
+      "pageHint": "p. 111"
+    }
+  ],
+  "background": {
+    "characters": [
+      {
+        "name": "Harry",
+        "description": "Appears in Chapter 13."
+      },
+      {
+        "name": "Ron",
+        "description": "Appears in Chapter 13."
+      },
+      {
+        "name": "Hermione",
+        "description": "Appears in Chapter 13."
+      },
+      {
+        "name": "Hagrid",
+        "description": "Appears in Chapter 13."
+      },
+      {
+        "name": "Flamel",
+        "description": "Appears in Chapter 13."
+      }
+    ],
+    "hook": "Hermione helps uncover the mystery of what is being guarded at Hogwarts.",
+    "readingFocus": "Follow the clues about the Sorcerer's Stone."
+  },
+  "miniCheck": [
+    {
+      "id": "mc1",
+      "word": "courage",
+      "stem": "What does 'courage' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "bravery in facing danger"
+        },
+        {
+          "id": "b",
+          "text": "very happy"
+        },
+        {
+          "id": "c",
+          "text": "extremely loud"
+        },
+        {
+          "id": "d",
+          "text": "completely invisible"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc2",
+      "word": "mystery",
+      "stem": "What does 'mystery' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "something unknown or secret"
+        },
+        {
+          "id": "b",
+          "text": "to run quickly"
+        },
+        {
+          "id": "c",
+          "text": "a kind of bird"
+        },
+        {
+          "id": "d",
+          "text": "a school subject"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc3",
+      "word": "secret",
+      "stem": "What does 'secret' mean?",
+      "options": [
+        {
+          "id": "a",
+          "text": "something kept hidden"
+        },
+        {
+          "id": "b",
+          "text": "very boring"
+        },
+        {
+          "id": "c",
+          "text": "a type of food"
+        },
+        {
+          "id": "d",
+          "text": "to sleep deeply"
+        }
+      ],
+      "correctId": "a"
+    }
+  ],
+  "quiz": {
+    "comprehension": [
+      {
+        "id": "c1",
+        "type": "main_idea",
+        "category": "comprehension",
+        "stem": "What is the main event in Chapter 13?",
+        "options": [
+          {
+            "id": "a",
+            "text": "The events described in 'Nicolas Flamel'"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: The events described in 'Nicolas Flamel'. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      },
+      {
+        "id": "c2",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "Which characters are most important in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Harry and his friends"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      },
+      {
+        "id": "c3",
+        "type": "emotion",
+        "category": "comprehension",
+        "stem": "What problem do the main characters face?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A challenge they must overcome together"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      },
+      {
+        "id": "c4",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "How do Harry's friends help in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "They support each other with loyalty and bravery"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      },
+      {
+        "id": "c5",
+        "type": "inference",
+        "category": "comprehension",
+        "stem": "What magical element appears in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A spell, creature, or magical object"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      },
+      {
+        "id": "c6",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What can you infer about Harry's growth?",
+        "options": [
+          {
+            "id": "a",
+            "text": "Harry is becoming braver and more confident"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      },
+      {
+        "id": "c7",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "What would be a good title for the key scene?",
+        "options": [
+          {
+            "id": "a",
+            "text": "A scene from 'Nicolas Flamel'"
+          },
+          {
+            "id": "b",
+            "text": "A trip to the Dursleys' house"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match only"
+          },
+          {
+            "id": "d",
+            "text": "A lesson about Muggles only"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "The correct answer is: A scene from 'Nicolas Flamel'. Re-read this chapter in your book to find the evidence.",
+        "pageHint": "Chapter 13"
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "v1",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'courage' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "bravery in facing danger"
+          },
+          {
+            "id": "b",
+            "text": "a type of food"
+          },
+          {
+            "id": "c",
+            "text": "a school rule"
+          },
+          {
+            "id": "d",
+            "text": "a Muggle invention"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'courage' means: bravery in facing danger.",
+        "relatedWord": "courage"
+      },
+      {
+        "id": "v2",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'mystery' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "something unknown or secret"
+          },
+          {
+            "id": "b",
+            "text": "a type of food"
+          },
+          {
+            "id": "c",
+            "text": "a school rule"
+          },
+          {
+            "id": "d",
+            "text": "a Muggle invention"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'mystery' means: something unknown or secret.",
+        "relatedWord": "mystery"
+      },
+      {
+        "id": "v3",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'secret' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "something kept hidden"
+          },
+          {
+            "id": "b",
+            "text": "a type of food"
+          },
+          {
+            "id": "c",
+            "text": "a school rule"
+          },
+          {
+            "id": "d",
+            "text": "a Muggle invention"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'secret' means: something kept hidden.",
+        "relatedWord": "secret"
+      },
+      {
+        "id": "v4",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'castle' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "a large fortified building"
+          },
+          {
+            "id": "b",
+            "text": "a type of food"
+          },
+          {
+            "id": "c",
+            "text": "a school rule"
+          },
+          {
+            "id": "d",
+            "text": "a Muggle invention"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'castle' means: a large fortified building.",
+        "relatedWord": "castle"
+      },
+      {
+        "id": "v5",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'spell' mean in this chapter?",
+        "options": [
+          {
+            "id": "a",
+            "text": "words that create magic"
+          },
+          {
+            "id": "b",
+            "text": "a type of food"
+          },
+          {
+            "id": "c",
+            "text": "a school rule"
+          },
+          {
+            "id": "d",
+            "text": "a Muggle invention"
+          }
+        ],
+        "correctId": "a",
+        "explanation": "'spell' means: words that create magic.",
+        "relatedWord": "spell"
+      }
+    ]
+  }
+}
