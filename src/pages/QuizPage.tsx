@@ -6,18 +6,20 @@ import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
 import { submitQuiz, addVocabFromQuiz } from "@/lib/store";
 import { computeAdaptiveSettings, buildQuizSet } from "@/lib/adaptive";
+import { scoreClozePassage, shouldUseGuidedCloze } from "@/lib/cloze";
 import {
   QuizQuestionView,
-  QuizSectionSummary,
   QUIZ_SECTIONS,
   type QuizSectionId,
 } from "@/components/learning/QuizQuestion";
+import { ClozePassageView } from "@/components/learning/ClozePassageView";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Button } from "@/components/ui/Button";
-import type { QuizQuestion } from "@/types";
+import type { ClozePassage, QuizQuestion } from "@/types";
 import { POINTS } from "@/types";
+import { useChapterParams } from "@/hooks/useChapterParams";
 
-type QuizPhase = "overview" | "comprehension" | "comp-summary" | "vocabulary" | "results";
+type QuizPhase = "overview" | "comprehension" | "vocabulary" | "cloze" | "results";
 
 interface SectionScore {
   correct: number;
@@ -32,7 +34,31 @@ function scoreSection(questions: QuizQuestion[], answers: Record<string, string>
   return { correct, total: questions.length };
 }
 
-import { useChapterParams } from "@/hooks/useChapterParams";
+function isSectionComplete(
+  id: QuizSectionId,
+  compQuestions: QuizQuestion[],
+  vocabQuestions: QuizQuestion[],
+  clozePassage: ClozePassage | undefined,
+  answers: Record<string, string>,
+  clozeAnswers: Record<number, string>,
+  clozeSubmitted: boolean,
+): boolean {
+  if (id === "comprehension") {
+    return compQuestions.length > 0 && compQuestions.every((q) => answers[q.id]);
+  }
+  if (id === "vocabulary") {
+    return vocabQuestions.length > 0 && vocabQuestions.every((q) => answers[q.id]);
+  }
+  if (id === "cloze" && clozePassage) {
+    return (
+      clozeSubmitted &&
+      clozePassage.gaps.every((g) => (clozeAnswers[g.id] ?? "").trim().length > 0)
+    );
+  }
+  return false;
+}
+
+const SECTION_ORDER: QuizSectionId[] = ["comprehension", "vocabulary", "cloze"];
 
 export function QuizPage() {
   const { book, chapter } = useChapterParams();
@@ -46,12 +72,15 @@ export function QuizPage() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
   const [answers, setAnswers] = useState<Record<string, string>>({});
+  const [clozeAnswers, setClozeAnswers] = useState<Record<number, string>>({});
+  const [clozeSubmitted, setClozeSubmitted] = useState(false);
   const [result, setResult] = useState<{
     score: number;
     passed: boolean;
     correct: number;
     comp: SectionScore;
     vocab: SectionScore;
+    cloze: SectionScore;
   } | null>(null);
 
   const settings = useMemo(() => {
@@ -64,8 +93,76 @@ export function QuizPage() {
     return buildQuizSet(content, chapter * 1000 + attempt);
   }, [content, chapter, attempt]);
 
+  const clozePassage: ClozePassage | undefined = content?.quiz.cloze;
+  const guidedCloze = useMemo(() => {
+    if (!content || !clozePassage || !state.profile) return true;
+    return shouldUseGuidedCloze(state.profile, content, clozePassage);
+  }, [content, clozePassage, state.profile]);
+
   const compQuestions = quizSet.comprehension;
   const vocabQuestions = quizSet.vocabulary;
+  const hasCloze = Boolean(clozePassage && clozePassage.gaps.length > 0);
+  const activeSections = hasCloze ? SECTION_ORDER : SECTION_ORDER.slice(0, 2);
+
+  const compScore = scoreSection(compQuestions, answers);
+  const vocabScore = scoreSection(vocabQuestions, answers);
+  const clozeScore = clozePassage
+    ? clozeSubmitted
+      ? scoreClozePassage(clozePassage, clozeAnswers)
+      : { correct: 0, total: clozePassage.gaps.length }
+    : { correct: 0, total: 0 };
+
+  const sectionScores: Record<QuizSectionId, SectionScore> = {
+    comprehension: compScore,
+    vocabulary: vocabScore,
+    cloze: { correct: clozeScore.correct, total: clozeScore.total },
+  };
+
+  const allSectionsComplete = activeSections.every((id) =>
+    isSectionComplete(
+      id,
+      compQuestions,
+      vocabQuestions,
+      clozePassage,
+      answers,
+      clozeAnswers,
+      clozeSubmitted,
+    ),
+  );
+
+  const overallCorrect = compScore.correct + vocabScore.correct + clozeScore.correct;
+  const overallTotal = compScore.total + vocabScore.total + clozeScore.total;
+
+  const returnToOverview = () => {
+    setPhase("overview");
+    setQIndex(0);
+    setSelectedId(null);
+    setSubmitted(false);
+  };
+
+  const enterSection = (id: QuizSectionId) => {
+    if (id === "cloze") {
+      const complete = isSectionComplete(
+        "cloze",
+        compQuestions,
+        vocabQuestions,
+        clozePassage,
+        answers,
+        clozeAnswers,
+        clozeSubmitted,
+      );
+      if (!complete) setClozeSubmitted(false);
+      setPhase("cloze");
+      return;
+    }
+
+    const questions = id === "comprehension" ? compQuestions : vocabQuestions;
+    const resumeIndex = questions.findIndex((q) => !answers[q.id]);
+    setPhase(id);
+    setQIndex(resumeIndex === -1 ? 0 : resumeIndex);
+    setSelectedId(null);
+    setSubmitted(false);
+  };
 
   const resetAttempt = () => {
     setPhase("overview");
@@ -73,6 +170,8 @@ export function QuizPage() {
     setSelectedId(null);
     setSubmitted(false);
     setAnswers({});
+    setClozeAnswers({});
+    setClozeSubmitted(false);
     setResult(null);
     setAttempt((a) => a + 1);
   };
@@ -81,9 +180,19 @@ export function QuizPage() {
 
   const passThreshold = settings.passThreshold;
   const activeSection: QuizSectionId | null =
-    phase === "comprehension" ? "comprehension" : phase === "vocabulary" ? "vocabulary" : null;
+    phase === "comprehension"
+      ? "comprehension"
+      : phase === "vocabulary"
+        ? "vocabulary"
+        : phase === "cloze"
+          ? "cloze"
+          : null;
   const activeQuestions =
-    activeSection === "comprehension" ? compQuestions : activeSection === "vocabulary" ? vocabQuestions : [];
+    activeSection === "comprehension"
+      ? compQuestions
+      : activeSection === "vocabulary"
+        ? vocabQuestions
+        : [];
   const currentQ = activeQuestions[qIndex];
 
   const handleSubmit = () => {
@@ -92,28 +201,46 @@ export function QuizPage() {
     setAnswers((prev) => ({ ...prev, [currentQ.id]: selectedId }));
 
     if (selectedId !== currentQ.correctId && currentQ.relatedWord) {
-      setState((prev) =>
-        addVocabFromQuiz(prev, currentQ.relatedWord!, book, chapter),
-      );
+      setState((prev) => addVocabFromQuiz(prev, currentQ.relatedWord!, book, chapter));
     }
   };
 
-  const finishQuiz = (finalAnswers: Record<string, string>) => {
-    const comp = scoreSection(compQuestions, finalAnswers);
-    const vocab = scoreSection(vocabQuestions, finalAnswers);
-    const correct = comp.correct + vocab.correct;
-    const total = comp.total + vocab.total;
+  const finishQuiz = () => {
+    const comp = scoreSection(compQuestions, answers);
+    const vocab = scoreSection(vocabQuestions, answers);
+    const cloze = clozePassage
+      ? scoreClozePassage(clozePassage, clozeAnswers)
+      : { correct: 0, total: 0, wrongGapIds: [] as number[] };
+
+    const correct = comp.correct + vocab.correct + cloze.correct;
+    const total = comp.total + vocab.total + cloze.total;
     const score = total > 0 ? correct / total : 0;
     const passed = score >= passThreshold;
 
     const wrongIds: string[] = [];
     for (const q of [...compQuestions, ...vocabQuestions]) {
-      if (finalAnswers[q.id] !== q.correctId) wrongIds.push(q.id);
+      if (answers[q.id] !== q.correctId) wrongIds.push(q.id);
+    }
+    for (const gapId of cloze.wrongGapIds) {
+      wrongIds.push(`cloze-g${gapId}`);
     }
 
-    setState((prev) =>
-      submitQuiz(
-        prev,
+    const wrongWords: string[] = [];
+    if (clozePassage) {
+      for (const gap of clozePassage.gaps) {
+        if (cloze.wrongGapIds.includes(gap.id) && gap.relatedWord) {
+          wrongWords.push(gap.relatedWord);
+        }
+      }
+    }
+
+    setState((prev) => {
+      let next = prev;
+      for (const word of wrongWords) {
+        next = addVocabFromQuiz(next, word, book, chapter);
+      }
+      return submitQuiz(
+        next,
         book,
         chapter,
         {
@@ -124,12 +251,21 @@ export function QuizPage() {
           comprehensionTotal: comp.total,
           vocabularyCorrect: vocab.correct,
           vocabularyTotal: vocab.total,
+          clozeCorrect: cloze.correct,
+          clozeTotal: cloze.total,
         },
         passThreshold,
-      ),
-    );
+      );
+    });
 
-    setResult({ score, passed, correct, comp, vocab });
+    setResult({
+      score,
+      passed,
+      correct,
+      comp,
+      vocab,
+      cloze: { correct: cloze.correct, total: cloze.total },
+    });
     setPhase("results");
   };
 
@@ -143,20 +279,15 @@ export function QuizPage() {
       return;
     }
 
-    const finalAnswers = { ...answers, [currentQ.id]: selectedId! };
-
-    if (phase === "comprehension") {
-      setAnswers(finalAnswers);
-      setPhase("comp-summary");
-      setQIndex(0);
-      setSelectedId(null);
-      setSubmitted(false);
-    } else if (phase === "vocabulary") {
-      finishQuiz(finalAnswers);
-    }
+    setAnswers((prev) => ({ ...prev, [currentQ.id]: selectedId! }));
+    returnToOverview();
   };
 
-  const compScore = scoreSection(compQuestions, answers);
+  const handleClozeSubmit = () => {
+    if (!clozePassage) return;
+    setClozeSubmitted(true);
+    returnToOverview();
+  };
 
   // --- Overview ---
   if (phase === "overview") {
@@ -171,49 +302,107 @@ export function QuizPage() {
         </div>
 
         <p className="text-ink-muted">
-          The quiz has <strong>two sections</strong>. Complete them one at a time. You need{" "}
+          Tap any section to begin. Complete all {activeSections.length} sections, then submit. You need{" "}
           {Math.round(passThreshold * 100)}% overall to pass.
         </p>
 
+        {overallTotal > 0 && (
+          <div className="parchment-card p-4">
+            <div className="mb-2 flex items-center justify-between text-sm">
+              <span className="text-ink-muted">Overall progress</span>
+              <span className="font-semibold text-burgundy">
+                {overallCorrect}/{overallTotal}
+              </span>
+            </div>
+            <ProgressBar value={overallCorrect} max={overallTotal} label="Quiz score so far" />
+          </div>
+        )}
+
         <div className="space-y-3">
-          {(["comprehension", "vocabulary"] as const).map((id, i) => {
+          {activeSections.map((id, i) => {
             const meta = QUIZ_SECTIONS[id];
-            const count = id === "comprehension" ? compQuestions.length : vocabQuestions.length;
+            const score = sectionScores[id];
+            const complete = isSectionComplete(
+              id,
+              compQuestions,
+              vocabQuestions,
+              clozePassage,
+              answers,
+              clozeAnswers,
+              clozeSubmitted,
+            );
+            const pct = score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0;
+
             return (
-              <div key={id} className="parchment-card flex items-center gap-4 p-4">
+              <button
+                key={id}
+                type="button"
+                onClick={() => enterSection(id)}
+                className="parchment-card flex w-full items-center gap-4 p-4 text-left transition-colors hover:border-gold hover:bg-white/40"
+              >
                 <div className="text-3xl">{meta.icon}</div>
-                <div className="flex-1">
+                <div className="min-w-0 flex-1">
                   <p className="font-semibold">
                     Section {i + 1}: {meta.title}
+                    {complete && <span className="ml-2 text-success">✓</span>}
                   </p>
-                  <p className="text-sm text-ink-muted">{meta.subtitle} · {count} questions</p>
+                  <p className="text-sm text-ink-muted">{meta.subtitle}</p>
                 </div>
-              </div>
+                <div className="shrink-0 text-right">
+                  <p className="text-2xl font-bold text-burgundy">
+                    {score.correct}/{score.total}
+                  </p>
+                  <p className="text-xs text-ink-muted">{pct}%</p>
+                </div>
+              </button>
             );
           })}
         </div>
 
-        <Button onClick={() => setPhase("comprehension")} className="w-full">
-          Start Section 1: Reading Comprehension →
-        </Button>
+        {allSectionsComplete && (
+          <Button onClick={finishQuiz} className="w-full">
+            Submit Quiz →
+          </Button>
+        )}
       </div>
     );
   }
 
-  // --- Section 1 summary ---
-  if (phase === "comp-summary") {
+  // --- Cloze section ---
+  if (phase === "cloze" && clozePassage) {
     return (
       <div className="space-y-6">
-        <QuizSectionSummary
-          section="comprehension"
-          correct={compScore.correct}
-          total={compScore.total}
-          onContinue={() => setPhase("vocabulary")}
-          continueLabel="Start Section 2: Vocabulary Training →"
+        <div>
+          <button
+            type="button"
+            onClick={returnToOverview}
+            className="text-sm text-ink-muted hover:underline"
+          >
+            ← Back to Quiz
+          </button>
+          <h1 className="mt-2 text-2xl font-bold">
+            {QUIZ_SECTIONS.cloze.icon} Section 3: {QUIZ_SECTIONS.cloze.title}
+          </h1>
+          <p className="text-ink-muted">{content.title}</p>
+        </div>
+
+        <ProgressBar
+          value={Object.keys(clozeAnswers).filter((k) => clozeAnswers[Number(k)]?.trim()).length}
+          max={clozePassage.gaps.length}
+          label="Cloze progress"
         />
-        <p className="text-center text-sm text-ink-muted">
-          Take a short break if you need one — vocabulary section coming up!
-        </p>
+
+        <ClozePassageView
+          passage={clozePassage}
+          guided={guidedCloze}
+          answers={clozeAnswers}
+          submitted={clozeSubmitted}
+          showHints={settings.showExtraHints}
+          onChangeAnswer={(gapId, value) =>
+            setClozeAnswers((prev) => ({ ...prev, [gapId]: value }))
+          }
+          onSubmit={handleClozeSubmit}
+        />
       </div>
     );
   }
@@ -222,6 +411,8 @@ export function QuizPage() {
   if (phase === "results" && result) {
     const compPct = result.comp.total > 0 ? Math.round((result.comp.correct / result.comp.total) * 100) : 0;
     const vocabPct = result.vocab.total > 0 ? Math.round((result.vocab.correct / result.vocab.total) * 100) : 0;
+    const clozePct = result.cloze.total > 0 ? Math.round((result.cloze.correct / result.cloze.total) * 100) : 0;
+    const totalQuestions = result.comp.total + result.vocab.total + result.cloze.total;
 
     return (
       <div className="space-y-6">
@@ -231,7 +422,7 @@ export function QuizPage() {
             {result.passed ? "Chapter Complete!" : "Keep Practicing!"}
           </h1>
           <p className="mt-2 text-xl">
-            Overall: {Math.round(result.score * 100)}% ({result.correct}/{result.comp.total + result.vocab.total})
+            Overall: {Math.round(result.score * 100)}% ({result.correct}/{totalQuestions})
           </p>
           <p className="text-ink-muted">
             {result.passed
@@ -243,21 +434,30 @@ export function QuizPage() {
           )}
         </div>
 
-        <div className="grid grid-cols-2 gap-3">
+        <div className={`grid gap-3 ${result.cloze.total > 0 ? "grid-cols-3" : "grid-cols-2"}`}>
           <div className="parchment-card p-4 text-center">
-            <p className="text-sm text-ink-muted">📖 Comprehension</p>
+            <p className="text-sm text-ink-muted">📖 Comp</p>
             <p className="text-2xl font-bold text-burgundy">
               {result.comp.correct}/{result.comp.total}
             </p>
             <p className="text-sm">{compPct}%</p>
           </div>
           <div className="parchment-card p-4 text-center">
-            <p className="text-sm text-ink-muted">✨ Vocabulary</p>
+            <p className="text-sm text-ink-muted">✨ Vocab</p>
             <p className="text-2xl font-bold text-burgundy">
               {result.vocab.correct}/{result.vocab.total}
             </p>
             <p className="text-sm">{vocabPct}%</p>
           </div>
+          {result.cloze.total > 0 && (
+            <div className="parchment-card p-4 text-center">
+              <p className="text-sm text-ink-muted">📝 Cloze</p>
+              <p className="text-2xl font-bold text-burgundy">
+                {result.cloze.correct}/{result.cloze.total}
+              </p>
+              <p className="text-sm">{clozePct}%</p>
+            </div>
+          )}
         </div>
 
         <div className="flex flex-col gap-3">
@@ -280,22 +480,22 @@ export function QuizPage() {
     );
   }
 
-  // --- Active section (comprehension or vocabulary) ---
+  // --- Active MCQ section ---
   if (!currentQ || !activeSection) return <p>No quiz questions.</p>;
 
   const sectionMeta = QUIZ_SECTIONS[activeSection];
-  const sectionNumber = activeSection === "comprehension" ? 1 : 2;
+  const sectionNumber =
+    activeSection === "comprehension" ? 1 : activeSection === "vocabulary" ? 2 : 3;
 
   return (
     <div className="space-y-6">
       <div>
         <button
           type="button"
-          onClick={() => (phase === "vocabulary" ? setPhase("comp-summary") : undefined)}
-          className={`text-sm text-ink-muted ${phase === "vocabulary" ? "hover:underline" : "cursor-default"}`}
-          disabled={phase !== "vocabulary"}
+          onClick={returnToOverview}
+          className="text-sm text-ink-muted hover:underline"
         >
-          {phase === "vocabulary" ? "← Section 1 results" : `Section ${sectionNumber} of 2`}
+          ← Back to Quiz
         </button>
         <h1 className="mt-2 text-2xl font-bold">
           {sectionMeta.icon} Section {sectionNumber}: {sectionMeta.title}
@@ -323,11 +523,7 @@ export function QuizPage() {
 
       {submitted && (
         <Button onClick={handleNext} className="w-full">
-          {qIndex < activeQuestions.length - 1
-            ? "Next Question →"
-            : phase === "comprehension"
-              ? "Finish Section 1 →"
-              : "See Results"}
+          {qIndex < activeQuestions.length - 1 ? "Next Question →" : "Back to Quiz →"}
         </Button>
       )}
     </div>

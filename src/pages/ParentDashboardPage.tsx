@@ -101,7 +101,9 @@ export function ParentDashboardPage() {
         <p><strong>{profile.nickname}</strong> — {readerLevelLabel(profile.readerLevel)}</p>
         <p className="text-sm text-ink-muted">Lexile estimate: {profile.lexileEstimate}L</p>
         <p className="text-sm text-ink-muted">
-          Vocabulary: {Math.round(profile.vocabLevel * 100)}% · Comprehension: {Math.round(profile.comprehensionLevel * 100)}%
+          Vocabulary: {Math.round(profile.vocabLevel * 100)}% · Comprehension:{" "}
+          {Math.round(profile.comprehensionLevel * 100)}% · Cloze:{" "}
+          {Math.round((profile.clozeLevel ?? 0.5) * 100)}%
         </p>
       </section>
 

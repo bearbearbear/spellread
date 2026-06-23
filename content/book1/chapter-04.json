@@ -523,6 +523,84 @@
         "explanation": "'wizard' means: a person who uses magic.",
         "relatedWord": "wizard"
       }
-    ]
+    ],
+    "cloze": {
+      "id": "cloze-ch04",
+      "title": "The Keeper of the Keys",
+      "paragraphs": [
+        "A giant man named Hagrid arrives on Harry's birthday and reveals that Harry is a wizard. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
+        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
+        "By the end of \"The Keeper of the Keys\", the key idea involves (5) ___ and (6) ___."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "giant",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "giant",
+          "explanation": "giant: a very large human-like creature",
+          "pageHint": "p. 42"
+        },
+        {
+          "id": 2,
+          "answer": "wizard",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "wizard",
+          "explanation": "wizard: a person who uses magic",
+          "pageHint": "p. 47"
+        },
+        {
+          "id": 3,
+          "answer": "birthday",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "birthday",
+          "explanation": "birthday: the day you were born",
+          "pageHint": "p. 41"
+        },
+        {
+          "id": 4,
+          "answer": "truth",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "truth",
+          "explanation": "truth: what is real and correct",
+          "pageHint": "p. 48"
+        },
+        {
+          "id": 5,
+          "answer": "famous",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "relatedWord": "famous",
+          "explanation": "famous: known by many people",
+          "pageHint": "p. 49"
+        },
+        {
+          "id": 6,
+          "answer": "orphan",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "orphan",
+          "explanation": "orphan: a child whose parents have died",
+          "pageHint": "p. 48"
+        }
+      ],
+      "wordBank": [
+        "giant",
+        "wizard",
+        "birthday",
+        "truth",
+        "famous",
+        "orphan",
+        "proud",
+        "storm",
+        "umbrella"
+      ],
+      "guidedMode": true,
+      "openMode": true
+    }
   }
 }

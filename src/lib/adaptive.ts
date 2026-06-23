@@ -122,6 +122,8 @@ export function updateProfileAfterQuiz(
     comprehensionTotal: number;
     vocabularyCorrect: number;
     vocabularyTotal: number;
+    clozeCorrect: number;
+    clozeTotal: number;
   },
 ): UserProfile {
   const compRate =
@@ -132,9 +134,14 @@ export function updateProfileAfterQuiz(
     attempt.vocabularyTotal > 0
       ? attempt.vocabularyCorrect / attempt.vocabularyTotal
       : profile.vocabLevel;
+  const clozeRate =
+    attempt.clozeTotal > 0
+      ? attempt.clozeCorrect / attempt.clozeTotal
+      : profile.clozeLevel;
 
   const newComp = profile.comprehensionLevel * 0.7 + compRate * 0.3;
   const newVocab = profile.vocabLevel * 0.7 + vocabRate * 0.3;
+  const newCloze = profile.clozeLevel * 0.7 + clozeRate * 0.3;
 
   let lexile = profile.lexileEstimate;
   if (attempt.score >= 0.9) lexile += 5;
@@ -145,6 +152,7 @@ export function updateProfileAfterQuiz(
     ...profile,
     comprehensionLevel: newComp,
     vocabLevel: newVocab,
+    clozeLevel: newCloze,
     lexileEstimate: lexile,
     readerLevel: lexileToReaderLevel(lexile, profile.house),
   };

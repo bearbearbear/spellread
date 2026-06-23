@@ -531,6 +531,84 @@
         "explanation": "'spell' means: words that create magic.",
         "relatedWord": "spell"
       }
-    ]
+    ],
+    "cloze": {
+      "id": "cloze-ch15",
+      "title": "The Forbidden Forest",
+      "paragraphs": [
+        "Harry serves detention in the dangerous Forbidden Forest. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
+        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
+        "By the end of \"The Forbidden Forest\", the key idea involves (5) ___ and (6) ___."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "courage",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "courage",
+          "explanation": "courage: bravery in facing danger",
+          "pageHint": "p. 105"
+        },
+        {
+          "id": 2,
+          "answer": "mystery",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "mystery",
+          "explanation": "mystery: something unknown or secret",
+          "pageHint": "p. 101"
+        },
+        {
+          "id": 3,
+          "answer": "secret",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "secret",
+          "explanation": "secret: something kept hidden",
+          "pageHint": "p. 102"
+        },
+        {
+          "id": 4,
+          "answer": "castle",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "castle",
+          "explanation": "castle: a large fortified building",
+          "pageHint": "p. 103"
+        },
+        {
+          "id": 5,
+          "answer": "spell",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "relatedWord": "spell",
+          "explanation": "spell: words that create magic",
+          "pageHint": "p. 104"
+        },
+        {
+          "id": 6,
+          "answer": "potion",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "potion",
+          "explanation": "potion: a magical liquid mixture",
+          "pageHint": "p. 105"
+        }
+      ],
+      "wordBank": [
+        "courage",
+        "mystery",
+        "secret",
+        "castle",
+        "spell",
+        "potion",
+        "friendship",
+        "danger",
+        "discover"
+      ],
+      "guidedMode": true,
+      "openMode": true
+    }
   }
 }

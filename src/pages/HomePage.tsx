@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getBook, getAllChapters } from "@/lib/content";
-import { getChapterProgress } from "@/lib/store";
+import { getChapterProgress, setDebugMode } from "@/lib/store";
 import { readerLevelLabel } from "@/lib/adaptive";
 import { countByStatus } from "@/lib/srs";
 import { ChapterMap } from "@/components/learning/ChapterMap";
@@ -12,7 +12,7 @@ import { Link } from "react-router-dom";
 
 export function HomePage() {
   const navigate = useNavigate();
-  const { state, isReady } = useApp();
+  const { state, setState, isReady } = useApp();
   const profile = state.profile;
   const book = getBook(1);
 
@@ -105,6 +105,25 @@ export function HomePage() {
         <Link to="/parent" className="text-sm text-ink-muted underline">
           Parent Dashboard →
         </Link>
+      </section>
+
+      <section className="parchment-card border border-dashed border-ink-muted/30 p-4">
+        <label className="flex cursor-pointer items-center justify-between gap-3">
+          <div className="text-left">
+            <p className="text-sm font-semibold text-ink-muted">Debug Mode</p>
+            <p className="text-xs text-ink-muted">Unlock all chapters for testing</p>
+          </div>
+          <input
+            type="checkbox"
+            checked={state.debugMode}
+            onChange={(e) => setState((prev) => setDebugMode(prev, e.target.checked))}
+            className="h-5 w-5 accent-burgundy"
+            aria-label="Toggle debug mode to unlock all chapters"
+          />
+        </label>
+        {state.debugMode && (
+          <p className="mt-2 text-xs text-warning">All chapters unlocked</p>
+        )}
       </section>
     </div>
   );

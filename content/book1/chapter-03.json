@@ -519,6 +519,88 @@
         "explanation": "'panic' means: feel sudden fear.",
         "relatedWord": "panic"
       }
-    ]
+    ],
+    "cloze": {
+      "id": "cloze-ch03",
+      "title": "The Letters from No One",
+      "paragraphs": [
+        "Mysterious letters arrive for Harry, and the Dursleys desperately try to stop him from reading them. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
+        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
+        "By the end of \"The Letters from No One\", the key idea involves (5) ___ and (6) ___."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "letter",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "letter",
+          "explanation": "letter: a written message sent by post",
+          "pageHint": "p. 31"
+        },
+        {
+          "id": 2,
+          "answer": "address",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "address",
+          "explanation": "address: details of where someone lives",
+          "pageHint": "p. 32"
+        },
+        {
+          "id": 3,
+          "answer": "delivered",
+          "acceptAlternatives": [
+            "deliver"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "deliver",
+          "explanation": "deliver: to bring something to a person",
+          "pageHint": "p. 35"
+        },
+        {
+          "id": 4,
+          "answer": "paniced",
+          "acceptAlternatives": [
+            "panic"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "panic",
+          "explanation": "panic: to feel sudden overwhelming fear",
+          "pageHint": "p. 38"
+        },
+        {
+          "id": 5,
+          "answer": "furious",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "relatedWord": "furious",
+          "explanation": "furious: extremely angry",
+          "pageHint": "p. 34"
+        },
+        {
+          "id": 6,
+          "answer": "sealed",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "sealed",
+          "explanation": "sealed: closed tightly",
+          "pageHint": "p. 33"
+        }
+      ],
+      "wordBank": [
+        "letter",
+        "address",
+        "delivered",
+        "paniced",
+        "furious",
+        "sealed",
+        "stamp",
+        "hide",
+        "chimney"
+      ],
+      "guidedMode": true,
+      "openMode": true
+    }
   }
 }

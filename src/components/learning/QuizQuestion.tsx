@@ -2,7 +2,7 @@
 import type { QuizQuestion as QuizQuestionType } from "@/types";
 import { Button } from "@/components/ui/Button";
 
-export type QuizSectionId = "comprehension" | "vocabulary";
+export type QuizSectionId = "comprehension" | "vocabulary" | "cloze";
 
 export const QUIZ_SECTIONS: Record<
   QuizSectionId,
@@ -19,6 +19,12 @@ export const QUIZ_SECTIONS: Record<
     subtitle: "巩固本章生词",
     icon: "✨",
     badgeClass: "bg-gold/20 text-burgundy",
+  },
+  cloze: {
+    title: "Cloze Passage",
+    subtitle: "段落完形填空",
+    icon: "📝",
+    badgeClass: "bg-emerald-100 text-emerald-800",
   },
 };
 

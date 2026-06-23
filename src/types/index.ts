@@ -48,6 +48,29 @@ export interface BackgroundGuide {
   readingFocus: string;
 }
 
+export type ClozeGapType = "vocabulary" | "plot" | "grammar";
+
+export interface ClozeGap {
+  id: number;
+  answer: string;
+  acceptAlternatives?: string[];
+  gapType: ClozeGapType;
+  relatedWord?: string;
+  explanation: string;
+  pageHint?: string;
+  partOfSpeech?: string;
+}
+
+export interface ClozePassage {
+  id: string;
+  title: string;
+  paragraphs: string[];
+  gaps: ClozeGap[];
+  wordBank?: string[];
+  guidedMode?: boolean;
+  openMode?: boolean;
+}
+
 export interface QuizOption {
   id: string;
   text: string;
@@ -86,6 +109,7 @@ export interface ChapterContent {
   quiz: {
     comprehension: QuizQuestion[];
     vocabulary: QuizQuestion[];
+    cloze?: ClozePassage;
   };
 }
 
@@ -114,6 +138,7 @@ export interface UserProfile {
   placementDone: boolean;
   vocabLevel: number;
   comprehensionLevel: number;
+  clozeLevel: number;
   readingStamina: number;
 }
 
@@ -139,6 +164,8 @@ export interface QuizAttempt {
   comprehensionTotal: number;
   vocabularyCorrect: number;
   vocabularyTotal: number;
+  clozeCorrect: number;
+  clozeTotal: number;
 }
 
 export interface VocabEntry {
@@ -166,6 +193,7 @@ export interface AppState {
   vocabJournal: Record<string, VocabEntry>;
   badges: Badge[];
   recentQuizScores: number[];
+  debugMode: boolean;
 }
 
 export const PASS_THRESHOLD = 0.8;

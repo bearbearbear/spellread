@@ -284,7 +284,50 @@ function buildChapter(data) {
       readingFocus: data.focus,
     },
     miniCheck,
-    quiz: { comprehension: comp, vocabulary: vocab },
+    quiz: { comprehension: comp, vocabulary: vocab, cloze: buildClozeFromData(data) },
+  };
+}
+
+function gapAnswerFromWord(word, pos, example) {
+  if (pos === "verb" && example) {
+    const match = example.match(/\b(\w+ed)\b/i);
+    if (match) return match[1].toLowerCase();
+  }
+  if (pos === "verb") {
+    if (word.endsWith("e")) return `${word}d`;
+    return `${word}ed`;
+  }
+  return word;
+}
+
+function buildClozeFromData(data) {
+  const words = data.words.slice(0, 6);
+  const distractors = data.words.slice(6, 9).map((w) => w[0]);
+  const hook = data.hook.split(".")[0].trim();
+  const answers = words.map(([word, , pos, , ex]) => gapAnswerFromWord(word, pos, ex));
+
+  const gaps = words.map(([word, , pos, def, , page], i) => ({
+    id: i + 1,
+    answer: answers[i],
+    acceptAlternatives: answers[i] !== word ? [word] : [],
+    gapType: i < 4 ? "vocabulary" : "plot",
+    relatedWord: word,
+    explanation: `${word}: ${def}`,
+    pageHint: page,
+  }));
+
+  return {
+    id: `cloze-ch${String(data.chapter).padStart(2, "0")}`,
+    title: data.title,
+    paragraphs: [
+      `${hook}. A key word in this chapter is (1) ___. Characters also deal with (2) ___ events.`,
+      `Readers notice (3) ___ details and may (4) ___ about what happens.`,
+      `By the end of "${data.title}", ideas about (5) ___ and (6) ___ stand out.`,
+    ],
+    gaps,
+    wordBank: [...answers, ...distractors],
+    guidedMode: true,
+    openMode: true,
   };
 }
 

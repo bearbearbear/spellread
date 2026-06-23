@@ -41,6 +41,7 @@ export function getDefaultState(): AppState {
     vocabJournal: {},
     badges: DEFAULT_BADGES,
     recentQuizScores: [],
+    debugMode: false,
   };
 }
 
@@ -49,7 +50,25 @@ export function loadState(): AppState {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return getDefaultState();
-    return { ...getDefaultState(), ...JSON.parse(raw) };
+    const parsed = JSON.parse(raw) as AppState;
+    const state = { ...getDefaultState(), ...parsed };
+
+    if (state.profile && state.profile.clozeLevel === undefined) {
+      state.profile = { ...state.profile, clozeLevel: 0.5 };
+    }
+
+    for (const [key, progress] of Object.entries(state.chapterProgress)) {
+      state.chapterProgress[key] = {
+        ...progress,
+        quizAttempts: progress.quizAttempts.map((a) => ({
+          ...a,
+          clozeCorrect: a.clozeCorrect ?? 0,
+          clozeTotal: a.clozeTotal ?? 0,
+        })),
+      };
+    }
+
+    return state;
   } catch {
     return getDefaultState();
   }
@@ -80,6 +99,7 @@ export function createProfile(
     placementDone: false,
     vocabLevel: 0.5,
     comprehensionLevel: 0.5,
+    clozeLevel: 0.5,
     readingStamina: 0.5,
   };
 }
@@ -90,7 +110,31 @@ export function getChapterProgress(
   chapter: number,
 ): ChapterProgress {
   const key = chapterKey(book, chapter);
-  return state.chapterProgress[key] ?? defaultProgress(book, chapter);
+  const progress = state.chapterProgress[key] ?? defaultProgress(book, chapter);
+  if (state.debugMode && progress.status === "locked") {
+    return { ...progress, status: "preview_available" };
+  }
+  return progress;
+}
+
+const BOOK1_CHAPTER_COUNT = 17;
+
+/** Debug mode: unlock all Book 1 chapters for testing */
+export function setDebugMode(state: AppState, enabled: boolean): AppState {
+  if (!enabled) {
+    return { ...state, debugMode: false };
+  }
+
+  const chapterProgress = { ...state.chapterProgress };
+  for (let ch = 1; ch <= BOOK1_CHAPTER_COUNT; ch++) {
+    const key = chapterKey(1, ch);
+    const existing = chapterProgress[key] ?? defaultProgress(1, ch);
+    if (existing.status === "locked") {
+      chapterProgress[key] = { ...existing, status: "preview_available" };
+    }
+  }
+
+  return { ...state, debugMode: true, chapterProgress };
 }
 
 export function unlockNextChapter(state: AppState, book: number, chapter: number): AppState {
@@ -383,18 +427,25 @@ export function getWeeklyReport(state: AppState) {
   const weakVocabulary = weekAttempts.filter(
     (a) => a.vocabularyCorrect / Math.max(a.vocabularyTotal, 1) < 0.6,
   ).length;
+  const weakCloze = weekAttempts.filter(
+    (a) => a.clozeTotal > 0 && a.clozeCorrect / a.clozeTotal < 0.6,
+  ).length;
+
+  const weakAreas =
+    weakComprehension >= weakVocabulary && weakComprehension >= weakCloze
+      ? "Reading comprehension"
+      : weakVocabulary >= weakCloze
+        ? "Vocabulary"
+        : weakCloze > 0
+          ? "Cloze passage"
+          : "Balanced";
 
   return {
     chaptersCompleted: completed.length,
     totalReadingMinutes: totalMinutes,
     quizAttempts: weekAttempts.length,
     averageScore: Math.round(avgScore * 100),
-    weakAreas:
-      weakComprehension > weakVocabulary
-        ? "Reading comprehension"
-        : weakVocabulary > weakComprehension
-          ? "Vocabulary"
-          : "Balanced",
+    weakAreas,
     streakDays: state.profile?.streakDays ?? 0,
     housePoints: state.profile?.housePoints ?? 0,
   };

@@ -132,9 +132,18 @@
       "word": "peculiar",
       "stem": "What does 'peculiar' mean?",
       "options": [
-        { "id": "a", "text": "strange or unusual" },
-        { "id": "b", "text": "very happy" },
-        { "id": "c", "text": "extremely loud" }
+        {
+          "id": "a",
+          "text": "strange or unusual"
+        },
+        {
+          "id": "b",
+          "text": "very happy"
+        },
+        {
+          "id": "c",
+          "text": "extremely loud"
+        }
       ],
       "correctId": "a"
     },
@@ -143,9 +152,18 @@
       "word": "Muggle",
       "stem": "A Muggle is someone who —",
       "options": [
-        { "id": "a", "text": "has no magical powers" },
-        { "id": "b", "text": "teaches at Hogwarts" },
-        { "id": "c", "text": "owns a pet owl" }
+        {
+          "id": "a",
+          "text": "has no magical powers"
+        },
+        {
+          "id": "b",
+          "text": "teaches at Hogwarts"
+        },
+        {
+          "id": "c",
+          "text": "owns a pet owl"
+        }
       ],
       "correctId": "a"
     },
@@ -154,9 +172,18 @@
       "word": "survive",
       "stem": "To survive means to —",
       "options": [
-        { "id": "a", "text": "stay alive after danger" },
-        { "id": "b", "text": "forget everything" },
-        { "id": "c", "text": "run very fast" }
+        {
+          "id": "a",
+          "text": "stay alive after danger"
+        },
+        {
+          "id": "b",
+          "text": "forget everything"
+        },
+        {
+          "id": "c",
+          "text": "run very fast"
+        }
       ],
       "correctId": "a"
     }
@@ -169,10 +196,22 @@
         "category": "comprehension",
         "stem": "What is this chapter mainly about?",
         "options": [
-          { "id": "a", "text": "How baby Harry came to live with the Dursleys and why he is famous" },
-          { "id": "b", "text": "Harry's first day at Hogwarts" },
-          { "id": "c", "text": "A Quidditch match in the wizarding world" },
-          { "id": "d", "text": "The Dursleys' vacation to the beach" }
+          {
+            "id": "a",
+            "text": "How baby Harry came to live with the Dursleys and why he is famous"
+          },
+          {
+            "id": "b",
+            "text": "Harry's first day at Hogwarts"
+          },
+          {
+            "id": "c",
+            "text": "A Quidditch match in the wizarding world"
+          },
+          {
+            "id": "d",
+            "text": "The Dursleys' vacation to the beach"
+          }
         ],
         "correctId": "a",
         "explanation": "The chapter sets up Harry's backstory: the attack on his family, his survival, and his arrival at Privet Drive."
@@ -183,10 +222,22 @@
         "category": "comprehension",
         "stem": "Where do the Dursleys live?",
         "options": [
-          { "id": "a", "text": "Number four, Privet Drive" },
-          { "id": "b", "text": "Diagon Alley" },
-          { "id": "c", "text": "Hogwarts Castle" },
-          { "id": "d", "text": "The Forbidden Forest" }
+          {
+            "id": "a",
+            "text": "Number four, Privet Drive"
+          },
+          {
+            "id": "b",
+            "text": "Diagon Alley"
+          },
+          {
+            "id": "c",
+            "text": "Hogwarts Castle"
+          },
+          {
+            "id": "d",
+            "text": "The Forbidden Forest"
+          }
         ],
         "correctId": "a",
         "explanation": "The Dursleys live at number four, Privet Drive — a very ordinary suburban street.",
@@ -198,10 +249,22 @@
         "category": "comprehension",
         "stem": "Why do the Dursleys dislike talking about the Potters?",
         "options": [
-          { "id": "a", "text": "They are ashamed of their magical relatives" },
-          { "id": "b", "text": "They never knew the Potters" },
-          { "id": "c", "text": "The Potters live next door" },
-          { "id": "d", "text": "Harry told them not to" }
+          {
+            "id": "a",
+            "text": "They are ashamed of their magical relatives"
+          },
+          {
+            "id": "b",
+            "text": "They never knew the Potters"
+          },
+          {
+            "id": "c",
+            "text": "The Potters live next door"
+          },
+          {
+            "id": "d",
+            "text": "Harry told them not to"
+          }
         ],
         "correctId": "a",
         "explanation": "The Dursleys want to seem perfectly normal and hide any connection to magic.",
@@ -213,10 +276,22 @@
         "category": "comprehension",
         "stem": "What mark does baby Harry have on his forehead?",
         "options": [
-          { "id": "a", "text": "A lightning-shaped scar" },
-          { "id": "b", "text": "A star tattoo" },
-          { "id": "c", "text": "A round birthmark" },
-          { "id": "d", "text": "Nothing unusual" }
+          {
+            "id": "a",
+            "text": "A lightning-shaped scar"
+          },
+          {
+            "id": "b",
+            "text": "A star tattoo"
+          },
+          {
+            "id": "c",
+            "text": "A round birthmark"
+          },
+          {
+            "id": "d",
+            "text": "Nothing unusual"
+          }
         ],
         "correctId": "a",
         "explanation": "Harry's lightning scar is a famous sign of what happened the night his parents died.",
@@ -228,10 +303,22 @@
         "category": "comprehension",
         "stem": "How do most wizards feel when they hear Harry survived?",
         "options": [
-          { "id": "a", "text": "Joyful and relieved" },
-          { "id": "b", "text": "Angry and afraid" },
-          { "id": "c", "text": "Bored and uninterested" },
-          { "id": "d", "text": "Confused about Muggles" }
+          {
+            "id": "a",
+            "text": "Joyful and relieved"
+          },
+          {
+            "id": "b",
+            "text": "Angry and afraid"
+          },
+          {
+            "id": "c",
+            "text": "Bored and uninterested"
+          },
+          {
+            "id": "d",
+            "text": "Confused about Muggles"
+          }
         ],
         "correctId": "a",
         "explanation": "Wizards rejoice because the dark wizard who terrorized them has gone.",
@@ -243,10 +330,22 @@
         "category": "comprehension",
         "stem": "Why does Dumbledore leave Harry with the Dursleys?",
         "options": [
-          { "id": "a", "text": "Harry has family there and will be safer until he is older" },
-          { "id": "b", "text": "The Dursleys asked to adopt him" },
-          { "id": "c", "text": "Hogwarts is full" },
-          { "id": "d", "text": "Harry chose to live with them" }
+          {
+            "id": "a",
+            "text": "Harry has family there and will be safer until he is older"
+          },
+          {
+            "id": "b",
+            "text": "The Dursleys asked to adopt him"
+          },
+          {
+            "id": "c",
+            "text": "Hogwarts is full"
+          },
+          {
+            "id": "d",
+            "text": "Harry chose to live with them"
+          }
         ],
         "correctId": "a",
         "explanation": "Dumbledore believes Harry is best protected with family, even if the Dursleys are unkind.",
@@ -258,10 +357,22 @@
         "category": "comprehension",
         "stem": "Where does Harry sleep at the Dursleys' house?",
         "options": [
-          { "id": "a", "text": "In a cupboard under the stairs" },
-          { "id": "b", "text": "In Dudley's second bedroom" },
-          { "id": "c", "text": "In the garden shed" },
-          { "id": "d", "text": "In the attic" }
+          {
+            "id": "a",
+            "text": "In a cupboard under the stairs"
+          },
+          {
+            "id": "b",
+            "text": "In Dudley's second bedroom"
+          },
+          {
+            "id": "c",
+            "text": "In the garden shed"
+          },
+          {
+            "id": "d",
+            "text": "In the attic"
+          }
         ],
         "correctId": "a",
         "explanation": "Harry's cupboard shows how poorly the Dursleys treat him compared to Dudley.",
@@ -275,10 +386,22 @@
         "category": "vocabulary",
         "stem": "In this chapter, 'peculiar' means —",
         "options": [
-          { "id": "a", "text": "strange or unusual" },
-          { "id": "b", "text": "very wealthy" },
-          { "id": "c", "text": "kind and gentle" },
-          { "id": "d", "text": "magical and powerful" }
+          {
+            "id": "a",
+            "text": "strange or unusual"
+          },
+          {
+            "id": "b",
+            "text": "very wealthy"
+          },
+          {
+            "id": "c",
+            "text": "kind and gentle"
+          },
+          {
+            "id": "d",
+            "text": "magical and powerful"
+          }
         ],
         "correctId": "a",
         "explanation": "The Dursleys think their son Dudley is normal, but others might find his behavior peculiar.",
@@ -290,10 +413,22 @@
         "category": "vocabulary",
         "stem": "People ___ about the Potters because the family was involved in strange events.",
         "options": [
-          { "id": "a", "text": "whispered" },
-          { "id": "b", "text": "shouted" },
-          { "id": "c", "text": "danced" },
-          { "id": "d", "text": "forgot" }
+          {
+            "id": "a",
+            "text": "whispered"
+          },
+          {
+            "id": "b",
+            "text": "shouted"
+          },
+          {
+            "id": "c",
+            "text": "danced"
+          },
+          {
+            "id": "d",
+            "text": "forgot"
+          }
         ],
         "correctId": "a",
         "explanation": "Whispering suggests people talked quietly about something secret or uncomfortable.",
@@ -305,10 +440,22 @@
         "category": "vocabulary",
         "stem": "A 'Muggle' is a person who —",
         "options": [
-          { "id": "a", "text": "has no magical ability" },
-          { "id": "b", "text": "works at Gringotts bank" },
-          { "id": "c", "text": "flies on a broomstick" },
-          { "id": "d", "text": "teaches Defence Against the Dark Arts" }
+          {
+            "id": "a",
+            "text": "has no magical ability"
+          },
+          {
+            "id": "b",
+            "text": "works at Gringotts bank"
+          },
+          {
+            "id": "c",
+            "text": "flies on a broomstick"
+          },
+          {
+            "id": "d",
+            "text": "teaches Defence Against the Dark Arts"
+          }
         ],
         "correctId": "a",
         "explanation": "Muggle is the wizarding word for non-magical people like Mr. Dursley.",
@@ -320,10 +467,22 @@
         "category": "vocabulary",
         "stem": "Which word is closest in meaning to 'vanished'?",
         "options": [
-          { "id": "a", "text": "disappeared" },
-          { "id": "b", "text": "arrived" },
-          { "id": "c", "text": "celebrated" },
-          { "id": "d", "text": "grew" }
+          {
+            "id": "a",
+            "text": "disappeared"
+          },
+          {
+            "id": "b",
+            "text": "arrived"
+          },
+          {
+            "id": "c",
+            "text": "celebrated"
+          },
+          {
+            "id": "d",
+            "text": "grew"
+          }
         ],
         "correctId": "a",
         "explanation": "When You-Know-Who vanished, he was gone — no one knew where he went.",
@@ -335,15 +494,121 @@
         "category": "vocabulary",
         "stem": "The wizards ___ when they heard the dark wizard was gone.",
         "options": [
-          { "id": "a", "text": "rejoiced" },
-          { "id": "b", "text": "complained" },
-          { "id": "c", "text": "slept" },
-          { "id": "d", "text": "vanished" }
+          {
+            "id": "a",
+            "text": "rejoiced"
+          },
+          {
+            "id": "b",
+            "text": "complained"
+          },
+          {
+            "id": "c",
+            "text": "slept"
+          },
+          {
+            "id": "d",
+            "text": "vanished"
+          }
         ],
         "correctId": "a",
         "explanation": "Rejoiced means they celebrated with happiness and relief.",
         "relatedWord": "rejoice"
       }
-    ]
+    ],
+    "cloze": {
+      "id": "cloze-ch01",
+      "title": "The Boy Who Lived",
+      "paragraphs": [
+        "The Dursleys wanted to seem perfectly normal on Privet Drive. However, people sometimes (1) ___ about the Potters because strange things had happened. Mr. Dursley was a (2) ___ who knew nothing about magic.",
+        "When the dark wizard attacked, he suddenly (3) ___ after failing to kill baby Harry. Wizards across Britain (4) ___ because the danger seemed to be over.",
+        "Harry was the only person known to (5) ___ that terrible night. He grew up with a lightning-shaped (6) ___ on his forehead and slept in a (7) ___ under the stairs."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "whispered",
+          "acceptAlternatives": [
+            "whisper"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "whisper",
+          "explanation": "People spoke quietly about the Potters' strange history.",
+          "pageHint": "p. 2"
+        },
+        {
+          "id": 2,
+          "answer": "Muggle",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "Muggle",
+          "explanation": "A Muggle is a person with no magical powers.",
+          "pageHint": "p. 3"
+        },
+        {
+          "id": 3,
+          "answer": "vanished",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "vanished",
+          "explanation": "You-Know-Who disappeared after the attack failed.",
+          "pageHint": "p. 4"
+        },
+        {
+          "id": 4,
+          "answer": "rejoiced",
+          "acceptAlternatives": [
+            "rejoice"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "rejoice",
+          "explanation": "Wizards celebrated with joy and relief.",
+          "pageHint": "p. 4"
+        },
+        {
+          "id": 5,
+          "answer": "survive",
+          "acceptAlternatives": [
+            "survived"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "survive",
+          "explanation": "Harry stayed alive when the curse should have killed him.",
+          "pageHint": "p. 4"
+        },
+        {
+          "id": 6,
+          "answer": "scar",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "scar",
+          "explanation": "The lightning-shaped mark was left by the failed curse.",
+          "pageHint": "p. 15"
+        },
+        {
+          "id": 7,
+          "answer": "cupboard",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "relatedWord": "cupboard",
+          "explanation": "Harry's tiny bedroom shows how poorly the Dursleys treated him.",
+          "pageHint": "p. 14"
+        }
+      ],
+      "wordBank": [
+        "whispered",
+        "Muggle",
+        "vanished",
+        "rejoiced",
+        "survived",
+        "scar",
+        "cupboard",
+        "peculiar",
+        "fortune",
+        "grateful"
+      ],
+      "guidedMode": true,
+      "openMode": true
+    }
   }
 }

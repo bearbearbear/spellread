@@ -59,6 +59,33 @@ export function PreviewPage() {
     navigate(`/book/${book}/chapter/${chapter}/read`);
   };
 
+  const goToReading = () => {
+    const progress = state.chapterProgress[`${book}-${chapter}`];
+    if (progress?.status !== "reading" && progress?.status !== "quiz_pending" && !progress?.previewCompleted) {
+      setState((prev) => completePreview(prev, book, chapter, Array.from(learned)));
+    }
+    navigate(`/book/${book}/chapter/${chapter}/read`);
+  };
+
+  const previewHeader = (
+    <div>
+      <div className="flex items-center justify-between gap-4">
+        <Link to="/" className="text-sm text-ink-muted hover:underline">← Back to map</Link>
+        <button
+          type="button"
+          onClick={goToReading}
+          className="text-sm text-ink-muted hover:underline"
+        >
+          Go to Reading →
+        </button>
+      </div>
+      <h1 className="mt-2 text-2xl font-bold text-burgundy">
+        Book {book} · Chapter {chapter}
+      </h1>
+      <p className="text-lg italic">{content.title}</p>
+    </div>
+  );
+
   if (showMiniCheck && !miniDone) {
     const q = withShuffledOptions(
       content.miniCheck[miniIndex],
@@ -66,7 +93,8 @@ export function PreviewPage() {
     );
     return (
       <div className="space-y-6">
-        <h1 className="text-2xl font-bold">Mini Check</h1>
+        {previewHeader}
+        <h2 className="text-2xl font-bold">Mini Check</h2>
         <div className="parchment-card p-6">
           <p className="mb-4 text-lg">{q.stem}</p>
           <div className="space-y-3">
@@ -96,6 +124,7 @@ export function PreviewPage() {
   if (showMiniCheck && miniDone) {
     return (
       <div className="space-y-6 text-center">
+        {previewHeader}
         <div className="text-5xl">✨</div>
         <h1 className="text-2xl font-bold">Preview Complete!</h1>
         <p className="text-ink-muted">You learned {learned.size} words. Now read the chapter in your book.</p>
@@ -106,13 +135,7 @@ export function PreviewPage() {
 
   return (
     <div className="space-y-6">
-      <div>
-        <Link to="/" className="text-sm text-ink-muted hover:underline">← Back to map</Link>
-        <h1 className="mt-2 text-2xl font-bold text-burgundy">
-          Book {book} · Chapter {chapter}
-        </h1>
-        <p className="text-lg italic">{content.title}</p>
-      </div>
+      {previewHeader}
 
       <ProgressBar value={learned.size} max={vocabList.length} label="Words learned" />
 

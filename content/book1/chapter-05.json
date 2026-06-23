@@ -523,6 +523,84 @@
         "explanation": "'cauldron' means: a pot for brewing.",
         "relatedWord": "cauldron"
       }
-    ]
+    ],
+    "cloze": {
+      "id": "cloze-ch05",
+      "title": "Diagon Alley",
+      "paragraphs": [
+        "Harry visits the wizarding shopping street and learns about his family's past and his own wealth. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
+        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
+        "By the end of \"Diagon Alley\", the key idea involves (5) ___ and (6) ___."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "alley",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "alley",
+          "explanation": "alley: a narrow street between buildings",
+          "pageHint": "p. 55"
+        },
+        {
+          "id": 2,
+          "answer": "vault",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "vault",
+          "explanation": "vault: a secure room for storing valuables",
+          "pageHint": "p. 62"
+        },
+        {
+          "id": 3,
+          "answer": "robe",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "robe",
+          "explanation": "robe: a long loose garment",
+          "pageHint": "p. 58"
+        },
+        {
+          "id": 4,
+          "answer": "cauldron",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "cauldron",
+          "explanation": "cauldron: a large pot for brewing",
+          "pageHint": "p. 59"
+        },
+        {
+          "id": 5,
+          "answer": "wand",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "relatedWord": "wand",
+          "explanation": "wand: a stick used to cast spells",
+          "pageHint": "p. 64"
+        },
+        {
+          "id": 6,
+          "answer": "dragon",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "dragon",
+          "explanation": "dragon: a large mythical fire-breathing creature",
+          "pageHint": "p. 61"
+        }
+      ],
+      "wordBank": [
+        "alley",
+        "vault",
+        "robe",
+        "cauldron",
+        "wand",
+        "dragon",
+        "goblin",
+        "supplies",
+        "inherit"
+      ],
+      "guidedMode": true,
+      "openMode": true
+    }
   }
 }

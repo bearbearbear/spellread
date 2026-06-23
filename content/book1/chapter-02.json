@@ -523,6 +523,81 @@
         "explanation": "'shudder' means: shake from fear.",
         "relatedWord": "shudder"
       }
-    ]
+    ],
+    "cloze": {
+      "id": "cloze-ch02",
+      "title": "The Vanishing Glass",
+      "paragraphs": [
+        "On Dudley's birthday, the Dursley family visited the zoo. Harry felt (1) ___ watching his cousin get everything he wanted. Dudley threw a (2) ___ when he did not get enough food.",
+        "At the reptile house, something (3) ___ happened. The glass in front of the snake cage suddenly (4) ___, and the snake slithered away.",
+        "Uncle Vernon was furious. He (5) ___ at the memory of strange events and blamed Harry for the trouble near the snake (6) ___."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "miserable",
+          "gapType": "vocabulary",
+          "relatedWord": "miserable",
+          "explanation": "Harry felt very unhappy at the zoo.",
+          "pageHint": "p. 24"
+        },
+        {
+          "id": 2,
+          "answer": "tantrum",
+          "gapType": "vocabulary",
+          "relatedWord": "tantrum",
+          "explanation": "Dudley had an angry outburst when he was upset.",
+          "pageHint": "p. 22"
+        },
+        {
+          "id": 3,
+          "answer": "bizarre",
+          "gapType": "vocabulary",
+          "relatedWord": "bizarre",
+          "explanation": "The events at the zoo were very strange.",
+          "pageHint": "p. 28"
+        },
+        {
+          "id": 4,
+          "answer": "vanished",
+          "gapType": "vocabulary",
+          "relatedWord": "vanished",
+          "explanation": "The glass disappeared into thin air.",
+          "pageHint": "p. 28"
+        },
+        {
+          "id": 5,
+          "answer": "shuddered",
+          "acceptAlternatives": [
+            "shudder"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "shudder",
+          "explanation": "Vernon shook with fear or disgust.",
+          "pageHint": "p. 20"
+        },
+        {
+          "id": 6,
+          "answer": "cage",
+          "gapType": "plot",
+          "relatedWord": "cage",
+          "explanation": "The boa constrictor was kept in a glass cage.",
+          "pageHint": "p. 26"
+        }
+      ],
+      "wordBank": [
+        "miserable",
+        "tantrum",
+        "bizarre",
+        "vanished",
+        "shuddered",
+        "cage",
+        "boast",
+        "punishment",
+        "apologize"
+      ],
+      "guidedMode": true,
+      "openMode": true
+    }
   }
 }
