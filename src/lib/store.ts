@@ -203,8 +203,15 @@ export function completePreview(
   }
 
   let profile = state.profile;
-  if (profile) {
+  if (profile && !current.previewCompleted) {
     profile = { ...profile, housePoints: profile.housePoints + POINTS.preview };
+  }
+
+  let nextStatus: ChapterStatus = "reading";
+  if (current.status === "completed") {
+    nextStatus = "completed";
+  } else if (current.readingCompleted && current.status === "quiz_pending") {
+    nextStatus = "quiz_pending";
   }
 
   return {
@@ -215,7 +222,7 @@ export function completePreview(
       ...state.chapterProgress,
       [key]: {
         ...current,
-        status: "reading",
+        status: nextStatus,
         previewCompleted: true,
         wordsLearned,
       },
@@ -243,7 +250,9 @@ export function completeReading(
   }
 
   const nextStatus: ChapterStatus =
-    current.status === "completed" ? "completed" : "quiz_pending";
+    current.status === "completed" || current.lastQuizResult?.passed === true
+      ? "completed"
+      : "quiz_pending";
 
   return {
     ...state,

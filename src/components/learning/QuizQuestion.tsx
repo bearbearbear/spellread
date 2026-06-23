@@ -10,19 +10,19 @@ export const QUIZ_SECTIONS: Record<
 > = {
   comprehension: {
     title: "Reading Comprehension",
-    subtitle: "理解本章情节与人物",
+    subtitle: "Story details and characters in this chapter",
     icon: "📖",
     badgeClass: "bg-sky/15 text-sky",
   },
   vocabulary: {
     title: "Vocabulary Training",
-    subtitle: "巩固本章生词",
+    subtitle: "Practice key words from this chapter",
     icon: "✨",
     badgeClass: "bg-gold/20 text-burgundy",
   },
   cloze: {
     title: "Cloze Passage",
-    subtitle: "段落完形填空",
+    subtitle: "Fill in the blanks in a passage",
     icon: "📝",
     badgeClass: "bg-emerald-100 text-emerald-800",
   },

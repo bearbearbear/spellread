@@ -28,7 +28,7 @@ Child-friendly UI guidelines for the Harry Potter reading companion.
 |-----------|------|---------|
 | Button | `src/components/ui/Button.tsx` | Primary/secondary actions |
 | ProgressBar | `src/components/ui/ProgressBar.tsx` | Chapter/word progress |
-| VocabCard | `src/components/learning/VocabCard.tsx` | Vocabulary preview |
+| VocabFlashcard | `src/components/learning/VocabFlashcard.tsx` | Overview vocabulary flashcards (flip + SRS-style queue) |
 | QuizQuestion | `src/components/learning/QuizQuestion.tsx` | Quiz interaction (per section) |
 | QuizSectionSummary | same | Section completion screen between comprehension and vocabulary |
 | ChapterMap | `src/components/learning/ChapterMap.tsx` | Hogwarts-style progress map |

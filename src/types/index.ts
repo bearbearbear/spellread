@@ -32,6 +32,8 @@ export interface VocabularyItem {
   tier: VocabTier;
   partOfSpeech: string;
   definition: string;
+  /** Chinese gloss shown on flashcard back; falls back to `definition` if omitted */
+  definitionZh?: string;
   example: string;
   pageHint: string;
   grammarTip?: string;

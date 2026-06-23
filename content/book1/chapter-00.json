@@ -11,6 +11,7 @@
       "tier": 1,
       "partOfSpeech": "verb",
       "definition": "to do something again to improve",
+      "definitionZh": "反复练习以进步",
       "example": "Use this chapter to practice the app flow.",
       "pageHint": "test"
     },
@@ -19,6 +20,7 @@
       "tier": 1,
       "partOfSpeech": "noun",
       "definition": "a safe place to try things out",
+      "definitionZh": "安全试验的环境",
       "example": "Chapter 0 is a sandbox for testing.",
       "pageHint": "test"
     }

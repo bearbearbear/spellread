@@ -8,11 +8,12 @@ import { completePreview, getChapterProgress, resetSandboxChapter } from "@/lib/
 import { isTestChapter } from "@/lib/content";
 import { computeAdaptiveSettings, selectVocabularyForUser } from "@/lib/adaptive";
 import { withShuffledOptions } from "@/lib/shuffle-options";
-import { VocabCard } from "@/components/learning/VocabCard";
+import { VocabFlashcard } from "@/components/learning/VocabFlashcard";
 import { ChapterActivityCards } from "@/components/learning/ChapterActivityCards";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Button } from "@/components/ui/Button";
 import { useChapterParams } from "@/hooks/useChapterParams";
+import { useFlashcardDeck } from "@/hooks/useFlashcardDeck";
 
 export function OverviewPage() {
   const { book, chapter } = useChapterParams();
@@ -21,9 +22,6 @@ export function OverviewPage() {
   const content = getChapter(book, chapter);
   const progress = getChapterProgress(state, book, chapter);
 
-  const [wordIndex, setWordIndex] = useState(0);
-  const [learned, setLearned] = useState<Set<string>>(new Set());
-  const [showMiniCheck, setShowMiniCheck] = useState(false);
   const [miniIndex, setMiniIndex] = useState(0);
   const [miniDone, setMiniDone] = useState(false);
 
@@ -37,32 +35,24 @@ export function OverviewPage() {
     return selectVocabularyForUser(content.vocabulary, settings);
   }, [content, settings]);
 
+  const deck = useFlashcardDeck(vocabList);
+
   if (!content || !state.profile) {
     return <p>Chapter not found.</p>;
   }
 
-  const currentWord = vocabList[wordIndex];
-
-  const handleKnow = () => {
-    if (currentWord) {
-      setLearned((prev) => new Set(prev).add(currentWord.word));
-      if (wordIndex < vocabList.length - 1) setWordIndex((i) => i + 1);
-      else setShowMiniCheck(true);
-    }
-  };
-
-  const handlePractice = () => {
-    if (wordIndex < vocabList.length - 1) setWordIndex((i) => i + 1);
-    else setShowMiniCheck(true);
-  };
+  const learned = deck.known;
 
   const finishPreview = () => {
-    setState((prev) => completePreview(prev, book, chapter, Array.from(learned)));
+    if (progress.status !== "completed") {
+      setState((prev) => completePreview(prev, book, chapter, Array.from(learned)));
+    }
     navigate(`/book/${book}/chapter/${chapter}/read`);
   };
 
   const goToReading = () => {
     if (
+      progress.status !== "completed" &&
       progress.status !== "reading" &&
       progress.status !== "quiz_pending" &&
       !progress.previewCompleted
@@ -93,7 +83,7 @@ export function OverviewPage() {
     </div>
   );
 
-  if (showMiniCheck && !miniDone) {
+  if (deck.isComplete && !miniDone) {
     const q = withShuffledOptions(
       content.miniCheck[miniIndex],
       book * 1000 + chapter * 100 + miniIndex,
@@ -131,7 +121,7 @@ export function OverviewPage() {
     );
   }
 
-  if (showMiniCheck && miniDone) {
+  if (deck.isComplete && miniDone) {
     return (
       <div className="space-y-6 text-center">
         {overviewHeader}
@@ -165,9 +155,7 @@ export function OverviewPage() {
             variant="secondary"
             className="mt-3 w-full"
             onClick={() => {
-              setLearned(new Set());
-              setWordIndex(0);
-              setShowMiniCheck(false);
+              deck.reset();
               setMiniIndex(0);
               setMiniDone(false);
               setState((prev) => resetSandboxChapter(prev, book));
@@ -196,21 +184,21 @@ export function OverviewPage() {
         </p>
       </section>
 
-      {currentWord && (
-        <VocabCard
-          item={currentWord}
-          index={wordIndex}
-          total={vocabList.length}
-          learned={learned.has(currentWord.word)}
-          onKnow={handleKnow}
-          onPractice={handlePractice}
-        />
-      )}
-
-      {learned.size === vocabList.length && !showMiniCheck && (
-        <Button onClick={() => setShowMiniCheck(true)} className="w-full">
-          Take Mini Check →
-        </Button>
+      {deck.currentWord && (
+        <section>
+          <h2 className="mb-3 text-lg font-semibold">📇 Vocabulary flashcards</h2>
+          <VocabFlashcard
+            item={deck.currentWord}
+            index={learned.size + 1}
+            total={vocabList.length}
+            round={deck.round}
+            knownCount={learned.size}
+            flipped={deck.flipped}
+            onFlip={() => deck.setFlipped((f) => !f)}
+            onKnown={deck.markKnown}
+            onLater={deck.markLater}
+          />
+        </section>
       )}
 
       {settings?.showExtraHints && (
