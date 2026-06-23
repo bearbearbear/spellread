@@ -1,10 +1,9 @@
-"use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/Button";
 
-export default function FeedbackPage() {
+export function FeedbackPage() {
   const [submitted, setSubmitted] = useState(false);
   const [form, setForm] = useState({
     familyId: "",
@@ -32,7 +31,7 @@ export default function FeedbackPage() {
         <div className="text-5xl">🙏</div>
         <h1 className="text-2xl font-bold">Thank You!</h1>
         <p className="text-ink-muted">Your feedback helps us improve SpellRead.</p>
-        <Link href="/parent"><Button>Back to Dashboard</Button></Link>
+        <Link to="/parent"><Button>Back to Dashboard</Button></Link>
       </div>
     );
   }

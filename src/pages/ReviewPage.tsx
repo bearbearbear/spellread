@@ -1,14 +1,13 @@
-"use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getDueVocab, scheduleReview, vocabKey } from "@/lib/srs";
 import { getChapter } from "@/lib/content";
 import { speak } from "@/lib/tts";
 import { Button } from "@/components/ui/Button";
 
-export default function ReviewPage() {
+export function ReviewPage() {
   const { state, setState } = useApp();
   const due = getDueVocab(state.vocabJournal, 10);
   const [index, setIndex] = useState(0);
@@ -18,7 +17,7 @@ export default function ReviewPage() {
   if (!state.profile) {
     return (
       <div className="text-center">
-        <Link href="/onboarding" className="text-burgundy underline">Get started</Link>
+        <Link to="/onboarding" className="text-burgundy underline">Get started</Link>
       </div>
     );
   }
@@ -35,7 +34,7 @@ export default function ReviewPage() {
             ? "Great job reviewing your words today."
             : "No words due for review. Complete more chapters to add words."}
         </p>
-        <Link href="/">
+        <Link to="/">
           <Button>Back to Map</Button>
         </Link>
       </div>

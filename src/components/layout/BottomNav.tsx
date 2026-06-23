@@ -1,7 +1,5 @@
-"use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { Link, useLocation } from "react-router-dom";
 
 const NAV_ITEMS = [
   { href: "/", label: "Home", icon: "🏰" },
@@ -11,7 +9,7 @@ const NAV_ITEMS = [
 ];
 
 export function BottomNav() {
-  const pathname = usePathname();
+  const { pathname } = useLocation();
 
   if (pathname.startsWith("/onboarding") || pathname.startsWith("/parent")) {
     return null;
@@ -28,7 +26,7 @@ export function BottomNav() {
           return (
             <Link
               key={item.href}
-              href={item.href}
+              to={item.href}
               className={`flex min-h-12 min-w-16 flex-col items-center justify-center rounded-xl px-3 py-1 text-sm font-medium transition-colors ${
                 active
                   ? "bg-burgundy/10 text-burgundy"

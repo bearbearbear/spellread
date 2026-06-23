@@ -8,7 +8,7 @@ A Harry Potter reading companion for children — preview vocabulary before each
 
 - **Chapter Preview** — vocabulary cards with TTS, background guides, mini-check
 - **Reading Timer** — track reading time with word lookup and bookmarks
-- **Chapter Quiz** — comprehension + vocabulary in two sequential sections
+- **Chapter Quiz** — two sections (comprehension + vocabulary), 80% to pass
 - **Adaptive Engine** — adjusts word count, tier mix, hints, and pass threshold
 - **Word Journal** — spaced repetition review queue
 - **Parent Dashboard** — weekly report, difficulty adjustment, reading goals
@@ -21,51 +21,34 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3001](http://localhost:3001) (port 3001 to avoid conflicts with other local apps)
+Open [http://localhost:3001](http://localhost:3001)
 
 ## Scripts
 
 ```bash
-npm run dev          # Start dev server
-npm run build        # Production build
+npm run dev          # Vite dev server (port 3001)
+npm run build        # Production build → dist/
+npm run preview      # Preview production build
 npm run qa:content   # Validate all chapter content packs
-node scripts/generate-chapters.mjs  # Regenerate chapters 2-17
 ```
+
+## Tech Stack
+
+- **Vite** + React 19 + TypeScript
+- **React Router** for client-side routing
+- **Tailwind CSS 4** via `@tailwindcss/vite`
+- LocalStorage for MVP persistence
+- Web Speech API for pronunciation
 
 ## Project Structure
 
 ```
 content/book1/          # Chapter JSON content packs (17 chapters)
-src/app/                # Next.js pages
+src/pages/              # Route pages
 src/components/         # UI + learning components
 src/lib/                # Store, adaptive engine, SRS, TTS
-docs/                   # Copyright policy, design system, beta protocol
+docs/                   # Product design, copyright, beta protocol
 ```
-
-## Content Model
-
-Each chapter JSON includes:
-
-- `vocabulary` — tiered word list with definitions and short examples
-- `background` — characters, hook, reading focus
-- `miniCheck` — 3 optional pre-reading questions
-- `quiz.comprehension` — 5–7 understanding questions
-- `quiz.vocabulary` — 4–5 word training questions
-
-## Copyright
-
-See [docs/COPYRIGHT.md](docs/COPYRIGHT.md). This is a companion tool — users must own their own copy of the books.
-
-## Beta Testing
-
-See [docs/BETA_TEST.md](docs/BETA_TEST.md) for the family beta protocol and feedback collection.
-
-## Tech Stack
-
-- Next.js 16 + TypeScript
-- Tailwind CSS 4
-- LocalStorage for MVP persistence
-- Web Speech API for pronunciation
 
 ## License
 

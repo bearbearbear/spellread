@@ -1,4 +1,3 @@
-"use client";
 
 import { speak } from "@/lib/tts";
 import type { VocabularyItem } from "@/types";

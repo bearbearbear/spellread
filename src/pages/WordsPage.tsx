@@ -1,13 +1,12 @@
-"use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
 import { speak } from "@/lib/tts";
 import { countByStatus } from "@/lib/srs";
 
-export default function WordsPage() {
+export function WordsPage() {
   const { state } = useApp();
   const [filter, setFilter] = useState<"all" | "new" | "learning" | "reviewing" | "mastered">("all");
 
@@ -21,7 +20,7 @@ export default function WordsPage() {
     return (
       <div className="text-center">
         <p>Please complete onboarding first.</p>
-        <Link href="/onboarding" className="text-burgundy underline">Get started</Link>
+        <Link to="/onboarding" className="text-burgundy underline">Get started</Link>
       </div>
     );
   }

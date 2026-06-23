@@ -1,22 +1,17 @@
-"use client";
 
-import { use, useEffect, useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
 import { completeReading } from "@/lib/store";
 import { Button } from "@/components/ui/Button";
 
-export default function ReadPage({
-  params,
-}: {
-  params: Promise<{ bookId: string; chapterId: string }>;
-}) {
-  const { bookId, chapterId } = use(params);
-  const book = parseInt(bookId, 10);
-  const chapter = parseInt(chapterId, 10);
-  const router = useRouter();
+import { useChapterParams } from "@/hooks/useChapterParams";
+
+export function ReadPage() {
+  const { book, chapter } = useChapterParams();
+  const navigate = useNavigate();
   const { state, setState } = useApp();
   const content = getChapter(book, chapter);
 
@@ -52,13 +47,13 @@ export default function ReadPage({
         bookmarkPage ? parseInt(bookmarkPage, 10) : undefined,
       ),
     );
-    router.push(`/book/${book}/chapter/${chapter}/quiz`);
+    navigate(`/book/${book}/chapter/${chapter}/quiz`);
   };
 
   return (
     <div className="space-y-6">
       <div>
-        <Link href={`/book/${book}/chapter/${chapter}/preview`} className="text-sm text-ink-muted hover:underline">
+        <Link to={`/book/${book}/chapter/${chapter}/preview`} className="text-sm text-ink-muted hover:underline">
           ← Back to preview
         </Link>
         <h1 className="mt-2 text-2xl font-bold">Reading Time</h1>

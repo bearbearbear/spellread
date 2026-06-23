@@ -1,20 +1,19 @@
-"use client";
 
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { readerLevelLabel } from "@/lib/adaptive";
 import { countByStatus } from "@/lib/srs";
 import { getChapterProgress } from "@/lib/store";
 import { getAllChapters } from "@/lib/content";
 
-export default function ProfilePage() {
+export function ProfilePage() {
   const { state } = useApp();
   const profile = state.profile;
 
   if (!profile) {
     return (
       <div className="text-center">
-        <Link href="/onboarding" className="text-burgundy underline">Get started</Link>
+        <Link to="/onboarding" className="text-burgundy underline">Get started</Link>
       </div>
     );
   }
@@ -79,7 +78,7 @@ export default function ProfilePage() {
         )}
       </section>
 
-      <Link href="/parent" className="block text-center text-burgundy underline">
+      <Link to="/parent" className="block text-center text-burgundy underline">
         Parent Dashboard →
       </Link>
     </div>

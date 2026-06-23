@@ -1,6 +1,5 @@
-"use client";
 
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import type { ChapterProgress, ChapterStatus } from "@/types";
 import { getAllChapters } from "@/lib/content";
 
@@ -68,7 +67,7 @@ export function ChapterMap({ book, getProgress }: ChapterMapProps) {
         return (
           <Link
             key={ch.chapter}
-            href={href}
+            to={href}
             title={ch.title}
             aria-label={`Chapter ${ch.chapter}: ${ch.title}`}
           >

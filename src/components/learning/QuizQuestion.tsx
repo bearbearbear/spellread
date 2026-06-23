@@ -1,4 +1,3 @@
-"use client";
 
 import type { QuizQuestion as QuizQuestionType } from "@/types";
 import { Button } from "@/components/ui/Button";

@@ -10,13 +10,6 @@ export interface AdaptiveSettings {
   recommendedChapter: number;
 }
 
-const LEVEL_THRESHOLDS: { level: ReaderLevel; minLexile: number }[] = [
-  { level: "head_boy", minLexile: 1000 },
-  { level: "head_girl", minLexile: 1000 },
-  { level: "prefect", minLexile: 920 },
-  { level: "apprentice", minLexile: 0 },
-];
-
 export function lexileToReaderLevel(lexile: number, house: UserProfile["house"]): ReaderLevel {
   if (lexile >= 1000) {
     return house === "gryffindor" || house === "slytherin" ? "head_boy" : "head_girl";

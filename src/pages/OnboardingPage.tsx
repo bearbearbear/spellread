@@ -1,7 +1,6 @@
-"use client";
 
 import { useState } from "react";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { createProfile, setPlacement } from "@/lib/store";
 import { placementRecommendation } from "@/lib/adaptive";
@@ -37,8 +36,8 @@ const PLACEMENT_COMP = [
 
 type Step = "welcome" | "profile" | "placement" | "consent" | "done";
 
-export default function OnboardingPage() {
-  const router = useRouter();
+export function OnboardingPage() {
+  const navigate = useNavigate();
   const { setState } = useApp();
   const [step, setStep] = useState<Step>("welcome");
   const [nickname, setNickname] = useState("");
@@ -65,7 +64,7 @@ export default function OnboardingPage() {
       ),
     );
 
-    router.push("/");
+    navigate("/");
   };
 
   if (step === "welcome") {

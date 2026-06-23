@@ -1,4 +1,3 @@
-"use client";
 
 import { createContext, useContext, useEffect, useState, useCallback, type ReactNode } from "react";
 import type { AppState, UserProfile } from "@/types";
@@ -6,7 +5,6 @@ import {
   loadState,
   saveState,
   getDefaultState,
-  createProfile,
   updateStreak,
 } from "@/lib/store";
 

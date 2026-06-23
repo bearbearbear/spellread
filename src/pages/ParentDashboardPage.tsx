@@ -1,13 +1,12 @@
-"use client";
 
 import { useState } from "react";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getWeeklyReport, setPlacement } from "@/lib/store";
 import { readerLevelLabel } from "@/lib/adaptive";
 import { Button } from "@/components/ui/Button";
 
-export default function ParentDashboardPage() {
+export function ParentDashboardPage() {
   const { state, setState } = useApp();
   const [unlocked, setUnlocked] = useState(false);
   const [pin, setPin] = useState("");
@@ -20,7 +19,7 @@ export default function ParentDashboardPage() {
     return (
       <div className="text-center">
         <p>No student profile found.</p>
-        <Link href="/onboarding" className="text-burgundy underline">Set up profile</Link>
+        <Link to="/onboarding" className="text-burgundy underline">Set up profile</Link>
       </div>
     );
   }
@@ -44,7 +43,7 @@ export default function ParentDashboardPage() {
         <Button onClick={() => pin.length >= 4 && setUnlocked(true)} disabled={pin.length < 4} className="w-full">
           Enter
         </Button>
-        <Link href="/" className="block text-center text-sm text-ink-muted underline">
+        <Link to="/" className="block text-center text-sm text-ink-muted underline">
           ← Back to home
         </Link>
       </div>
@@ -66,7 +65,7 @@ export default function ParentDashboardPage() {
     <div className="space-y-6">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold text-burgundy">Parent Dashboard</h1>
-        <Link href="/" className="text-sm text-ink-muted underline">← Home</Link>
+        <Link to="/" className="text-sm text-ink-muted underline">← Home</Link>
       </div>
 
       <section className="parchment-card p-6">
@@ -150,7 +149,7 @@ export default function ParentDashboardPage() {
         </p>
       </section>
 
-      <Link href="/parent/feedback" className="block text-center text-burgundy underline">
+      <Link to="/parent/feedback" className="block text-center text-burgundy underline">
         Beta Feedback Form →
       </Link>
     </div>

@@ -36,8 +36,8 @@
   --color-success: var(--success);
   --color-warning: var(--warning);
   --color-error: var(--error);
-  --font-sans: var(--font-lexend);
-  --font-display: var(--font-crimson);
+  --font-sans: "Lexend", system-ui, sans-serif;
+  --font-display: "Crimson Pro", Georgia, serif;
 }
 
 * {
@@ -47,7 +47,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: var(--font-sans), system-ui, sans-serif;
+  font-family: "Lexend", system-ui, sans-serif;
   min-height: 100vh;
   background-image:
     radial-gradient(ellipse at 20% 0%, rgba(201, 162, 39, 0.12) 0%, transparent 50%),
@@ -55,7 +55,7 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: var(--font-display), Georgia, serif;
+  font-family: "Crimson Pro", Georgia, serif;
 }
 
 /* Parchment card texture */

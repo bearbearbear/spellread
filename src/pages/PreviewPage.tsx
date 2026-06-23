@@ -1,8 +1,7 @@
-"use client";
 
-import { use, useMemo, useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
 import { completePreview } from "@/lib/store";
@@ -12,15 +11,11 @@ import { VocabCard } from "@/components/learning/VocabCard";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Button } from "@/components/ui/Button";
 
-export default function PreviewPage({
-  params,
-}: {
-  params: Promise<{ bookId: string; chapterId: string }>;
-}) {
-  const { bookId, chapterId } = use(params);
-  const book = parseInt(bookId, 10);
-  const chapter = parseInt(chapterId, 10);
-  const router = useRouter();
+import { useChapterParams } from "@/hooks/useChapterParams";
+
+export function PreviewPage() {
+  const { book, chapter } = useChapterParams();
+  const navigate = useNavigate();
   const { state, setState } = useApp();
   const content = getChapter(book, chapter);
 
@@ -61,7 +56,7 @@ export default function PreviewPage({
 
   const finishPreview = () => {
     setState((prev) => completePreview(prev, book, chapter, Array.from(learned)));
-    router.push(`/book/${book}/chapter/${chapter}/read`);
+    navigate(`/book/${book}/chapter/${chapter}/read`);
   };
 
   if (showMiniCheck && !miniDone) {
@@ -112,7 +107,7 @@ export default function PreviewPage({
   return (
     <div className="space-y-6">
       <div>
-        <Link href="/" className="text-sm text-ink-muted hover:underline">← Back to map</Link>
+        <Link to="/" className="text-sm text-ink-muted hover:underline">← Back to map</Link>
         <h1 className="mt-2 text-2xl font-bold text-burgundy">
           Book {book} · Chapter {chapter}
         </h1>

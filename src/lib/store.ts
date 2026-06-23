@@ -1,4 +1,3 @@
-"use client";
 
 import type {
   AppState,
@@ -7,7 +6,6 @@ import type {
   ChapterStatus,
   QuizAttempt,
   UserProfile,
-  VocabEntry,
 } from "@/types";
 import { POINTS } from "@/types";
 import { chapterKey } from "./content";

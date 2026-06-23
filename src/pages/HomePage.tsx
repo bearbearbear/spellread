@@ -1,7 +1,6 @@
-"use client";
 
 import { useEffect } from "react";
-import { useRouter } from "next/navigation";
+import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getBook, getAllChapters } from "@/lib/content";
 import { getChapterProgress } from "@/lib/store";
@@ -9,19 +8,19 @@ import { readerLevelLabel } from "@/lib/adaptive";
 import { countByStatus } from "@/lib/srs";
 import { ChapterMap } from "@/components/learning/ChapterMap";
 import { Button } from "@/components/ui/Button";
-import Link from "next/link";
+import { Link } from "react-router-dom";
 
-export default function HomePage() {
-  const router = useRouter();
+export function HomePage() {
+  const navigate = useNavigate();
   const { state, isReady } = useApp();
   const profile = state.profile;
   const book = getBook(1);
 
   useEffect(() => {
     if (isReady && !profile) {
-      router.replace("/onboarding");
+      navigate("/onboarding", { replace: true });
     }
-  }, [isReady, profile, router]);
+  }, [isReady, profile, navigate]);
 
   if (!isReady || !profile || !book) {
     return <div className="text-center text-ink-muted">Loading your map...</div>;
@@ -72,19 +71,19 @@ export default function HomePage() {
           <p className="mb-4 text-ink-muted">
             Chapter {nextChapter.chapter}: {nextChapter.title}
           </p>
-          <Link href={continueHref}>
+          <Link to={continueHref}>
             <Button className="w-full">Continue →</Button>
           </Link>
         </section>
       )}
 
       <section className="grid grid-cols-2 gap-3">
-        <Link href="/review" className="parchment-card p-4 text-center hover:shadow-md">
+        <Link to="/review" className="parchment-card p-4 text-center hover:shadow-md">
           <div className="text-2xl">✨</div>
           <div className="font-semibold">Review</div>
           <div className="text-sm text-ink-muted">{dueReview} words due</div>
         </Link>
-        <Link href="/words" className="parchment-card p-4 text-center hover:shadow-md">
+        <Link to="/words" className="parchment-card p-4 text-center hover:shadow-md">
           <div className="text-2xl">📖</div>
           <div className="font-semibold">Word Journal</div>
           <div className="text-sm text-ink-muted">{vocabCounts.mastered} mastered</div>
@@ -103,7 +102,7 @@ export default function HomePage() {
       </section>
 
       <section className="text-center">
-        <Link href="/parent" className="text-sm text-ink-muted underline">
+        <Link to="/parent" className="text-sm text-ink-muted underline">
           Parent Dashboard →
         </Link>
       </section>

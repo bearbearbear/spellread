@@ -1,8 +1,7 @@
-"use client";
 
-import { use, useMemo, useState } from "react";
-import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
 import { submitQuiz, addVocabFromQuiz } from "@/lib/store";
@@ -33,15 +32,11 @@ function scoreSection(questions: QuizQuestion[], answers: Record<string, string>
   return { correct, total: questions.length };
 }
 
-export default function QuizPage({
-  params,
-}: {
-  params: Promise<{ bookId: string; chapterId: string }>;
-}) {
-  const { bookId, chapterId } = use(params);
-  const book = parseInt(bookId, 10);
-  const chapter = parseInt(chapterId, 10);
-  const router = useRouter();
+import { useChapterParams } from "@/hooks/useChapterParams";
+
+export function QuizPage() {
+  const { book, chapter } = useChapterParams();
+  const navigate = useNavigate();
   const { state, setState } = useApp();
   const content = getChapter(book, chapter);
 
@@ -168,7 +163,7 @@ export default function QuizPage({
     return (
       <div className="space-y-6">
         <div>
-          <Link href={`/book/${book}/chapter/${chapter}/read`} className="text-sm text-ink-muted hover:underline">
+          <Link to={`/book/${book}/chapter/${chapter}/read`} className="text-sm text-ink-muted hover:underline">
             ← Back to reading
           </Link>
           <h1 className="mt-2 text-2xl font-bold">Chapter Quiz</h1>
@@ -267,7 +262,7 @@ export default function QuizPage({
 
         <div className="flex flex-col gap-3">
           {result.passed ? (
-            <Button onClick={() => router.push("/")} className="w-full">
+            <Button onClick={() => navigate("/")} className="w-full">
               Back to Map →
             </Button>
           ) : (
@@ -275,7 +270,7 @@ export default function QuizPage({
               <Button onClick={resetAttempt} className="w-full">
                 Try Again
               </Button>
-              <Link href={`/book/${book}/chapter/${chapter}/read`}>
+              <Link to={`/book/${book}/chapter/${chapter}/read`}>
                 <Button variant="secondary" className="w-full">Re-read Chapter</Button>
               </Link>
             </>
