@@ -31,7 +31,7 @@ export function HomePage() {
     (e) => e.status !== "mastered" && e.nextReview <= new Date().toISOString().split("T")[0],
   ).length;
 
-  const chapters = getAllChapters(1);
+  const chapters = getAllChapters(1, { includeTestChapter: false });
   const nextChapter = chapters.find((ch) => {
     const p = getChapterProgress(state, 1, ch.chapter);
     return p.status !== "locked" && p.status !== "completed";
@@ -42,8 +42,8 @@ export function HomePage() {
       ? `/book/1/chapter/${nextChapter.chapter}/quiz`
       : getChapterProgress(state, 1, nextChapter.chapter).status === "reading"
         ? `/book/1/chapter/${nextChapter.chapter}/read`
-        : `/book/1/chapter/${nextChapter.chapter}/preview`
-    : "/book/1/chapter/1/preview";
+        : `/book/1/chapter/${nextChapter.chapter}/overview`
+    : "/book/1/chapter/1/overview";
 
   return (
     <div className="space-y-6">
@@ -97,6 +97,7 @@ export function HomePage() {
         </p>
         <ChapterMap
           book={1}
+          showTestChapter={state.debugMode}
           getProgress={(ch) => getChapterProgress(state, 1, ch)}
         />
       </section>
@@ -111,7 +112,7 @@ export function HomePage() {
         <label className="flex cursor-pointer items-center justify-between gap-3">
           <div className="text-left">
             <p className="text-sm font-semibold text-ink-muted">Debug Mode</p>
-            <p className="text-xs text-ink-muted">Unlock all chapters for testing</p>
+            <p className="text-xs text-ink-muted">Unlock all chapters + Ch.0 test sandbox</p>
           </div>
           <input
             type="checkbox"
@@ -122,7 +123,7 @@ export function HomePage() {
           />
         </label>
         {state.debugMode && (
-          <p className="mt-2 text-xs text-warning">All chapters unlocked</p>
+          <p className="mt-2 text-xs text-warning">All chapters unlocked · Ch.0 Test Sandbox available</p>
         )}
       </section>
     </div>

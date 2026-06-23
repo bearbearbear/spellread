@@ -1,8 +1,8 @@
 
-import type { QuizQuestion as QuizQuestionType } from "@/types";
+import type { QuizQuestion as QuizQuestionType, QuizSectionId } from "@/types";
 import { Button } from "@/components/ui/Button";
 
-export type QuizSectionId = "comprehension" | "vocabulary" | "cloze";
+export type { QuizSectionId };
 
 export const QUIZ_SECTIONS: Record<
   QuizSectionId,

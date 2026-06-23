@@ -1,12 +1,17 @@
 
-import { useMemo, useState } from "react";
+import { useMemo, useState, useCallback } from "react";
 import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
-import { submitQuiz, addVocabFromQuiz } from "@/lib/store";
+import { submitQuiz, addVocabFromQuiz, saveQuizDraft, clearQuizDraft, getChapterProgress, beginQuizRetake } from "@/lib/store";
 import { computeAdaptiveSettings, buildQuizSet } from "@/lib/adaptive";
 import { scoreClozePassage, shouldUseGuidedCloze } from "@/lib/cloze";
+import {
+  getActiveQuizSections,
+  isQuizSectionComplete,
+  buildQuizDraft,
+} from "@/lib/quiz-progress";
 import {
   QuizQuestionView,
   QUIZ_SECTIONS,
@@ -15,7 +20,7 @@ import {
 import { ClozePassageView } from "@/components/learning/ClozePassageView";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Button } from "@/components/ui/Button";
-import type { ClozePassage, QuizQuestion } from "@/types";
+import type { ClozePassage, QuizQuestion, QuizResultSummary } from "@/types";
 import { POINTS } from "@/types";
 import { useChapterParams } from "@/hooks/useChapterParams";
 
@@ -34,46 +39,47 @@ function scoreSection(questions: QuizQuestion[], answers: Record<string, string>
   return { correct, total: questions.length };
 }
 
-function isSectionComplete(
-  id: QuizSectionId,
-  compQuestions: QuizQuestion[],
-  vocabQuestions: QuizQuestion[],
-  clozePassage: ClozePassage | undefined,
-  answers: Record<string, string>,
-  clozeAnswers: Record<number, string>,
-  clozeSubmitted: boolean,
-): boolean {
-  if (id === "comprehension") {
-    return compQuestions.length > 0 && compQuestions.every((q) => answers[q.id]);
-  }
-  if (id === "vocabulary") {
-    return vocabQuestions.length > 0 && vocabQuestions.every((q) => answers[q.id]);
-  }
-  if (id === "cloze" && clozePassage) {
-    return (
-      clozeSubmitted &&
-      clozePassage.gaps.every((g) => (clozeAnswers[g.id] ?? "").trim().length > 0)
-    );
-  }
-  return false;
+function sectionScoresFromResult(
+  result: QuizResultSummary,
+): Record<QuizSectionId, SectionScore> {
+  return {
+    comprehension: {
+      correct: result.comprehensionCorrect,
+      total: result.comprehensionTotal,
+    },
+    vocabulary: {
+      correct: result.vocabularyCorrect,
+      total: result.vocabularyTotal,
+    },
+    cloze: {
+      correct: result.clozeCorrect,
+      total: result.clozeTotal,
+    },
+  };
 }
-
-const SECTION_ORDER: QuizSectionId[] = ["comprehension", "vocabulary", "cloze"];
 
 export function QuizPage() {
   const { book, chapter } = useChapterParams();
   const navigate = useNavigate();
   const { state, setState } = useApp();
   const content = getChapter(book, chapter);
+  const chapterProgress = getChapterProgress(state, book, chapter);
+  const savedDraft = chapterProgress.quizDraft;
+  const lastQuizResult = chapterProgress.lastQuizResult;
+  const isChapterQuizPassed =
+    chapterProgress.status === "completed" && lastQuizResult?.passed === true;
 
-  const [attempt, setAttempt] = useState(0);
+  const [showRetakeConfirm, setShowRetakeConfirm] = useState(false);
+  const [attempt, setAttempt] = useState(savedDraft?.attemptSeed ?? 0);
   const [phase, setPhase] = useState<QuizPhase>("overview");
   const [qIndex, setQIndex] = useState(0);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [submitted, setSubmitted] = useState(false);
-  const [answers, setAnswers] = useState<Record<string, string>>({});
-  const [clozeAnswers, setClozeAnswers] = useState<Record<number, string>>({});
-  const [clozeSubmitted, setClozeSubmitted] = useState(false);
+  const [answers, setAnswers] = useState<Record<string, string>>(savedDraft?.answers ?? {});
+  const [clozeAnswers, setClozeAnswers] = useState<Record<number, string>>(
+    savedDraft?.clozeAnswers ?? {},
+  );
+  const [clozeSubmitted, setClozeSubmitted] = useState(savedDraft?.clozeSubmitted ?? false);
   const [result, setResult] = useState<{
     score: number;
     passed: boolean;
@@ -101,8 +107,45 @@ export function QuizPage() {
 
   const compQuestions = quizSet.comprehension;
   const vocabQuestions = quizSet.vocabulary;
-  const hasCloze = Boolean(clozePassage && clozePassage.gaps.length > 0);
-  const activeSections = hasCloze ? SECTION_ORDER : SECTION_ORDER.slice(0, 2);
+  const activeSections = content ? getActiveQuizSections(content) : [];
+
+  const persistDraft = useCallback(
+    (
+      nextAnswers: Record<string, string>,
+      nextClozeAnswers: Record<number, string>,
+      nextClozeSubmitted: boolean,
+      nextAttempt: number,
+    ) => {
+      if (!content) return;
+      setState((prev) =>
+        saveQuizDraft(
+          prev,
+          book,
+          chapter,
+          buildQuizDraft(
+            activeSections,
+            compQuestions,
+            vocabQuestions,
+            clozePassage,
+            nextAnswers,
+            nextClozeAnswers,
+            nextClozeSubmitted,
+            nextAttempt,
+          ),
+        ),
+      );
+    },
+    [
+      activeSections,
+      book,
+      chapter,
+      clozePassage,
+      compQuestions,
+      content,
+      setState,
+      vocabQuestions,
+    ],
+  );
 
   const compScore = scoreSection(compQuestions, answers);
   const vocabScore = scoreSection(vocabQuestions, answers);
@@ -119,7 +162,7 @@ export function QuizPage() {
   };
 
   const allSectionsComplete = activeSections.every((id) =>
-    isSectionComplete(
+    isQuizSectionComplete(
       id,
       compQuestions,
       vocabQuestions,
@@ -142,7 +185,7 @@ export function QuizPage() {
 
   const enterSection = (id: QuizSectionId) => {
     if (id === "cloze") {
-      const complete = isSectionComplete(
+      const complete = isQuizSectionComplete(
         "cloze",
         compQuestions,
         vocabQuestions,
@@ -173,7 +216,32 @@ export function QuizPage() {
     setClozeAnswers({});
     setClozeSubmitted(false);
     setResult(null);
+    setShowRetakeConfirm(false);
     setAttempt((a) => a + 1);
+    setState((prev) => clearQuizDraft(prev, book, chapter));
+  };
+
+  const handleRetakeQuiz = () => {
+    setState((prev) => beginQuizRetake(prev, book, chapter));
+    setPhase("overview");
+    setQIndex(0);
+    setSelectedId(null);
+    setSubmitted(false);
+    setAnswers({});
+    setClozeAnswers({});
+    setClozeSubmitted(false);
+    setResult(null);
+    setShowRetakeConfirm(false);
+    setAttempt((a) => a + 1);
+  };
+
+  const returnToOverviewWithDraft = (
+    nextAnswers: Record<string, string>,
+    nextClozeAnswers: Record<number, string>,
+    nextClozeSubmitted: boolean,
+  ) => {
+    persistDraft(nextAnswers, nextClozeAnswers, nextClozeSubmitted, attempt);
+    returnToOverview();
   };
 
   if (!content || !settings) return <p>Chapter not found.</p>;
@@ -198,7 +266,9 @@ export function QuizPage() {
   const handleSubmit = () => {
     if (!selectedId || !currentQ) return;
     setSubmitted(true);
-    setAnswers((prev) => ({ ...prev, [currentQ.id]: selectedId }));
+    const nextAnswers = { ...answers, [currentQ.id]: selectedId };
+    setAnswers(nextAnswers);
+    persistDraft(nextAnswers, clozeAnswers, clozeSubmitted, attempt);
 
     if (selectedId !== currentQ.correctId && currentQ.relatedWord) {
       setState((prev) => addVocabFromQuiz(prev, currentQ.relatedWord!, book, chapter));
@@ -239,7 +309,7 @@ export function QuizPage() {
       for (const word of wrongWords) {
         next = addVocabFromQuiz(next, word, book, chapter);
       }
-      return submitQuiz(
+      next = submitQuiz(
         next,
         book,
         chapter,
@@ -256,6 +326,7 @@ export function QuizPage() {
         },
         passThreshold,
       );
+      return clearQuizDraft(next, book, chapter);
     });
 
     setResult({
@@ -279,23 +350,123 @@ export function QuizPage() {
       return;
     }
 
-    setAnswers((prev) => ({ ...prev, [currentQ.id]: selectedId! }));
-    returnToOverview();
+    const finalAnswers = { ...answers, [currentQ.id]: selectedId! };
+    setAnswers(finalAnswers);
+    returnToOverviewWithDraft(finalAnswers, clozeAnswers, clozeSubmitted);
   };
 
   const handleClozeSubmit = () => {
     if (!clozePassage) return;
     setClozeSubmitted(true);
-    returnToOverview();
+    returnToOverviewWithDraft(answers, clozeAnswers, true);
   };
 
-  // --- Overview ---
+  // --- Overview (chapter already passed) ---
+  if (phase === "overview" && isChapterQuizPassed && lastQuizResult) {
+    const savedScores = sectionScoresFromResult(lastQuizResult);
+    const savedTotal =
+      lastQuizResult.comprehensionTotal +
+      lastQuizResult.vocabularyTotal +
+      lastQuizResult.clozeTotal;
+    const savedCorrect =
+      lastQuizResult.comprehensionCorrect +
+      lastQuizResult.vocabularyCorrect +
+      lastQuizResult.clozeCorrect;
+
+    return (
+      <div className="space-y-6">
+        <div>
+          <Link
+            to={`/book/${book}/chapter/${chapter}/overview`}
+            className="text-sm text-ink-muted hover:underline"
+          >
+            ← Back to overview
+          </Link>
+          <h1 className="mt-2 text-2xl font-bold">Chapter Quiz</h1>
+          <p className="text-ink-muted">{content.title}</p>
+        </div>
+
+        <div className="parchment-card border-success/30 bg-success/5 p-6 text-center">
+          <div className="text-5xl">🎉</div>
+          <h2 className="mt-2 text-xl font-bold">Quiz Passed!</h2>
+          <p className="mt-1 text-lg text-burgundy">
+            {Math.round(lastQuizResult.score * 100)}% ({savedCorrect}/{savedTotal})
+          </p>
+          <p className="mt-2 text-sm text-ink-muted">
+            You can re-read anytime. Your quiz score stays here until you choose to retake.
+          </p>
+        </div>
+
+        <div className="space-y-3">
+          {activeSections.map((id, i) => {
+            const meta = QUIZ_SECTIONS[id];
+            const score = savedScores[id];
+            const pct = score.total > 0 ? Math.round((score.correct / score.total) * 100) : 0;
+
+            return (
+              <div
+                key={id}
+                className="parchment-card flex items-center gap-4 p-4 opacity-95"
+              >
+                <div className="text-3xl">{meta.icon}</div>
+                <div className="min-w-0 flex-1">
+                  <p className="font-semibold">
+                    Section {i + 1}: {meta.title}
+                    <span className="ml-2 text-success">✓</span>
+                  </p>
+                  <p className="text-sm text-ink-muted">{meta.subtitle}</p>
+                </div>
+                <div className="shrink-0 text-right">
+                  <p className="text-2xl font-bold text-burgundy">
+                    {score.correct}/{score.total}
+                  </p>
+                  <p className="text-xs text-ink-muted">{pct}%</p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        {showRetakeConfirm ? (
+          <div className="parchment-card space-y-4 border-warning/40 p-4">
+            <p className="font-semibold text-warning">Retake this quiz?</p>
+            <p className="text-sm text-ink-muted">
+              This will clear your previous quiz score and remove this chapter&apos;s completed
+              status. You will need to pass again to keep the chapter marked complete.
+            </p>
+            <div className="flex flex-col gap-2 sm:flex-row">
+              <Button variant="secondary" onClick={() => setShowRetakeConfirm(false)} className="flex-1">
+                Cancel
+              </Button>
+              <Button onClick={handleRetakeQuiz} className="flex-1">
+                Yes, Retake Quiz
+              </Button>
+            </div>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-3">
+            <Button variant="secondary" onClick={() => setShowRetakeConfirm(true)} className="w-full">
+              Retake Quiz
+            </Button>
+            <Button onClick={() => navigate("/")} className="w-full">
+              Back to Map →
+            </Button>
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  // --- Overview (active quiz) ---
   if (phase === "overview") {
     return (
       <div className="space-y-6">
         <div>
-          <Link to={`/book/${book}/chapter/${chapter}/read`} className="text-sm text-ink-muted hover:underline">
-            ← Back to reading
+          <Link
+            to={`/book/${book}/chapter/${chapter}/overview`}
+            className="text-sm text-ink-muted hover:underline"
+          >
+            ← Back to overview
           </Link>
           <h1 className="mt-2 text-2xl font-bold">Chapter Quiz</h1>
           <p className="text-ink-muted">{content.title}</p>
@@ -322,7 +493,7 @@ export function QuizPage() {
           {activeSections.map((id, i) => {
             const meta = QUIZ_SECTIONS[id];
             const score = sectionScores[id];
-            const complete = isSectionComplete(
+            const complete = isQuizSectionComplete(
               id,
               compQuestions,
               vocabQuestions,
@@ -398,9 +569,11 @@ export function QuizPage() {
           answers={clozeAnswers}
           submitted={clozeSubmitted}
           showHints={settings.showExtraHints}
-          onChangeAnswer={(gapId, value) =>
-            setClozeAnswers((prev) => ({ ...prev, [gapId]: value }))
-          }
+          onChangeAnswer={(gapId, value) => {
+            const nextClozeAnswers = { ...clozeAnswers, [gapId]: value };
+            setClozeAnswers(nextClozeAnswers);
+            persistDraft(answers, nextClozeAnswers, clozeSubmitted, attempt);
+          }}
           onSubmit={handleClozeSubmit}
         />
       </div>

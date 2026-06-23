@@ -5,7 +5,7 @@
 
 ## 核心用户旅程（单章）
 
-1. **Chapter Preview**（5–8 min）— 词汇预习 + 背景导读
+1. **Chapter Overview**（5–8 min）— 词汇预习 + 背景导读 + Reading / Quiz 状态卡片
 2. **Read**（20–30 min）— 自备书阅读 + 计时器
 3. **Chapter Quiz**（10–15 min）— **三个独立 Section**，在概览页自由选择、完成后统一提交
 4. **Review & Reward** — 错题解析、生词入本、House Points
@@ -136,6 +136,7 @@
 | 整体进度 | 顶部进度条 = 三 Section 正确数之和 / 总题数之和 |
 | 中途离开 | Section 内 **← Back to Quiz** 随时返回概览，已答题目保留 |
 | 提交测验 | 三 Section 均完成后，底部出现 **Submit Quiz →**，进入总结果页 |
+| 已通过重进 | 本章已通关时进入 Quiz 显示**上次成绩**；**Retake Quiz** 需确认，会清空完成状态与上次结果 |
 
 ### 结果页
 
@@ -313,7 +314,48 @@
 
 ---
 
-## 4.2 章节预习（Chapter Preview）
+## 4.2 章节概览（Chapter Overview）
+
+原「Chapter Preview」页面更名为 **Chapter Overview**，作为单章学习枢纽：顶部展示 **Reading** 与 **Quiz** 状态卡片，下方保留词汇预习、背景导读与 Mini Check。
+
+### Reading / Quiz 状态卡片
+
+概览页顶部以两张可点击卡片呈现本章进度：
+
+| 卡片 | 跳转 | 状态展示 |
+|------|------|----------|
+| **Reading** | `/read` | **Not started** / **In progress** / **Completed ✓**（阅读页点击「完成阅读」后） |
+| **Quiz** | `/quiz` | **N/M sections done**（已完成 Section 数 / 总 Section 数）；通关后显示 **Passed ✓** 与最佳得分 |
+
+**Reading 完成判定**
+
+- 用户在阅读页点击 **I'm Done Reading** 后，`ChapterProgress.readingCompleted = true`，`status` 变为 `quiz_pending`
+- Overview 的 Reading 卡片显示 **Completed ✓** 及阅读分钟数
+
+**Quiz Section 进度**
+
+- 每完成一个 Quiz Section（理解 / 词汇 / 完形）并返回 Quiz 概览后，进度写入 `ChapterProgress.quizDraft.completedSections`
+- Overview 的 Quiz 卡片显示如 `2/3 sections done`
+- 章节 Quiz 通关（`status = completed`）后显示 **Passed ✓**
+
+### 线框：Chapter Overview
+
+```
+┌─────────────────────────────────────────┐
+│  ← Back to map          Go to Reading → │
+│  Chapter Overview                        │
+│  Book 1 · Chapter 2: The Vanishing Glass │
+├──────────────────┬──────────────────────┤
+│  📖 Reading      │  ❓ Quiz              │
+│  Read in your    │  Comprehension,      │
+│  own book        │  vocabulary & cloze  │
+│     Completed ✓  │         2/3          │
+│        18 min    │    sections done     │
+├──────────────────┴──────────────────────┤
+│  Words learned  ████████░░  8/12        │
+│  📜 Background · vocabulary cards · ...  │
+└─────────────────────────────────────────┘
+```
 
 ### 词汇预习与背景导读
 
@@ -321,14 +363,21 @@
 
 ### 快捷跳转：Go to Reading
 
-预习页右上角提供 **「Go to Reading →」** 链接，允许跳过剩余词汇卡片和 Mini Check，直接进入阅读计时页。
+概览页右上角提供 **「Go to Reading →」** 链接，允许跳过剩余词汇卡片和 Mini Check，直接进入阅读计时页。
 
 | 项目 | 说明 |
 |------|------|
-| 位置 | Preview 页顶栏右侧（词汇学习、Mini Check 各阶段均可见） |
+| 位置 | Overview 页顶栏右侧（词汇学习、Mini Check 各阶段均可见） |
 | 行为 | 若本章预习未完成，自动标记为 `reading` 状态后跳转 |
 | 用途 | 测试流程、已熟悉词汇的孩子快速进入阅读 |
-| 与正常流程关系 | 不阻断正常预习路径；跳过后仍可回地图重进 Preview |
+| 与正常流程关系 | 不阻断正常预习路径；跳过后仍可回地图重进 Overview |
+
+### 路由
+
+| 路径 | 页面 |
+|------|------|
+| `/book/:book/chapter/:chapter/overview` | Chapter Overview（主入口） |
+| `/book/:book/chapter/:chapter/preview` | 重定向至 `overview`（兼容旧链接） |
 
 ---
 
@@ -339,7 +388,7 @@
 | 项目 | 说明 |
 |------|------|
 | 位置 | 首页底部虚线框区域（Parent Dashboard 下方） |
-| 开启后 | Book 1 全部 17 章由 `locked` 变为 `preview_available`，地图可点击任意章节 |
+| 开启后 | Book 1 全部 17 章 + **Ch.0 Test Sandbox** 由 `locked` 变为可进入 |
 | 关闭后 | 不重新锁定已解锁章节（保留当前进度） |
 | 持久化 | 存入 `localStorage`（`AppState.debugMode`） |
 | 生产环境 | 正式版可隐藏或移至家长 PIN 保护区域 |
@@ -347,9 +396,20 @@
 ```
 ┌─────────────────────────────────────────┐
 │  Debug Mode          [ OFF / ON ]       │
-│  Unlock all chapters for testing      │
+│  Unlock all chapters + Ch.0 sandbox     │
 └─────────────────────────────────────────┘
 ```
+
+### Ch.0 Test Sandbox（测试章）
+
+Debug Mode 开启后，地图显示 **🧪 Test** 格子（Chapter 0），用于反复测试 Overview 上 Reading / Quiz 状态卡片与完整流程，**不影响** Chapters 1–17 的解锁进度。
+
+| 项目 | 说明 |
+|------|------|
+| 内容 | 精简词表、2 道理解题、2 道词汇题、3 空完形；无原著情节 |
+| 入口 | 首页地图 · Debug Mode ON → 点击 **Test** |
+| 重置 | Overview 页 **Reset Ch.0 progress** 一键清空阅读 / Quiz 草稿 |
+| 隔离 | 通过 Quiz 不调用 `unlockNextChapter`；不计入「首章完成」徽章 |
 
 ---
 
@@ -357,7 +417,7 @@
 
 - **自适应**：分别追踪 `comprehensionLevel`、`vocabLevel` 与 `clozeLevel`；Guided / Open Cloze 按 Lexile 与历史得分切换；家长端周报展示薄弱 Section
 - **激励**：Quiz 通关 +30 House Points；结果页展示三 Section 得分
-- **信息架构**：`Books → Chapter → Quiz 概览（Hub）→ Section 子页`；三 Section 可任意顺序完成，Hub 卡片展示 `正确/总数`
+- **信息架构**：`Books → Chapter → Overview（词汇 + 状态卡片）→ Read / Quiz`；Quiz 内含 Hub 与三 Section 子页
 - **实现状态**：三 Section Quiz（含完形填空）与 Hub 导航**已上线**（`QuizPage.tsx`、`ClozePassageView.tsx`、`quiz.cloze` 内容包）
 
 完整架构、版权与迭代路线见项目 README 与 `docs/` 目录。

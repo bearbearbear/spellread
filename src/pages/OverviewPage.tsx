@@ -4,20 +4,22 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
 import { getChapter } from "@/lib/content";
-import { completePreview } from "@/lib/store";
+import { completePreview, getChapterProgress, resetSandboxChapter } from "@/lib/store";
+import { isTestChapter } from "@/lib/content";
 import { computeAdaptiveSettings, selectVocabularyForUser } from "@/lib/adaptive";
 import { withShuffledOptions } from "@/lib/shuffle-options";
 import { VocabCard } from "@/components/learning/VocabCard";
+import { ChapterActivityCards } from "@/components/learning/ChapterActivityCards";
 import { ProgressBar } from "@/components/ui/ProgressBar";
 import { Button } from "@/components/ui/Button";
-
 import { useChapterParams } from "@/hooks/useChapterParams";
 
-export function PreviewPage() {
+export function OverviewPage() {
   const { book, chapter } = useChapterParams();
   const navigate = useNavigate();
   const { state, setState } = useApp();
   const content = getChapter(book, chapter);
+  const progress = getChapterProgress(state, book, chapter);
 
   const [wordIndex, setWordIndex] = useState(0);
   const [learned, setLearned] = useState<Set<string>>(new Set());
@@ -60,17 +62,22 @@ export function PreviewPage() {
   };
 
   const goToReading = () => {
-    const progress = state.chapterProgress[`${book}-${chapter}`];
-    if (progress?.status !== "reading" && progress?.status !== "quiz_pending" && !progress?.previewCompleted) {
+    if (
+      progress.status !== "reading" &&
+      progress.status !== "quiz_pending" &&
+      !progress.previewCompleted
+    ) {
       setState((prev) => completePreview(prev, book, chapter, Array.from(learned)));
     }
     navigate(`/book/${book}/chapter/${chapter}/read`);
   };
 
-  const previewHeader = (
+  const overviewHeader = (
     <div>
       <div className="flex items-center justify-between gap-4">
-        <Link to="/" className="text-sm text-ink-muted hover:underline">← Back to map</Link>
+        <Link to="/" className="text-sm text-ink-muted hover:underline">
+          ← Back to map
+        </Link>
         <button
           type="button"
           onClick={goToReading}
@@ -79,10 +86,10 @@ export function PreviewPage() {
           Go to Reading →
         </button>
       </div>
-      <h1 className="mt-2 text-2xl font-bold text-burgundy">
-        Book {book} · Chapter {chapter}
-      </h1>
-      <p className="text-lg italic">{content.title}</p>
+      <h1 className="mt-2 text-2xl font-bold text-burgundy">Chapter Overview</h1>
+      <p className="text-lg">
+        Book {book} · Chapter {chapter}: <span className="italic">{content.title}</span>
+      </p>
     </div>
   );
 
@@ -93,7 +100,8 @@ export function PreviewPage() {
     );
     return (
       <div className="space-y-6">
-        {previewHeader}
+        {overviewHeader}
+        <ChapterActivityCards book={book} chapter={chapter} progress={progress} />
         <h2 className="text-2xl font-bold">Mini Check</h2>
         <div className="parchment-card p-6">
           <p className="mb-4 text-lg">{q.stem}</p>
@@ -116,7 +124,9 @@ export function PreviewPage() {
             ))}
           </div>
         </div>
-        <p className="text-center text-sm text-ink-muted">No pressure — this does not block your reading!</p>
+        <p className="text-center text-sm text-ink-muted">
+          No pressure — this does not block your reading!
+        </p>
       </div>
     );
   }
@@ -124,18 +134,49 @@ export function PreviewPage() {
   if (showMiniCheck && miniDone) {
     return (
       <div className="space-y-6 text-center">
-        {previewHeader}
+        {overviewHeader}
+        <ChapterActivityCards book={book} chapter={chapter} progress={progress} />
         <div className="text-5xl">✨</div>
-        <h1 className="text-2xl font-bold">Preview Complete!</h1>
-        <p className="text-ink-muted">You learned {learned.size} words. Now read the chapter in your book.</p>
-        <Button onClick={finishPreview} className="w-full">Start Reading →</Button>
+        <h1 className="text-2xl font-bold">Vocabulary Ready!</h1>
+        <p className="text-ink-muted">
+          You learned {learned.size} words. Now read the chapter in your book.
+        </p>
+        <Button onClick={finishPreview} className="w-full">
+          Start Reading →
+        </Button>
       </div>
     );
   }
 
   return (
     <div className="space-y-6">
-      {previewHeader}
+      {overviewHeader}
+
+      <ChapterActivityCards book={book} chapter={chapter} progress={progress} />
+
+      {isTestChapter(chapter) && state.debugMode && (
+        <section className="parchment-card border-2 border-dashed border-warning/60 p-4">
+          <h2 className="font-semibold text-warning">🧪 Test Sandbox</h2>
+          <p className="mt-1 text-sm text-ink-muted">
+            Use this chapter to test Reading and Quiz status cards repeatedly. Progress here does
+            not unlock Chapters 1–17.
+          </p>
+          <Button
+            variant="secondary"
+            className="mt-3 w-full"
+            onClick={() => {
+              setLearned(new Set());
+              setWordIndex(0);
+              setShowMiniCheck(false);
+              setMiniIndex(0);
+              setMiniDone(false);
+              setState((prev) => resetSandboxChapter(prev, book));
+            }}
+          >
+            Reset Ch.0 progress
+          </Button>
+        </section>
+      )}
 
       <ProgressBar value={learned.size} max={vocabList.length} label="Words learned" />
 

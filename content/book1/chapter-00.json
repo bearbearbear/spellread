@@ -1,0 +1,143 @@
+{
+  "book": 1,
+  "chapter": 0,
+  "title": "Test Sandbox",
+  "lexile": 880,
+  "estimatedMinutes": 5,
+  "estimatedWords": 500,
+  "vocabulary": [
+    {
+      "word": "practice",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to do something again to improve",
+      "example": "Use this chapter to practice the app flow.",
+      "pageHint": "test"
+    },
+    {
+      "word": "sandbox",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a safe place to try things out",
+      "example": "Chapter 0 is a sandbox for testing.",
+      "pageHint": "test"
+    }
+  ],
+  "background": {
+    "characters": [],
+    "hook": "This is an empty test chapter. Use it to try Reading and Quiz status cards without affecting your real progress in Chapters 1–17.",
+    "readingFocus": "Click through Overview → Reading → Quiz as many times as you need."
+  },
+  "miniCheck": [
+    {
+      "id": "mc1",
+      "word": "sandbox",
+      "stem": "What is a 'sandbox' in this app?",
+      "options": [
+        { "id": "a", "text": "a safe place to try things out" },
+        { "id": "b", "text": "a type of magic spell" },
+        { "id": "c", "text": "a Hogwarts classroom" },
+        { "id": "d", "text": "a kind of owl" }
+      ],
+      "correctId": "a"
+    }
+  ],
+  "quiz": {
+    "comprehension": [
+      {
+        "id": "c1",
+        "type": "main_idea",
+        "category": "comprehension",
+        "stem": "What is Chapter 0 for?",
+        "options": [
+          { "id": "a", "text": "Testing Reading and Quiz flows" },
+          { "id": "b", "text": "Reading the real story" },
+          { "id": "c", "text": "Unlocking Book 2" },
+          { "id": "d", "text": "Parent settings only" }
+        ],
+        "correctId": "a",
+        "explanation": "Chapter 0 is a sandbox for testers."
+      },
+      {
+        "id": "c2",
+        "type": "detail",
+        "category": "comprehension",
+        "stem": "Does Chapter 0 unlock the next real chapter when you pass the quiz?",
+        "options": [
+          { "id": "a", "text": "No" },
+          { "id": "b", "text": "Yes, always" },
+          { "id": "c", "text": "Only on weekends" },
+          { "id": "d", "text": "Only if you read for 30 minutes" }
+        ],
+        "correctId": "a",
+        "explanation": "Sandbox progress does not change your main chapter map."
+      }
+    ],
+    "vocabulary": [
+      {
+        "id": "v1",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What does 'practice' mean?",
+        "options": [
+          { "id": "a", "text": "to do something again to improve" },
+          { "id": "b", "text": "to forget completely" },
+          { "id": "c", "text": "to sleep deeply" },
+          { "id": "d", "text": "to fly on a broom" }
+        ],
+        "correctId": "a",
+        "explanation": "Practice means repeating an activity to get better.",
+        "relatedWord": "practice"
+      },
+      {
+        "id": "v2",
+        "type": "definition",
+        "category": "vocabulary",
+        "stem": "What is a 'sandbox'?",
+        "options": [
+          { "id": "a", "text": "a safe place to try things out" },
+          { "id": "b", "text": "a box of sand only" },
+          { "id": "c", "text": "a school exam" },
+          { "id": "d", "text": "a magical creature" }
+        ],
+        "correctId": "a",
+        "explanation": "Here, sandbox means a test environment.",
+        "relatedWord": "sandbox"
+      }
+    ],
+    "cloze": {
+      "id": "cloze-ch00",
+      "title": "Test Passage",
+      "paragraphs": [
+        "Chapter 0 is a (1) ___ where you can (2) ___ the Reading and Quiz cards.",
+        "Finishing this chapter does not (3) ___ your progress in Chapter 1."
+      ],
+      "gaps": [
+        {
+          "id": 1,
+          "answer": "sandbox",
+          "gapType": "vocabulary",
+          "relatedWord": "sandbox",
+          "explanation": "A sandbox is a safe test space."
+        },
+        {
+          "id": 2,
+          "answer": "practice",
+          "acceptAlternatives": ["practise"],
+          "gapType": "vocabulary",
+          "relatedWord": "practice",
+          "explanation": "You practice the app flow here."
+        },
+        {
+          "id": 3,
+          "answer": "unlock",
+          "gapType": "plot",
+          "explanation": "Sandbox completion does not unlock real chapters."
+        }
+      ],
+      "wordBank": ["sandbox", "practice", "unlock", "forget", "break"],
+      "guidedMode": true,
+      "openMode": true
+    }
+  }
+}

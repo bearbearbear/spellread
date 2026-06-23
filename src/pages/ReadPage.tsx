@@ -53,8 +53,8 @@ export function ReadPage() {
   return (
     <div className="space-y-6">
       <div>
-        <Link to={`/book/${book}/chapter/${chapter}/preview`} className="text-sm text-ink-muted hover:underline">
-          ← Back to preview
+        <Link to={`/book/${book}/chapter/${chapter}/overview`} className="text-sm text-ink-muted hover:underline">
+          ← Back to overview
         </Link>
         <h1 className="mt-2 text-2xl font-bold">Reading Time</h1>
         <p className="text-ink-muted">{content.title}</p>

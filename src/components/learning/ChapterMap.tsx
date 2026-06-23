@@ -6,6 +6,7 @@ import { getAllChapters } from "@/lib/content";
 interface ChapterMapProps {
   book: number;
   getProgress: (chapter: number) => ChapterProgress;
+  showTestChapter?: boolean;
 }
 
 const STATUS_STYLES: Record<ChapterStatus, string> = {
@@ -24,8 +25,10 @@ const STATUS_LABELS: Record<ChapterStatus, string> = {
   completed: "⭐",
 };
 
-export function ChapterMap({ book, getProgress }: ChapterMapProps) {
-  const chapters = getAllChapters(book);
+export function ChapterMap({ book, getProgress, showTestChapter = false }: ChapterMapProps) {
+  const chapters = getAllChapters(book).filter(
+    (ch) => ch.chapter > 0 || showTestChapter,
+  );
 
   return (
     <div className="grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-6">
@@ -33,23 +36,26 @@ export function ChapterMap({ book, getProgress }: ChapterMapProps) {
         const progress = getProgress(ch.chapter);
         const status = progress.status;
         const isLocked = status === "locked";
+        const isSandbox = ch.chapter === 0;
 
         const href = isLocked
           ? "#"
-          : status === "completed"
-            ? `/book/${book}/chapter/${ch.chapter}/preview`
-            : status === "quiz_pending"
-              ? `/book/${book}/chapter/${ch.chapter}/quiz`
-              : status === "reading"
-                ? `/book/${book}/chapter/${ch.chapter}/read`
-                : `/book/${book}/chapter/${ch.chapter}/preview`;
+          : status === "reading"
+            ? `/book/${book}/chapter/${ch.chapter}/read`
+            : `/book/${book}/chapter/${ch.chapter}/overview`;
 
         const inner = (
           <div
-            className={`flex flex-col items-center rounded-xl border-2 p-3 text-center transition-all ${STATUS_STYLES[status]}`}
+            className={`flex flex-col items-center rounded-xl border-2 p-3 text-center transition-all ${
+              isSandbox ? "border-dashed " : ""
+            }${STATUS_STYLES[status]}`}
           >
-            <span className="text-lg" aria-hidden="true">{STATUS_LABELS[status]}</span>
-            <span className="text-sm font-bold">Ch. {ch.chapter}</span>
+            <span className="text-lg" aria-hidden="true">
+              {isSandbox ? "🧪" : STATUS_LABELS[status]}
+            </span>
+            <span className="text-sm font-bold">
+              {isSandbox ? "Test" : `Ch. ${ch.chapter}`}
+            </span>
             {progress.bestScore !== undefined && (
               <span className="text-xs">{Math.round(progress.bestScore * 100)}%</span>
             )}

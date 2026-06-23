@@ -71,6 +71,16 @@ export interface ClozePassage {
   openMode?: boolean;
 }
 
+export type QuizSectionId = "comprehension" | "vocabulary" | "cloze";
+
+export interface QuizDraft {
+  answers: Record<string, string>;
+  clozeAnswers: Record<number, string>;
+  clozeSubmitted: boolean;
+  completedSections: QuizSectionId[];
+  attemptSeed: number;
+}
+
 export interface QuizOption {
   id: string;
   text: string;
@@ -142,15 +152,30 @@ export interface UserProfile {
   readingStamina: number;
 }
 
+export interface QuizResultSummary {
+  score: number;
+  passed: boolean;
+  comprehensionCorrect: number;
+  comprehensionTotal: number;
+  vocabularyCorrect: number;
+  vocabularyTotal: number;
+  clozeCorrect: number;
+  clozeTotal: number;
+  completedAt: string;
+}
+
 export interface ChapterProgress {
   book: number;
   chapter: number;
   status: ChapterStatus;
   previewCompleted: boolean;
+  readingCompleted: boolean;
   wordsLearned: string[];
   readingMinutes: number;
   bookmarkPage?: number;
   quizAttempts: QuizAttempt[];
+  quizDraft?: QuizDraft;
+  lastQuizResult?: QuizResultSummary;
   bestScore?: number;
   completedAt?: string;
 }

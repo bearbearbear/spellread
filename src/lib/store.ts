@@ -5,10 +5,12 @@ import type {
   ChapterProgress,
   ChapterStatus,
   QuizAttempt,
+  QuizDraft,
+  QuizResultSummary,
   UserProfile,
 } from "@/types";
 import { POINTS } from "@/types";
-import { chapterKey } from "./content";
+import { chapterKey, isTestChapter } from "./content";
 import { createVocabEntry, scheduleReview, vocabKey } from "./srs";
 import { updateProfileAfterQuiz } from "./adaptive";
 
@@ -22,12 +24,32 @@ const DEFAULT_BADGES: Badge[] = [
   { id: "perfect_quiz", name: "Perfect Spell", description: "Score 100% on a chapter quiz" },
 ];
 
+const BOOK1_CHAPTER_COUNT = 17;
+
+function quizResultFromAttempts(progress: ChapterProgress): QuizResultSummary | undefined {
+  if (progress.status !== "completed") return undefined;
+  const lastPassed = [...progress.quizAttempts].reverse().find((a) => a.passed);
+  if (!lastPassed) return undefined;
+  return {
+    score: lastPassed.score,
+    passed: lastPassed.passed,
+    comprehensionCorrect: lastPassed.comprehensionCorrect,
+    comprehensionTotal: lastPassed.comprehensionTotal,
+    vocabularyCorrect: lastPassed.vocabularyCorrect,
+    vocabularyTotal: lastPassed.vocabularyTotal,
+    clozeCorrect: lastPassed.clozeCorrect,
+    clozeTotal: lastPassed.clozeTotal,
+    completedAt: lastPassed.date,
+  };
+}
+
 function defaultProgress(book: number, chapter: number): ChapterProgress {
   return {
     book,
     chapter,
     status: chapter === 1 ? "preview_available" : "locked",
     previewCompleted: false,
+    readingCompleted: false,
     wordsLearned: [],
     readingMinutes: 0,
     quizAttempts: [],
@@ -58,8 +80,14 @@ export function loadState(): AppState {
     }
 
     for (const [key, progress] of Object.entries(state.chapterProgress)) {
+      const readingCompleted =
+        progress.readingCompleted ??
+        (progress.status === "quiz_pending" || progress.status === "completed");
+
       state.chapterProgress[key] = {
         ...progress,
+        readingCompleted,
+        lastQuizResult: progress.lastQuizResult ?? quizResultFromAttempts(progress),
         quizAttempts: progress.quizAttempts.map((a) => ({
           ...a,
           clozeCorrect: a.clozeCorrect ?? 0,
@@ -111,22 +139,23 @@ export function getChapterProgress(
 ): ChapterProgress {
   const key = chapterKey(book, chapter);
   const progress = state.chapterProgress[key] ?? defaultProgress(book, chapter);
+  if (isTestChapter(chapter) && !state.debugMode) {
+    return { ...progress, status: "locked" };
+  }
   if (state.debugMode && progress.status === "locked") {
     return { ...progress, status: "preview_available" };
   }
   return progress;
 }
 
-const BOOK1_CHAPTER_COUNT = 17;
-
-/** Debug mode: unlock all Book 1 chapters for testing */
+/** Debug mode: unlock all Book 1 chapters (including Ch.0 sandbox) for testing */
 export function setDebugMode(state: AppState, enabled: boolean): AppState {
   if (!enabled) {
     return { ...state, debugMode: false };
   }
 
   const chapterProgress = { ...state.chapterProgress };
-  for (let ch = 1; ch <= BOOK1_CHAPTER_COUNT; ch++) {
+  for (let ch = 0; ch <= BOOK1_CHAPTER_COUNT; ch++) {
     const key = chapterKey(1, ch);
     const existing = chapterProgress[key] ?? defaultProgress(1, ch);
     if (existing.status === "locked") {
@@ -138,6 +167,8 @@ export function setDebugMode(state: AppState, enabled: boolean): AppState {
 }
 
 export function unlockNextChapter(state: AppState, book: number, chapter: number): AppState {
+  if (isTestChapter(chapter)) return state;
+
   const nextKey = chapterKey(book, chapter + 1);
   const existing = state.chapterProgress[nextKey];
   if (existing && existing.status !== "locked") return state;
@@ -203,13 +234,16 @@ export function completeReading(
   const current = getChapterProgress(state, book, chapter);
 
   let profile = state.profile;
-  if (profile) {
+  if (profile && !current.readingCompleted) {
     profile = {
       ...profile,
       housePoints: profile.housePoints + POINTS.reading,
       readingStamina: Math.min(1, profile.readingStamina * 0.8 + (minutes / 30) * 0.2),
     };
   }
+
+  const nextStatus: ChapterStatus =
+    current.status === "completed" ? "completed" : "quiz_pending";
 
   return {
     ...state,
@@ -218,9 +252,81 @@ export function completeReading(
       ...state.chapterProgress,
       [key]: {
         ...current,
-        status: "quiz_pending",
+        status: nextStatus,
+        readingCompleted: true,
         readingMinutes: minutes,
         bookmarkPage,
+      },
+    },
+  };
+}
+
+export function saveQuizDraft(
+  state: AppState,
+  book: number,
+  chapter: number,
+  draft: QuizDraft,
+): AppState {
+  const key = chapterKey(book, chapter);
+  const current = getChapterProgress(state, book, chapter);
+
+  return {
+    ...state,
+    chapterProgress: {
+      ...state.chapterProgress,
+      [key]: {
+        ...current,
+        quizDraft: draft,
+      },
+    },
+  };
+}
+
+export function clearQuizDraft(state: AppState, book: number, chapter: number): AppState {
+  const key = chapterKey(book, chapter);
+  const current = getChapterProgress(state, book, chapter);
+  const { quizDraft: _removed, ...rest } = current;
+
+  return {
+    ...state,
+    chapterProgress: {
+      ...state.chapterProgress,
+      [key]: rest as ChapterProgress,
+    },
+  };
+}
+
+/** Reset Chapter 0 sandbox progress for repeated Reading / Quiz testing */
+export function resetSandboxChapter(state: AppState, book: number): AppState {
+  const key = chapterKey(book, 0);
+  return {
+    ...state,
+    chapterProgress: {
+      ...state.chapterProgress,
+      [key]: {
+        ...defaultProgress(book, 0),
+        status: state.debugMode ? "preview_available" : "locked",
+      },
+    },
+  };
+}
+
+/** Clear completed quiz so the learner can retake from scratch */
+export function beginQuizRetake(state: AppState, book: number, chapter: number): AppState {
+  const key = chapterKey(book, chapter);
+  const current = getChapterProgress(state, book, chapter);
+  const { quizDraft: _draft, lastQuizResult: _result, ...rest } = current;
+
+  return {
+    ...state,
+    chapterProgress: {
+      ...state.chapterProgress,
+      [key]: {
+        ...(rest as ChapterProgress),
+        status: "quiz_pending",
+        bestScore: undefined,
+        completedAt: undefined,
+        lastQuizResult: undefined,
       },
     },
   };
@@ -264,10 +370,10 @@ export function submitQuiz(
 
   const newStatus: ChapterStatus = attempt.passed ? "completed" : "quiz_pending";
   const completedCount = Object.values(state.chapterProgress).filter(
-    (p) => p.status === "completed",
+    (p) => p.status === "completed" && !isTestChapter(p.chapter),
   ).length;
 
-  if (attempt.passed && completedCount === 0) {
+  if (attempt.passed && completedCount === 0 && !isTestChapter(chapter)) {
     badges = awardBadge(badges, "first_chapter");
   }
   if (attempt.score >= 1) {
@@ -281,6 +387,20 @@ export function submitQuiz(
   if (masteredCount >= 100) {
     badges = awardBadge(badges, "vocab_100");
   }
+
+  const lastQuizResult: QuizResultSummary | undefined = attempt.passed
+    ? {
+        score: attempt.score,
+        passed: attempt.passed,
+        comprehensionCorrect: attempt.comprehensionCorrect,
+        comprehensionTotal: attempt.comprehensionTotal,
+        vocabularyCorrect: attempt.vocabularyCorrect,
+        vocabularyTotal: attempt.vocabularyTotal,
+        clozeCorrect: attempt.clozeCorrect,
+        clozeTotal: attempt.clozeTotal,
+        completedAt: fullAttempt.date,
+      }
+    : current.lastQuizResult;
 
   let newState: AppState = {
     ...state,
@@ -296,11 +416,12 @@ export function submitQuiz(
         quizAttempts: [...current.quizAttempts, fullAttempt],
         bestScore: Math.max(current.bestScore ?? 0, attempt.score),
         completedAt: attempt.passed ? new Date().toISOString() : current.completedAt,
+        lastQuizResult,
       },
     },
   };
 
-  if (attempt.passed && attempt.score >= passThreshold) {
+  if (attempt.passed && attempt.score >= passThreshold && !isTestChapter(chapter)) {
     newState = unlockNextChapter(newState, book, chapter);
   }
 
@@ -386,6 +507,7 @@ export function setPlacement(
       ...defaultProgress(1, ch),
       status: ch < startChapter ? "completed" : ch === startChapter ? "preview_available" : "locked",
       previewCompleted: ch < startChapter,
+      readingCompleted: ch < startChapter,
       completedAt: ch < startChapter ? new Date().toISOString() : undefined,
       bestScore: ch < startChapter ? 1 : undefined,
     };
