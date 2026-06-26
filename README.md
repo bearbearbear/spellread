@@ -23,6 +23,12 @@ npm run dev
 
 Open [http://localhost:3001](http://localhost:3001)
 
+## Live Site
+
+[https://bearbearbear.github.io/spellread/](https://bearbearbear.github.io/spellread/)
+
+Pushes to `main` deploy automatically via GitHub Pages.
+
 ## Scripts
 
 ```bash
