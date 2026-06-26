@@ -7,197 +7,185 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "alibi",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 105"
+      "definition": "a story meant to prove you were somewhere else when something happened",
+      "example": "Excuses, alibis, and wild cover-up stories chased each other around Harry’s brain, each more feeble than the last.",
+      "pageHint": "McGonagall's study"
     },
     {
-      "word": "mystery",
+      "word": "corner",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to trap someone so they cannot escape or avoid trouble",
+      "example": "They were cornered.",
+      "formInText": "cornered",
+      "pageHint": "McGonagall's study"
+    },
+    {
+      "word": "meddle",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to get involved in something that is not your business",
+      "example": "It was a bit late to repair the damage, but Harry swore to himself not to meddle in things that weren’t his business from now on.",
+      "pageHint": "after losing points"
+    },
+    {
+      "word": "whimper",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to make soft, frightened crying sounds",
+      "example": "Walking back from the library on his own one afternoon, he heard somebody whimpering from a classroom up ahead.",
+      "formInText": "whimpering",
+      "pageHint": "near classroom"
+    },
+    {
+      "word": "crossbow",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
+      "definition": "a weapon like a small bow mounted on a stock, used to shoot arrows",
+      "example": "He was carrying his large crossbow, and a quiver of arrows hung over his shoulder.",
+      "pageHint": "forest edge"
     },
     {
-      "word": "secret",
-      "tier": 1,
+      "word": "unicorn",
+      "tier": 3,
       "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
+      "definition": "a magical horse-like creature with a single horn on its forehead",
+      "example": "That’s unicorn blood.",
+      "pageHint": "forest path"
     },
     {
-      "word": "castle",
-      "tier": 1,
+      "word": "centaur",
+      "tier": 3,
       "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
+      "definition": "a magical creature with a human upper body and a horse's lower body",
+      "example": "He walked forward and shook the centaur’s hand.",
+      "pageHint": "meeting Ronan"
     },
     {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
+      "word": "slither",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
+      "partOfSpeech": "verb",
+      "definition": "to move smoothly along the ground like a snake",
+      "example": "Something was slithering over dead leaves nearby: it sounded like a cloak trailing along the ground.",
+      "formInText": "slithering",
+      "pageHint": "forest path"
     },
     {
-      "word": "friendship",
+      "word": "monstrous",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
+      "partOfSpeech": "adjective",
+      "definition": "shockingly cruel or wicked",
+      "example": "That is because it is a monstrous thing, to slay a unicorn,",
+      "pageHint": "Firenze's explanation"
     },
     {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
+      "word": "cursed",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "under an evil spell or doomed to suffer",
+      "example": "you will have but a half life, a cursed life, from the moment the blood touches your lips.",
+      "pageHint": "Firenze's explanation"
     },
     {
-      "word": "discover",
+      "word": "shiver",
       "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to shake slightly from cold or fear",
+      "example": "He turned and cantered back into the depths of the forest, leaving Harry shivering behind him.",
+      "formInText": "shivering",
+      "pageHint": "after Firenze leaves"
     },
     {
-      "word": "challenge",
+      "word": "detention",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
-    },
-    {
-      "word": "loyal",
-      "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
-    },
-    {
-      "word": "brave",
-      "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "a punishment that keeps students after hours for breaking rules",
+      "example": "All three of you will receive detentions—yes, you too, Mr.",
+      "pageHint": "breakfast note"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 15."
+        "name": "Harry Potter",
+        "description": "Loses Gryffindor's lead in house points and serves detention in the Forbidden Forest."
       },
       {
-        "name": "Malfoy",
-        "description": "Appears in Chapter 15."
+        "name": "Hermione Granger",
+        "description": "Punished alongside Harry and walks the forest trail with Hagrid."
       },
       {
-        "name": "Hagrid",
-        "description": "Appears in Chapter 15."
+        "name": "Rubeus Hagrid",
+        "description": "Leads the detention party to find an injured unicorn."
       },
       {
         "name": "Firenze",
-        "description": "Appears in Chapter 15."
-      },
-      {
-        "name": "Voldemort",
-        "description": "Appears in Chapter 15."
+        "description": "A centaur who saves Harry and hints that Voldemort wants the Stone."
       }
     ],
-    "hook": "Harry serves detention in the dangerous Forbidden Forest.",
-    "readingFocus": "Watch what Harry sees in the forest and what it means."
+    "hook": "Caught without the Invisibility Cloak, Harry, Hermione, and Neville lose a hundred and fifty house points in one night. Their punishment sends them into the Forbidden Forest at midnight, where unicorn blood, centaurs, and a hooded figure waiting in the shadows change everything Harry thought he knew about Snape.",
+    "readingFocus": "Notice how the school turns against Harry after the points loss. In the forest, watch what the centaurs say about Mars and what Firenze reveals about unicorn blood and the Stone."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "unicorn",
+      "stem": "A unicorn is —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "a magical creature with one horn"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "a three-headed dog"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "a type of broomstick"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "centaur",
+      "stem": "A centaur has —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "a human top half and a horse's body below"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "wings like a bird"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "a serpent's tail instead of legs"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "meddle",
+      "stem": "To meddle means to —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "get involved in what is not your business"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "study quietly for exams"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "win a Quidditch match"
         }
       ],
       "correctId": "a"
@@ -209,190 +197,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 15?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'The Forbidden Forest'"
+            "text": "Harry and the others lose massive house points, serve forest detention, and Harry learns Voldemort may be hunting the Stone"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "The trio smuggles a dragon to the tallest tower"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Harry wins the house cup at the end-of-year feast"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hagrid teaches them how to breed dragons legally"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Forbidden Forest'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "After the Norbert disaster costs Gryffindor one hundred fifty points, detention in the Forbidden Forest leads Harry to unicorn blood, Firenze, and the truth about who wants the Stone."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "How many house points does Gryffindor lose in one night?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "One hundred and fifty"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Fifty"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Twenty"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "None — they gain points"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "McGonagall takes fifty points from each of the four students, for a total of one hundred fifty.",
+        "pageHint": "McGonagall's study"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What does McGonagall think the trio did to Malfoy?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "Fed him a false story about a dragon to lure him out of bed"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Stole his homework in the library"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Turned him into a rat with a spell"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Locked him in the astronomy tower"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "She decides they told Malfoy a cock-and-bull story about a dragon to get him into trouble.",
+        "pageHint": "McGonagall's study"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "What are the students looking for in the forest?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "An injured unicorn"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Norbert the dragon"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "The Mirror of Erised"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Harry's lost Nimbus Two Thousand"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "Hagrid says unicorn blood is on the ground and they must try to find the poor injured creature.",
+        "pageHint": "forest edge"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "How does the school treat Harry after the points are lost?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "He becomes the most hated student; even other houses turn on him"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Everyone throws him a celebration party"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Only Slytherin students ignore him"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Dumbledore awards him extra points"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "Harry goes from hero to outcast; Ravenclaws and Hufflepuffs turn on him while Slytherins cheer.",
+        "pageHint": "next day"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "What does Firenze say unicorn blood is used for?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "Keeping someone alive even when they are near death, at the cost of a cursed half-life"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Making ordinary fire turn purple"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Curing dragon bites in the hospital wing"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Helping first years pass their exams"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "Firenze explains that only someone desperate would drink unicorn blood to stay alive until they can gain full power again.",
+        "pageHint": "riding through forest"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "What does Harry find under his sheets when he returns to the dormitory?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'The Forbidden Forest'"
+            "text": "His Invisibility Cloak with a note that says 'Just in case.'"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "A dragon egg wrapped in a towel"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Malfoy's detention note"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "The Sorcerer's Stone itself"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Forbidden Forest'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 15"
+        "explanation": "Someone returns the cloak Harry left on the tower with a short note pinned to it.",
+        "pageHint": "end of chapter"
       }
     ],
     "vocabulary": [
@@ -400,212 +387,228 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "An 'alibi' is —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "a story meant to prove you were not involved"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "a magical forest creature"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "a type of house point"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "a centaur's bow"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Harry tries to think of excuses and alibis but none seem good enough.",
+        "relatedWord": "alibi"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "Hagrid carried his large ___ and a quiver of arrows.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "crossbow"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "unicorn"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "alibi"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "detention"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Hagrid brings a crossbow when he meets the detention group.",
+        "relatedWord": "crossbow"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "Something 'monstrous' is —",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "shockingly cruel or wicked"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "small and harmless"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "bright and cheerful"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "made of solid gold"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Firenze calls killing a unicorn a monstrous crime.",
+        "relatedWord": "monstrous"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'slither'?",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "creep smoothly along the ground"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "shout loudly"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "fly above the trees"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "sleep deeply"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Something slithers over dead leaves like a cloak trailing on the ground.",
+        "relatedWord": "slither"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "Harry swore not to ___ in things that weren't his business.",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "meddle"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "shiver"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "whimper"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "corner"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "After losing the points, Harry promises to stop meddling.",
+        "relatedWord": "meddle"
       }
     ],
     "cloze": {
       "id": "cloze-ch15",
       "title": "The Forbidden Forest",
       "paragraphs": [
-        "Harry serves detention in the dangerous Forbidden Forest. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Forbidden Forest\", the key idea involves (5) ___ and (6) ___."
+        "Forgotten without the cloak, the trio are (1) ___ and lose one hundred fifty points. Harry vows not to (2) ___ anymore, but still hears Quirrell (3) ___ing in a classroom.",
+        "Their (4) ___ sends them into the forest with Hagrid's (5) ___ to search for an injured (6) ___.",
+        "Harry sees a hooded figure drink unicorn blood; Firenze the (7) ___ saves him and warns that someone wants the Stone to live again."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
-          "acceptAlternatives": [],
+          "answer": "cornered",
+          "acceptAlternatives": [
+            "corner"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 105"
+          "relatedWord": "corner",
+          "explanation": "Harry feels they are cornered with no good excuse.",
+          "pageHint": "McGonagall's study"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "meddle",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "meddle",
+          "explanation": "Harry swears not to meddle in things that aren't his business.",
+          "pageHint": "after points loss"
         },
         {
           "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
+          "answer": "whimpering",
+          "acceptAlternatives": [
+            "whimper"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "whimper",
+          "explanation": "Harry hears somebody whimpering from a classroom.",
+          "pageHint": "library corridor"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "detention",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "detention",
+          "explanation": "Notes say their detention is at eleven o'clock tonight.",
+          "pageHint": "breakfast"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "crossbow",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "crossbow",
+          "explanation": "Hagrid carries his large crossbow into the forest.",
+          "pageHint": "forest edge"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "unicorn",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "unicorn",
+          "explanation": "Silvery blood on the path shows a unicorn has been hurt.",
+          "pageHint": "forest path"
+        },
+        {
+          "id": 7,
+          "answer": "centaur",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "centaur",
+          "explanation": "Firenze is a centaur who carries Harry to safety.",
+          "pageHint": "clearing"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "cornered",
+        "meddle",
+        "whimpering",
+        "detention",
+        "crossbow",
+        "unicorn",
+        "centaur",
+        "alibi",
+        "monstrous",
+        "cursed",
+        "shivering",
+        "slithering"
       ],
       "guidedMode": true,
       "openMode": true

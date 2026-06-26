@@ -28,6 +28,7 @@ export type QuestionType =
   | "listening";
 
 export interface VocabularyItem {
+  /** Dictionary form shown on flashcards: verb infinitive, noun singular */
   word: string;
   tier: VocabTier;
   partOfSpeech: string;
@@ -35,6 +36,8 @@ export interface VocabularyItem {
   /** Chinese gloss shown on flashcard back; falls back to `definition` if omitted */
   definitionZh?: string;
   example: string;
+  /** Surface form as it appears in `example` when different from `word` (e.g. winked → wink) */
+  formInText?: string;
   pageHint: string;
   grammarTip?: string;
 }

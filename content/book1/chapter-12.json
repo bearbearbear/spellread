@@ -7,193 +7,186 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "drafty",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "having cold air blowing through",
+      "example": "While the Gryffindor common room and the Great Hall had roaring fires, the drafty corridors had become icy and a bitter wind rattled the windows in the classrooms.",
+      "pageHint": "approaching Christmas"
+    },
+    {
+      "word": "festoon",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 102"
+      "definition": "a decorative chain of flowers, leaves, or other material hung in a loop",
+      "example": "Festoons of holly and mistletoe hung all around the walls, and no less than twelve towering Christmas trees stood around the room, some sparkling with tiny icicles, some glittering with hundreds of candles.",
+      "formInText": "Festoons",
+      "pageHint": "Great Hall decorations"
     },
     {
-      "word": "mystery",
+      "word": "drawl",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
+      "definition": "a way of speaking slowly, stretching out the words",
+      "example": "“Would you mind moving out of the way?” came Malfoy’s cold drawl from behind them.",
+      "pageHint": "corridor with Hagrid's tree"
     },
     {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
+      "word": "disgruntled",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
+      "partOfSpeech": "adjective",
+      "definition": "annoyed and dissatisfied",
+      "example": "“Just have to find out for ourselves, then,” said Ron, and they left Hagrid looking disgruntled and hurried off to the library.",
+      "pageHint": "after questioning Hagrid"
     },
     {
-      "word": "friendship",
+      "word": "brandish",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to wave or hold something in a threatening or excited way",
+      "example": "Madam Pince the librarian brandished a feather duster at him.",
+      "formInText": "brandished",
+      "pageHint": "Restricted Section"
     },
     {
-      "word": "challenge",
+      "word": "whittle",
       "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to carve wood by cutting small pieces off",
+      "example": "Inside was a roughly cut wooden flute. Hagrid had obviously whittled it himself.",
+      "formInText": "whittled",
+      "pageHint": "Christmas presents"
+    },
+    {
+      "word": "slither",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to slide smoothly, like a snake",
+      "example": "Something fluid and silvery gray went slithering to the floor where it lay in gleaming folds.",
+      "formInText": "slithering",
+      "pageHint": "last Christmas parcel"
+    },
+    {
+      "word": "Invisibility",
+      "tier": 3,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "the state of not being seen",
+      "example": "“It’s an Invisibility Cloak,” said Ron, a look of awe on his face.",
+      "pageHint": "Christmas morning"
     },
     {
-      "word": "loyal",
+      "word": "scrawl",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to write quickly and messily",
+      "example": "It was wrapped in thick brown paper and scrawled across it was To Harry, from Hagrid.",
+      "formInText": "scrawled",
+      "pageHint": "Hagrid's present"
+    },
+    {
+      "word": "bloodcurdling",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "so frightening it seems to freeze your blood",
+      "example": "A piercing, bloodcurdling shriek split the silence—the book was screaming!",
+      "pageHint": "Restricted Section at night"
     },
     {
-      "word": "brave",
-      "tier": 1,
+      "word": "entranced",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "so fascinated that you cannot look away",
+      "example": "Men have wasted away before it, entranced by what they have seen, or been driven mad, not knowing if what it shows is real or even possible.",
+      "pageHint": "Dumbledore explains the mirror"
+    },
+    {
+      "word": "nearsighted",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "unable to see things clearly unless they are close",
+      "example": "“Strange how nearsighted being invisible can make you,” said Dumbledore, and Harry was relieved to see that he was smiling.",
+      "pageHint": "mirror room with Dumbledore"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 12."
+        "name": "Harry Potter",
+        "description": "Stays at Hogwarts for Christmas, receives an Invisibility Cloak, and discovers the Mirror of Erised."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 12."
+        "name": "Ron Weasley",
+        "description": "Shares Christmas with Harry and sees himself as Head Boy in the mirror."
       },
       {
-        "name": "Dumbledore",
-        "description": "Appears in Chapter 12."
+        "name": "Albus Dumbledore",
+        "description": "Finds Harry at the mirror and explains what the Mirror of Erised shows."
       },
       {
-        "name": "Mirror of Erised",
-        "description": "Appears in Chapter 12."
+        "name": "Draco Malfoy",
+        "description": "Taunts Harry about having nowhere to go for the holidays."
       }
     ],
-    "hook": "Harry discovers a mirror that shows his deepest desire.",
-    "readingFocus": "Think about what Harry sees and why Dumbledore warns him."
+    "hook": "Snow covers Hogwarts as Christmas arrives. Harry gets unexpected presents — including a rare Invisibility Cloak — and at night he finds a magical mirror that shows him the family he has never known.",
+    "readingFocus": "Watch what gifts Harry receives, what happens when he uses the cloak in the library, and what different people see in the Mirror of Erised."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "Invisibility",
+      "stem": "An Invisibility Cloak makes the wearer —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "impossible to see"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "able to fly faster"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "immune to cold weather"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "entranced",
+      "stem": "If you are entranced by something, you are —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "completely fascinated by it"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "angry and ready to fight"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "very hungry"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "whittle",
+      "stem": "To whittle means to —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "carve wood by cutting small pieces away"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "wrap a Christmas present"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "sing a holiday song"
         }
       ],
       "correctId": "a"
@@ -205,190 +198,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 12?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'The Mirror of Erised'"
+            "text": "Harry's first Christmas at Hogwarts, his Invisibility Cloak, and the Mirror of Erised"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry's first Quidditch match against Slytherin"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Harry and Ron fighting a mountain troll"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hagrid raising a Norwegian Ridgeback dragon"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Mirror of Erised'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "The chapter covers Christmas at Hogwarts, Harry's presents, nights with the mirror, and Dumbledore's warning about dwelling on dreams."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "What does Hagrid give Harry for Christmas?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "A roughly cut wooden flute"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "A box of Chocolate Frogs"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "A wizard chess set"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "A fifty pence piece"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "Hagrid's parcel contains a wooden flute he whittled himself.",
+        "pageHint": "Christmas morning"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What is inside Harry's last Christmas parcel?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "An Invisibility Cloak and a note saying his father left it"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "A hand-knitted Weasley sweater only"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "A signed copy of Quidditch Through the Ages"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "A map of the Forbidden Forest"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "Silvery cloth slithers to the floor, and Ron identifies it as an Invisibility Cloak with a note from Harry's father.",
+        "pageHint": "Christmas morning"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "What does Harry see in the Mirror of Erised?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "His parents and other family members smiling at him"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Himself holding the Quidditch cup as captain"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape stealing the guarded object"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Dumbledore defeating Voldemort"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "Harry sees his mother, father, and other relatives with his green eyes and knobbly knees.",
+        "pageHint": "first night at the mirror"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "What does Ron see when he stands in front of the mirror?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "Himself as Head Boy holding the house and Quidditch cups"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry's parents waving behind him"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Nothing at all"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Malfoy being expelled from Hogwarts"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "Ron sees himself older, wearing the Head Boy badge, and holding the house and Quidditch cups.",
+        "pageHint": "second night at the mirror"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "Why does Harry go to the Restricted Section on Christmas night?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "He wants to find out who Nicolas Flamel is"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Madam Pince invites him for extra credit"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape sets him a detention there"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "He is looking for another mirror"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "Under the cloak, Harry hopes to read until he learns who Flamel is.",
+        "pageHint": "first night with the cloak"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "What does Dumbledore tell Harry about the mirror?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'The Mirror of Erised'"
+            "text": "It shows people's deepest desires and will be moved; Harry must not go looking for it again"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "It predicts the future and should be used every night"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "It belongs to Snape and must be returned at once"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "It only works on Christmas Eve"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Mirror of Erised'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 12"
+        "explanation": "Dumbledore explains the mirror shows the deepest desire of one's heart and warns that it does not do to dwell on dreams and forget to live.",
+        "pageHint": "third night at the mirror"
       }
     ],
     "vocabulary": [
@@ -396,212 +388,226 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "If a place is drafty, it —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "lets cold air blow through"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "is filled with Christmas music"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "is locked with a special charm"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "is hidden under an Invisibility Cloak"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Drafty corridors grow icy while the common room stays warm.",
+        "relatedWord": "drafty"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "Something fluid and silvery gray went ___ to the floor where it lay in gleaming folds.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "slithering"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "brandishing"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "whittling"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "scrawling"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "The silvery Invisibility Cloak slithers to the floor when Harry unwraps it.",
+        "relatedWord": "slither"
       },
       {
         "id": "v3",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'disgruntled'?",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "annoyed and unhappy"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "very cheerful"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "completely invisible"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "extremely wealthy"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Hagrid looks disgruntled after they keep asking about Nicolas Flamel.",
+        "relatedWord": "disgruntled"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "A piercing, ___ shriek split the silence—the book was screaming!",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "bloodcurdling"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "drafty"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "nearsighted"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "entranced"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "A screaming book in the Restricted Section lets out a bloodcurdling shriek.",
+        "relatedWord": "bloodcurdling"
       },
       {
         "id": "v5",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "To brandish something is to —",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "wave it in a threatening or showy way"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "wrap it as a Christmas gift"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "hide it under a cloak"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "freeze it in the snow"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Madam Pince brandishes a feather duster at Harry in the Restricted Section.",
+        "relatedWord": "brandish"
       }
     ],
     "cloze": {
       "id": "cloze-ch12",
       "title": "The Mirror of Erised",
       "paragraphs": [
-        "Harry discovers a mirror that shows his deepest desire. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Mirror of Erised\", the key idea involves (5) ___ and (6) ___."
+        "Snow covers Hogwarts as Christmas nears. (1) ___ corridors grow icy, and the Great Hall is hung with (2) ___ of holly and mistletoe around twelve towering trees.",
+        "Harry stays for the holidays and opens presents, including a flute Hagrid (3) ___ and a silvery (4) ___ Cloak that once belonged to his father.",
+        "Wearing the cloak, Harry sneaks into the library's Restricted Section, where a book lets out a (5) ___ shriek. Fleeing Filch and Snape, he hides in a room with the Mirror of (7) ___ and sees his family.",
+        "Ron later sees himself as Head Boy, but Dumbledore warns that people can become (6) ___ by the mirror and says it shows the deepest desire of the heart."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "drafty",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 102"
+          "relatedWord": "drafty",
+          "explanation": "Drafty corridors turn icy while fires burn in the common room.",
+          "pageHint": "approaching Christmas"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "Festoons",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "festoon",
+          "explanation": "Festoons of holly and mistletoe decorate the Great Hall.",
+          "pageHint": "Christmas decorations"
         },
         {
           "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
+          "answer": "whittled",
+          "acceptAlternatives": [
+            "whittle"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "whittle",
+          "explanation": "Hagrid whittled the wooden flute himself.",
+          "pageHint": "Christmas morning"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "Invisibility",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "Invisibility",
+          "explanation": "Ron identifies the silvery cloak as an Invisibility Cloak.",
+          "pageHint": "Christmas morning"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "bloodcurdling",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "bloodcurdling",
+          "explanation": "A Restricted Section book screams with a bloodcurdling shriek.",
+          "pageHint": "library at night"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "entranced",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "entranced",
+          "explanation": "Dumbledore says men have wasted away before the mirror, entranced by what they see.",
+          "pageHint": "talk with Dumbledore"
+        },
+        {
+          "id": 7,
+          "answer": "Erised",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "explanation": "Dumbledore says Harry has discovered the delights of the Mirror of Erised.",
+          "pageHint": "mirror room"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "drafty",
+        "Festoons",
+        "whittled",
+        "Invisibility",
+        "bloodcurdling",
+        "entranced",
+        "Erised",
+        "disgruntled",
+        "drawl",
+        "scrawled",
+        "slithering",
+        "nearsighted"
       ],
       "guidedMode": true,
       "openMode": true

@@ -7,190 +7,157 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "alley",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a narrow street between buildings",
-      "example": "Diagon Alley is hidden from Muggles.",
-      "pageHint": "p. 55"
-    },
-    {
-      "word": "vault",
+      "word": "grubby",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a secure room for storing valuables",
-      "example": "Harry's gold is in a vault.",
-      "pageHint": "p. 62"
+      "partOfSpeech": "adjective",
+      "definition": "dirty and in need of a wash",
+      "example": "It was a tiny, grubby looking pub.",
+      "pageHint": "the Leaky Cauldron"
     },
     {
-      "word": "robe",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a long loose garment",
-      "example": "Harry needs school robes.",
-      "pageHint": "p. 58"
-    },
-    {
-      "word": "cauldron",
+      "word": "peculiar",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a large pot for brewing",
-      "example": "Students need a pewter cauldron.",
-      "pageHint": "p. 59"
+      "partOfSpeech": "adjective",
+      "definition": "strange or unusual",
+      "example": "In fact, Harry had the most peculiar feeling that only he and Hagrid could see it.",
+      "pageHint": "outside the Leaky Cauldron"
     },
     {
-      "word": "wand",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a stick used to cast spells",
-      "example": "Harry will buy a wand.",
-      "pageHint": "p. 64"
-    },
-    {
-      "word": "dragon",
+      "word": "shabby",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a large mythical fire-breathing creature",
-      "example": "Gringotts guards are dragons.",
-      "pageHint": "p. 61"
+      "partOfSpeech": "adjective",
+      "definition": "worn out and in poor condition",
+      "example": "For a famous place, it was very dark and shabby.",
+      "pageHint": "inside the Leaky Cauldron"
     },
     {
       "word": "goblin",
       "tier": 3,
       "partOfSpeech": "noun",
-      "definition": "a small magical creature that runs the bank",
-      "example": "Goblins work at Gringotts.",
-      "pageHint": "p. 61"
+      "definition": "a small, clever magical creature that runs Gringotts bank",
+      "example": "\u201cYeah, that\u2019s a goblin,\u201d said Hagrid quietly as they walked up the white stone steps toward him.",
+      "pageHint": "outside Gringotts"
     },
     {
-      "word": "supplies",
-      "tier": 1,
+      "word": "fortune",
+      "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "things you need for a task",
-      "example": "Harry buys school supplies.",
-      "pageHint": "p. 59"
+      "definition": "a very large amount of money",
+      "example": "And all the time there had been a small fortune belonging to him, buried deep under London.",
+      "pageHint": "Harry's vault"
     },
     {
-      "word": "inherit",
+      "word": "collapsible",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "able to fold up into a smaller size",
+      "example": "Cauldrons—All Sizes—Copper, Brass, Pewter, Silver—Self Stirring—Collapsible, said a sign hanging over them.",
+      "pageHint": "Diagon Alley shops"
+    },
+    {
+      "word": "curious",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "strange or interesting in an unexpected way",
+      "example": "He put Harry\u2019s wand back into its box and wrapped it in brown paper, still muttering, \u201cCurious\u2026 curious\u2026\u201d",
+      "pageHint": "Ollivander's shop"
+    },
+    {
+      "word": "wriggle",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "to receive something from someone who died",
-      "example": "Harry inherited gold from his parents.",
-      "pageHint": "p. 62"
+      "definition": "to twist and move with small quick movements",
+      "example": "The brick he had touched quivered—it wriggled—in the middle, a small hole appeared—it grew wider and wider—a second later they were facing an archway large enough even for Hagrid, an archway onto a cobbled street that twisted and turned out of sight.",
+      "formInText": "wriggled",
+      "pageHint": "entering Diagon Alley"
     },
     {
-      "word": "snobbish",
+      "word": "stammer",
       "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to speak with pauses and repeated sounds, often from nervousness",
+      "example": "He couldn\u2019t stop stammering his thanks, sounding just like Professor Quirrell.",
+      "formInText": "stammering",
+      "pageHint": "after buying Hedwig"
+    },
+    {
+      "word": "famous",
+      "tier": 1,
       "partOfSpeech": "adjective",
-      "definition": "thinking you are better than others",
-      "example": "Malfoy seemed snobbish.",
-      "pageHint": "p. 58"
+      "definition": "known by many people",
+      "example": "Told yeh, didn\u2019t I? Told yeh you was famous.",
+      "pageHint": "leaving the Leaky Cauldron courtyard"
     },
     {
-      "word": "engraved",
+      "word": "sneer",
       "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "carved into a surface",
-      "example": "The vault key was engraved.",
-      "pageHint": "p. 62"
+      "partOfSpeech": "verb",
+      "definition": "to smile or speak in a mean, mocking way",
+      "example": "\u201cDo you?\u201d said the boy, with a slight sneer.",
+      "pageHint": "Madam Malkin's robe shop"
     },
     {
-      "word": "parchment",
-      "tier": 2,
+      "word": "enchantment",
+      "tier": 3,
       "partOfSpeech": "noun",
-      "definition": "writing material made from animal skin",
-      "example": "Harry needs parchment for school.",
-      "pageHint": "p. 59"
+      "definition": "magic spells that give objects special powers",
+      "example": "\u201cSpells\u2014enchantments,\u201d said Hagrid, unfolding his newspaper as he spoke.",
+      "pageHint": "boat ride to shore"
     }
   ],
   "background": {
     "characters": [
       {
         "name": "Harry Potter",
-        "description": "Sees the wizarding world for the first time."
+        "description": "Wakes to find the wizarding world is real and spends his first day shopping for school."
       },
       {
-        "name": "Hagrid",
-        "description": "Guides Harry through Diagon Alley."
+        "name": "Rubeus Hagrid",
+        "description": "Takes Harry to Gringotts, Diagon Alley, and every shop on the Hogwarts list."
       },
       {
         "name": "Draco Malfoy",
-        "description": "A boy Harry meets in a robe shop."
+        "description": "A pale, sneering boy in Madam Malkin's who looks down on Muggle-born wizards."
+      },
+      {
+        "name": "Mr. Ollivander",
+        "description": "The wand-maker who finds Harry's holly and phoenix feather wand."
       }
     ],
-    "hook": "Harry visits the wizarding shopping street and learns about his family's past and his own wealth.",
-    "readingFocus": "Notice the shops, tools, and people that make up wizard daily life."
+    "hook": "Harry's magical birthday continues with a trip to London. From the hidden Leaky Cauldron to the goblin-run bank at Gringotts and the wonders of Diagon Alley, he discovers he is rich, famous — and about to get a wand that shares a strange connection with his scar.",
+    "readingFocus": "Notice how wizards react when they recognize Harry. Watch what he buys and what the pale boy in the robe shop says about blood and family."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "alley",
-      "stem": "What does 'alley' mean?",
+      "word": "goblin",
+      "stem": "At Gringotts, the bank is run by —",
       "options": [
-        {
-          "id": "a",
-          "text": "a narrow street between buildings"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "goblins" },
+        { "id": "b", "text": "dragons" },
+        { "id": "c", "text": "owls" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "vault",
-      "stem": "What does 'vault' mean?",
+      "word": "fortune",
+      "stem": "A fortune is —",
       "options": [
-        {
-          "id": "a",
-          "text": "a secure room for storing valuables"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "a very large amount of money" },
+        { "id": "b", "text": "a type of school uniform" },
+        { "id": "c", "text": "a magic spell" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "robe",
-      "stem": "What does 'robe' mean?",
+      "word": "peculiar",
+      "stem": "Something peculiar is —",
       "options": [
-        {
-          "id": "a",
-          "text": "a long loose garment"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "strange or unusual" },
+        { "id": "b", "text": "very expensive" },
+        { "id": "c", "text": "perfectly ordinary" }
       ],
       "correctId": "a"
     }
@@ -201,190 +168,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "How do Harry and Hagrid enter Diagon Alley?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "Through the Leaky Cauldron and a secret brick wall"
-          },
-          {
-            "id": "b",
-            "text": "By flying broomstick"
-          },
-          {
-            "id": "c",
-            "text": "Through the zoo"
-          },
-          {
-            "id": "d",
-            "text": "By owl post"
-          }
+          { "id": "a", "text": "Hagrid takes Harry to Diagon Alley to get money, school supplies, an owl, and a wand" },
+          { "id": "b", "text": "Harry boards the Hogwarts Express for the first time" },
+          { "id": "c", "text": "Hagrid tells Harry he is a wizard" },
+          { "id": "d", "text": "Harry receives his first Hogwarts letter in the mail" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Through the Leaky Cauldron and a secret brick wall. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "The chapter follows Harry's shopping trip from the Leaky Cauldron through Gringotts and every Diagon Alley shop to Ollivander's."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Where does Harry get his money?",
+        "stem": "How do Harry and Hagrid enter Diagon Alley?",
         "options": [
-          {
-            "id": "a",
-            "text": "Gringotts Wizarding Bank"
-          },
-          {
-            "id": "b",
-            "text": "The Dursleys"
-          },
-          {
-            "id": "c",
-            "text": "Dudley's piggy bank"
-          },
-          {
-            "id": "d",
-            "text": "A street vendor"
-          }
+          { "id": "a", "text": "Hagrid taps bricks in the courtyard wall and it opens into an archway" },
+          { "id": "b", "text": "They fly on broomsticks over London" },
+          { "id": "c", "text": "A goblin escorts them through the Underground" },
+          { "id": "d", "text": "They walk through the front door of Gringotts" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Gringotts Wizarding Bank. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "Hagrid counts bricks above the trash can, taps the wall three times, and a hole grows into an archway onto Diagon Alley.",
+        "pageHint": "Leaky Cauldron courtyard"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Who runs Gringotts?",
+        "stem": "What does Harry find in his vault at Gringotts?",
         "options": [
-          {
-            "id": "a",
-            "text": "Goblins"
-          },
-          {
-            "id": "b",
-            "text": "Elves"
-          },
-          {
-            "id": "c",
-            "text": "Giants"
-          },
-          {
-            "id": "d",
-            "text": "Owls"
-          }
+          { "id": "a", "text": "Mounds of gold Galleons, silver Sickles, and bronze Knuts" },
+          { "id": "b", "text": "Only a single chocolate frog" },
+          { "id": "c", "text": "His parents' wands and robes" },
+          { "id": "d", "text": "An empty vault with nothing inside" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Goblins. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "When the green smoke clears, Harry gasps at columns of gold, silver, and heaps of bronze Knuts.",
+        "pageHint": "Harry's vault"
       },
       {
         "id": "c4",
-        "type": "detail",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What school supplies does Harry buy?",
+        "stem": "How do people in the Leaky Cauldron react when they see Harry?",
         "options": [
-          {
-            "id": "a",
-            "text": "Robes, books, cauldron, wand, and more"
-          },
-          {
-            "id": "b",
-            "text": "Only a broomstick"
-          },
-          {
-            "id": "c",
-            "text": "A car and a phone"
-          },
-          {
-            "id": "d",
-            "text": "Nothing — it is all free"
-          }
+          { "id": "a", "text": "They are thrilled and crowd around to shake his hand" },
+          { "id": "b", "text": "They ignore him completely" },
+          { "id": "c", "text": "They call the Ministry of Magic" },
+          { "id": "d", "text": "They ask him to leave immediately" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Robes, books, cauldron, wand, and more. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "The pub goes still, then everyone wants to meet Harry Potter and shake his hand.",
+        "pageHint": "the Leaky Cauldron"
       },
       {
         "id": "c5",
         "type": "inference",
         "category": "comprehension",
-        "stem": "Who does Harry meet in Madam Malkin's robe shop?",
+        "stem": "Why does Mr. Ollivander call Harry's wand situation curious?",
         "options": [
-          {
-            "id": "a",
-            "text": "Draco Malfoy"
-          },
-          {
-            "id": "b",
-            "text": "Hermione Granger"
-          },
-          {
-            "id": "c",
-            "text": "Ron Weasley"
-          },
-          {
-            "id": "d",
-            "text": "Professor Snape"
-          }
+          { "id": "a", "text": "The phoenix feather in Harry's wand came from the same bird as the wand that gave him his scar" },
+          { "id": "b", "text": "Harry chose the wrong wand on purpose" },
+          { "id": "c", "text": "Harry's wand is made of rubber" },
+          { "id": "d", "text": "No one has ever bought a wand before" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Draco Malfoy. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "Ollivander says the phoenix gave only one other feather — to the wand that scarred Harry.",
+        "pageHint": "Ollivander's shop"
       },
       {
         "id": "c6",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What does Harry learn about his parents' vault?",
+        "stem": "What pet does Hagrid buy for Harry?",
         "options": [
-          {
-            "id": "a",
-            "text": "They left him money in Gringotts"
-          },
-          {
-            "id": "b",
-            "text": "It is empty"
-          },
-          {
-            "id": "c",
-            "text": "It was stolen by goblins"
-          },
-          {
-            "id": "d",
-            "text": "It does not exist"
-          }
+          { "id": "a", "text": "A snowy owl" },
+          { "id": "b", "text": "A tabby cat" },
+          { "id": "c", "text": "A toad" },
+          { "id": "d", "text": "A Norwegian Ridgeback dragon" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They left him money in Gringotts. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "They leave Eeylops Owl Emporium with a beautiful snowy owl asleep in a cage.",
+        "pageHint": "Eeylops Owl Emporium"
       },
       {
         "id": "c7",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What is in vault seven hundred and thirteen?",
+        "stem": "Why does Harry like Hagrid less after meeting the boy in Madam Malkin's?",
         "options": [
-          {
-            "id": "a",
-            "text": "A mysterious package Hagrid collects"
-          },
-          {
-            "id": "b",
-            "text": "Harry's wand"
-          },
-          {
-            "id": "c",
-            "text": "A dragon egg"
-          },
-          {
-            "id": "d",
-            "text": "Dudley's old toys"
-          }
+          { "id": "a", "text": "The boy insults Hagrid, calling him a savage servant who sets fire to his bed" },
+          { "id": "b", "text": "Hagrid refuses to buy Harry a broomstick" },
+          { "id": "c", "text": "The boy is Harry's cousin Dudley" },
+          { "id": "d", "text": "Hagrid agrees with the boy about Muggle families" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A mysterious package Hagrid collects. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 5"
+        "explanation": "The pale boy sneers that Hagrid is a savage gamekeeper; Harry says coldly that he thinks Hagrid is brilliant.",
+        "pageHint": "Madam Malkin's"
       }
     ],
     "vocabulary": [
@@ -392,212 +274,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'inherit' mean in this chapter?",
+        "stem": "In this chapter, 'grubby' means —",
         "options": [
-          {
-            "id": "a",
-            "text": "receive from someone who died"
-          },
-          {
-            "id": "b",
-            "text": "buy at a shop"
-          },
-          {
-            "id": "c",
-            "text": "borrow temporarily"
-          },
-          {
-            "id": "d",
-            "text": "lose completely"
-          }
+          { "id": "a", "text": "dirty and worn looking" },
+          { "id": "b", "text": "very tall and wide" },
+          { "id": "c", "text": "filled with gold" },
+          { "id": "d", "text": "brand new and shiny" }
         ],
         "correctId": "a",
-        "explanation": "'inherit' means: receive from someone who died.",
-        "relatedWord": "inherit"
+        "explanation": "The Leaky Cauldron is described as a tiny, grubby looking pub.",
+        "relatedWord": "grubby"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'vault' mean in this chapter?",
+        "stem": "\"Yeah, that's a ___,\" said Hagrid quietly as they walked up the white stone steps toward him.",
         "options": [
-          {
-            "id": "a",
-            "text": "a secure storage room"
-          },
-          {
-            "id": "b",
-            "text": "a type of broom"
-          },
-          {
-            "id": "c",
-            "text": "a school subject"
-          },
-          {
-            "id": "d",
-            "text": "a pet owl"
-          }
+          { "id": "a", "text": "goblin" },
+          { "id": "b", "text": "fortune" },
+          { "id": "c", "text": "enchantment" },
+          { "id": "d", "text": "cauldron" }
         ],
         "correctId": "a",
-        "explanation": "'vault' means: a secure storage room.",
-        "relatedWord": "vault"
+        "explanation": "A goblin in scarlet and gold stands by Gringotts' bronze doors.",
+        "relatedWord": "goblin"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'snobbish' mean in this chapter?",
+        "stem": "An enchantment is —",
         "options": [
-          {
-            "id": "a",
-            "text": "thinking you are superior"
-          },
-          {
-            "id": "b",
-            "text": "being very kind"
-          },
-          {
-            "id": "c",
-            "text": "feeling very tired"
-          },
-          {
-            "id": "d",
-            "text": "being afraid of magic"
-          }
+          { "id": "a", "text": "a magic spell on an object" },
+          { "id": "b", "text": "a type of wizard coin" },
+          { "id": "c", "text": "a school house at Hogwarts" },
+          { "id": "d", "text": "a newspaper for wizards" }
         ],
         "correctId": "a",
-        "explanation": "'snobbish' means: thinking you are superior.",
-        "relatedWord": "snobbish"
+        "explanation": "Hagrid says spells and enchantments protect Gringotts from robbers.",
+        "relatedWord": "enchantment"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'goblin' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'shabby'?",
         "options": [
-          {
-            "id": "a",
-            "text": "a magical bank worker"
-          },
-          {
-            "id": "b",
-            "text": "a type of dragon"
-          },
-          {
-            "id": "c",
-            "text": "a Muggle banker"
-          },
-          {
-            "id": "d",
-            "text": "a school teacher"
-          }
+          { "id": "a", "text": "worn out and run-down" },
+          { "id": "b", "text": "extremely famous" },
+          { "id": "c", "text": "very curious" },
+          { "id": "d", "text": "perfectly clean" }
         ],
         "correctId": "a",
-        "explanation": "'goblin' means: a magical bank worker.",
-        "relatedWord": "goblin"
+        "explanation": "Despite being famous, the Leaky Cauldron inside is dark and shabby.",
+        "relatedWord": "shabby"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'cauldron' mean in this chapter?",
+        "stem": "And all the time there had been a small ___ belonging to him, buried deep under London.",
         "options": [
-          {
-            "id": "a",
-            "text": "a pot for brewing"
-          },
-          {
-            "id": "b",
-            "text": "a flying broom"
-          },
-          {
-            "id": "c",
-            "text": "a letter envelope"
-          },
-          {
-            "id": "d",
-            "text": "a school robe"
-          }
+          { "id": "a", "text": "fortune" },
+          { "id": "b", "text": "goblin" },
+          { "id": "c", "text": "enchantment" },
+          { "id": "d", "text": "sneer" }
         ],
         "correctId": "a",
-        "explanation": "'cauldron' means: a pot for brewing.",
-        "relatedWord": "cauldron"
+        "explanation": "Harry realizes the Dursleys never knew about the fortune waiting for him at Gringotts.",
+        "relatedWord": "fortune"
       }
     ],
     "cloze": {
       "id": "cloze-ch05",
       "title": "Diagon Alley",
       "paragraphs": [
-        "Harry visits the wizarding shopping street and learns about his family's past and his own wealth. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"Diagon Alley\", the key idea involves (5) ___ and (6) ___."
+        "Hagrid led Harry to the (1) ___ looking Leaky Cauldron, where Harry had a (2) ___ feeling that only they could see the pub. Inside, the famous place was dark and (3) ___.",
+        "At (4) ___ bank, Harry discovered a small (5) ___ in gold and silver. In Diagon Alley they bought books, a snowy owl, and at Ollivander's a wand that made red and gold sparks — though Mr. Ollivander found it very (6) ___.",
+        "To reach the alley, Hagrid tapped the courtyard wall until a brick (7) ___ and opened into a twisting cobbled street."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "alley",
+          "answer": "grubby",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "alley",
-          "explanation": "alley: a narrow street between buildings",
-          "pageHint": "p. 55"
+          "relatedWord": "grubby",
+          "explanation": "The Leaky Cauldron is a tiny, grubby looking pub.",
+          "pageHint": "the Leaky Cauldron"
         },
         {
           "id": 2,
-          "answer": "vault",
+          "answer": "peculiar",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "vault",
-          "explanation": "vault: a secure room for storing valuables",
-          "pageHint": "p. 62"
+          "relatedWord": "peculiar",
+          "explanation": "Harry has the most peculiar feeling that only he and Hagrid can see the pub.",
+          "pageHint": "outside the Leaky Cauldron"
         },
         {
           "id": 3,
-          "answer": "robe",
+          "answer": "shabby",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "robe",
-          "explanation": "robe: a long loose garment",
-          "pageHint": "p. 58"
+          "relatedWord": "shabby",
+          "explanation": "For a famous place, the Leaky Cauldron is very dark and shabby inside.",
+          "pageHint": "inside the Leaky Cauldron"
         },
         {
           "id": 4,
-          "answer": "cauldron",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "cauldron",
-          "explanation": "cauldron: a large pot for brewing",
-          "pageHint": "p. 59"
+          "answer": "goblin",
+          "acceptAlternatives": ["Gringotts"],
+          "gapType": "plot",
+          "relatedWord": "goblin",
+          "explanation": "Gringotts is run by goblins and is the wizards' bank.",
+          "pageHint": "Gringotts"
         },
         {
           "id": 5,
-          "answer": "wand",
+          "answer": "fortune",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "wand",
-          "explanation": "wand: a stick used to cast spells",
-          "pageHint": "p. 64"
+          "gapType": "vocabulary",
+          "relatedWord": "fortune",
+          "explanation": "Harry finds a small fortune belonging to him buried deep under London.",
+          "pageHint": "Harry's vault"
         },
         {
           "id": 6,
-          "answer": "dragon",
+          "answer": "curious",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "dragon",
-          "explanation": "dragon: a large mythical fire-breathing creature",
-          "pageHint": "p. 61"
+          "relatedWord": "curious",
+          "explanation": "Ollivander mutters \"Curious… curious…\" about Harry's wand.",
+          "pageHint": "Ollivander's shop"
+        },
+        {
+          "id": 7,
+          "answer": "wriggled",
+          "acceptAlternatives": ["wriggle"],
+          "gapType": "vocabulary",
+          "relatedWord": "wriggle",
+          "explanation": "The brick Hagrid touched quivered and wriggled until an archway opened.",
+          "pageHint": "Leaky Cauldron courtyard"
         }
       ],
       "wordBank": [
-        "alley",
-        "vault",
-        "robe",
-        "cauldron",
-        "wand",
-        "dragon",
+        "grubby",
+        "peculiar",
+        "shabby",
         "goblin",
-        "supplies",
-        "inherit"
+        "fortune",
+        "curious",
+        "wriggled",
+        "famous",
+        "collapsible",
+        "stammering",
+        "enchantment",
+        "sneer"
       ],
       "guidedMode": true,
       "openMode": true

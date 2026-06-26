@@ -7,198 +7,162 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 99"
-    },
-    {
-      "word": "mystery",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
+      "word": "groan",
       "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to make a low sound of complaint or dismay",
+      "example": "Still, first year Gryffindors only had Potions with the Slytherins, so they didn\u2019t have to put up with Malfoy much. Or at least, they didn\u2019t until they spotted a notice pinned up in the Gryffindor common room that made them all groan.",
+      "pageHint": "flying lesson notice"
     },
     {
-      "word": "challenge",
+      "word": "broomstick",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a magical stick used for flying",
+      "example": "\u201cTypical,\u201d said Harry darkly. \u201cJust what I always wanted. To make a fool of myself on a broomstick in front of Malfoy.\u201d",
+      "pageHint": "before flying lesson"
+    },
+    {
+      "word": "snatch",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to grab something quickly",
+      "example": "Neville was trying to remember what he\u2019d forgotten when Draco Malfoy, who was passing the Gryffindor table, snatched the Remembrall out of his hand.",
+      "formInText": "snatched",
+      "pageHint": "breakfast, Remembrall"
+    },
+    {
+      "word": "soar",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to fly high in the air",
+      "example": "Harry ignored her. Blood was pounding in his ears. He mounted the broom and kicked hard against the ground and up, up he soared; air rushed through his hair, and his robes whipped out behind him and in a rush of fierce joy he realized he\u2019d found something he could do without being taught\u2014this was easy, this was wonderful.",
+      "formInText": "soared",
+      "pageHint": "chasing Malfoy"
+    },
+    {
+      "word": "javelin",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "a long pointed spear thrown in sport",
+      "example": "He leaned forward and grasped the broom tightly in both hands, and it shot toward Malfay like a javelin.",
+      "pageHint": "midair chase"
     },
     {
-      "word": "loyal",
+      "word": "dive",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to plunge downward quickly",
+      "example": "He leaned forward and pointed his broom handle down\u2014next second he was gathering speed in a steep dive, racing the ball\u2014wind whistled in his ears, mingled with the screams of people watching\u2014he stretched out his hand\u2014a foot from the ground he caught it, just in time to pull his broom straight, and he toppled gently onto the grass with the Remembrall clutched safely in his fist.",
+      "pageHint": "catching the Remembrall"
+    },
+    {
+      "word": "Seeker",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "the Quidditch player who catches the Golden Snitch",
+      "example": "\u201cPotter, this is Oliver Wood. Wood\u2014I\u2019ve found you a Seeker.\u201d",
+      "pageHint": "McGonagall and Wood"
+    },
+    {
+      "word": "duel",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a formal fight between two people using magic or weapons",
+      "example": "\u201cI\u2019d take you on anytime on my own,\u201d said Malfoy. \u201cTonight, if you want. Wizard\u2019s duel. Wands only\u2014no contact. What\u2019s the matter? Never heard of a wizard\u2019s duel before, I suppose?\u201d",
+      "pageHint": "dinner, Malfoy\u2019s challenge"
+    },
+    {
+      "word": "bathrobe",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a loose robe worn before or after bathing or bed",
+      "example": "A lamp flickered on. It was Hermione Granger, wearing a pink bathrobe and a frown.",
+      "pageHint": "common room, before midnight"
+    },
+    {
+      "word": "trapdoor",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a hidden door in a floor or ceiling",
+      "example": "\u201cNo, not the floor. It was standing on a trapdoor. It\u2019s obviously guarding something.\u201d",
+      "pageHint": "after the three-headed dog"
+    },
+    {
+      "word": "monstrous",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "huge, frightening, and unnatural",
+      "example": "They were looking straight into the eyes of a monstrous dog, a dog that filled the whole space between ceiling and floor.",
+      "pageHint": "forbidden corridor"
     },
     {
-      "word": "brave",
-      "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "word": "petrify",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to make someone so frightened they cannot move",
+      "example": "\u201cThis way!\u201d Harry mouthed to the others and, petrified, they began to creep down a long gallery full of suits of armor.",
+      "formInText": "petrified",
+      "pageHint": "fleeing Filch"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 9."
+        "name": "Harry Potter",
+        "description": "Discovers a talent for flying and is picked as Gryffindor Seeker."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 9."
+        "name": "Draco Malfoy",
+        "description": "Bullies Neville, challenges Harry to a midnight duel, and may have set a trap."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 9."
+        "name": "Professor McGonagall",
+        "description": "Catches Harry flying but recruits him for the Quidditch team instead of expelling him."
       },
       {
-        "name": "Malfoy",
-        "description": "Appears in Chapter 9."
+        "name": "Hermione Granger",
+        "description": "Warns Harry about breaking rules, then gets locked out and joins the midnight adventure."
       },
       {
-        "name": "Filch",
-        "description": "Appears in Chapter 9."
+        "name": "Ron Weasley",
+        "description": "Acts as Harry\u2019s second for the duel and runs with him through the castle at night."
       }
     ],
-    "hook": "Draco challenges Harry to a wizard's duel at midnight.",
-    "readingFocus": "Follow the midnight adventure and what the trio discovers."
+    "hook": "Flying lessons force Gryffindors and Slytherins together. Harry breaks the rules to chase Malfoy on a broomstick\u2014and lands on the Quidditch team. That night, a wizard\u2019s duel leads the friends straight into deadly trouble.",
+    "readingFocus": "Follow Harry\u2019s first flight, McGonagall\u2019s surprising reaction, and what the three-headed dog in the forbidden corridor is guarding."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "broomstick",
+      "stem": "A broomstick in this story is used to —",
       "options": [
-        {
-          "id": "a",
-          "text": "bravery in facing danger"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "fly" },
+        { "id": "b", "text": "cook dinner" },
+        { "id": "c", "text": "write homework" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "duel",
+      "stem": "A wizard\u2019s duel is —",
       "options": [
-        {
-          "id": "a",
-          "text": "something unknown or secret"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "a formal magical fight between two people" },
+        { "id": "b", "text": "a type of flying lesson" },
+        { "id": "c", "text": "a school feast song" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "monstrous",
+      "stem": "Something monstrous is —",
       "options": [
-        {
-          "id": "a",
-          "text": "something kept hidden"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "huge and frightening" },
+        { "id": "b", "text": "tiny and cute" },
+        { "id": "c", "text": "perfectly ordinary" }
       ],
       "correctId": "a"
     }
@@ -209,190 +173,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 9?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "The events described in 'The Midnight Duel'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Harry\u2019s flying lesson, becoming Seeker, a midnight duel trap, and discovering the three-headed dog" },
+          { "id": "b", "text": "Harry\u2019s first Potions lesson with Snape" },
+          { "id": "c", "text": "Harry shopping for a wand in Diagon Alley" },
+          { "id": "d", "text": "Harry\u2019s Sorting into Gryffindor" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Midnight Duel'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "The chapter covers flying, Quidditch recruitment, the failed duel, and the forbidden corridor."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "What is a Remembrall?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry and his friends"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "A glass ball that glows red if you have forgotten something" },
+          { "id": "b", "text": "A broomstick polishing kit" },
+          { "id": "c", "text": "A password for Gryffindor Tower" },
+          { "id": "d", "text": "A spell to fix broken bones" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "Neville\u2019s grandmother sends him a Remembrall that turns scarlet when he has forgotten something.",
+        "pageHint": "breakfast"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What happens to Neville during the flying lesson?",
         "options": [
-          {
-            "id": "a",
-            "text": "A challenge they must overcome together"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "He shoots into the air early, falls, and breaks his wrist" },
+          { "id": "b", "text": "He is the first to make his broom jump to his hand" },
+          { "id": "c", "text": "He catches the Golden Snitch" },
+          { "id": "d", "text": "He refuses to touch a broomstick" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "Neville pushes off before the whistle and falls from a great height.",
+        "pageHint": "flying lesson"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "What position does McGonagall recruit Harry for?",
         "options": [
-          {
-            "id": "a",
-            "text": "They support each other with loyalty and bravery"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Seeker on the Gryffindor Quidditch team" },
+          { "id": "b", "text": "Gryffindor prefect" },
+          { "id": "c", "text": "Captain of the flying class" },
+          { "id": "d", "text": "Keeper for the house team" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "She tells Oliver Wood she has found him a Seeker.",
+        "pageHint": "after the dive"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "How does Harry feel when McGonagall marches him away after he flies?",
         "options": [
-          {
-            "id": "a",
-            "text": "A spell, creature, or magical object"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Sure he is about to be expelled" },
+          { "id": "b", "text": "Proud and certain he will be praised" },
+          { "id": "c", "text": "Bored and sleepy" },
+          { "id": "d", "text": "Angry at Ron for cheering" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "Harry thinks he hasn\u2019t even lasted two weeks and will be packing his bags.",
+        "pageHint": "walking to the castle"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "Why does Hermione think Malfoy never meant to duel Harry?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry is becoming braver and more confident"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Malfoy must have tipped off Filch that someone would be in the trophy room" },
+          { "id": "b", "text": "Malfoy was afraid of Ron\u2019s second" },
+          { "id": "c", "text": "Malfoy had already been expelled" },
+          { "id": "d", "text": "Filch overheard them at dinner" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "Hermione says Filch knew someone would be there, so Malfoy likely warned him.",
+        "pageHint": "after escaping Filch"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "What is guarding the trapdoor in the forbidden corridor?",
         "options": [
-          {
-            "id": "a",
-            "text": "A scene from 'The Midnight Duel'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "A huge three-headed dog" },
+          { "id": "b", "text": "Peeves the poltergeist" },
+          { "id": "c", "text": "Mrs. Norris the cat" },
+          { "id": "d", "text": "A locked bookcase" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Midnight Duel'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 9"
+        "explanation": "They stare into the eyes of a monstrous dog with three heads standing on a trapdoor.",
+        "pageHint": "forbidden corridor"
       }
     ],
     "vocabulary": [
@@ -400,212 +279,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "In Quidditch, a 'Seeker' is the player who —",
         "options": [
-          {
-            "id": "a",
-            "text": "bravery in facing danger"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "chases and catches the Golden Snitch" },
+          { "id": "b", "text": "guards the goal hoops" },
+          { "id": "c", "text": "teaches flying lessons" },
+          { "id": "d", "text": "serves dinner in the Great Hall" }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "McGonagall tells Wood she has found him a Seeker.",
+        "relatedWord": "Seeker"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "He mounted the broom and kicked hard against the ground and up, up he ___.",
         "options": [
-          {
-            "id": "a",
-            "text": "something unknown or secret"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "soared" },
+          { "id": "b", "text": "groaned" },
+          { "id": "c", "text": "snatched" },
+          { "id": "d", "text": "petrified" }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Harry soars into the air when he chases Malfoy.",
+        "relatedWord": "soar"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "A trapdoor is —",
         "options": [
-          {
-            "id": "a",
-            "text": "something kept hidden"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "a hidden door in a floor" },
+          { "id": "b", "text": "a type of flying broom" },
+          { "id": "c", "text": "a school rule about bedtime" },
+          { "id": "d", "text": "a glass ball that glows red" }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Hermione notices the three-headed dog is standing on a trapdoor.",
+        "relatedWord": "trapdoor"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'monstrous'?",
         "options": [
-          {
-            "id": "a",
-            "text": "a large fortified building"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "huge and frightening" },
+          { "id": "b", "text": "gentle and friendly" },
+          { "id": "c", "text": "invisible and silent" },
+          { "id": "d", "text": "old and shabby" }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "The dog in the corridor is described as monstrous.",
+        "relatedWord": "monstrous"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "It was Hermione Granger, wearing a pink ___ and a frown.",
         "options": [
-          {
-            "id": "a",
-            "text": "words that create magic"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "bathrobe" },
+          { "id": "b", "text": "javelin" },
+          { "id": "c", "text": "trapdoor" },
+          { "id": "d", "text": "broomstick" }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Hermione waits in the common room in her pink bathrobe.",
+        "relatedWord": "bathrobe"
       }
     ],
     "cloze": {
       "id": "cloze-ch09",
       "title": "The Midnight Duel",
       "paragraphs": [
-        "Draco challenges Harry to a wizard's duel at midnight. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Midnight Duel\", the key idea involves (5) ___ and (6) ___."
+        "When Gryffindor and Slytherin shared flying lessons, Ron and Harry (1) ___ at the notice. Malfoy later (2) ___ Neville\u2019s Remembrall, and Harry chased him on a (3) ___.",
+        "Harry (4) ___ into the air and made a daring (5) ___ to catch the glass ball. McGonagall made him Gryffindor (6) ___ instead of expelling him.",
+        "That night a wizard\u2019s (7) ___ lured them out of bed. They fled Filch and found a monstrous dog guarding a trapdoor."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "groan",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 99"
+          "relatedWord": "groan",
+          "explanation": "The first years groan when they see the flying lesson notice.",
+          "pageHint": "common room notice"
         },
         {
           "id": 2,
-          "answer": "mystery",
-          "acceptAlternatives": [],
+          "answer": "snatched",
+          "acceptAlternatives": ["snatch"],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "snatch",
+          "explanation": "Malfoy snatches Neville\u2019s Remembrall at breakfast.",
+          "pageHint": "breakfast"
         },
         {
           "id": 3,
-          "answer": "secret",
+          "answer": "broomstick",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "broomstick",
+          "explanation": "Harry mounts his broomstick to chase Malfoy.",
+          "pageHint": "flying lesson"
         },
         {
           "id": 4,
-          "answer": "castle",
-          "acceptAlternatives": [],
+          "answer": "soared",
+          "acceptAlternatives": ["soar"],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "soar",
+          "explanation": "Harry soars upward when he kicks off from the ground.",
+          "pageHint": "chasing Malfoy"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "dive",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "dive",
+          "explanation": "Harry makes a steep dive to catch the Remembrall.",
+          "pageHint": "catching the Remembrall"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "Seeker",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "Seeker",
+          "explanation": "McGonagall tells Wood she has found a Seeker.",
+          "pageHint": "McGonagall and Wood"
+        },
+        {
+          "id": 7,
+          "answer": "duel",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "duel",
+          "explanation": "Malfoy challenges Harry to a wizard\u2019s duel at midnight.",
+          "pageHint": "dinner"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "groan",
+        "snatched",
+        "broomstick",
+        "soared",
+        "dive",
+        "Seeker",
+        "duel",
+        "monstrous",
+        "trapdoor",
+        "bathrobe",
+        "javelin",
+        "petrified"
       ],
       "guidedMode": true,
       "openMode": true

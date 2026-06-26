@@ -27,7 +27,7 @@ export function VocabFlashcard({
   onKnown,
   onLater,
 }: VocabFlashcardProps) {
-  const exampleParts = splitExampleByWord(item.example, item.word);
+  const exampleParts = splitExampleByWord(item.example, item.word, item.formInText);
 
   return (
     <div className="space-y-4">

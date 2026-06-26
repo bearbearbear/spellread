@@ -7,197 +7,186 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "nightmare",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a very frightening dream",
+      "example": "He started having nightmares.",
+      "formInText": "nightmares",
+      "pageHint": "opening"
+    },
+    {
+      "word": "cackle",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "mystery",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to laugh in a loud, harsh way",
+      "example": "Over and over again he dreamed about his parents disappearing in a flash of green light, while a high voice cackled with laughter.",
+      "formInText": "cackled",
+      "pageHint": "opening dream"
     },
     {
-      "word": "challenge",
+      "word": "sinister",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "giving the feeling that something harmful or evil is happening",
+      "example": "Speaking quietly so that no one else would hear, Harry told the other two about Snape’s sudden, sinister desire to be a Quidditch referee.",
+      "pageHint": "common room"
+    },
+    {
+      "word": "curse",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "a magic spell meant to cause harm",
+      "example": "his legs had been stuck together with what they recognized at once as the Leg Locker Curse.",
+      "pageHint": "Neville arrives"
     },
     {
-      "word": "loyal",
+      "word": "splutter",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to speak quickly and unclearly, often because you are shocked or eating",
+      "example": "he spluttered through a mouthful of mud.",
+      "formInText": "spluttered",
+      "pageHint": "Quidditch practice"
+    },
+    {
+      "word": "alchemy",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "an ancient study of turning metals into gold and seeking magical substances",
+      "example": "and his work on alchemy with his partner, Nicolas Flamel’!",
+      "pageHint": "Hermione's book"
+    },
+    {
+      "word": "immortal",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "able to live forever and never die",
+      "example": "It also produces the Elixir of Life, which will make the drinker immortal.",
+      "pageHint": "Sorcerer's Stone description"
     },
     {
-      "word": "brave",
-      "tier": 1,
+      "word": "referee",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "the official who makes sure players follow the rules in a game",
+      "example": "Snape’s refereeing this time, and he’ll be looking for any excuse to knock points off Gryffindor!",
+      "formInText": "refereeing",
+      "pageHint": "Quidditch practice"
+    },
+    {
+      "word": "somersault",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a movement where you turn your body over in the air or head over heels",
+      "example": "Harry’s heart did a somersault.",
+      "pageHint": "before the match"
+    },
+    {
+      "word": "triumph",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a great victory or success",
+      "example": "Harry had pulled out of the dive, his arm raised in triumph, the Snitch clasped in his hand.",
+      "pageHint": "Quidditch match"
+    },
+    {
+      "word": "prowl",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to move quietly as if hunting or sneaking",
+      "example": "He recognized the figure’s prowling walk.",
+      "formInText": "prowling",
+      "pageHint": "Snape enters the forest"
+    },
+    {
+      "word": "petrified",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "so frightened that you cannot move",
+      "example": "Harry could see Quirrell, standing quite still as though he was petrified.",
+      "pageHint": "forest clearing"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 13."
+        "name": "Harry Potter",
+        "description": "Still haunted by the Mirror of Erised while trying to learn who Nicolas Flamel is."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 13."
+        "name": "Hermione Granger",
+        "description": "Returns from holiday and helps crack the mystery of Flamel and the Stone."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 13."
+        "name": "Ron Weasley",
+        "description": "Supports Harry through nightmares, the Quidditch match, and the forest spy mission."
       },
       {
-        "name": "Hagrid",
-        "description": "Appears in Chapter 13."
-      },
-      {
-        "name": "Flamel",
-        "description": "Appears in Chapter 13."
+        "name": "Severus Snape",
+        "description": "Referees the Quidditch match and is later seen threatening Quirrell in the forest."
       }
     ],
-    "hook": "Hermione helps uncover the mystery of what is being guarded at Hogwarts.",
-    "readingFocus": "Follow the clues about the Sorcerer's Stone."
+    "hook": "Harry's nightmares won't stop, and the trio still cannot find Nicolas Flamel in the library. Then a Chocolate Frog card changes everything — just before a Quidditch match refereed by Snape leads Harry to spy on a secret forest meeting.",
+    "readingFocus": "Watch how the trio finally learns what the Stone is. Notice what Harry overhears between Snape and Quirrell, and how that changes what they think Snape wants."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "nightmare",
+      "stem": "A nightmare is —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "a very frightening dream"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "a type of school exam"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "a Quidditch position"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "alchemy",
+      "stem": "Alchemy is the study of —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "making gold and magical substances like the Sorcerer's Stone"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "flying on broomsticks"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "training dragons for pets"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "immortal",
+      "stem": "If someone is immortal, they —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "can live forever and never die"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "can turn invisible at will"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "are afraid of the dark"
         }
       ],
       "correctId": "a"
@@ -209,190 +198,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 13?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'Nicolas Flamel'"
+            "text": "The trio discovers Nicolas Flamel made the Sorcerer's Stone, Harry wins a Quidditch match, and he spies on Snape and Quirrell in the forest"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry finds the Mirror of Erised again and sees his parents"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Hagrid hatches a dragon egg in his hut"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "The trio sits detention in the Forbidden Forest"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'Nicolas Flamel'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "Harry learns Flamel's identity and what the Stone does, wins the match against Hufflepuff, then follows Snape into the forest and overhears him pressuring Quirrell about the Stone."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "How does Harry finally learn who Nicolas Flamel is?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "He reads about him on the back of a Chocolate Frog card"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Hagrid tells him during tea in the hut"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape mentions him in Potions class"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "He finds Flamel's name in a library index"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "Neville gives Harry a Dumbledore Famous Wizard card whose back mentions Flamel and alchemy.",
+        "pageHint": "common room"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What are two powers of the Sorcerer's Stone?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "It turns any metal into pure gold and produces the Elixir of Life"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "It grants invisibility and cures werewolf bites"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "It summons dragons and unlocks any door"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "It writes homework answers and fixes broken brooms"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "Hermione reads that the Stone transforms metal into gold and makes the Elixir of Life.",
+        "pageHint": "Hermione's book"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "Why is the Gryffindor team worried about Snape refereeing?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "They think he will look for excuses to take points from Gryffindor"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Snape has never seen a Quidditch match before"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape plans to play Seeker for Slytherin"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Dumbledore banned Snape from the pitch"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "Wood warns that Snape will favor Hufflepuff and knock points off Gryffindor.",
+        "pageHint": "practice"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "How does Harry feel when he sees Dumbledore watching the match?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "Relieved — he feels safe because Snape would not dare hurt him with Dumbledore there"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Angry — he wanted to quit the team"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Embarrassed — he forgot how to fly"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Jealous — he wishes Snape were playing instead"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "Harry's heart does a somersault with relief; he thinks Snape cannot try to hurt him while Dumbledore watches.",
+        "pageHint": "locker room"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "What does Harry conclude after overhearing Snape and Quirrell in the forest?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "Snape is trying to force Quirrell to help him steal the Stone and get past Fluffy"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Quirrell is helping Snape study for exams"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape and Quirrell are planning a surprise party for Hagrid"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "The Stone has already been moved to London"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "Harry tells Ron and Hermione that Snape asked Quirrell how to get past Fluffy and mentioned his 'hocus pocus.'",
+        "pageHint": "empty classroom"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "How quickly does Harry catch the Snitch in the match?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'Nicolas Flamel'"
+            "text": "In about five minutes — faster than anyone can remember"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "After three full hours of play"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "He never catches it; Hufflepuff wins"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "The match is canceled because of rain"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'Nicolas Flamel'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 13"
+        "explanation": "The game barely lasted five minutes and no one could remember the Snitch being caught so quickly.",
+        "pageHint": "Quidditch pitch"
       }
     ],
     "vocabulary": [
@@ -400,212 +388,230 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "In this chapter, a 'nightmare' is —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "a very frightening dream"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "a type of homework"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "a house-elf servant"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "a Quidditch foul"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Harry keeps dreaming about green light and a laughing voice after seeing the mirror.",
+        "relatedWord": "nightmare"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "Harry told the other two about Snape's sudden, ___ desire to be a Quidditch referee.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "sinister"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "famous"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "miserable"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "normal"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Harry quietly warns Ron and Hermione that Snape's refereeing plan feels threatening.",
+        "relatedWord": "sinister"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "Something 'immortal' —",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "lives forever and does not die"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "turns metal into gold"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "guards a trapdoor"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "referees a Quidditch match"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "The Elixir of Life from the Stone would make the drinker immortal.",
+        "relatedWord": "immortal"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'triumph'?",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "victory"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "punishment"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "whisper"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "nightmare"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Harry raises his arm in triumph after catching the Snitch.",
+        "relatedWord": "triumph"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "Quirrell stood quite still as though he was ___.",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "petrified"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "immortal"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "sinister"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "famous"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "After Snape leaves the clearing, Quirrell stays frozen in fear.",
+        "relatedWord": "petrified"
       }
     ],
     "cloze": {
       "id": "cloze-ch13",
       "title": "Nicolas Flamel",
       "paragraphs": [
-        "Hermione helps uncover the mystery of what is being guarded at Hogwarts. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"Nicolas Flamel\", the key idea involves (5) ___ and (6) ___."
+        "Harry cannot forget the mirror and starts having (1) ___. After Neville is hit with the Leg Locker (2) ___, a Chocolate Frog card leads them to Nicolas Flamel and the study of (3) ___.",
+        "They learn the Sorcerer's Stone makes gold and an elixir that would make the drinker (4) ___. Snape is (5) ___ the Quidditch match, but Harry catches the Snitch in (6) ___ anyway.",
+        "That night Harry follows Snape into the forest, recognizes his (7) ___ walk, and overhears him threaten Quirrell about the Stone."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
-          "acceptAlternatives": [],
+          "answer": "nightmares",
+          "acceptAlternatives": [
+            "nightmare"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 103"
+          "relatedWord": "nightmare",
+          "explanation": "Harry starts having nightmares about green light and laughter.",
+          "pageHint": "opening"
         },
         {
           "id": 2,
-          "answer": "mystery",
-          "acceptAlternatives": [],
+          "answer": "Curse",
+          "acceptAlternatives": [
+            "curse"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "curse",
+          "explanation": "Malfoy used the Leg Locker Curse on Neville.",
+          "pageHint": "common room"
         },
         {
           "id": 3,
-          "answer": "secret",
+          "answer": "alchemy",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "alchemy",
+          "explanation": "Flamel's work on alchemy with Dumbledore is mentioned on the card.",
+          "pageHint": "Chocolate Frog card"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "immortal",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "immortal",
+          "explanation": "The Elixir of Life would make the drinker immortal.",
+          "pageHint": "Hermione's book"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "refereeing",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "referee",
+          "explanation": "Wood says Snape is refereeing and will look for excuses against Gryffindor.",
+          "pageHint": "practice"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "triumph",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "triumph",
+          "explanation": "Harry pulls out of the dive with his arm raised in triumph.",
+          "pageHint": "match"
+        },
+        {
+          "id": 7,
+          "answer": "prowling",
+          "acceptAlternatives": [
+            "prowl"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "prowl",
+          "explanation": "Harry recognizes Snape by his prowling walk toward the forest.",
+          "pageHint": "castle grounds"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "nightmares",
+        "Curse",
+        "alchemy",
+        "immortal",
+        "refereeing",
+        "triumph",
+        "prowling",
+        "sinister",
+        "somersault",
+        "cackled",
+        "spluttered",
+        "petrified"
       ],
       "guidedMode": true,
       "openMode": true

@@ -7,186 +7,156 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "letter",
-      "tier": 1,
+      "word": "punishment",
+      "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a written message sent by post",
-      "example": "A letter arrived for Harry.",
-      "pageHint": "p. 31"
+      "definition": "a penalty for something you did wrong",
+      "example": "The escape of the Brazilian boa constrictor earned Harry his longest ever punishment.",
+      "pageHint": "opening"
     },
     {
-      "word": "address",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "details of where someone lives",
-      "example": "The address was very specific.",
-      "pageHint": "p. 32"
-    },
-    {
-      "word": "deliver",
-      "tier": 1,
-      "partOfSpeech": "verb",
-      "definition": "to bring something to a person",
-      "example": "Owls deliver the mail.",
-      "pageHint": "p. 35"
-    },
-    {
-      "word": "panic",
+      "word": "wander",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "to feel sudden overwhelming fear",
-      "example": "Uncle Vernon began to panic.",
-      "pageHint": "p. 38"
+      "definition": "to walk around without a fixed route or purpose",
+      "example": "This was why Harry spent as much time as possible out of the house, wandering around and thinking about the end of the holidays, where he could see a tiny ray of hope.",
+      "formInText": "wandering",
+      "pageHint": "early summer"
+    },
+    {
+      "word": "uniform",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "special clothes worn for school or work",
+      "example": "\u201cYour new school uniform,\u201d she said.",
+      "pageHint": "kitchen, dyeing clothes"
+    },
+    {
+      "word": "parchment",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "thick paper made from animal skin, used for important documents",
+      "example": "The envelope was thick and heavy, made of yellowish parchment, and the address was written in emerald green ink.",
+      "pageHint": "first letter"
+    },
+    {
+      "word": "envelope",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a paper cover for a letter",
+      "example": "He handed Uncle Vernon the bill and the postcard, sat down, and slowly began to open the yellow envelope.",
+      "pageHint": "first letter"
+    },
+    {
+      "word": "tremble",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to shake because you are nervous or excited",
+      "example": "Turning the envelope over, his hand trembling, Harry saw a purple wax seal bearing a coat of arms; a lion, an eagle, a badger, and a snake surrounding a large letter H.",
+      "formInText": "trembling",
+      "pageHint": "first letter"
+    },
+    {
+      "word": "gasp",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to breathe in suddenly, often from shock",
+      "example": "\u201cP-P-Petunia!\u201d he gasped.",
+      "formInText": "gasped",
+      "pageHint": "Uncle Vernon reads the letter"
     },
     {
       "word": "furious",
       "tier": 2,
       "partOfSpeech": "adjective",
       "definition": "extremely angry",
-      "example": "Uncle Vernon was furious.",
-      "pageHint": "p. 34"
+      "example": "\u201cI want to read it,\u201d said Harry furiously, \u201cas it\u2019s mine.\u201d",
+      "formInText": "furiously",
+      "pageHint": "kitchen, first letter"
     },
     {
-      "word": "sealed",
+      "word": "wrestle",
       "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "closed tightly",
-      "example": "The envelope was sealed with wax.",
-      "pageHint": "p. 33"
-    },
-    {
-      "word": "stamp",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a small sticker for mailing letters",
-      "example": "The letter had a strange stamp.",
-      "pageHint": "p. 32"
-    },
-    {
-      "word": "hide",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to keep out of sight",
-      "example": "They tried to hide from the letters.",
-      "pageHint": "p. 40"
+      "definition": "to fight by grabbing and trying to pin someone down",
+      "example": "Uncle Vernon had to wrestle Dudley to the ground to get the letter from him, which was made difficult by the fact that Harry had grabbed Uncle Vernon around the neck from behind.",
+      "pageHint": "second letter arrives"
+    },
+    {
+      "word": "board",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to cover openings with wooden planks",
+      "example": "After burning all the letters, he got out a hammer and nails and boarded up the cracks around the front and back doors so no one could go out.",
+      "formInText": "boarded",
+      "pageHint": "Friday"
     },
     {
       "word": "chimney",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a pipe that carries smoke from a fire",
-      "example": "Letters came down the chimney.",
-      "pageHint": "p. 37"
-    },
-    {
-      "word": "refuse",
-      "tier": 2,
-      "partOfSpeech": "verb",
-      "definition": "to say you will not accept something",
-      "example": "Uncle Vernon refused to let Harry read.",
-      "pageHint": "p. 34"
-    },
-    {
-      "word": "midnight",
       "tier": 1,
       "partOfSpeech": "noun",
-      "definition": "twelve o'clock at night",
-      "example": "Letters arrived at midnight.",
-      "pageHint": "p. 36"
+      "definition": "the pipe above a fireplace where smoke goes out",
+      "example": "Something came whizzing down the kitchen chimney as he spoke and caught him sharply on the back of the head.",
+      "pageHint": "Sunday morning"
     },
     {
-      "word": "desperate",
+      "word": "miserable",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "feeling hopeless and willing to try anything",
-      "example": "The Dursleys grew desperate.",
-      "pageHint": "p. 39"
+      "definition": "very unhappy or unpleasant",
+      "example": "Perched on top of the rock was the most miserable little shack you could imagine.",
+      "pageHint": "the hut on the rock"
     }
   ],
   "background": {
     "characters": [
       {
         "name": "Harry Potter",
-        "description": "Receives strange letters addressed only to him."
+        "description": "A boy about to turn eleven who has never received mail before."
       },
       {
-        "name": "The Dursleys",
-        "description": "Panic and flee to hide from the letters."
+        "name": "Uncle Vernon",
+        "description": "Panics when letters arrive for Harry and tries every trick to stop them."
+      },
+      {
+        "name": "Dudley Dursley",
+        "description": "Starts at Smeltings and fights Harry for the mysterious letters."
       }
     ],
-    "hook": "Mysterious letters arrive for Harry, and the Dursleys desperately try to stop him from reading them.",
-    "readingFocus": "Notice how far the Dursleys will go to keep Harry from learning the truth."
+    "hook": "After the zoo incident, Harry endures a long punishment. Then strange letters begin arriving for him — addressed down to the cupboard under the stairs — and the Dursleys will do anything to keep him from reading them.",
+    "readingFocus": "Watch how the Dursleys react each time a new letter appears. Notice how the address on the letters changes as Harry moves rooms."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "letter",
-      "stem": "What does 'letter' mean?",
+      "word": "punishment",
+      "stem": "A punishment is —",
       "options": [
-        {
-          "id": "a",
-          "text": "a written message sent by post"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "a penalty for doing something wrong" },
+        { "id": "b", "text": "a type of birthday present" },
+        { "id": "c", "text": "a school subject" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "address",
-      "stem": "What does 'address' mean?",
+      "word": "envelope",
+      "stem": "An envelope is —",
       "options": [
-        {
-          "id": "a",
-          "text": "details of where someone lives"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "a paper cover for a letter" },
+        { "id": "b", "text": "a kind of shoe" },
+        { "id": "c", "text": "a magic spell" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "deliver",
-      "stem": "What does 'deliver' mean?",
+      "word": "furious",
+      "stem": "If someone is furious, they are —",
       "options": [
-        {
-          "id": "a",
-          "text": "to bring something to a person"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "extremely angry" },
+        { "id": "b", "text": "very sleepy" },
+        { "id": "c", "text": "perfectly calm" }
       ],
       "correctId": "a"
     }
@@ -197,190 +167,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "Who are the letters addressed to?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry Potter"
-          },
-          {
-            "id": "b",
-            "text": "Mr. Dursley"
-          },
-          {
-            "id": "c",
-            "text": "Dudley Dursley"
-          },
-          {
-            "id": "d",
-            "text": "The whole family"
-          }
+          { "id": "a", "text": "Mysterious letters keep arriving for Harry, and the Dursleys try desperately to stop him from reading them" },
+          { "id": "b", "text": "Harry's first day at Hogwarts" },
+          { "id": "c", "text": "Dudley wins a prize at Smeltings" },
+          { "id": "d", "text": "Harry learns to fly a broomstick" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry Potter. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "The chapter follows the growing flood of letters and the Dursleys' increasingly extreme attempts to hide them from Harry."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "How do the Dursleys first try to stop the letters?",
+        "stem": "How is Harry's first letter addressed?",
         "options": [
-          {
-            "id": "a",
-            "text": "They board up the mail slot"
-          },
-          {
-            "id": "b",
-            "text": "They move to France"
-          },
-          {
-            "id": "c",
-            "text": "They burn the house"
-          },
-          {
-            "id": "d",
-            "text": "They call the police"
-          }
+          { "id": "a", "text": "Mr. H. Potter, The Cupboard under the Stairs, 4 Privet Drive" },
+          { "id": "b", "text": "Harry Potter, Hogwarts School" },
+          { "id": "c", "text": "Mr. Potter, The Attic, Privet Drive" },
+          { "id": "d", "text": "H. Potter, Smeltings Academy" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They board up the mail slot. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "The first letter is addressed plainly to Harry in the cupboard under the stairs.",
+        "pageHint": "first letter"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Where do the Dursleys flee to escape the letters?",
+        "stem": "What is unusual about the first letter's envelope?",
         "options": [
-          {
-            "id": "a",
-            "text": "A hut on a rock in the sea"
-          },
-          {
-            "id": "b",
-            "text": "Hogwarts"
-          },
-          {
-            "id": "c",
-            "text": "Diagon Alley"
-          },
-          {
-            "id": "d",
-            "text": "The zoo"
-          }
+          { "id": "a", "text": "It is thick yellowish parchment with green ink and no stamp" },
+          { "id": "b", "text": "It is bright pink with a Hogwarts logo" },
+          { "id": "c", "text": "It is emailed to the Dursleys" },
+          { "id": "d", "text": "It arrives by owl at breakfast" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A hut on a rock in the sea. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "The envelope is heavy parchment, the address is in emerald green ink, and there is no stamp.",
+        "pageHint": "first letter"
       },
       {
         "id": "c4",
-        "type": "detail",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "How do letters reach the hut?",
+        "stem": "How does Harry feel when he picks up the first letter?",
         "options": [
-          {
-            "id": "a",
-            "text": "An owl delivers one down the chimney"
-          },
-          {
-            "id": "b",
-            "text": "By boat"
-          },
-          {
-            "id": "c",
-            "text": "Through the window only"
-          },
-          {
-            "id": "d",
-            "text": "They stop completely"
-          }
+          { "id": "a", "text": "Shocked and thrilled — no one has ever written to him before" },
+          { "id": "b", "text": "Bored and uninterested" },
+          { "id": "c", "text": "Angry at the postman" },
+          { "id": "d", "text": "Afraid of spiders" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: An owl delivers one down the chimney. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "Harry stares at the letter, his heart twanging — no one in his whole life had ever written to him.",
+        "pageHint": "first letter"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What is on the letter's seal?",
+        "stem": "What does Uncle Vernon do to the mail slot?",
         "options": [
-          {
-            "id": "a",
-            "text": "A coat of arms with a lion, eagle, badger, and snake"
-          },
-          {
-            "id": "b",
-            "text": "A lightning bolt only"
-          },
-          {
-            "id": "c",
-            "text": "A picture of Dudley"
-          },
-          {
-            "id": "d",
-            "text": "Nothing unusual"
-          }
+          { "id": "a", "text": "He nails it shut" },
+          { "id": "b", "text": "He paints it green" },
+          { "id": "c", "text": "He gives Harry the only key" },
+          { "id": "d", "text": "He removes the front door" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A coat of arms with a lion, eagle, badger, and snake. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "Uncle Vernon stays home and nails up the mail slot so letters cannot be delivered.",
+        "pageHint": "after Harry tries to catch the post"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "Why won't Uncle Vernon let Harry read the letter?",
+        "stem": "Why does Uncle Vernon let Harry move into Dudley's second bedroom?",
         "options": [
-          {
-            "id": "a",
-            "text": "He wants to keep Harry from the wizarding world"
-          },
-          {
-            "id": "b",
-            "text": "The ink is wet"
-          },
-          {
-            "id": "c",
-            "text": "Harry is too young to read"
-          },
-          {
-            "id": "d",
-            "text": "The letter is blank"
-          }
+          { "id": "a", "text": "He hopes to bribe Harry after burning the first letter, though Harry cares more about the letter than the room" },
+          { "id": "b", "text": "Dudley asks him to share nicely" },
+          { "id": "c", "text": "The cupboard is flooded" },
+          { "id": "d", "text": "A teacher orders them to" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: He wants to keep Harry from the wizarding world. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "Vernon burns the letter and then awkwardly offers the bedroom, but Harry says the letter had his cupboard on it and was no mistake.",
+        "pageHint": "evening after first letter"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "When is Harry's eleventh birthday in this chapter?",
+        "stem": "How do letters get into the house on Sunday morning?",
         "options": [
-          {
-            "id": "a",
-            "text": "The night they are in the hut"
-          },
-          {
-            "id": "b",
-            "text": "At the zoo"
-          },
-          {
-            "id": "c",
-            "text": "In October at school"
-          },
-          {
-            "id": "d",
-            "text": "Before the letters arrive"
-          }
+          { "id": "a", "text": "They shoot down the kitchen chimney and out of the fireplace" },
+          { "id": "b", "text": "They arrive by owl through the window" },
+          { "id": "c", "text": "Dudley hands them to Harry" },
+          { "id": "d", "text": "They are hidden inside Dudley's tortoise" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The night they are in the hut. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 3"
+        "explanation": "Something whizzes down the chimney and dozens of letters come pelting out of the fireplace.",
+        "pageHint": "Sunday breakfast"
       }
     ],
     "vocabulary": [
@@ -388,216 +273,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'desperate' mean in this chapter?",
+        "stem": "In this chapter, a 'punishment' is —",
         "options": [
-          {
-            "id": "a",
-            "text": "willing to try anything"
-          },
-          {
-            "id": "b",
-            "text": "calm and relaxed"
-          },
-          {
-            "id": "c",
-            "text": "very sleepy"
-          },
-          {
-            "id": "d",
-            "text": "completely happy"
-          }
+          { "id": "a", "text": "a penalty for bad behavior" },
+          { "id": "b", "text": "a school uniform" },
+          { "id": "c", "text": "a happy surprise" },
+          { "id": "d", "text": "a type of envelope" }
         ],
         "correctId": "a",
-        "explanation": "'desperate' means: willing to try anything.",
-        "relatedWord": "desperate"
+        "explanation": "Harry earns his longest ever punishment after the boa constrictor escapes.",
+        "relatedWord": "punishment"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'sealed' mean in this chapter?",
+        "stem": "The envelope was thick and heavy, made of yellowish ___, and the address was written in emerald green ink.",
         "options": [
-          {
-            "id": "a",
-            "text": "closed tightly"
-          },
-          {
-            "id": "b",
-            "text": "opened wide"
-          },
-          {
-            "id": "c",
-            "text": "torn apart"
-          },
-          {
-            "id": "d",
-            "text": "painted green"
-          }
+          { "id": "a", "text": "parchment" },
+          { "id": "b", "text": "plastic" },
+          { "id": "c", "text": "metal" },
+          { "id": "d", "text": "glass" }
         ],
         "correctId": "a",
-        "explanation": "'sealed' means: closed tightly.",
-        "relatedWord": "sealed"
+        "explanation": "Harry's first letter arrives on unusual parchment with a purple wax seal.",
+        "relatedWord": "parchment"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'furious' mean in this chapter?",
+        "stem": "To tremble means to —",
         "options": [
-          {
-            "id": "a",
-            "text": "extremely angry"
-          },
-          {
-            "id": "b",
-            "text": "very hungry"
-          },
-          {
-            "id": "c",
-            "text": "slightly bored"
-          },
-          {
-            "id": "d",
-            "text": "deeply grateful"
-          }
+          { "id": "a", "text": "shake from nerves or excitement" },
+          { "id": "b", "text": "run very fast" },
+          { "id": "c", "text": "shout loudly" },
+          { "id": "d", "text": "fall asleep" }
         ],
         "correctId": "a",
-        "explanation": "'furious' means: extremely angry.",
-        "relatedWord": "furious"
+        "explanation": "Harry's hand trembles as he turns the envelope over to look at the seal.",
+        "relatedWord": "tremble"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'deliver' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'miserable'?",
         "options": [
-          {
-            "id": "a",
-            "text": "bring to someone"
-          },
-          {
-            "id": "b",
-            "text": "hide from someone"
-          },
-          {
-            "id": "c",
-            "text": "destroy completely"
-          },
-          {
-            "id": "d",
-            "text": "forget about"
-          }
+          { "id": "a", "text": "very unpleasant" },
+          { "id": "b", "text": "very wealthy" },
+          { "id": "c", "text": "very magical" },
+          { "id": "d", "text": "very tiny" }
         ],
         "correctId": "a",
-        "explanation": "'deliver' means: bring to someone.",
-        "relatedWord": "deliver"
+        "explanation": "The shack on the rock is described as the most miserable little shack you could imagine.",
+        "relatedWord": "miserable"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'panic' mean in this chapter?",
+        "stem": "Something came whizzing down the kitchen ___ as he spoke and caught him sharply on the back of the head.",
         "options": [
-          {
-            "id": "a",
-            "text": "feel sudden fear"
-          },
-          {
-            "id": "b",
-            "text": "fall asleep"
-          },
-          {
-            "id": "c",
-            "text": "eat dinner"
-          },
-          {
-            "id": "d",
-            "text": "write poetry"
-          }
+          { "id": "a", "text": "chimney" },
+          { "id": "b", "text": "basement" },
+          { "id": "c", "text": "garden" },
+          { "id": "d", "text": "attic" }
         ],
         "correctId": "a",
-        "explanation": "'panic' means: feel sudden fear.",
-        "relatedWord": "panic"
+        "explanation": "On Sunday, letters pour down the chimney when Vernon claims there is no post.",
+        "relatedWord": "chimney"
       }
     ],
     "cloze": {
       "id": "cloze-ch03",
       "title": "The Letters from No One",
       "paragraphs": [
-        "Mysterious letters arrive for Harry, and the Dursleys desperately try to stop him from reading them. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Letters from No One\", the key idea involves (5) ___ and (6) ___."
+        "After the zoo, Harry faced his longest ever (1) ___. When the first letter arrived, it was written on yellowish (2) ___ inside a heavy (3) ___ with green ink.",
+        "Uncle Vernon (4) ___ when he read it and burned the mail. He later (5) ___ up the doors and nailed shut the mail slot, but letters still came down the (6) ___.",
+        "The Dursleys fled to a (7) ___ little shack on a rock, where Harry waited for his eleventh birthday and heard a knock at the door."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "letter",
+          "answer": "punishment",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "letter",
-          "explanation": "letter: a written message sent by post",
-          "pageHint": "p. 31"
+          "relatedWord": "punishment",
+          "explanation": "The boa constrictor escape earned Harry his longest punishment.",
+          "pageHint": "opening"
         },
         {
           "id": 2,
-          "answer": "address",
+          "answer": "parchment",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "address",
-          "explanation": "address: details of where someone lives",
-          "pageHint": "p. 32"
+          "relatedWord": "parchment",
+          "explanation": "The first letter is on thick yellowish parchment.",
+          "pageHint": "first letter"
         },
         {
           "id": 3,
-          "answer": "delivered",
-          "acceptAlternatives": [
-            "deliver"
-          ],
+          "answer": "envelope",
+          "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "deliver",
-          "explanation": "deliver: to bring something to a person",
-          "pageHint": "p. 35"
+          "relatedWord": "envelope",
+          "explanation": "Harry slowly opens the yellow envelope at breakfast.",
+          "pageHint": "first letter"
         },
         {
           "id": 4,
-          "answer": "paniced",
-          "acceptAlternatives": [
-            "panic"
-          ],
+          "answer": "gasped",
+          "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "panic",
-          "explanation": "panic: to feel sudden overwhelming fear",
-          "pageHint": "p. 38"
+          "relatedWord": "gasp",
+          "explanation": "Uncle Vernon gasps Petunia's name after glancing at the letter.",
+          "pageHint": "first letter"
         },
         {
           "id": 5,
-          "answer": "furious",
-          "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "furious",
-          "explanation": "furious: extremely angry",
-          "pageHint": "p. 34"
+          "answer": "boarded",
+          "acceptAlternatives": ["board"],
+          "gapType": "vocabulary",
+          "relatedWord": "board",
+          "explanation": "Vernon boards up the cracks around the doors.",
+          "pageHint": "Friday"
         },
         {
           "id": 6,
-          "answer": "sealed",
+          "answer": "chimney",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "sealed",
-          "explanation": "sealed: closed tightly",
-          "pageHint": "p. 33"
+          "relatedWord": "chimney",
+          "explanation": "Letters whiz down the kitchen chimney on Sunday.",
+          "pageHint": "Sunday morning"
+        },
+        {
+          "id": 7,
+          "answer": "miserable",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "miserable",
+          "explanation": "They hide in the most miserable little shack on a rock.",
+          "pageHint": "the hut on the rock"
         }
       ],
       "wordBank": [
-        "letter",
-        "address",
-        "delivered",
-        "paniced",
+        "punishment",
+        "parchment",
+        "envelope",
+        "gasped",
+        "boarded",
+        "chimney",
+        "miserable",
+        "uniform",
+        "wrestle",
         "furious",
-        "sealed",
-        "stamp",
-        "hide",
-        "chimney"
+        "wander",
+        "tremble"
       ],
       "guidedMode": true,
       "openMode": true

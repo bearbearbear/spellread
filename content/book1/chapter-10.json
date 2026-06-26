@@ -7,197 +7,186 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "broomstick",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a stick used to fly on in the wizarding world",
+      "example": "It contains your new Nimbus Two Thousand, but I don’t want everybody knowing you’ve got a broomstick or they’ll all want one.",
+      "pageHint": "McGonagall's letter"
+    },
+    {
+      "word": "mysterious",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 100"
+      "partOfSpeech": "adjective",
+      "definition": "hard to explain or understand",
+      "example": "But as all they knew for sure about the mysterious object was that it was about two inches long, they didn’t have much chance of guessing what it was without further clues.",
+      "pageHint": "opening"
     },
     {
-      "word": "mystery",
+      "word": "envious",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
+      "partOfSpeech": "adjective",
+      "definition": "wanting what someone else has",
+      "example": "“A Nimbus Two Thousand!” Ron moaned enviously. “I’ve never even touched one.”",
+      "formInText": "enviously",
+      "pageHint": "after the letter"
     },
     {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
+      "word": "swoop",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to dive or move quickly through the air",
+      "example": "What a feeling—he swooped in and out of the goal posts and then sped up and down the field.",
+      "formInText": "swooped",
+      "pageHint": "first time on the Quidditch field"
     },
     {
-      "word": "challenge",
+      "word": "dusk",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "the time when day turns into evening",
+      "example": "As seven o’clock drew nearer, Harry left the castle and set off in the dusk toward the Quidditch field.",
+      "pageHint": "first Quidditch practice"
     },
     {
-      "word": "loyal",
+      "word": "spectator",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a person who watches an event",
+      "example": "Hundreds of seats were raised in stands around the field so that the spectators were high enough to see what was going on.",
+      "formInText": "spectators",
+      "pageHint": "Quidditch stadium"
+    },
+    {
+      "word": "Bludger",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a jet-black Quidditch ball that tries to knock players off their brooms",
+      "example": "“These two are the Bludgers.”",
+      "formInText": "Bludgers",
+      "pageHint": "Wood explains the rules"
+    },
+    {
+      "word": "flutter",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to flap wings or move lightly and quickly",
+      "example": "They had hardly fluttered out of the way when another owl dropped a letter on top of the parcel.",
+      "formInText": "fluttered",
+      "pageHint": "breakfast delivery"
+    },
+    {
+      "word": "pumpkin",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a large orange vegetable often used in fall cooking",
+      "example": "On Halloween morning they woke to the delicious smell of baking pumpkin wafting through the corridors.",
+      "pageHint": "Halloween morning"
+    },
+    {
+      "word": "troll",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a huge, stupid, dangerous magical creature",
+      "example": "Troll—in the dungeons—thought you ought to know.",
+      "pageHint": "Halloween feast"
+    },
+    {
+      "word": "petrified",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "so frightened that you cannot move",
+      "example": "a high, petrified scream—and it was coming from the chamber they’d just chained up.",
+      "pageHint": "girls' bathroom"
     },
     {
-      "word": "brave",
-      "tier": 1,
+      "word": "berserk",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "wild and out of control with anger",
+      "example": "The shouting and the echoes seemed to be driving the troll berserk.",
+      "pageHint": "fighting the troll"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 10."
+        "name": "Harry Potter",
+        "description": "Receives a Nimbus Two Thousand and trains for Quidditch before facing a mountain troll."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 10."
+        "name": "Ron Weasley",
+        "description": "Sticks by Harry through broomstick trouble, charms class, and the troll fight."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 10."
+        "name": "Hermione Granger",
+        "description": "Still angry at the boys until the troll attack changes everything."
       },
       {
-        "name": "Quirrell",
-        "description": "Appears in Chapter 10."
-      },
-      {
-        "name": "Troll",
-        "description": "Appears in Chapter 10."
+        "name": "Oliver Wood",
+        "description": "Gryffindor Quidditch captain who teaches Harry the rules of the game."
       }
     ],
-    "hook": "A troll is let loose in the castle on Halloween night.",
-    "readingFocus": "See how Harry and Ron become friends with Hermione."
+    "hook": "Harry gets an amazing new broomstick and his first Quidditch lesson, but Halloween night turns terrifying when a mountain troll breaks into the castle — and Hermione is trapped alone with it.",
+    "readingFocus": "Watch how Harry earns the broomstick, what happens in Charms class with Wingardium Leviosa, and how the three first years work together against the troll."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "broomstick",
+      "stem": "A broomstick is —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "a stick wizards use to fly"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "a type of school desk"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "a Halloween decoration"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "troll",
+      "stem": "In this chapter, a troll is —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "a huge, dangerous magical creature"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "a friendly house elf"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "a kind of owl"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "petrified",
+      "stem": "If you are petrified, you are —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "so scared you can barely move"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "very hungry"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "extremely cheerful"
         }
       ],
       "correctId": "a"
@@ -209,190 +198,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 10?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'Halloween'"
+            "text": "Harry gets a racing broomstick and Quidditch training, then he and Ron fight a troll to save Hermione"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry visits Diagon Alley for the first time"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "The Sorting Hat places students in their houses"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Harry finds the Mirror of Erised"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'Halloween'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "The chapter covers the Nimbus Two Thousand, Harry's first Quidditch lesson, the Halloween troll alert, and the fight that makes Hermione their friend."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "What broomstick does Harry receive?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "A Nimbus Two Thousand"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "A Comet Two Sixty"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "A Cleansweep Seven"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "A Firebolt"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "Professor McGonagall's letter says the parcel contains Harry's new Nimbus Two Thousand.",
+        "pageHint": "McGonagall's letter"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "Which spell makes the feather float in Charms class?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "Wingardium Leviosa"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Alohomora"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Expelliarmus"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Petrificus Totalus"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "Hermione succeeds with Wingardium Leviosa, and Ron later uses the same spell on the troll's club.",
+        "pageHint": "Charms on Halloween"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "What does Professor Quirrell announce at the Halloween feast?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "A troll is in the dungeons"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Quidditch practice is canceled"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Exams start tomorrow"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "The feast is over early"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "Quirrell gasps that there is a troll in the dungeons before fainting.",
+        "pageHint": "Halloween feast"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "Why is Hermione crying in the corridor after Charms?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "She overheard Ron say no one can stand her"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "She failed her Charms homework"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Malfoy stole her wand"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "She lost ten house points"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "Ron tells Harry she is a nightmare, and Harry sees Hermione in tears right after she passes them.",
+        "pageHint": "after Charms"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "Why do Harry and Ron leave the line of students going to the dormitories?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "They realize Hermione does not know about the troll"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Percy orders them to explore the dungeons"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "They want to find the three-headed dog"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Snape sends them on a detention"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "Harry grabs Ron's arm and says Hermione does not know about the troll.",
+        "pageHint": "leaving the feast"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "How do Harry and Ron finally knock out the troll?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'Halloween'"
+            "text": "Harry sticks his wand up its nose and Ron levitates its club onto its head"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "They lock it in a classroom and leave"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Professor McGonagall stuns it from the doorway"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hermione casts a sleeping spell"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'Halloween'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 10"
+        "explanation": "Harry's wand goes up the troll's nostril, and Ron's Wingardium Leviosa drops the club on the troll's head.",
+        "pageHint": "girls' bathroom"
       }
     ],
     "vocabulary": [
@@ -400,15 +388,15 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "In this chapter, 'dusk' is —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "the time when evening is beginning"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "a type of Quidditch ball"
           },
           {
             "id": "c",
@@ -416,196 +404,209 @@
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "a kind of owl"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Harry walks to the Quidditch field at seven o'clock in the dusk.",
+        "relatedWord": "dusk"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "On Halloween morning they woke to the delicious smell of baking ___ wafting through the corridors.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "pumpkin"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "broomstick"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "Bludger"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "spectator"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Pumpkin baking fills the corridors on Halloween morning.",
+        "relatedWord": "pumpkin"
       },
       {
         "id": "v3",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'mysterious'?",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "hard to understand"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "very ordinary"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "extremely loud"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "perfectly safe"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Harry and Ron know little about the mysterious object guarded under the trapdoor.",
+        "relatedWord": "mysterious"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "What a feeling—he ___ in and out of the goal posts and then sped up and down the field.",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "swooped"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "fluttered"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "lumbered"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "moaned"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Harry swoops through the goal posts on his new Nimbus.",
+        "relatedWord": "swoop"
       },
       {
         "id": "v5",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "A spectator is someone who —",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "watches an event from the stands"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "plays Seeker on a broomstick"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "teaches Charms at Hogwarts"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "guards the dungeons"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Raised seats let spectators see the Quidditch field clearly.",
+        "relatedWord": "spectator"
       }
     ],
     "cloze": {
       "id": "cloze-ch10",
       "title": "Halloween",
       "paragraphs": [
-        "A troll is let loose in the castle on Halloween night. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"Halloween\", the key idea involves (5) ___ and (6) ___."
+        "Harry receives a new (1) ___ in the mail and trains with Oliver Wood at (2) ___ on the Quidditch field. Wood shows him the Quaffle, the (3) ___, and the Golden Snitch.",
+        "On Halloween, Charms class practices Wingardium Leviosa. After Ron insults Hermione, a (4) ___ breaks into the castle during the feast. Harry and Ron hear a (5) ___ scream from the girls' bathroom.",
+        "Harry jams his wand up the troll's nose while Ron uses Wingardium Leviosa to drop the club on its head. The troll goes (6) ___ before collapsing. Hermione lies to protect them, and from that night on she becomes their (7) ___."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "broomstick",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 100"
+          "relatedWord": "broomstick",
+          "explanation": "McGonagall's parcel contains Harry's new Nimbus Two Thousand broomstick.",
+          "pageHint": "McGonagall's letter"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "dusk",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "dusk",
+          "explanation": "Harry heads to the field at seven o'clock in the dusk.",
+          "pageHint": "first practice"
         },
         {
           "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
+          "answer": "Bludgers",
+          "acceptAlternatives": [
+            "Bludger"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "Bludger",
+          "explanation": "Wood introduces the two jet-black Bludgers.",
+          "pageHint": "Wood explains the rules"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "troll",
           "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "gapType": "plot",
+          "relatedWord": "troll",
+          "explanation": "Quirrell announces a troll in the dungeons at the feast.",
+          "pageHint": "Halloween feast"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "petrified",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "petrified",
+          "explanation": "A high, petrified scream comes from the bathroom they locked.",
+          "pageHint": "outside the bathroom"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "berserk",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "berserk",
+          "explanation": "The shouting drives the troll berserk before Ron's spell works.",
+          "pageHint": "fighting the troll"
+        },
+        {
+          "id": 7,
+          "answer": "friend",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "explanation": "After the troll, Hermione Granger becomes their friend.",
+          "pageHint": "closing lines"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "broomstick",
+        "dusk",
+        "Bludgers",
+        "troll",
+        "berserk",
+        "friend",
+        "pumpkin",
+        "mysterious",
+        "spectators",
+        "petrified",
+        "fluttered",
+        "enviously"
       ],
       "guidedMode": true,
       "openMode": true

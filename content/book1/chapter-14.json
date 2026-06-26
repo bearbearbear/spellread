@@ -7,201 +7,187 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "pale",
+      "tier": 1,
+      "partOfSpeech": "adjective",
+      "definition": "having less color than usual in the face; looking unwell",
+      "example": "In the weeks that followed he did seem to be getting paler and thinner, but it didn’t look as though he’d cracked yet.",
+      "formInText": "paler",
+      "pageHint": "opening"
+    },
+    {
+      "word": "outlaw",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to make something illegal by official rule",
+      "example": "“Dragon breeding was outlawed by the Warlocks’ Convention of 1709, everyone knows that.",
+      "formInText": "outlawed",
+      "pageHint": "library"
+    },
+    {
+      "word": "stifling",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "uncomfortably hot with little fresh air",
+      "example": "It was stifling hot inside.",
+      "pageHint": "Hagrid's hut"
+    },
+    {
+      "word": "enchantment",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 104"
+      "definition": "a piece of magic put on an object or place",
+      "example": "… he borrowed Fluffy from me… then some o’ the teachers did enchantments… Professor Sprout—Professor Flitwick—Professor McGonagall—” he ticked them off ",
+      "formInText": "enchantments",
+      "pageHint": "Hagrid's hut"
     },
     {
-      "word": "mystery",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
+      "word": "hatch",
       "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to come out of an egg",
+      "example": "He had written only two words: It’s hatching.",
+      "formInText": "hatching",
+      "pageHint": "breakfast note"
     },
     {
-      "word": "challenge",
+      "word": "fang",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "a long, sharp tooth",
+      "example": "It snapped at his fingers, showing pointed fangs.",
+      "formInText": "fangs",
+      "pageHint": "dragon hatches"
     },
     {
-      "word": "loyal",
+      "word": "shifty",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "looking dishonest or like you are hiding something",
+      "example": "he said, in a shifty voice that got their interest at once.",
+      "pageHint": "library"
     },
     {
-      "word": "brave",
-      "tier": 1,
+      "word": "poisonous",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "containing poison that can harm or kill",
+      "example": "It looked as if Norbert’s fangs were poisonous.",
+      "pageHint": "hospital wing"
+    },
+    {
+      "word": "detention",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a punishment that keeps students after hours for breaking rules",
+      "example": "“Detention!",
+      "pageHint": "astronomy tower"
+    },
+    {
+      "word": "swoop",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to move quickly down through the air",
+      "example": "About ten minutes later, four broomsticks came swooping down out of the darkness.",
+      "formInText": "swooping",
+      "pageHint": "tower rooftop"
+    },
+    {
+      "word": "muffled",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "made quieter or harder to hear",
+      "example": "said Hagrid in a muffled voice.",
+      "pageHint": "sending Norbert away"
+    },
+    {
+      "word": "illegal",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "against the law",
+      "example": "So now they had something else to worry about: what might happen to Hagrid if anyone found out he was hiding an illegal dragon in his hut.",
+      "pageHint": "Charlie's letter"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 14."
+        "name": "Harry Potter",
+        "description": "Helps investigate Hagrid's secret and plans how to get rid of the dragon."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 14."
+        "name": "Rubeus Hagrid",
+        "description": "Wins a dragon egg in a card game and tries to raise Norbert in his hut."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 14."
+        "name": "Hermione Granger",
+        "description": "Pushes exam study while also trying to save Hagrid from disaster."
       },
       {
-        "name": "Hagrid",
-        "description": "Appears in Chapter 14."
-      },
-      {
-        "name": "Norbert",
-        "description": "Appears in Chapter 14."
-      },
-      {
-        "name": "Malfoy",
-        "description": "Appears in Chapter 14."
+        "name": "Draco Malfoy",
+        "description": "Spots the dragon and tries to expose Harry's midnight plan."
       }
     ],
-    "hook": "Hagrid raises a baby dragon and the trio must smuggle it away.",
-    "readingFocus": "Notice the risks of keeping secrets at Hogwarts."
+    "hook": "Exams loom and homework piles up, but Hagrid is acting strangely in the library. When the trio visits his sweltering hut, they discover a dragon egg in the fire — and once Norbert hatches, they must find a way to send him to Charlie before Malfoy ruins everything.",
+    "readingFocus": "Follow how the trio figures out what Hagrid is hiding. Watch what happens when Malfoy sees the dragon, and notice how the midnight delivery plan almost works — until they forget the Invisibility Cloak."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "hatch",
+      "stem": "When something hatches, it —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "comes out of an egg"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "flies away forever"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "turns into gold"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "enchantment",
+      "stem": "An enchantment is —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "magic placed on something"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "a type of dragon food"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "a school detention"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "illegal",
+      "stem": "If something is illegal, it is —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "against the law"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "very expensive"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "perfectly safe"
         }
       ],
       "correctId": "a"
@@ -213,190 +199,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 14?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'Norbert the Norwegian Ridgeback'"
+            "text": "Hagrid secretly raises a Norwegian Ridgeback dragon, and the trio smuggles Norbert to Charlie's friends at midnight"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "The trio takes their final exams and goes home for summer"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Harry wins another Quidditch match against Slytherin"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Snape steals the Sorcerer's Stone from Gringotts"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'Norbert the Norwegian Ridgeback'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "Hagrid hatches Norbert, Malfoy discovers him, and Harry and Hermione carry the dragon to the tallest tower while Ron is bitten and stuck in the hospital wing."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "How did Hagrid get the dragon egg?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "He won it playing cards with a stranger in the village"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Dumbledore gave it to him as a birthday gift"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "He found it in the Forbidden Forest"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Charlie sent it from Romania"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "Hagrid says he won the egg last night in a card game with a stranger at the pub.",
+        "pageHint": "hut"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What kind of dragon is Norbert?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "A Norwegian Ridgeback"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "A Common Welsh Green"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "A Hebridean Black"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "A Hungarian Horntail"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "Hagrid reads that the egg is a Norwegian Ridgeback, and they are rare.",
+        "pageHint": "hut"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "Who saw the dragon through Hagrid's curtains?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "Malfoy"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Filch"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Neville"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "Hagrid spots a kid at the window; Harry sees Malfoy running back to the school.",
+        "pageHint": "hatching day"
       },
       {
         "id": "c5",
         "type": "inference",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "Why can't Ron go to the tower on Saturday night?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "Norbert bit his hand and it swelled up with poison"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He forgot the plan and went to bed"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "McGonagall expelled him from Gryffindor"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Charlie's friends never replied"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "Ron's bitten hand swells to twice its size and turns green; he ends up in the hospital wing.",
+        "pageHint": "hospital wing"
       },
       {
         "id": "c6",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "What happens to Malfoy on the way up the tower?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "McGonagall catches him and gives him detention"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He helps Harry carry the crate"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Filch rewards him for telling the truth"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Charlie's friends take him to Romania"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "McGonagall grabs Malfoy by the ear, takes twenty points from Slytherin, and gives him detention.",
+        "pageHint": "corridor"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "Why do Harry and Hermione get caught after the dragon is gone?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'Norbert the Norwegian Ridgeback'"
+            "text": "They left the Invisibility Cloak on top of the tower"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Norbert bit Filch on the leg"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Peeves told McGonagall where they were"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "They forgot to send Hedwig to Charlie"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'Norbert the Norwegian Ridgeback'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 14"
+        "explanation": "Filch catches them in the corridor because they left the cloak behind on the tower.",
+        "pageHint": "end of chapter"
       }
     ],
     "vocabulary": [
@@ -404,212 +389,234 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "To outlaw something means to —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "make it illegal"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "teach it in class"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "feed it to a dragon"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "hide it in a library book"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Dragon breeding was outlawed by the Warlocks' Convention of 1709.",
+        "relatedWord": "outlaw"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "It was ___ hot inside Hagrid's hut.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "stifling"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "illegal"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "poisonous"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "muffled"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "The hut is unbearably hot even on a warm day because of the blazing fire.",
+        "relatedWord": "stifling"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "A 'fang' is —",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "a long, sharp tooth"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "a dragon egg"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "a homework schedule"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "a library book about herbs"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "The baby dragon snaps at Hagrid and shows pointed fangs.",
+        "relatedWord": "fang"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'shifty'?",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "suspicious-looking"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "cheerful"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "brave"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "famous"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Hagrid speaks in a shifty voice while hiding something behind his back.",
+        "relatedWord": "shifty"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "Charlie's friends mustn't be seen carrying an ___ dragon.",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "illegal"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "stifling"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "pale"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "muffled"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Charlie warns that his friends cannot be seen transporting an illegal dragon.",
+        "relatedWord": "illegal"
       }
     ],
     "cloze": {
       "id": "cloze-ch14",
       "title": "Norbert the Norwegian Ridgeback",
       "paragraphs": [
-        "Hagrid raises a baby dragon and the trio must smuggle it away. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"Norbert the Norwegian Ridgeback\", the key idea involves (5) ___ and (6) ___."
+        "Quirrell grows (1) ___ and thinner while the trio studies for exams. In the library, Hagrid speaks in a (2) ___ voice and was looking up books about dragons, which are (3) ___ in Britain.",
+        "Hagrid keeps a dragon egg in his (4) ___ hut until Norbert (5) ___s. The baby dragon shows sharp (6) ___s, and soon Malfoy sees him.",
+        "Charlie's friends arrive by (7) ___ broomstick to take Norbert away, but Harry and Hermione forget the Invisibility Cloak and Filch catches them."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
-          "acceptAlternatives": [],
+          "answer": "paler",
+          "acceptAlternatives": [
+            "pale"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 104"
+          "relatedWord": "pale",
+          "explanation": "Quirrell seems to be getting paler and thinner.",
+          "pageHint": "opening"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "shifty",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "shifty",
+          "explanation": "Hagrid answers in a shifty voice while hiding something.",
+          "pageHint": "library"
         },
         {
           "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
+          "answer": "outlawed",
+          "acceptAlternatives": [
+            "outlaw"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "outlaw",
+          "explanation": "Dragon breeding was outlawed by the Warlocks' Convention.",
+          "pageHint": "library"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "stifling",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "stifling",
+          "explanation": "It is stifling hot inside the hut with the fire blazing.",
+          "pageHint": "hut"
         },
         {
           "id": 5,
-          "answer": "spell",
-          "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "answer": "hatching",
+          "acceptAlternatives": [
+            "hatch"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "hatch",
+          "explanation": "Hagrid's note says only two words: It's hatching.",
+          "pageHint": "breakfast"
         },
         {
           "id": 6,
-          "answer": "potion",
-          "acceptAlternatives": [],
+          "answer": "fang",
+          "acceptAlternatives": [
+            "fangs"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "fang",
+          "explanation": "The dragon snaps and shows pointed fangs.",
+          "pageHint": "hatching"
+        },
+        {
+          "id": 7,
+          "answer": "swooping",
+          "acceptAlternatives": [
+            "swoop"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "swoop",
+          "explanation": "Four broomsticks come swooping down from the darkness.",
+          "pageHint": "tower"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "paler",
+        "shifty",
+        "outlawed",
+        "stifling",
+        "hatching",
+        "fang",
+        "swooping",
+        "enchantment",
+        "detention",
+        "poisonous",
+        "muffled",
+        "illegal"
       ],
       "guidedMode": true,
       "openMode": true

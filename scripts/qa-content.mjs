@@ -32,6 +32,22 @@ for (const file of files) {
   if (comp < 5) { console.error(`${label}: need 5+ comprehension questions, got ${comp}`); errors++; }
   if (vocab < 4) { console.error(`${label}: need 4+ vocabulary questions, got ${vocab}`); errors++; }
 
+  for (const v of data.vocabulary ?? []) {
+    if (v.formInText && !v.example.includes(v.formInText)) {
+      console.error(
+        `${label}: vocab "${v.word}": formInText "${v.formInText}" not found in example`,
+      );
+      errors++;
+    }
+    const pos = (v.partOfSpeech ?? "").toLowerCase();
+    if (pos === "verb" && v.word.endsWith("ed") && v.word !== "blessed") {
+      console.error(
+        `${label}: vocab "${v.word}": verb should use infinitive form (e.g. wink not winked)`,
+      );
+      errors++;
+    }
+  }
+
   for (const q of [...(data.quiz?.comprehension ?? []), ...(data.quiz?.vocabulary ?? [])]) {
     if (!q.correctId || !q.options?.find((o) => o.id === q.correctId)) {
       console.error(`${label}: question ${q.id} has invalid correctId`);

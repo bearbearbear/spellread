@@ -7,194 +7,163 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "depressing",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 96"
+      "partOfSpeech": "adjective",
+      "definition": "making you feel sad or low",
+      "example": "Although this was an improvement in many ways, it did become a bit depressing after a while.",
+      "pageHint": "Harry's last month with the Dursleys"
     },
     {
-      "word": "mystery",
+      "word": "stranded",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
+      "partOfSpeech": "adjective",
+      "definition": "left somewhere with no way to get away",
+      "example": "he was stranded in the middle of a station with a trunk he could hardly lift, a pocket full of wizard money, and a large owl.",
+      "pageHint": "King's Cross, before finding the platform"
     },
     {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
+      "word": "jostle",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to push or bump against someone in a crowd",
+      "example": "People jostled him on their way to platforms nine and ten.",
+      "formInText": "jostled",
+      "pageHint": "running at the barrier"
     },
     {
-      "word": "challenge",
+      "word": "gangling",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "tall and thin with awkwardly long limbs",
+      "example": "He was tall, thin, and gangling, with freckles, big hands and feet, and a long nose.",
+      "pageHint": "meeting Ron on the platform"
+    },
+    {
+      "word": "prefect",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a student given special responsibility at Hogwarts",
+      "example": "\u201cOh, are you a prefect, Percy?\u201d said one of the twins, with an air of great surprise.",
+      "pageHint": "Weasley family on the platform"
+    },
+    {
+      "word": "dimpled",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "having small hollows in the cheeks when smiling",
+      "example": "Around half past twelve there was a great clattering outside in the corridor and a smiling, dimpled woman slid back their door and said, \u201cAnything off the cart, dears?\u201d",
+      "pageHint": "trolley witch on the train"
+    },
+    {
+      "word": "prickle",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "a sharp tingling feeling, often from fear",
+      "example": "He was starting to get a prickle of fear every time You-Know-Who was mentioned.",
+      "pageHint": "talking with Ron about Gringotts"
     },
     {
-      "word": "loyal",
+      "word": "dumbfounded",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "so shocked that you cannot speak",
+      "example": "Ron looked dumbfounded.",
+      "pageHint": "Harry doesn't know any Quidditch teams"
     },
     {
-      "word": "brave",
-      "tier": 1,
+      "word": "miserable",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "very unhappy",
+      "example": "\u201cYes,\u201d said the boy miserably.",
+      "formInText": "miserably",
+      "pageHint": "Neville searching for his toad"
+    },
+    {
+      "word": "sniffy",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "speaking in a proud, disapproving way",
+      "example": "\u201cAll right\u2014I only came in here because people outside are behaving very childishly, racing up and down the corridors,\u201d said Hermione in a sniffy voice.",
+      "pageHint": "Hermione before they change robes"
+    },
+    {
+      "word": "throng",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to crowd or fill a place in large numbers",
+      "example": "They crammed their pockets with the last of the sweets and joined the crowd thronging the corridor.",
+      "formInText": "thronging",
+      "pageHint": "approaching Hogwarts"
+    },
+    {
+      "word": "lurch",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to move suddenly and unsteadily",
+      "example": "Harry\u2019s stomach lurched with nerves and Ron, he saw, looked pale under his freckles.",
+      "formInText": "lurched",
+      "pageHint": "nearly at Hogwarts"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 6."
+        "name": "Harry Potter",
+        "description": "Counts down to September first and must find the hidden platform alone."
       },
       {
         "name": "Ron Weasley",
-        "description": "Appears in Chapter 6."
+        "description": "A red-haired boy who becomes Harry's first friend on the Hogwarts Express."
       },
       {
         "name": "Hermione Granger",
-        "description": "Appears in Chapter 6."
+        "description": "A bossy, know-it-all girl who has already read all the course books."
       },
       {
-        "name": "The Weasleys",
-        "description": "Appears in Chapter 6."
+        "name": "Draco Malfoy",
+        "description": "The pale boy from Diagon Alley who insults Ron and offers Harry the wrong kind of friendship."
+      },
+      {
+        "name": "Neville Longbottom",
+        "description": "A round-faced boy who keeps losing his toad, Trevor."
       }
     ],
-    "hook": "Harry finds the hidden platform and boards the Hogwarts Express.",
-    "readingFocus": "Watch how Harry makes his first real friends."
+    "hook": "Harry's last weeks with the Dursleys are strange and silent. On September first, Uncle Vernon dumps him at King's Cross — but platform nine and three-quarters doesn't seem to exist. Once aboard the Hogwarts Express, Harry meets Ron, Hermione, and an enemy from Diagon Alley.",
+    "readingFocus": "Watch how Harry finds the platform and who he sits with on the train. Notice what the sweets, cards, and conversations teach him about wizard life."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "stranded",
+      "stem": "If you are stranded, you are —",
       "options": [
-        {
-          "id": "a",
-          "text": "bravery in facing danger"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "stuck somewhere with no way to leave" },
+        { "id": "b", "text": "running very fast" },
+        { "id": "c", "text": "eating on a train" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "prefect",
+      "stem": "A prefect at Hogwarts is —",
       "options": [
-        {
-          "id": "a",
-          "text": "something unknown or secret"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "a student with special responsibility" },
+        { "id": "b", "text": "a type of magical creature" },
+        { "id": "c", "text": "a train ticket inspector" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "depressing",
+      "stem": "Something depressing makes you feel —",
       "options": [
-        {
-          "id": "a",
-          "text": "something kept hidden"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "sad or low" },
+        { "id": "b", "text": "very excited" },
+        { "id": "c", "text": "extremely hungry" }
       ],
       "correctId": "a"
     }
@@ -205,190 +174,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 6?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "The events described in 'The Journey from Platform Nine and Three-Quarters'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Harry finds platform nine and three-quarters, makes friends on the train, and arrives at Hogwarts" },
+          { "id": "b", "text": "Harry shops for his wand in Diagon Alley" },
+          { "id": "c", "text": "Hagrid tells Harry about Voldemort in the hut on the rock" },
+          { "id": "d", "text": "Harry spends a month locked in his cupboard" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Journey from Platform Nine and Three-Quarters'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "The chapter covers the trip to King's Cross, the train journey with Ron and Hermione, meeting Malfoy, and arriving at the castle."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "How does Harry get onto platform nine and three-quarters?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry and his friends"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "He walks straight at the barrier between platforms nine and ten without stopping" },
+          { "id": "b", "text": "Uncle Vernon shows him a secret door" },
+          { "id": "c", "text": "He taps bricks with his wand" },
+          { "id": "d", "text": "A guard opens a hidden gate for him" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "Mrs. Weasley tells Harry to walk straight at the barrier; he runs and passes through to the Hogwarts Express.",
+        "pageHint": "King's Cross"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What is the name of Ron's rat?",
         "options": [
-          {
-            "id": "a",
-            "text": "A challenge they must overcome together"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Scabbers" },
+          { "id": "b", "text": "Trevor" },
+          { "id": "c", "text": "Hedwig" },
+          { "id": "d", "text": "Crookshanks" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "Ron pulls out a fat gray rat named Scabbers, who hardly ever wakes up.",
+        "pageHint": "compartment conversation"
       },
       {
         "id": "c4",
-        "type": "detail",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "How does Harry feel when Uncle Vernon leaves him at the station?",
         "options": [
-          {
-            "id": "a",
-            "text": "They support each other with loyalty and bravery"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "His mouth goes dry and he tries hard not to panic" },
+          { "id": "b", "text": "He laughs along with the Dursleys" },
+          { "id": "c", "text": "He is relieved they are finally being kind" },
+          { "id": "d", "text": "He doesn't care because he knows the way" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "After the Dursleys drive away laughing, Harry's mouth goes dry and he has ten minutes left with no idea what to do.",
+        "pageHint": "King's Cross"
       },
       {
         "id": "c5",
         "type": "inference",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "Why is Ron shocked when Harry says Voldemort's name?",
         "options": [
-          {
-            "id": "a",
-            "text": "A spell, creature, or magical object"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Most wizards are too afraid to say You-Know-Who's name aloud" },
+          { "id": "b", "text": "Saying the name is illegal on the train" },
+          { "id": "c", "text": "Harry pronounces it incorrectly" },
+          { "id": "d", "text": "Ron has never heard the name before" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "Ron gasps that Harry said You-Know-Who's name — most people are too frightened to say it.",
+        "pageHint": "train compartment"
       },
       {
         "id": "c6",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "What happens when Ron tries to turn Scabbers yellow?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry is becoming braver and more confident"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Nothing — the spell doesn't work and the rat stays asleep" },
+          { "id": "b", "text": "Scabbers turns bright gold" },
+          { "id": "c", "text": "The compartment fills with smoke" },
+          { "id": "d", "text": "Hermione's hair turns yellow instead" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "Ron waves his wand and chants a spell, but Scabbers stays gray and fast asleep.",
+        "pageHint": "Hermione enters the compartment"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "How do first-year students cross the lake to Hogwarts?",
         "options": [
-          {
-            "id": "a",
-            "text": "A scene from 'The Journey from Platform Nine and Three-Quarters'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "In little boats guided by Hagrid" },
+          { "id": "b", "text": "On flying broomsticks" },
+          { "id": "c", "text": "Through the Forbidden Forest on foot" },
+          { "id": "d", "text": "On the Hogwarts Express straight into the castle" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Journey from Platform Nine and Three-Quarters'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 6"
+        "explanation": "Hagrid calls \"No more'n four to a boat!\" and the fleet glides across the smooth black lake.",
+        "pageHint": "arrival at Hogwarts"
       }
     ],
     "vocabulary": [
@@ -396,212 +280,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "To be stranded means to be —",
         "options": [
-          {
-            "id": "a",
-            "text": "bravery in facing danger"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "stuck somewhere with no way to get away" },
+          { "id": "b", "text": "traveling on a fast train" },
+          { "id": "c", "text": "wearing new school robes" },
+          { "id": "d", "text": "talking to a friend" }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Harry is stranded at King's Cross with a heavy trunk and no idea how to reach the platform.",
+        "relatedWord": "stranded"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "He was tall, thin, and ___, with freckles, big hands and feet, and a long nose.",
         "options": [
-          {
-            "id": "a",
-            "text": "something unknown or secret"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "gangling" },
+          { "id": "b", "text": "dimpled" },
+          { "id": "c", "text": "sniffy" },
+          { "id": "d", "text": "depressing" }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Ron is described as tall, thin, and gangling when Mrs. Weasley points him out.",
+        "relatedWord": "gangling"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "A prefect is —",
         "options": [
-          {
-            "id": "a",
-            "text": "something kept hidden"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "a Hogwarts student with special duties" },
+          { "id": "b", "text": "a type of wizard sweet" },
+          { "id": "c", "text": "a guard at King's Cross" },
+          { "id": "d", "text": "a spell to turn rats yellow" }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Percy wears a shiny silver badge with a P — he is a prefect with his own compartment.",
+        "relatedWord": "prefect"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'dumbfounded'?",
         "options": [
-          {
-            "id": "a",
-            "text": "a large fortified building"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "utterly shocked" },
+          { "id": "b", "text": "slightly hungry" },
+          { "id": "c", "text": "very proud" },
+          { "id": "d", "text": "perfectly calm" }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Ron looks dumbfounded when Harry admits he doesn't know any Quidditch teams.",
+        "relatedWord": "dumbfounded"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "People ___ him on their way to platforms nine and ten.",
         "options": [
-          {
-            "id": "a",
-            "text": "words that create magic"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "jostled" },
+          { "id": "b", "text": "lurched" },
+          { "id": "c", "text": "thronged" },
+          { "id": "d", "text": "stranded" }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Harry walks faster toward the barrier as people jostle him on the way to platforms nine and ten.",
+        "relatedWord": "jostle"
       }
     ],
     "cloze": {
       "id": "cloze-ch06",
       "title": "The Journey from Platform Nine and Three-Quarters",
       "paragraphs": [
-        "Harry finds the hidden platform and boards the Hogwarts Express. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Journey from Platform Nine and Three-Quarters\", the key idea involves (5) ___ and (6) ___."
+        "Harry's last month with the Dursleys was odd — they ignored him, which grew (1) ___ after a while. At King's Cross, Uncle Vernon abandoned him, and Harry was (2) ___ with no idea how to reach platform nine and three-quarters.",
+        "Mrs. Weasley told him to run at the barrier. People (3) ___ him, but he broke through and boarded the Hogwarts Express. He met Ron, a (4) ___ red-haired boy, and later a smiling, (5) ___ trolley witch sold them wizard sweets.",
+        "Malfoy insulted the Weasleys, but Scabbers bit Goyle and drove them off. As the train neared Hogwarts, Harry's stomach (6) ___ with nerves and students (7) ___ the corridors toward the exit."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "depressing",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 96"
+          "relatedWord": "depressing",
+          "explanation": "Being ignored by the Dursleys became a bit depressing after a while.",
+          "pageHint": "opening"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "stranded",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "stranded",
+          "explanation": "Harry is stranded in the middle of the station with a trunk he can hardly lift.",
+          "pageHint": "King's Cross"
         },
         {
           "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
+          "answer": "jostled",
+          "acceptAlternatives": ["jostle"],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "jostle",
+          "explanation": "People jostle Harry on their way to platforms nine and ten.",
+          "pageHint": "running at the barrier"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "gangling",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "gangling",
+          "explanation": "Ron is tall, thin, and gangling with freckles and big hands.",
+          "pageHint": "meeting Ron"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "dimpled",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "dimpled",
+          "explanation": "A smiling, dimpled woman sells sweets from the food trolley.",
+          "pageHint": "food trolley"
         },
         {
           "id": 6,
-          "answer": "potion",
-          "acceptAlternatives": [],
+          "answer": "lurched",
+          "acceptAlternatives": ["lurch"],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "lurch",
+          "explanation": "Harry's stomach lurched with nerves as they neared Hogwarts.",
+          "pageHint": "nearly at Hogwarts"
+        },
+        {
+          "id": 7,
+          "answer": "thronging",
+          "acceptAlternatives": ["throng"],
+          "gapType": "vocabulary",
+          "relatedWord": "throng",
+          "explanation": "Harry and Ron join the crowd thronging the corridor.",
+          "pageHint": "approaching Hogwarts"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "depressing",
+        "stranded",
+        "jostled",
+        "gangling",
+        "dimpled",
+        "lurched",
+        "thronging",
+        "prefect",
+        "miserable",
+        "sniffy",
+        "prickle",
+        "dumbfounded"
       ],
       "guidedMode": true,
       "openMode": true

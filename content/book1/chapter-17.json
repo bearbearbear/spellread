@@ -7,129 +7,173 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
+      "word": "treble",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a high, thin voice or sound",
+      "example": "” Quirrell laughed, and it wasn’t his usual quivering treble, either, but cold and sharp.",
+      "pageHint": "final chamber"
+    },
+    {
+      "word": "countercurse",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a spell that blocks or reverses another curse",
+      "example": "I’d have managed it before then if Snape hadn’t been muttering a countercurse, trying to save you.",
+      "pageHint": "Quirrell explains Quidditch"
+    },
+    {
+      "word": "nosy",
+      "tier": 1,
+      "partOfSpeech": "adjective",
+      "definition": "too curious about other people's business",
+      "example": "“You’re too nosy to live, Potter.",
+      "pageHint": "final chamber"
+    },
+    {
+      "word": "vapor",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a substance spread out in the air like mist or steam",
+      "example": "“Mere shadow and vapor… I have form only when I can share another’s body… but there have always been those willing to let me into their hearts and minds… Unicorn blood has strengthened me,",
+      "pageHint": "Voldemort's face"
+    },
+    {
+      "word": "mercy",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "kindness shown to someone you could punish or harm",
+      "example": "They died begging me for mercy…",
+      "pageHint": "Voldemort threatens Harry"
+    },
+    {
+      "word": "blister",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to form painful bubbles on the skin from a burn",
+      "example": "Quirrell let go of him. The pain in his head lessened—he looked around wildly to see where Quirrell had gone, and saw him hunched in pain, looking at his fingers—they were blistering before his eyes.",
+      "formInText": "blistering",
+      "pageHint": "fight with Quirrell"
+    },
+    {
+      "word": "agony",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "extreme physical pain",
+      "example": "Quirrell, full of hatred, greed, and ambition, sharing his soul with Voldemort, could not touch you for this reason. It was agony to touch a person marked by something so good.",
+      "pageHint": "Dumbledore explains"
+    },
+    {
+      "word": "confiscate",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to take something away by authority",
+      "example": "Madam Pomfrey, however, felt it might not be very hygienic, and confiscated it.",
+      "formInText": "confiscated",
+      "pageHint": "hospital wing gifts"
+    },
+    {
+      "word": "detest",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to dislike someone very strongly",
+      "example": "Well, they did rather detest each other.",
+      "formInText": "detest",
+      "pageHint": "Dumbledore on Snape and James"
+    },
+    {
+      "word": "jostle",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to push or bump against others in a crowd",
+      "example": "People jostled them as they moved forward toward the gateway back to the Muggle world.",
+      "formInText": "jostled",
+      "pageHint": "King's Cross"
+    },
+    {
+      "word": "adventure",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "an exciting and often dangerous experience",
+      "example": "After all, to the well organized mind, death is but the next great adventure.",
+      "pageHint": "Dumbledore on Flamel"
+    },
+    {
       "word": "courage",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "mystery",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
-      "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
-    },
-    {
-      "word": "challenge",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
-    },
-    {
-      "word": "loyal",
-      "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
-    },
-    {
-      "word": "brave",
-      "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "bravery in facing danger or difficulty",
+      "example": "There are all kinds of courage,",
+      "pageHint": "end-of-year feast"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 17."
+        "name": "Harry Potter",
+        "description": "Faces Quirrell and Voldemort alone, then wakes in the hospital wing to learn the truth."
       },
       {
-        "name": "Quirrell",
-        "description": "Appears in Chapter 17."
+        "name": "Quirinus Quirrell",
+        "description": "Revealed as the thief trying to steal the Stone for Voldemort."
       },
       {
-        "name": "Voldemort",
-        "description": "Appears in Chapter 17."
+        "name": "Lord Voldemort",
+        "description": "Shares Quirrell's body and tries to get the Stone to return to power."
       },
       {
-        "name": "Dumbledore",
-        "description": "Appears in Chapter 17."
+        "name": "Albus Dumbledore",
+        "description": "Arrives in time to save Harry and explains love, the mirror, and the Stone's fate."
       }
     ],
-    "hook": "Harry faces the truth about who seeks the Sorcerer's Stone.",
-    "readingFocus": "See how Harry's courage and love help him survive."
+    "hook": "The villain in the last chamber is not Snape but Quirrell — with Voldemort hidden beneath his turban. Harry must keep the Stone from them, survive burns and pain, and wake to Dumbledore's answers about love, Snape, and why the Stone was destroyed.",
+    "readingFocus": "Watch how Quirrell and Voldemort each try to get the Stone from the mirror. Notice what Dumbledore explains in the hospital wing and how the house cup is decided at the feast."
   },
   "miniCheck": [
     {
       "id": "mc1",
+      "word": "countercurse",
+      "stem": "A countercurse is —",
+      "options": [
+        {
+          "id": "a",
+          "text": "a spell that blocks or reverses another curse"
+        },
+        {
+          "id": "b",
+          "text": "a type of candy bean"
+        },
+        {
+          "id": "c",
+          "text": "a dragon egg"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc2",
+      "word": "mercy",
+      "stem": "Mercy is —",
+      "options": [
+        {
+          "id": "a",
+          "text": "kindness to someone you could harm"
+        },
+        {
+          "id": "b",
+          "text": "a high singing voice"
+        },
+        {
+          "id": "c",
+          "text": "a house point penalty"
+        }
+      ],
+      "correctId": "a"
+    },
+    {
+      "id": "mc3",
       "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "stem": "Courage means —",
       "options": [
         {
           "id": "a",
@@ -137,63 +181,11 @@
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "cheating on an exam"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
-      ],
-      "correctId": "a"
-    },
-    {
-      "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
-      "options": [
-        {
-          "id": "a",
-          "text": "something unknown or secret"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
-      ],
-      "correctId": "a"
-    },
-    {
-      "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
-      "options": [
-        {
-          "id": "a",
-          "text": "something kept hidden"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "hiding from enemies"
         }
       ],
       "correctId": "a"
@@ -205,190 +197,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 17?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'The Man with Two Faces'"
+            "text": "Harry confronts Quirrell and Voldemort, survives with Dumbledore's help, and Gryffindor wins the house cup"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "The trio hatches Norbert and sends him to Charlie"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Harry finds the Mirror of Erised in detention"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Snape steals the Stone and escapes to London"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Man with Two Faces'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Quirrell is unmasked as the villain, Harry keeps the Stone through the mirror, Dumbledore destroys it, and last-minute points win Gryffindor the cup."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "Who really tried to knock Harry off his broom at the Quidditch match?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "Quirrell, while Snape tried to counter the curse"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Snape, while Quirrell tried to stop him"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Malfoy, while Filch watched"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hagrid, by accident"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Quirrell says he tried to kill Harry and Snape was muttering a countercurse to save him.",
+        "pageHint": "final chamber"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "How does Harry get the Sorcerer's Stone from the mirror?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "He wants to find it but not use it, so the Stone drops into his real pocket"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He breaks the mirror with a spell"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Quirrell hands it to him as a trick"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hermione solves a riddle on the frame"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Dumbledore later explains only someone who wanted to find but not use the Stone could obtain it.",
+        "pageHint": "mirror chamber"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "Why does Quirrell burn when he touches Harry?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "Harry is protected by his mother's love left in his skin"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry was wearing dragon-hide gloves"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "The Stone burned anyone who lied"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Firenze cast a spell on Harry in the forest"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Dumbledore says love like Lily's leaves protection in Harry's skin, and it is agony for Quirrell to touch him.",
+        "pageHint": "hospital wing"
       },
       {
         "id": "c5",
         "type": "inference",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "What happens to the Sorcerer's Stone at the end?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "Dumbledore destroys it; Nicolas and Perenelle will die after using stored elixir"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry keeps it in his trunk for next year"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Voldemort escapes with it under his cloak"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hagrid hides it in the forbidden forest"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Dumbledore says the Stone has been destroyed and Flamel and his wife have enough elixir left to settle their affairs.",
+        "pageHint": "hospital wing"
       },
       {
         "id": "c6",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "Why did Snape seem to hate Harry but still protect him?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "James Potter once saved Snape's life, and Snape tried to repay the debt by protecting Harry"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "McGonagall ordered Snape to favor Gryffindor"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape wanted Harry to win the house cup bet"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Quirrell paid Snape to guard Harry"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Dumbledore says Snape could not bear being in James's debt and worked to protect Harry to even the score.",
+        "pageHint": "hospital wing"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "How does Gryffindor win the house cup?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'The Man with Two Faces'"
+            "text": "Dumbledore awards last-minute points to Ron, Hermione, Harry, and Neville"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "They win the final Quidditch match"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Malfoy donates points to them"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "The hourglasses break and reset"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Man with Two Faces'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 17"
+        "explanation": "Ron, Hermione, and Harry earn fifty or sixty points each, and Neville's ten points put Gryffindor ahead of Slytherin.",
+        "pageHint": "end-of-year feast"
       }
     ],
     "vocabulary": [
@@ -396,212 +387,228 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "A 'countercurse' is —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "a spell that blocks or reverses another curse"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "a mirror that shows your desires"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "a detention in the forest"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "a homework schedule"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Snape muttered a countercurse during the Quidditch match to stop Quirrell's curse.",
+        "relatedWord": "countercurse"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "Quirrell tells Harry he is too ___ to live.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "nosy"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "famous"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "sweltering"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "illegal"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Quirrell says Harry's snooping on Halloween made him too dangerous to let live.",
+        "relatedWord": "nosy"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "'Agony' means —",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "extreme pain"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "great joy"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "quiet sleep"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "house pride"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Dumbledore says it was agony for Quirrell to touch Harry because of Lily's love.",
+        "relatedWord": "agony"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'detest'?",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "hate strongly"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "help secretly"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "whisper softly"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "sleep deeply"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Dumbledore says Snape and James did rather detest each other at school.",
+        "relatedWord": "detest"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "Dumbledore says there are all kinds of ___.",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "courage"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "vapor"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "mercy"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "treble"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "He awards Neville points for standing up to friends as well as enemies.",
+        "relatedWord": "courage"
       }
     ],
     "cloze": {
       "id": "cloze-ch17",
       "title": "The Man with Two Faces",
       "paragraphs": [
-        "Harry faces the truth about who seeks the Sorcerer's Stone. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Man with Two Faces\", the key idea involves (5) ___ and (6) ___."
+        "Quirrell, not Snape, wanted the Stone; he laughs without his usual quivering (1) ___. He admits Snape used a (2) ___ to save Harry at Quidditch.",
+        "Voldemort shares Quirrell's body like shadow and (3) ___. Harry's touch makes Quirrell's skin (4) ___, because love leaves protection that causes (5) ___ to evil.",
+        "Dumbledore destroys the Stone. At the feast he praises many kinds of (6) ___ and awards Neville ten points. On the platform, people (7) ___ Harry as he heads home."
       ],
       "gaps": [
         {
           "id": 1,
+          "answer": "treble",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "treble",
+          "explanation": "Quirrell's laugh is no longer his usual quivering treble.",
+          "pageHint": "final chamber"
+        },
+        {
+          "id": 2,
+          "answer": "countercurse",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "countercurse",
+          "explanation": "Snape muttered a countercurse during the broom incident.",
+          "pageHint": "final chamber"
+        },
+        {
+          "id": 3,
+          "answer": "vapor",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "vapor",
+          "explanation": "Voldemort says he has become mere shadow and vapor.",
+          "pageHint": "turban removed"
+        },
+        {
+          "id": 4,
+          "answer": "blistering",
+          "acceptAlternatives": [
+            "blister"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "blister",
+          "explanation": "Quirrell's fingers blister when he grabs Harry.",
+          "pageHint": "fight"
+        },
+        {
+          "id": 5,
+          "answer": "agony",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "agony",
+          "explanation": "Dumbledore says it was agony for Quirrell to touch Harry.",
+          "pageHint": "hospital wing"
+        },
+        {
+          "id": 6,
           "answer": "courage",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
           "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 107"
+          "explanation": "Dumbledore says there are all kinds of courage before rewarding Neville.",
+          "pageHint": "feast"
         },
         {
-          "id": 2,
-          "answer": "mystery",
-          "acceptAlternatives": [],
+          "id": 7,
+          "answer": "jostled",
+          "acceptAlternatives": [
+            "jostle"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
-        },
-        {
-          "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
-        },
-        {
-          "id": 4,
-          "answer": "castle",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
-        },
-        {
-          "id": 5,
-          "answer": "spell",
-          "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
-        },
-        {
-          "id": 6,
-          "answer": "potion",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "jostle",
+          "explanation": "People jostle them on the way to the gateway at King's Cross.",
+          "pageHint": "platform"
         }
       ],
       "wordBank": [
+        "treble",
+        "countercurse",
+        "vapor",
+        "blistering",
+        "agony",
         "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "jostled",
+        "nosy",
+        "mercy",
+        "confiscated",
+        "detest",
+        "adventure"
       ],
       "guidedMode": true,
       "openMode": true

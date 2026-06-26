@@ -10,187 +10,157 @@
       "word": "giant",
       "tier": 1,
       "partOfSpeech": "noun",
-      "definition": "a very large human-like creature",
-      "example": "Hagrid was a giant of a man.",
-      "pageHint": "p. 42"
+      "definition": "a person or creature that is extremely large",
+      "example": "A giant of a man was standing in the doorway.",
+      "pageHint": "hut on the rock, door smashed"
+    },
+    {
+      "word": "fierce",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "wild, angry, or frightening in appearance",
+      "example": "Harry looked up into the fierce, wild, shadowy face and saw that the beetle eyes were crinkled in a smile.",
+      "pageHint": "Hagrid greets Harry"
+    },
+    {
+      "word": "shaggy",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "long and rough, like unkempt hair or fur",
+      "example": "His face was almost completely hidden by a long, shaggy mane of hair and a wild, tangled beard, but you could make out his eyes, glinting like black beetles under all the hair.",
+      "pageHint": "Hagrid's first appearance"
+    },
+    {
+      "word": "squeeze",
+      "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to push or fit through a tight space",
+      "example": "The giant squeezed his way into the hut, stooping so that his head just brushed the ceiling.",
+      "formInText": "squeezed",
+      "pageHint": "Hagrid enters the hut"
+    },
+    {
+      "word": "thunder",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to shout very loudly",
+      "example": "\u201cALL WHAT?\u201d Hagrid thundered.",
+      "formInText": "thundered",
+      "pageHint": "Hagrid learns Harry knows nothing"
+    },
+    {
+      "word": "cower",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to shrink back in fear",
+      "example": "The Dursleys were cowering against the wall.",
+      "formInText": "cowering",
+      "pageHint": "Hagrid's anger fills the hut"
+    },
+    {
+      "word": "forbid",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to order someone not to do something",
+      "example": "I forbid you to tell the boy anything!",
+      "pageHint": "Uncle Vernon tries to stop Hagrid"
     },
     {
       "word": "wizard",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a person who uses magic",
-      "example": "Harry is a wizard.",
-      "pageHint": "p. 47"
-    },
-    {
-      "word": "birthday",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the day you were born",
-      "example": "It was Harry's eleventh birthday.",
-      "pageHint": "p. 41"
-    },
-    {
-      "word": "truth",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "what is real and correct",
-      "example": "Hagrid told Harry the truth.",
-      "pageHint": "p. 48"
-    },
-    {
-      "word": "famous",
-      "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "known by many people",
-      "example": "Harry is famous in the wizarding world.",
-      "pageHint": "p. 49"
-    },
-    {
-      "word": "orphan",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a child whose parents have died",
-      "example": "Harry is an orphan.",
-      "pageHint": "p. 48"
-    },
-    {
-      "word": "proud",
-      "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "feeling pleased about yourself",
-      "example": "Hagrid was proud to be half-giant.",
-      "pageHint": "p. 44"
-    },
-    {
-      "word": "storm",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "very bad weather with rain and wind",
-      "example": "A storm raged outside the hut.",
-      "pageHint": "p. 41"
-    },
-    {
-      "word": "umbrella",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a device that keeps off rain",
-      "example": "Hagrid carried a pink umbrella.",
-      "pageHint": "p. 43"
-    },
-    {
-      "word": "astonished",
-      "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "very surprised",
-      "example": "Harry was astonished by the news.",
-      "pageHint": "p. 47"
-    },
-    {
-      "word": "guardian",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "someone who protects or cares for you",
-      "example": "The Dursleys were not good guardians.",
-      "pageHint": "p. 48"
-    },
-    {
-      "word": "Hogwarts",
       "tier": 3,
       "partOfSpeech": "noun",
-      "definition": "the school for witchcraft and wizardry",
-      "example": "Harry will go to Hogwarts.",
-      "pageHint": "p. 50"
+      "definition": "a person who can do magic",
+      "example": "Harry—yer a wizard.",
+      "pageHint": "Hagrid's revelation"
+    },
+    {
+      "word": "stammer",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to speak with pauses and repeated sounds, often from nervousness",
+      "example": "After a few minutes he stammered, \u201cWhat does it mean, they await my owl?\u201d",
+      "formInText": "stammered",
+      "pageHint": "after reading the Hogwarts letter"
+    },
+    {
+      "word": "parchment",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "thick paper used for important documents",
+      "example": "and from yet another pocket inside his overcoat he pulled an owl—a real, live, rather ruffled looking owl—a long quill, and a roll of parchment.",
+      "pageHint": "Hagrid writes to Dumbledore"
+    },
+    {
+      "word": "scandal",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "shocking behavior that upsets many people",
+      "example": "It\u2019s an outrage! A scandal!",
+      "pageHint": "Hagrid on the car-crash lie"
+    },
+    {
+      "word": "shudder",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to shake suddenly from fear or disgust",
+      "example": "\u201cNah can\u2019t spell it. All right\u2014Voldemort.\u201d Hagrid shuddered.",
+      "formInText": "shuddered",
+      "pageHint": "Hagrid says You-Know-Who's name"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Hagrid",
-        "description": "A giant man who is Keeper of Keys at Hogwarts."
+        "name": "Harry Potter",
+        "description": "Turns eleven in a shack on a rock and finally learns the truth about his parents."
       },
       {
-        "name": "Harry Potter",
-        "description": "Learns the truth about being a wizard."
+        "name": "Rubeus Hagrid",
+        "description": "Hogwarts gamekeeper who smashes down the door and tells Harry he is a wizard."
       },
       {
         "name": "Uncle Vernon",
-        "description": "Tries to stop Hagrid from telling Harry anything."
+        "description": "Tries to stop Hagrid with a rifle and forbids anyone from telling Harry about magic."
+      },
+      {
+        "name": "Aunt Petunia",
+        "description": "Bursts out with years of resentment about her witch sister Lily."
       }
     ],
-    "hook": "A giant man named Hagrid arrives on Harry's birthday and reveals that Harry is a wizard.",
-    "readingFocus": "Pay attention to what Hagrid tells Harry about his parents and his past."
+    "hook": "On Harry's eleventh birthday, a giant smashes through the door of the Dursleys' hideaway. Over tea and sausages, Hagrid reveals that Harry is a wizard — and that the Dursleys have lied about how his parents died.",
+    "readingFocus": "Watch how Harry reacts as each new truth lands. Notice what Hagrid reveals about Voldemort, Harry's scar, and the odd things Harry has done without knowing why."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "giant",
-      "stem": "What does 'giant' mean?",
+      "word": "wizard",
+      "stem": "A wizard is someone who —",
       "options": [
-        {
-          "id": "a",
-          "text": "a very large human-like creature"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "can do magic" },
+        { "id": "b", "text": "works at a Muggle bank" },
+        { "id": "c", "text": "delivers the post" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "wizard",
-      "stem": "What does 'wizard' mean?",
+      "word": "forbid",
+      "stem": "To forbid something means to —",
       "options": [
-        {
-          "id": "a",
-          "text": "a person who uses magic"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "order someone not to do it" },
+        { "id": "b", "text": "give someone a birthday cake" },
+        { "id": "c", "text": "invite someone inside" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "birthday",
-      "stem": "What does 'birthday' mean?",
+      "word": "shudder",
+      "stem": "To shudder means to —",
       "options": [
-        {
-          "id": "a",
-          "text": "the day you were born"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "shake from fear or disgust" },
+        { "id": "b", "text": "laugh very loudly" },
+        { "id": "c", "text": "fall fast asleep" }
       ],
       "correctId": "a"
     }
@@ -201,190 +171,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "Who breaks down the door of the hut?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "Hagrid"
-          },
-          {
-            "id": "b",
-            "text": "Dumbledore"
-          },
-          {
-            "id": "c",
-            "text": "McGonagall"
-          },
-          {
-            "id": "d",
-            "text": "Dudley"
-          }
+          { "id": "a", "text": "Hagrid arrives on Harry's birthday, tells him he is a wizard, and explains what happened to his parents" },
+          { "id": "b", "text": "Harry shops for school supplies in Diagon Alley" },
+          { "id": "c", "text": "Harry boards the Hogwarts Express" },
+          { "id": "d", "text": "The Dursleys move Harry back into the cupboard" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Hagrid. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "Hagrid breaks into the hut, reveals Harry's identity, delivers his Hogwarts letter, and tells him about Voldemort and his parents' deaths."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What does Hagrid give Harry for his birthday?",
+        "stem": "What does Hagrid bring Harry for his birthday?",
         "options": [
-          {
-            "id": "a",
-            "text": "A squashed birthday cake"
-          },
-          {
-            "id": "b",
-            "text": "A broomstick"
-          },
-          {
-            "id": "c",
-            "text": "An owl"
-          },
-          {
-            "id": "d",
-            "text": "A wand"
-          }
+          { "id": "a", "text": "A squashed chocolate cake with green icing" },
+          { "id": "b", "text": "A new owl and a wand" },
+          { "id": "c", "text": "A pile of gold coins from Gringotts" },
+          { "id": "d", "text": "A set of black school robes" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A squashed birthday cake. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "Hagrid pulls a slightly squashed box from his coat with a sticky chocolate cake reading Happy Birthday Harry.",
+        "pageHint": "birthday gift"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What shocking news does Hagrid share?",
+        "stem": "What does Hagrid do to Uncle Vernon's rifle?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry is a wizard"
-          },
-          {
-            "id": "b",
-            "text": "Harry is a Muggle"
-          },
-          {
-            "id": "c",
-            "text": "Harry is Dudley's brother"
-          },
-          {
-            "id": "d",
-            "text": "Harry must stay with the Dursleys forever"
-          }
+          { "id": "a", "text": "Bends it into a knot and throws it in a corner" },
+          { "id": "b", "text": "Loads it and fires at the ceiling" },
+          { "id": "c", "text": "Hands it back politely" },
+          { "id": "d", "text": "Uses it to prop open the door" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is a wizard. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "Hagrid jerks the gun from Vernon's hands, bends it like rubber, and tosses it away.",
+        "pageHint": "Hagrid enters"
       },
       {
         "id": "c4",
-        "type": "detail",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What happened to Harry's parents?",
+        "stem": "How does Harry react when Hagrid says he is a wizard?",
         "options": [
-          {
-            "id": "a",
-            "text": "They were killed by a dark wizard"
-          },
-          {
-            "id": "b",
-            "text": "They moved to America"
-          },
-          {
-            "id": "c",
-            "text": "They are hiding at Hogwarts"
-          },
-          {
-            "id": "d",
-            "text": "They gave Harry away"
-          }
+          { "id": "a", "text": "He gasps in disbelief — \"I'm a what?\"" },
+          { "id": "b", "text": "He cheers and dances around the hut" },
+          { "id": "c", "text": "He already knew and is bored" },
+          { "id": "d", "text": "He runs out into the storm" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They were killed by a dark wizard. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "There is silence in the hut, then Harry gasps, \"I'm a what?\"",
+        "pageHint": "the revelation"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Why is Harry famous among wizards?",
+        "stem": "What lie did the Dursleys tell Harry about his parents' deaths?",
         "options": [
-          {
-            "id": "a",
-            "text": "He survived an attack that should have killed him"
-          },
-          {
-            "id": "b",
-            "text": "He won a Quidditch cup"
-          },
-          {
-            "id": "c",
-            "text": "He invented a spell"
-          },
-          {
-            "id": "d",
-            "text": "He is the richest wizard"
-          }
+          { "id": "a", "text": "They died in a car crash" },
+          { "id": "b", "text": "They moved to America" },
+          { "id": "c", "text": "They were lost at sea" },
+          { "id": "d", "text": "They died of a magical illness" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: He survived an attack that should have killed him. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "Harry says the Dursleys told him his parents died in a car crash; Hagrid roars that this is an outrage.",
+        "pageHint": "parents' deaths"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What does Uncle Vernon call wizards?",
+        "stem": "Why does Hagrid think Harry must be a wizard?",
         "options": [
-          {
-            "id": "a",
-            "text": "A lot of rubbish / freaks"
-          },
-          {
-            "id": "b",
-            "text": "His best friends"
-          },
-          {
-            "id": "c",
-            "text": "Teachers"
-          },
-          {
-            "id": "d",
-            "text": "Doctors"
-          }
+          { "id": "a", "text": "Strange things happen when Harry is scared or angry, like making Dudley's hair grow back" },
+          { "id": "b", "text": "Harry already owns a wand and spell books" },
+          { "id": "c", "text": "Harry can speak to snakes on command" },
+          { "id": "d", "text": "Harry passed a magic exam at Stonewall High" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A lot of rubbish / freaks. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "Hagrid asks if Harry never made things happen when upset — Harry remembers the haircut, the boa constrictor, and more.",
+        "pageHint": "end of chapter"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "Where will Harry learn magic?",
+        "stem": "What happens to Dudley at the end of the chapter?",
         "options": [
-          {
-            "id": "a",
-            "text": "Hogwarts School of Witchcraft and Wizardry"
-          },
-          {
-            "id": "b",
-            "text": "Smeltings Academy"
-          },
-          {
-            "id": "c",
-            "text": "The zoo"
-          },
-          {
-            "id": "d",
-            "text": "Privet Drive Primary"
-          }
+          { "id": "a", "text": "Hagrid's umbrella gives him a curly pig's tail" },
+          { "id": "b", "text": "He eats all of Hagrid's sausages" },
+          { "id": "c", "text": "He reads Harry's Hogwarts letter aloud" },
+          { "id": "d", "text": "He helps Hagrid fix the door" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Hogwarts School of Witchcraft and Wizardry. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 4"
+        "explanation": "After Vernon insults Dumbledore, Hagrid points his umbrella at Dudley and a pig's tail pokes through his trousers.",
+        "pageHint": "Hagrid loses his temper"
       }
     ],
     "vocabulary": [
@@ -392,145 +277,84 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'astonished' mean in this chapter?",
+        "stem": "In this chapter, a 'wizard' is —",
         "options": [
-          {
-            "id": "a",
-            "text": "very surprised"
-          },
-          {
-            "id": "b",
-            "text": "very tired"
-          },
-          {
-            "id": "c",
-            "text": "slightly hungry"
-          },
-          {
-            "id": "d",
-            "text": "completely bored"
-          }
+          { "id": "a", "text": "a person who can do magic" },
+          { "id": "b", "text": "a type of school teacher" },
+          { "id": "c", "text": "a large sea creature" },
+          { "id": "d", "text": "a Muggle postman" }
         ],
         "correctId": "a",
-        "explanation": "'astonished' means: very surprised.",
-        "relatedWord": "astonished"
+        "explanation": "Hagrid tells Harry plainly, \"Harry—yer a wizard.\"",
+        "relatedWord": "wizard"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'orphan' mean in this chapter?",
+        "stem": "His face was almost completely hidden by a long, ___ mane of hair and a wild, tangled beard.",
         "options": [
-          {
-            "id": "a",
-            "text": "a child without parents"
-          },
-          {
-            "id": "b",
-            "text": "a type of bird"
-          },
-          {
-            "id": "c",
-            "text": "a magic spell"
-          },
-          {
-            "id": "d",
-            "text": "a school teacher"
-          }
+          { "id": "a", "text": "shaggy" },
+          { "id": "b", "text": "fierce" },
+          { "id": "c", "text": "giant" },
+          { "id": "d", "text": "scandal" }
         ],
         "correctId": "a",
-        "explanation": "'orphan' means: a child without parents.",
-        "relatedWord": "orphan"
+        "explanation": "Hagrid's shaggy hair and beard almost hide his beetle-black eyes.",
+        "relatedWord": "shaggy"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'guardian' mean in this chapter?",
+        "stem": "To cower means to —",
         "options": [
-          {
-            "id": "a",
-            "text": "someone who cares for you"
-          },
-          {
-            "id": "b",
-            "text": "a locked door"
-          },
-          {
-            "id": "c",
-            "text": "a kind of cake"
-          },
-          {
-            "id": "d",
-            "text": "a postal stamp"
-          }
+          { "id": "a", "text": "shrink back in fear" },
+          { "id": "b", "text": "cook sausages over a fire" },
+          { "id": "c", "text": "write on parchment" },
+          { "id": "d", "text": "bend metal easily" }
         ],
         "correctId": "a",
-        "explanation": "'guardian' means: someone who cares for you.",
-        "relatedWord": "guardian"
+        "explanation": "When Hagrid leaps up in anger, the Dursleys cower against the wall.",
+        "relatedWord": "cower"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'famous' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'fierce'?",
         "options": [
-          {
-            "id": "a",
-            "text": "known by many people"
-          },
-          {
-            "id": "b",
-            "text": "completely unknown"
-          },
-          {
-            "id": "c",
-            "text": "very angry"
-          },
-          {
-            "id": "d",
-            "text": "always sleeping"
-          }
+          { "id": "a", "text": "wild and frightening" },
+          { "id": "b", "text": "kind and gentle" },
+          { "id": "c", "text": "sleepy and calm" },
+          { "id": "d", "text": "tiny and weak" }
         ],
         "correctId": "a",
-        "explanation": "'famous' means: known by many people.",
-        "relatedWord": "famous"
+        "explanation": "Harry first sees Hagrid's fierce, wild, shadowy face before noticing his smile.",
+        "relatedWord": "fierce"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'wizard' mean in this chapter?",
+        "stem": "After a few minutes he ___, \"What does it mean, they await my owl?\"",
         "options": [
-          {
-            "id": "a",
-            "text": "a person who uses magic"
-          },
-          {
-            "id": "b",
-            "text": "a non-magical person"
-          },
-          {
-            "id": "c",
-            "text": "a zoo animal"
-          },
-          {
-            "id": "d",
-            "text": "a type of car"
-          }
+          { "id": "a", "text": "stammered" },
+          { "id": "b", "text": "shuddered" },
+          { "id": "c", "text": "squeezed" },
+          { "id": "d", "text": "thundered" }
         ],
         "correctId": "a",
-        "explanation": "'wizard' means: a person who uses magic.",
-        "relatedWord": "wizard"
+        "explanation": "Harry is overwhelmed with questions and stammers when he finally speaks.",
+        "relatedWord": "stammer"
       }
     ],
     "cloze": {
       "id": "cloze-ch04",
       "title": "The Keeper of the Keys",
       "paragraphs": [
-        "A giant man named Hagrid arrives on Harry's birthday and reveals that Harry is a wizard. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Keeper of the Keys\", the key idea involves (5) ___ and (6) ___."
+        "On Harry's eleventh birthday, a (1) ___ of a man smashed through the door of the hut. His (2) ___ mane of hair and wild beard hid a (3) ___ face, but his beetle eyes crinkled in a smile.",
+        "When Hagrid learned the Dursleys had never told Harry about magic, he (4) ___ with rage and the family (5) ___ against the wall. Uncle Vernon tried to (6) ___ him from explaining, but Hagrid said Harry was a (7) ___."
       ],
       "gaps": [
         {
@@ -539,65 +363,77 @@
           "acceptAlternatives": [],
           "gapType": "vocabulary",
           "relatedWord": "giant",
-          "explanation": "giant: a very large human-like creature",
-          "pageHint": "p. 42"
+          "explanation": "A giant of a man stands in the doorway after the door is smashed off its hinges.",
+          "pageHint": "door smashed"
         },
         {
           "id": 2,
+          "answer": "shaggy",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "shaggy",
+          "explanation": "Hagrid's face is hidden by a long, shaggy mane of hair.",
+          "pageHint": "Hagrid's appearance"
+        },
+        {
+          "id": 3,
+          "answer": "fierce",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "fierce",
+          "explanation": "Harry looks up into Hagrid's fierce, wild, shadowy face.",
+          "pageHint": "Hagrid greets Harry"
+        },
+        {
+          "id": 4,
+          "answer": "thundered",
+          "acceptAlternatives": ["thunder"],
+          "gapType": "vocabulary",
+          "relatedWord": "thunder",
+          "explanation": "Hagrid thunders \"ALL WHAT?\" when he learns how little Harry knows.",
+          "pageHint": "Hagrid's outrage"
+        },
+        {
+          "id": 5,
+          "answer": "cowering",
+          "acceptAlternatives": ["cower"],
+          "gapType": "vocabulary",
+          "relatedWord": "cower",
+          "explanation": "The Dursleys cower against the wall when Hagrid fills the hut with anger.",
+          "pageHint": "Hagrid's anger"
+        },
+        {
+          "id": 6,
+          "answer": "forbid",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "forbid",
+          "explanation": "Uncle Vernon commands, \"I forbid you to tell the boy anything!\"",
+          "pageHint": "Vernon panics"
+        },
+        {
+          "id": 7,
           "answer": "wizard",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
           "relatedWord": "wizard",
-          "explanation": "wizard: a person who uses magic",
-          "pageHint": "p. 47"
-        },
-        {
-          "id": 3,
-          "answer": "birthday",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "birthday",
-          "explanation": "birthday: the day you were born",
-          "pageHint": "p. 41"
-        },
-        {
-          "id": 4,
-          "answer": "truth",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "truth",
-          "explanation": "truth: what is real and correct",
-          "pageHint": "p. 48"
-        },
-        {
-          "id": 5,
-          "answer": "famous",
-          "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "famous",
-          "explanation": "famous: known by many people",
-          "pageHint": "p. 49"
-        },
-        {
-          "id": 6,
-          "answer": "orphan",
-          "acceptAlternatives": [],
-          "gapType": "vocabulary",
-          "relatedWord": "orphan",
-          "explanation": "orphan: a child whose parents have died",
-          "pageHint": "p. 48"
+          "explanation": "Hagrid tells Harry, \"Harry—yer a wizard.\"",
+          "pageHint": "the revelation"
         }
       ],
       "wordBank": [
         "giant",
+        "shaggy",
+        "fierce",
+        "thundered",
+        "cowering",
+        "forbid",
         "wizard",
-        "birthday",
-        "truth",
-        "famous",
-        "orphan",
-        "proud",
-        "storm",
-        "umbrella"
+        "parchment",
+        "scandal",
+        "stammered",
+        "shuddered",
+        "squeezed"
       ],
       "guidedMode": true,
       "openMode": true

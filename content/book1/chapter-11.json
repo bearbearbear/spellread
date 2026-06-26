@@ -7,197 +7,186 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "frost",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a thin layer of ice that forms on cold surfaces",
+      "example": "Every morning the ground was covered in frost.",
+      "pageHint": "early November"
+    },
+    {
+      "word": "moleskin",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 101"
+      "definition": "a thick, soft fabric often used for warm clothing",
+      "example": "Hagrid could be seen from the upstairs windows defrosting broomsticks on the Quidditch field, bundled up in a long moleskin overcoat, rabbit fur gloves, and enormous beaverskin boots.",
+      "pageHint": "cold mornings"
     },
     {
-      "word": "mystery",
+      "word": "Seeker",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "the Quidditch player who catches the Golden Snitch",
+      "example": "But the news that he was playing Seeker had leaked out somehow, and Harry didn’t know which was worse—people telling him he’d be brilliant or people telling him they’d be running around underneath him holding a mattress.",
+      "pageHint": "before the match"
+    },
+    {
+      "word": "conjure",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to create something by magic",
+      "example": "The day before Harry’s first Quidditch match the three of them were out in the freezing courtyard during break, and she had conjured them up a bright blue fire that could be carried around in a jam jar.",
+      "formInText": "conjured",
+      "pageHint": "courtyard before the match"
     },
     {
-      "word": "challenge",
+      "word": "limp",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to walk with difficulty because of an injured leg",
+      "example": "Harry noticed at once that Snape was limping.",
+      "formInText": "limping",
+      "pageHint": "courtyard"
+    },
+    {
+      "word": "mangled",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "badly torn or crushed",
+      "example": "One of his legs was bloody and mangled.",
+      "pageHint": "staffroom"
+    },
+    {
+      "word": "diversion",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "something meant to distract people from what is really happening",
+      "example": "And I’d bet my broomstick he let that troll in, to make a diversion!",
+      "pageHint": "common room after staffroom"
     },
     {
-      "word": "loyal",
+      "word": "clobber",
       "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "partOfSpeech": "verb",
+      "definition": "to hit someone very hard",
+      "example": "Seekers are always the ones who get clobbered by the other team.",
+      "formInText": "clobbered",
+      "pageHint": "breakfast before the match"
     },
     {
-      "word": "brave",
+      "word": "wheedle",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to try to persuade someone using a sweet, coaxing voice",
+      "example": "“Just a bit of toast,” wheedled Hermione.",
+      "formInText": "wheedled",
+      "pageHint": "match morning breakfast"
+    },
+    {
+      "word": "binoculars",
       "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "partOfSpeech": "noun",
+      "definition": "a device with two lenses used to see faraway things more clearly",
+      "example": "Many students had binoculars.",
+      "pageHint": "in the stands"
+    },
+    {
+      "word": "jinx",
+      "tier": 3,
+      "partOfSpeech": "verb",
+      "definition": "to cast a bad-luck spell on someone or something",
+      "example": "“He’s doing something—jinxing the broom,” said Hermione.",
+      "formInText": "jinxing",
+      "pageHint": "during the match"
+    },
+    {
+      "word": "Fluffy",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "Hagrid's three-headed dog that guards a secret object",
+      "example": "“How do you know about Fluffy?” he said.",
+      "pageHint": "Hagrid's hut"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 11."
+        "name": "Harry Potter",
+        "description": "Plays his first Quidditch match as Gryffindor Seeker while his broom goes out of control."
       },
       {
-        "name": "Wood",
-        "description": "Appears in Chapter 11."
+        "name": "Hermione Granger",
+        "description": "Helps with homework, spots Snape jinxing Harry's broom, and sets his robes on fire."
       },
       {
-        "name": "Snape",
-        "description": "Appears in Chapter 11."
+        "name": "Severus Snape",
+        "description": "Limping and suspicious; Harry believes he is after what the three-headed dog guards."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 11."
-      },
-      {
-        "name": "Ron",
-        "description": "Appears in Chapter 11."
+        "name": "Rubeus Hagrid",
+        "description": "Watches the match from the stands and accidentally reveals the dog's name and Nicolas Flamel."
       }
     ],
-    "hook": "Harry becomes the youngest Seeker in a century and plays his first match.",
-    "readingFocus": "Watch how Harry performs under pressure during the game."
+    "hook": "November brings Harry's first Quidditch match and a shocking glimpse of Snape's injured leg. During the game, Harry's broom spins out of control — and afterward Hagrid lets more than he means to slip.",
+    "readingFocus": "Notice what Harry sees in the staffroom, how Hermione stops Snape during the match, and what Hagrid accidentally says about Fluffy and Nicolas Flamel."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "Seeker",
+      "stem": "The Seeker's job in Quidditch is to —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "catch the Golden Snitch"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "guard the goal hoops"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "hit the Bludgers away"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "diversion",
+      "stem": "A diversion is meant to —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "distract people from something else"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "score ten points in Quidditch"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "keep homework organized"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "jinx",
+      "stem": "To jinx something is to —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "put a harmful spell on it"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "polish a broomstick"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "announce the match results"
         }
       ],
       "correctId": "a"
@@ -209,190 +198,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 11?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'Quidditch'"
+            "text": "Harry's first Quidditch match, Snape's suspicious behavior, and new clues about the guarded secret"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Harry shopping for school supplies in Diagon Alley"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Christmas at Hogwarts and the Invisibility Cloak"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Hagrid hatching a dragon egg in his hut"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'Quidditch'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "The chapter follows the Gryffindor–Slytherin match, Hermione stopping Snape's jinx, and Hagrid's slip about Fluffy and Nicolas Flamel."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "What does Harry see when he peeks into the staffroom?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "Snape's bloody, mangled leg while Filch bandages it"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Dumbledore reading Quidditch Through the Ages"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "McGonagall polishing the Quidditch cup"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Flitwick teaching a levitation charm"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "Snape holds his robes up to show a bloody, mangled leg, and Filch hands him bandages.",
+        "pageHint": "staffroom"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "Why does Snape take five points from Gryffindor in the courtyard?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "Harry has Quidditch Through the Ages outside the school"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Ron conjures fire in the corridor"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Hermione copies Charms homework"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Harry flies his broom before the match"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "Snape says library books are not to be taken outside the school and confiscates the book.",
+        "pageHint": "courtyard"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "What does Marcus Flint do to Harry during the Snitch chase?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "He blocks Harry on purpose"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He catches the Snitch for Slytherin"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "He swaps Harry's broom for a Comet"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "He reports Harry to Madam Hooch for cheating"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "Marcus Flint blocks Harry on purpose, and Harry's broom spins off course.",
+        "pageHint": "during the match"
       },
       {
         "id": "c5",
         "type": "inference",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "Why does Hermione set fire to the hem of Snape's robes?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "She believes he is jinxing Harry's broom and wants to break his concentration"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "She wants to warm her hands in the stands"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Snape ordered her to practice a fire charm"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "She is trying to light Hagrid's binoculars"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "Hermione sees Snape muttering without blinking and jinxing the broom, so she lights his robes.",
+        "pageHint": "stands during match"
       },
       {
         "id": "c6",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "How does Harry catch the Golden Snitch?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "He claps his hand to his mouth and nearly swallows it before it falls into his hand"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He traps it in a jam jar Hermione gives him"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Fred Weasley hands it to him after beating a Bludger"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "He grabs it from Marcus Flint's pocket"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "Harry speeds toward the ground, claps his hand to his mouth, and something gold falls into his hand.",
+        "pageHint": "end of match"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "What name does Hagrid accidentally reveal in his hut?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'Quidditch'"
+            "text": "Fluffy and Nicolas Flamel"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Voldemort and Gringotts"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Dobby and the Dursleys"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Norbert and Charlie Weasley"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'Quidditch'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 11"
+        "explanation": "Hagrid asks how they know about Fluffy and later mentions Nicolas Flamel before catching himself.",
+        "pageHint": "Hagrid's hut"
       }
     ],
     "vocabulary": [
@@ -400,212 +388,226 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "In this chapter, 'frost' is —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "ice that covers the ground on cold mornings"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "a type of Quidditch foul"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "a library book about flying"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "a spell to light blue fire"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Every morning the ground is covered in frost as November grows colder.",
+        "relatedWord": "frost"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "One of his legs was bloody and ___.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "mangled"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "moleskin"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "drafty"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "festooned"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Harry sees Snape's leg bloody and mangled in the staffroom.",
+        "relatedWord": "mangled"
       },
       {
         "id": "v3",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'conjure'?",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "create by magic"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "fall asleep"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "run very fast"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "argue loudly"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Hermione conjures a bright blue fire in a jam jar.",
+        "relatedWord": "conjure"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "\"He's doing something—___ the broom,\" said Hermione.",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "jinxing"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "wheedling"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "clobbering"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "limping"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Hermione believes Snape is jinxing Harry's broomstick during the match.",
+        "relatedWord": "jinx"
       },
       {
         "id": "v5",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "To wheedle is to —",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "coax someone in a sweet, persuasive way"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "referee a Quidditch game"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "repair a broken broomstick"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "shout commentary from the stands"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Hermione wheedles Harry to eat toast before the match.",
+        "relatedWord": "wheedle"
       }
     ],
     "cloze": {
       "id": "cloze-ch11",
       "title": "Quidditch",
       "paragraphs": [
-        "Harry becomes the youngest Seeker in a century and plays his first match. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"Quidditch\", the key idea involves (5) ___ and (6) ___."
+        "November turns icy, and every morning the ground is covered in (1) ___. Harry prepares for his first match as Gryffindor (2) ___ while Hermione helps with homework and lends him Quidditch Through the Ages.",
+        "Harry peeks into the staffroom and sees Snape's bloody, (3) ___ leg. In the stands, Ron and Hermione watch through (7) ___ as the match begins.",
+        "During the game, Flint fouls Harry and then Harry's broom lurches wildly. Hermione spots Snape (4) ___ the broom and sets fire to his robes. Harry regains control, catches the Snitch, and Gryffindor wins.",
+        "In Hagrid's hut afterward, he blurts out the name (5) ___ for the three-headed dog and mentions (6) ___ Flamel before telling them to stop meddling."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "frost",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 101"
+          "relatedWord": "frost",
+          "explanation": "Cold November mornings leave frost on the ground.",
+          "pageHint": "opening"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "Seeker",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "Seeker",
+          "explanation": "News leaks that Harry is playing Seeker for Gryffindor.",
+          "pageHint": "before the match"
         },
         {
           "id": 3,
-          "answer": "secret",
+          "answer": "mangled",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "mangled",
+          "explanation": "Snape's leg is bloody and mangled when Harry sees him.",
+          "pageHint": "staffroom"
         },
         {
           "id": 4,
-          "answer": "castle",
-          "acceptAlternatives": [],
+          "answer": "jinxing",
+          "acceptAlternatives": [
+            "jinx"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "jinx",
+          "explanation": "Hermione says Snape is jinxing Harry's broom.",
+          "pageHint": "during the match"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "Fluffy",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "Fluffy",
+          "explanation": "Hagrid asks how they know about his dog Fluffy.",
+          "pageHint": "Hagrid's hut"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "Nicolas",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "explanation": "Hagrid says the secret is between Dumbledore and Nicolas Flamel.",
+          "pageHint": "Hagrid's hut"
+        },
+        {
+          "id": 7,
+          "answer": "binoculars",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "binoculars",
+          "explanation": "Many students watch the match through binoculars.",
+          "pageHint": "in the stands"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "frost",
+        "Seeker",
+        "mangled",
+        "jinxing",
+        "Fluffy",
+        "Nicolas",
+        "binoculars",
+        "moleskin",
+        "conjured",
+        "diversion",
+        "clobbered",
+        "wheedled"
       ],
       "guidedMode": true,
       "openMode": true

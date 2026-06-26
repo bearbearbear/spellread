@@ -7,198 +7,164 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "stern",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 97"
+      "partOfSpeech": "adjective",
+      "definition": "serious and strict, not friendly",
+      "example": "She had a very stern face and Harry\u2019s first thought was that this was not someone to cross.",
+      "pageHint": "entrance hall, McGonagall"
     },
     {
-      "word": "mystery",
+      "word": "magnificent",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
+      "partOfSpeech": "adjective",
+      "definition": "very impressive and beautiful",
+      "example": "and a magnificent marble staircase facing them led to the upper floors.",
+      "pageHint": "entrance hall"
     },
     {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
+      "word": "whisper",
       "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to speak very quietly",
+      "example": "No one was talking much except Hermione Granger, who was whispering very fast about all the spells she\u2019d learned and wondering which one she\u2019d need.",
+      "formInText": "whispering",
+      "pageHint": "waiting chamber"
     },
     {
-      "word": "challenge",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
-    },
-    {
-      "word": "loyal",
-      "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
-    },
-    {
-      "word": "brave",
+      "word": "gasp",
       "tier": 1,
+      "partOfSpeech": "verb",
+      "definition": "to breathe in suddenly from shock",
+      "example": "He gasped.",
+      "formInText": "gasped",
+      "pageHint": "ghosts appear"
+    },
+    {
+      "word": "transparent",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "see-through; you can see through it",
+      "example": "Pearly white and slightly transparent, they glided across the room talking to one another and hardly glancing at the first years.",
+      "pageHint": "ghosts in waiting chamber"
+    },
+    {
+      "word": "splendid",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "grand and wonderful",
+      "example": "Harry had never even imagined such a strange and splendid place.",
+      "pageHint": "Great Hall"
+    },
+    {
+      "word": "fray",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to become worn and ragged at the edges",
+      "example": "This hat was patched and frayed and extremely dirty.",
+      "formInText": "frayed",
+      "pageHint": "Sorting Hat on stool"
+    },
+    {
+      "word": "swagger",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to walk in a proud, show-off way",
+      "example": "Malfoy swaggered forward when his name was called and got his wish at once: the hat had barely touched his head when it screamed, \u201cSLYTHERIN!\u201d",
+      "formInText": "swaggered",
+      "pageHint": "Sorting Ceremony"
+    },
+    {
+      "word": "relieve",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to make someone feel less worried or afraid",
+      "example": "He was so relieved to have been chosen and not put in Slytherin, he hardly noticed that he was getting the loudest cheer yet.",
+      "formInText": "relieved",
+      "pageHint": "after Harry is sorted"
+    },
+    {
+      "word": "peculiar",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "strange or odd",
+      "example": "He was looking very peculiar in a large purple turban.",
+      "pageHint": "High Table, Quirrell"
+    },
+    {
+      "word": "forbidden",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "not allowed",
+      "example": "First years should note that the forest on the grounds is forbidden to all pupils.",
+      "pageHint": "Dumbledore\u2019s notices"
+    },
+    {
+      "word": "poltergeist",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a mischievous spirit that causes trouble",
+      "example": "\u201cPeeves,\u201d Percy whispered to the first years. \u201cA poltergeist.\u201d",
+      "pageHint": "corridor to Gryffindor Tower"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 7."
+        "name": "Harry Potter",
+        "description": "A nervous first year about to be Sorted in front of the whole school."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 7."
+        "name": "Professor McGonagall",
+        "description": "The stern deputy headmistress who leads the first years and runs the Sorting."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 7."
+        "name": "Ron Weasley",
+        "description": "Harry\u2019s new friend, also waiting to be Sorted into a house."
       },
       {
-        "name": "Sorting Hat",
-        "description": "Appears in Chapter 7."
+        "name": "Nearly Headless Nick",
+        "description": "The Gryffindor ghost who introduces himself at the feast."
       },
       {
-        "name": "Dumbledore",
-        "description": "Appears in Chapter 7."
+        "name": "Albus Dumbledore",
+        "description": "The headmaster who welcomes students and gives start-of-term notices."
       }
     ],
-    "hook": "New students are sorted into Hogwarts houses at the welcome feast.",
-    "readingFocus": "Notice how the Sorting Hat decides where each student belongs."
+    "hook": "Harry arrives at Hogwarts for the Sorting Ceremony. A patched old hat will decide which of four houses he belongs to\u2014while hundreds of students and teachers watch.",
+    "readingFocus": "Notice how each student is Sorted, what the hat says to Harry, and the strange pain Harry feels when Snape looks at him during the feast."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "stern",
+      "stem": "Someone with a stern face looks —",
       "options": [
-        {
-          "id": "a",
-          "text": "bravery in facing danger"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "serious and strict" },
+        { "id": "b", "text": "sleepy and bored" },
+        { "id": "c", "text": "silly and playful" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "gasp",
+      "stem": "To gasp means to —",
       "options": [
-        {
-          "id": "a",
-          "text": "something unknown or secret"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "breathe in suddenly from shock" },
+        { "id": "b", "text": "whisper a secret" },
+        { "id": "c", "text": "fall asleep quickly" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "forbidden",
+      "stem": "If something is forbidden, it is —",
       "options": [
-        {
-          "id": "a",
-          "text": "something kept hidden"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "not allowed" },
+        { "id": "b", "text": "required for homework" },
+        { "id": "c", "text": "free for everyone" }
       ],
       "correctId": "a"
     }
@@ -209,190 +175,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 7?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "The events described in 'The Sorting Hat'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "First years are Sorted into Hogwarts houses, enjoy the welcome feast, and reach Gryffindor Tower" },
+          { "id": "b", "text": "Harry buys his school supplies in Diagon Alley" },
+          { "id": "c", "text": "Harry learns to fly on a broomstick" },
+          { "id": "d", "text": "Harry visits the Dursleys during summer holiday" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Sorting Hat'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "The chapter covers the Sorting Ceremony, the banquet, Dumbledore\u2019s notices, and the first years finding their dormitory."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "What are the four Hogwarts houses?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry and his friends"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Gryffindor, Hufflepuff, Ravenclaw, and Slytherin" },
+          { "id": "b", "text": "Gryffindor, Ravenclaw, Beauxbatons, and Durmstrang" },
+          { "id": "c", "text": "Hufflepuff, Slytherin, Ilvermorny, and Hogwarts" },
+          { "id": "d", "text": "Gryffindor, Hufflepuff, Muggle, and Wizard" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "Professor McGonagall names all four houses before the Sorting begins.",
+        "pageHint": "waiting chamber"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "Which house does the Sorting Hat choose for Harry?",
         "options": [
-          {
-            "id": "a",
-            "text": "A challenge they must overcome together"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Gryffindor" },
+          { "id": "b", "text": "Slytherin" },
+          { "id": "c", "text": "Ravenclaw" },
+          { "id": "d", "text": "Hufflepuff" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "After Harry thinks \u201cNot Slytherin,\u201d the hat shouts \u201cGRYFFINDOR!\u201d to the whole hall.",
+        "pageHint": "Sorting Ceremony"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "What are the four words in Dumbledore\u2019s welcome speech?",
         "options": [
-          {
-            "id": "a",
-            "text": "They support each other with loyalty and bravery"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Nitwit! Blubber! Oddment! Tweak!" },
+          { "id": "b", "text": "Welcome! Feast! Magic! Sleep!" },
+          { "id": "c", "text": "Gryffindor! Hufflepuff! Ravenclaw! Slytherin!" },
+          { "id": "d", "text": "Forest! Corridor! Quidditch! Bedtime!" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "Dumbledore says those four words, thanks everyone, and sits back down.",
+        "pageHint": "welcome feast"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "How does Harry feel before the Sorting Ceremony?",
         "options": [
-          {
-            "id": "a",
-            "text": "A spell, creature, or magical object"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Extremely nervous about a test in front of the whole school" },
+          { "id": "b", "text": "Bored and eager to go to bed" },
+          { "id": "c", "text": "Angry at Ron for joking" },
+          { "id": "d", "text": "Confident because he knows many spells" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "Harry\u2019s heart jolts at the idea of a test; he\u2019d never been more nervous.",
+        "pageHint": "waiting chamber"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "What happens when Professor Snape looks at Harry during the feast?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry is becoming braver and more confident"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "A sharp, hot pain shoots across Harry\u2019s scar" },
+          { "id": "b", "text": "Harry\u2019s glasses fall off" },
+          { "id": "c", "text": "Harry is Sorted into Slytherin" },
+          { "id": "d", "text": "Snape gives Harry a house point" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "Snape looks past Quirrell\u2019s turban into Harry\u2019s eyes and Harry claps a hand to his head.",
+        "pageHint": "feast, High Table"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "What password does Percy use to open the Gryffindor common room?",
         "options": [
-          {
-            "id": "a",
-            "text": "A scene from 'The Sorting Hat'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Caput Draconis" },
+          { "id": "b", "text": "Pig snout" },
+          { "id": "c", "text": "Mischief managed" },
+          { "id": "d", "text": "Alohomora" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Sorting Hat'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 7"
+        "explanation": "Percy says \u201cCaput Draconis\u201d and the portrait swings open.",
+        "pageHint": "Gryffindor Tower"
       }
     ],
     "vocabulary": [
@@ -400,212 +281,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "In this chapter, 'transparent' means —",
         "options": [
-          {
-            "id": "a",
-            "text": "bravery in facing danger"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "see-through" },
+          { "id": "b", "text": "very heavy" },
+          { "id": "c", "text": "completely invisible" },
+          { "id": "d", "text": "made of gold" }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "The ghosts are pearly white and slightly transparent as they glide through the room.",
+        "relatedWord": "transparent"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "Malfoy ___ forward when his name was called and got his wish at once.",
         "options": [
-          {
-            "id": "a",
-            "text": "something unknown or secret"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "swaggered" },
+          { "id": "b", "text": "whispered" },
+          { "id": "c", "text": "gasped" },
+          { "id": "d", "text": "relieved" }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Malfoy walks proudly to the stool and is Sorted into Slytherin immediately.",
+        "relatedWord": "swagger"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "A poltergeist is —",
         "options": [
-          {
-            "id": "a",
-            "text": "something kept hidden"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "a mischievous spirit that causes trouble" },
+          { "id": "b", "text": "a type of school uniform" },
+          { "id": "c", "text": "a house point trophy" },
+          { "id": "d", "text": "a sleeping potion" }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Percy identifies Peeves as a poltergeist when walking sticks fly at him.",
+        "relatedWord": "poltergeist"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'splendid'?",
         "options": [
-          {
-            "id": "a",
-            "text": "a large fortified building"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "grand and wonderful" },
+          { "id": "b", "text": "tiny and cramped" },
+          { "id": "c", "text": "dirty and worn" },
+          { "id": "d", "text": "silent and empty" }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Harry finds the Great Hall a strange and splendid place.",
+        "relatedWord": "splendid"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "This hat was patched and ___ and extremely dirty.",
         "options": [
-          {
-            "id": "a",
-            "text": "words that create magic"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "frayed" },
+          { "id": "b", "text": "magnificent" },
+          { "id": "c", "text": "transparent" },
+          { "id": "d", "text": "peculiar" }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "The Sorting Hat looks old and worn before it sings to the hall.",
+        "relatedWord": "fray"
       }
     ],
     "cloze": {
       "id": "cloze-ch07",
       "title": "The Sorting Hat",
       "paragraphs": [
-        "New students are sorted into Hogwarts houses at the welcome feast. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Sorting Hat\", the key idea involves (5) ___ and (6) ___."
+        "Professor McGonagall had a (1) ___ face as she led the first years into the castle. Harry (2) ___ when ghosts streamed through the wall, then entered the (3) ___ Great Hall.",
+        "A patched, (4) ___ hat sang and then Sorted each student. Malfoy (5) ___ forward into Slytherin, but Harry was (6) ___ to land in Gryffindor instead.",
+        "At the feast Dumbledore warned that the forest was (7) ___. On the way to bed, Peeves the poltergeist caused trouble before Percy gave the password."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "stern",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 97"
+          "relatedWord": "stern",
+          "explanation": "McGonagall\u2019s stern face makes Harry think she is not someone to cross.",
+          "pageHint": "entrance hall"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "gasped",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "gasp",
+          "explanation": "Harry gasps when the ghosts appear behind him.",
+          "pageHint": "waiting chamber"
         },
         {
           "id": 3,
-          "answer": "secret",
+          "answer": "splendid",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "splendid",
+          "explanation": "Harry had never imagined such a strange and splendid place.",
+          "pageHint": "Great Hall"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "frayed",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "fray",
+          "explanation": "The Sorting Hat is patched and frayed.",
+          "pageHint": "Sorting Hat"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "swaggered",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "swagger",
+          "explanation": "Malfoy swaggered forward confidently when called.",
+          "pageHint": "Sorting Ceremony"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "relieved",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "relieve",
+          "explanation": "Harry is relieved not to be put in Slytherin.",
+          "pageHint": "after Sorting"
+        },
+        {
+          "id": 7,
+          "answer": "forbidden",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "forbidden",
+          "explanation": "Dumbledore says the forest is forbidden to all pupils.",
+          "pageHint": "start-of-term notices"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "stern",
+        "gasped",
+        "splendid",
+        "frayed",
+        "swaggered",
+        "relieved",
+        "forbidden",
+        "whispering",
+        "magnificent",
+        "peculiar",
+        "poltergeist",
+        "transparent"
       ],
       "guidedMode": true,
       "openMode": true

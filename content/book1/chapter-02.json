@@ -7,190 +7,160 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
+      "word": "cupboard",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a small space for storing things or sleeping",
+      "example": "because the cupboard under the stairs was full of them, and that was where he slept.",
+      "pageHint": "early in chapter"
+    },
+    {
+      "word": "nephew",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "the son of your brother or sister",
+      "example": "Nearly ten years had passed since the Dursleys had woken up to find their nephew on the front step, but Privet Drive had hardly changed at all.",
+      "pageHint": "opening"
+    },
+    {
       "word": "tantrum",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a sudden outburst of anger",
-      "example": "Dudley threw a tantrum.",
-      "pageHint": "p. 22"
+      "definition": "a sudden angry outburst, especially in a child",
+      "example": "Harry, who could see a huge Dudley tantrum coming on, began wolfing down his bacon as fast as possible in case Dudley turned the table over.",
+      "pageHint": "Dudley's birthday morning"
     },
     {
-      "word": "vanished",
+      "word": "scar",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a mark left on the skin after a wound heals",
+      "example": "The only thing Harry liked about his own appearance was a very thin scar on his forehead that was shaped like a bolt of lightning.",
+      "pageHint": "Harry's appearance"
+    },
+    {
+      "word": "forbidden",
       "tier": 2,
-      "partOfSpeech": "verb",
-      "definition": "disappeared completely",
-      "example": "The glass vanished into thin air.",
-      "pageHint": "p. 28"
+      "partOfSpeech": "adjective",
+      "definition": "not allowed",
+      "example": "His aunt and uncle never spoke about them, and of course he was forbidden to ask questions.",
+      "pageHint": "end of chapter"
     },
     {
       "word": "miserable",
       "tier": 2,
       "partOfSpeech": "adjective",
       "definition": "very unhappy",
-      "example": "Harry felt miserable at the zoo.",
-      "pageHint": "p. 24"
+      "example": "He'd lived with the Dursleys almost ten years, ten miserable years, as long as he could remember, ever since he'd been a baby and his parents had died in that car crash.",
+      "pageHint": "end of chapter"
     },
     {
-      "word": "reminder",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something that makes you remember",
-      "example": "The scar was a reminder of the past.",
-      "pageHint": "p. 20"
-    },
-    {
-      "word": "punishment",
+      "word": "reptile",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a penalty for bad behavior",
-      "example": "Harry feared punishment from Uncle Vernon.",
-      "pageHint": "p. 30"
+      "definition": "a cold-blooded animal such as a snake or lizard",
+      "example": "After lunch they went to the reptile house.",
+      "pageHint": "at the zoo"
     },
     {
-      "word": "cage",
+      "word": "wink",
       "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "an enclosed space for animals",
-      "example": "The snake was in a glass cage.",
-      "pageHint": "p. 26"
+      "partOfSpeech": "verb",
+      "definition": "to close one eye briefly as a signal or joke",
+      "example": "It winked.",
+      "formInText": "winked",
+      "pageHint": "reptile house"
     },
     {
-      "word": "boast",
+      "word": "vanish",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "to talk proudly about yourself",
-      "example": "Uncle Vernon liked to boast.",
-      "pageHint": "p. 21"
+      "definition": "to disappear suddenly and completely",
+      "example": "Harry sat up and gasped; the glass front of the boa constrictor's tank had vanished.",
+      "formInText": "vanished",
+      "pageHint": "reptile house"
     },
     {
-      "word": "shudder",
+      "word": "slither",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "to shake from fear or disgust",
-      "example": "Harry shuddered at the memory.",
-      "pageHint": "p. 20"
-    },
-    {
-      "word": "bizarre",
-      "tier": 2,
-      "partOfSpeech": "adjective",
-      "definition": "very strange",
-      "example": "Something bizarre happened at the zoo.",
-      "pageHint": "p. 28"
+      "definition": "to move smoothly like a snake",
+      "example": "The great snake was uncoiling itself rapidly, slithering out onto the floor.",
+      "formInText": "slithering",
+      "pageHint": "reptile house"
     },
     {
       "word": "apologize",
       "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to say you are sorry",
-      "example": "The zoo director had to apologize.",
-      "pageHint": "p. 30"
+      "definition": "to say sorry",
+      "example": "The zoo director himself made Aunt Petunia a cup of strong, sweet tea while he apologized over and over again.",
+      "formInText": "apologized",
+      "pageHint": "after the snake escapes"
     },
     {
-      "word": "shrinking",
+      "word": "shrink",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "becoming smaller",
-      "example": "Dudley's sweater was shrinking.",
-      "pageHint": "p. 23"
-    },
-    {
-      "word": "snake",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a long reptile with no legs",
-      "example": "Harry spoke to the snake.",
-      "pageHint": "p. 27"
+      "definition": "to become smaller",
+      "example": "Aunt Petunia had decided it must have shrunk in the wash and, to his great relief, Harry wasn't punished.",
+      "formInText": "shrunk",
+      "pageHint": "Harry's sweater story"
     }
   ],
   "background": {
     "characters": [
       {
         "name": "Harry Potter",
-        "description": "A ten-year-old boy who lives with the Dursleys."
+        "description": "A skinny ten-year-old who sleeps in a cupboard and is bullied by Dudley."
       },
       {
         "name": "Dudley Dursley",
-        "description": "Harry's spoiled cousin who bullies him."
+        "description": "Harry's spoiled cousin who expects dozens of birthday presents."
       },
       {
-        "name": "Uncle Vernon",
-        "description": "Harry's angry uncle who hates anything unusual."
+        "name": "Aunt Petunia & Uncle Vernon",
+        "description": "Harry's guardians who treat him badly and fear anything unusual."
+      },
+      {
+        "name": "Mrs. Figg",
+        "description": "The neighbor who usually watches Harry; her broken leg sends him to the zoo."
       }
     ],
-    "hook": "Harry's tenth birthday brings strange events at the zoo, including a vanishing glass and a talking snake.",
-    "readingFocus": "Watch how Harry's unusual abilities appear when he is upset or scared."
+    "hook": "Ten years after arriving at Privet Drive, Harry still lives in a cupboard under the stairs. On Dudley's birthday trip to the zoo, he discovers he can talk to a snake — and the glass in front of the tank vanishes.",
+    "readingFocus": "Notice how the Dursleys treat Harry compared to Dudley. Watch for small signs that strange things happen around Harry."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "tantrum",
-      "stem": "What does 'tantrum' mean?",
+      "word": "cupboard",
+      "stem": "A cupboard is —",
       "options": [
-        {
-          "id": "a",
-          "text": "a sudden outburst of anger"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "a small storage space" },
+        { "id": "b", "text": "a type of bird" },
+        { "id": "c", "text": "a magic spell" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "vanished",
-      "stem": "What does 'vanished' mean?",
+      "word": "vanish",
+      "stem": "When something vanishes, it —",
       "options": [
-        {
-          "id": "a",
-          "text": "disappeared completely"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "disappeared completely" },
+        { "id": "b", "text": "grew larger" },
+        { "id": "c", "text": "started talking" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
       "word": "miserable",
-      "stem": "What does 'miserable' mean?",
+      "stem": "To feel miserable means to feel —",
       "options": [
-        {
-          "id": "a",
-          "text": "very unhappy"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "very unhappy" },
+        { "id": "b", "text": "very excited" },
+        { "id": "c", "text": "very hungry" }
       ],
       "correctId": "a"
     }
@@ -201,190 +171,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "Where does the Dursley family go on Dudley's birthday?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "To the zoo"
-          },
-          {
-            "id": "b",
-            "text": "To the beach"
-          },
-          {
-            "id": "c",
-            "text": "To Hogwarts"
-          },
-          {
-            "id": "d",
-            "text": "To London"
-          }
+          { "id": "a", "text": "Harry's unhappy life with the Dursleys and strange events at the zoo on Dudley's birthday" },
+          { "id": "b", "text": "Harry's first day at Hogwarts" },
+          { "id": "c", "text": "How the Dursleys met Dumbledore" },
+          { "id": "d", "text": "A Quidditch match at the zoo" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: To the zoo. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "The chapter covers ten years at Privet Drive, Dudley's birthday outing, and the vanishing glass at the reptile house."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What happens to the glass in front of the snake?",
+        "stem": "Where does Harry sleep at the Dursleys' house?",
         "options": [
-          {
-            "id": "a",
-            "text": "It vanishes"
-          },
-          {
-            "id": "b",
-            "text": "It breaks into pieces"
-          },
-          {
-            "id": "c",
-            "text": "It turns green"
-          },
-          {
-            "id": "d",
-            "text": "It freezes"
-          }
+          { "id": "a", "text": "In a cupboard under the stairs" },
+          { "id": "b", "text": "In Dudley's second bedroom" },
+          { "id": "c", "text": "In the garden shed" },
+          { "id": "d", "text": "In the attic" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: It vanishes. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "Harry sleeps in the cupboard under the stairs, which is full of spiders.",
+        "pageHint": "early in chapter"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "How does Harry communicate with the snake?",
+        "stem": "Why does Harry get to go to the zoo with the Dursleys?",
         "options": [
-          {
-            "id": "a",
-            "text": "He speaks to it and it understands"
-          },
-          {
-            "id": "b",
-            "text": "He uses a spell"
-          },
-          {
-            "id": "c",
-            "text": "Dudley translates"
-          },
-          {
-            "id": "d",
-            "text": "He reads its mind clearly"
-          }
+          { "id": "a", "text": "Mrs. Figg broke her leg and could not watch him" },
+          { "id": "b", "text": "Dudley invited him" },
+          { "id": "c", "text": "Uncle Vernon wanted to reward him" },
+          { "id": "d", "text": "It was Harry's birthday too" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: He speaks to it and it understands. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "Mrs. Figg usually looks after Harry on Dudley's birthday, but she broke her leg.",
+        "pageHint": "birthday morning"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "Why is Uncle Vernon angry at the end of the chapter?",
+        "stem": "What happens to the glass in front of the boa constrictor's tank?",
         "options": [
-          {
-            "id": "a",
-            "text": "Strange things happened and he blames Harry"
-          },
-          {
-            "id": "b",
-            "text": "Harry got better grades"
-          },
-          {
-            "id": "c",
-            "text": "The car broke down"
-          },
-          {
-            "id": "d",
-            "text": "Dudley apologized to Harry"
-          }
+          { "id": "a", "text": "It vanishes" },
+          { "id": "b", "text": "It cracks into pieces" },
+          { "id": "c", "text": "It turns bright green" },
+          { "id": "d", "text": "It freezes solid" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Strange things happened and he blames Harry. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "The glass front of the tank had vanished and the snake slithered out.",
+        "pageHint": "reptile house"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "How does Harry feel about his abilities at this point?",
+        "stem": "How does Harry feel when he learns Mrs. Figg cannot take him?",
         "options": [
-          {
-            "id": "a",
-            "text": "Confused and worried"
-          },
-          {
-            "id": "b",
-            "text": "Proud and excited"
-          },
-          {
-            "id": "c",
-            "text": "Angry at Dumbledore"
-          },
-          {
-            "id": "d",
-            "text": "Completely unaware"
-          }
+          { "id": "a", "text": "Glad — his heart gives a leap" },
+          { "id": "b", "text": "Terrified" },
+          { "id": "c", "text": "Bored" },
+          { "id": "d", "text": "Angry at Mrs. Figg" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Confused and worried. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "Dudley's mouth fell open in horror, but Harry's heart gave a leap.",
+        "pageHint": "birthday morning"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What does Dudley do when he cannot have more food?",
+        "stem": "Why is Uncle Vernon furious with Harry at the end of the chapter?",
         "options": [
-          {
-            "id": "a",
-            "text": "He throws a tantrum"
-          },
-          {
-            "id": "b",
-            "text": "He reads a book"
-          },
-          {
-            "id": "c",
-            "text": "He helps Harry"
-          },
-          {
-            "id": "d",
-            "text": "He falls asleep"
-          }
+          { "id": "a", "text": "Strange things happened at the zoo and Piers said Harry was talking to the snake" },
+          { "id": "b", "text": "Harry broke Dudley's new computer" },
+          { "id": "c", "text": "Harry refused to cook breakfast" },
+          { "id": "d", "text": "The motorcycle in Harry's dream was real" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: He throws a tantrum. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "After the glass vanished, Piers said Harry was talking to the snake; Vernon sends Harry to the cupboard with no meals.",
+        "pageHint": "end of chapter"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What is unusual about the boa constrictor?",
+        "stem": "What does the boa constrictor do that surprises Harry?",
         "options": [
-          {
-            "id": "a",
-            "text": "It winks at Harry"
-          },
-          {
-            "id": "b",
-            "text": "It has two heads"
-          },
-          {
-            "id": "c",
-            "text": "It is bright red"
-          },
-          {
-            "id": "d",
-            "text": "It can fly"
-          }
+          { "id": "a", "text": "It winks at him" },
+          { "id": "b", "text": "It bites Dudley's leg" },
+          { "id": "c", "text": "It sings a song" },
+          { "id": "d", "text": "It turns bright red" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: It winks at Harry. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 2"
+        "explanation": "The snake opened its beady eyes, raised its head, and winked at Harry.",
+        "pageHint": "reptile house"
       }
     ],
     "vocabulary": [
@@ -392,209 +277,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'vanished' mean in this chapter?",
+        "stem": "In this chapter, a 'tantrum' is —",
         "options": [
-          {
-            "id": "a",
-            "text": "disappeared completely"
-          },
-          {
-            "id": "b",
-            "text": "became larger"
-          },
-          {
-            "id": "c",
-            "text": "turned blue"
-          },
-          {
-            "id": "d",
-            "text": "started talking"
-          }
+          { "id": "a", "text": "a sudden angry outburst" },
+          { "id": "b", "text": "a birthday cake" },
+          { "id": "c", "text": "a kind of reptile" },
+          { "id": "d", "text": "a school uniform" }
         ],
         "correctId": "a",
-        "explanation": "'vanished' means: disappeared completely.",
-        "relatedWord": "vanished"
+        "explanation": "Harry could see a huge Dudley tantrum coming on when Dudley counted his presents.",
+        "relatedWord": "tantrum"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'miserable' mean in this chapter?",
+        "stem": "Harry was used to spiders because the ___ under the stairs was full of them, and that was where he slept.",
         "options": [
-          {
-            "id": "a",
-            "text": "very unhappy"
-          },
-          {
-            "id": "b",
-            "text": "extremely wealthy"
-          },
-          {
-            "id": "c",
-            "text": "magically powerful"
-          },
-          {
-            "id": "d",
-            "text": "perfectly normal"
-          }
+          { "id": "a", "text": "cupboard" },
+          { "id": "b", "text": "garage" },
+          { "id": "c", "text": "attic" },
+          { "id": "d", "text": "kitchen" }
         ],
         "correctId": "a",
-        "explanation": "'miserable' means: very unhappy.",
-        "relatedWord": "miserable"
+        "explanation": "Harry's bedroom is the cupboard under the stairs.",
+        "relatedWord": "cupboard"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'tantrum' mean in this chapter?",
+        "stem": "When something 'vanishes', it —",
         "options": [
-          {
-            "id": "a",
-            "text": "an angry outburst"
-          },
-          {
-            "id": "b",
-            "text": "a type of cake"
-          },
-          {
-            "id": "c",
-            "text": "a magic spell"
-          },
-          {
-            "id": "d",
-            "text": "a school subject"
-          }
+          { "id": "a", "text": "disappears completely" },
+          { "id": "b", "text": "became very hot" },
+          { "id": "c", "text": "started to grow" },
+          { "id": "d", "text": "fell asleep" }
         ],
         "correctId": "a",
-        "explanation": "'tantrum' means: an angry outburst.",
-        "relatedWord": "tantrum"
+        "explanation": "The glass front of the boa constrictor's tank had vanished.",
+        "relatedWord": "vanish"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'bizarre' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'miserable'?",
         "options": [
-          {
-            "id": "a",
-            "text": "very strange"
-          },
-          {
-            "id": "b",
-            "text": "very boring"
-          },
-          {
-            "id": "c",
-            "text": "very tiny"
-          },
-          {
-            "id": "d",
-            "text": "very old"
-          }
+          { "id": "a", "text": "very unhappy" },
+          { "id": "b", "text": "very lucky" },
+          { "id": "c", "text": "very tall" },
+          { "id": "d", "text": "very angry" }
         ],
         "correctId": "a",
-        "explanation": "'bizarre' means: very strange.",
-        "relatedWord": "bizarre"
+        "explanation": "Harry describes ten miserable years living with the Dursleys.",
+        "relatedWord": "miserable"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'shudder' mean in this chapter?",
+        "stem": "After lunch they went to the ___ house, where Harry spoke to a boa constrictor.",
         "options": [
-          {
-            "id": "a",
-            "text": "shake from fear"
-          },
-          {
-            "id": "b",
-            "text": "sing loudly"
-          },
-          {
-            "id": "c",
-            "text": "run quickly"
-          },
-          {
-            "id": "d",
-            "text": "laugh happily"
-          }
+          { "id": "a", "text": "reptile" },
+          { "id": "b", "text": "insect" },
+          { "id": "c", "text": "penguin" },
+          { "id": "d", "text": "dolphin" }
         ],
         "correctId": "a",
-        "explanation": "'shudder' means: shake from fear.",
-        "relatedWord": "shudder"
+        "explanation": "The reptile house is where the snake tank is located.",
+        "relatedWord": "reptile"
       }
     ],
     "cloze": {
       "id": "cloze-ch02",
       "title": "The Vanishing Glass",
       "paragraphs": [
-        "On Dudley's birthday, the Dursley family visited the zoo. Harry felt (1) ___ watching his cousin get everything he wanted. Dudley threw a (2) ___ when he did not get enough food.",
-        "At the reptile house, something (3) ___ happened. The glass in front of the snake cage suddenly (4) ___, and the snake slithered away.",
-        "Uncle Vernon was furious. He (5) ___ at the memory of strange events and blamed Harry for the trouble near the snake (6) ___."
+        "Ten years after baby Harry arrived on Privet Drive, he still slept in a (1) ___ under the stairs. On Dudley's birthday, Mrs. Figg could not watch him, so Harry went to the zoo instead.",
+        "In the (2) ___ house, a boa constrictor (3) ___ at Harry. Suddenly the glass (4) ___ and the snake (5) ___ out onto the floor.",
+        "The zoo director (6) ___ to Aunt Petunia while Uncle Vernon sent Harry to the cupboard with no meals. Harry remembered ten (7) ___ years with the Dursleys."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "miserable",
+          "answer": "cupboard",
+          "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "miserable",
-          "explanation": "Harry felt very unhappy at the zoo.",
-          "pageHint": "p. 24"
+          "relatedWord": "cupboard",
+          "explanation": "Harry sleeps in the cupboard under the stairs.",
+          "pageHint": "early in chapter"
         },
         {
           "id": 2,
-          "answer": "tantrum",
+          "answer": "reptile",
+          "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "tantrum",
-          "explanation": "Dudley had an angry outburst when he was upset.",
-          "pageHint": "p. 22"
+          "relatedWord": "reptile",
+          "explanation": "After lunch they went to the reptile house.",
+          "pageHint": "at the zoo"
         },
         {
           "id": 3,
-          "answer": "bizarre",
+          "answer": "winked",
+          "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "bizarre",
-          "explanation": "The events at the zoo were very strange.",
-          "pageHint": "p. 28"
+          "relatedWord": "wink",
+          "explanation": "The snake winked at Harry through the glass.",
+          "pageHint": "reptile house"
         },
         {
           "id": 4,
           "answer": "vanished",
+          "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "vanished",
-          "explanation": "The glass disappeared into thin air.",
-          "pageHint": "p. 28"
+          "relatedWord": "vanish",
+          "explanation": "The glass front of the tank had vanished.",
+          "pageHint": "reptile house"
         },
         {
           "id": 5,
-          "answer": "shuddered",
-          "acceptAlternatives": [
-            "shudder"
-          ],
+          "answer": "slithered",
+          "acceptAlternatives": ["slithering"],
           "gapType": "vocabulary",
-          "relatedWord": "shudder",
-          "explanation": "Vernon shook with fear or disgust.",
-          "pageHint": "p. 20"
+          "relatedWord": "slither",
+          "explanation": "The snake slithered out onto the floor.",
+          "pageHint": "reptile house"
         },
         {
           "id": 6,
-          "answer": "cage",
-          "gapType": "plot",
-          "relatedWord": "cage",
-          "explanation": "The boa constrictor was kept in a glass cage.",
-          "pageHint": "p. 26"
+          "answer": "apologized",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "apologize",
+          "explanation": "The zoo director apologized over and over again.",
+          "pageHint": "after the incident"
+        },
+        {
+          "id": 7,
+          "answer": "miserable",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "miserable",
+          "explanation": "Harry had lived ten miserable years with the Dursleys.",
+          "pageHint": "end of chapter"
         }
       ],
       "wordBank": [
-        "miserable",
-        "tantrum",
-        "bizarre",
+        "cupboard",
+        "reptile",
+        "winked",
         "vanished",
-        "shuddered",
-        "cage",
-        "boast",
-        "punishment",
-        "apologize"
+        "slithered",
+        "apologized",
+        "miserable",
+        "forbidden",
+        "shrink",
+        "nephew",
+        "tantrum",
+        "scar"
       ],
       "guidedMode": true,
       "openMode": true

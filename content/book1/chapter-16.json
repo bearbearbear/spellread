@@ -7,193 +7,188 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "sweltering",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 106"
+      "partOfSpeech": "adjective",
+      "definition": "uncomfortably hot",
+      "example": "It was sweltering hot, especially in the large classroom where they did their written papers.",
+      "pageHint": "exams"
     },
     {
-      "word": "mystery",
+      "word": "bewitch",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to put a magic spell on something",
+      "example": "They had been given special, new quills for the exams, which had been bewitched with an AntiCheating spell.",
+      "formInText": "bewitched",
+      "pageHint": "exams"
     },
     {
-      "word": "challenge",
+      "word": "trapdoor",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "a hidden door in a floor or ceiling",
+      "example": "THROUGH THE TRAPDOOR",
+      "pageHint": "entrance hall"
     },
     {
-      "word": "loyal",
+      "word": "rigid",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
+      "definition": "stiff and unable to move",
+      "example": "His whole body rigid, he swayed where he stood and then fell flat on his face, stiff as a board.",
+      "pageHint": "common room"
     },
     {
-      "word": "brave",
-      "tier": 1,
+      "word": "tendril",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a thin, curling stem or arm of a plant",
+      "example": "the plant had started to twist snakelike tendrils around her ankles.",
+      "formInText": "tendrils",
+      "pageHint": "Devil's Snare chamber"
+    },
+    {
+      "word": "sacrifice",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "giving up something important to achieve a greater goal",
+      "example": "“You’ve got to make some sacrifices!",
+      "formInText": "sacrifices",
+      "pageHint": "wizard chess"
+    },
+    {
+      "word": "checkmate",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to win at chess by trapping the opponent's king",
+      "example": "I take one step forward and she’ll take me—that leaves you free to checkmate the king, Harry!",
+      "pageHint": "wizard chess"
+    },
+    {
+      "word": "lurk",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to stay hidden while waiting or watching",
+      "example": "Harry nodded, but he couldn’t shake off a lurking feeling that there was something he’d forgotten to do, something important.",
+      "formInText": "lurking",
+      "pageHint": "after exams"
+    },
+    {
+      "word": "ajar",
+      "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "slightly open",
+      "example": "outside the third floor corridor—and the door was already ajar.",
+      "pageHint": "third floor"
+    },
+    {
+      "word": "sprint",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to run as fast as you can over a short distance",
+      "example": "” said Ron, but Harry, sprinting across the grounds toward the forest, didn’t answer.",
+      "formInText": "sprinting",
+      "pageHint": "running to Hagrid"
+    },
+    {
+      "word": "enchantment",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a piece of magic put on an object or place",
+      "example": "“I suppose you think you’re harder to get past than a pack of enchantments!",
+      "formInText": "enchantments",
+      "pageHint": "third floor corridor"
+    },
+    {
+      "word": "expel",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to force a student to leave school permanently",
+      "example": "any more nighttime wanderings and I will personally make sure you are expelled.",
+      "formInText": "expelled",
+      "pageHint": "entrance hall"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 16."
+        "name": "Harry Potter",
+        "description": "Realizes Hagrid was tricked into revealing how to calm Fluffy and decides to reach the Stone first."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 16."
+        "name": "Ron Weasley",
+        "description": "Insists on coming along and sacrifices himself in the giant wizard chess game."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 16."
+        "name": "Hermione Granger",
+        "description": "Uses logic to solve Snape's potion puzzle and goes back for help."
       },
       {
-        "name": "Quirrell",
-        "description": "Appears in Chapter 16."
+        "name": "Neville Longbottom",
+        "description": "Tries to stop the trio from leaving and is hit with the Body Bind curse."
       }
     ],
-    "hook": "The trio goes through the trapdoor to protect the Stone.",
-    "readingFocus": "Follow each magical challenge the friends face."
+    "hook": "Exams end in the sweltering heat, but Harry suddenly understands how a stranger tricked Hagrid. With Dumbledore gone to London, Harry, Ron, and Hermione go through the trapdoor alone — past Fluffy, Devil's Snare, flying keys, living chessmen, and a logic puzzle — to stop Snape from stealing the Stone.",
+    "readingFocus": "Watch what Harry learns from Hagrid about the hooded stranger. Notice each guardian they face and how Ron's chess skill and Hermione's logic keep them moving forward."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "trapdoor",
+      "stem": "A trapdoor is —",
       "options": [
         {
           "id": "a",
-          "text": "bravery in facing danger"
+          "text": "a hidden door in a floor or ceiling"
         },
         {
           "id": "b",
-          "text": "very happy"
+          "text": "a type of dragon egg"
         },
         {
           "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
+          "text": "a centaur's weapon"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "bewitch",
+      "stem": "To bewitch something means to —",
       "options": [
         {
           "id": "a",
-          "text": "something unknown or secret"
+          "text": "put a magic spell on it"
         },
         {
           "id": "b",
-          "text": "to run quickly"
+          "text": "break it into pieces"
         },
         {
           "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
+          "text": "hide it under a cloak"
         }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "sacrifice",
+      "stem": "A sacrifice is —",
       "options": [
         {
           "id": "a",
-          "text": "something kept hidden"
+          "text": "giving up something important for a greater goal"
         },
         {
           "id": "b",
-          "text": "very boring"
+          "text": "a homework schedule"
         },
         {
           "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
+          "text": "a unicorn's horn"
         }
       ],
       "correctId": "a"
@@ -205,190 +200,189 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 16?",
+        "stem": "What is this chapter mainly about?",
         "options": [
           {
             "id": "a",
-            "text": "The events described in 'Through the Trapdoor'"
+            "text": "After learning Hagrid was tricked, the trio goes through the trapdoor and past the Stone's guardians to try to stop the thief"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "The trio serves detention in the Forbidden Forest"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Harry wins the final Quidditch match of the year"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Norbert hatches in Hagrid's hut"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'Through the Trapdoor'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "Harry realizes the card-player stole Fluffy's secret from drunk Hagrid, then he leads Ron and Hermione through the guarded passage beneath the third floor."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "What clue makes Harry rush to see Hagrid after exams?",
         "options": [
           {
             "id": "a",
-            "text": "Harry and his friends"
+            "text": "A stranger conveniently had a dragon egg and asked about Fluffy after getting Hagrid drunk"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Hedwig delivered a note from Dumbledore"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "McGonagall told him Snape left the school"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Ron found a book about the Stone in the library"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "Harry connects the dragon egg stranger to Hagrid mentioning Fluffy and playing music to calm him.",
+        "pageHint": "grounds after exams"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "Why can't the trio warn Dumbledore right away?",
         "options": [
           {
             "id": "a",
-            "text": "A challenge they must overcome together"
+            "text": "He left for London after an urgent Ministry owl"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He is refereeing a Quidditch match"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "McGonagall says he is on holiday in Devon"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Filch locked them in the common room"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "McGonagall says Dumbledore flew to London ten minutes ago on Ministry business.",
+        "pageHint": "entrance hall"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "How do they get past Fluffy?",
         "options": [
           {
             "id": "a",
-            "text": "They support each other with loyalty and bravery"
+            "text": "Harry plays Hagrid's flute until the dog falls asleep"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Hermione casts a sleeping spell on all three heads"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "They feed Fluffy dragon meat from Norbert"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Ron sings a lullaby he learned from Hagrid"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "Harry blows on the flute Hagrid gave him for Christmas; the dog slumps asleep when the music stops briefly.",
+        "pageHint": "third floor room"
       },
       {
         "id": "c5",
         "type": "inference",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "Why does Hermione petrify Neville?",
         "options": [
           {
             "id": "a",
-            "text": "A spell, creature, or magical object"
+            "text": "He blocks the portrait hole and they have no time to explain"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "He tries to tell Filch their plan"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "He accidentally wakes Fluffy"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Snape orders her to do it"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "Neville stands in front of the hole ready to fight; Hermione uses Petrificus Totalus so they can leave.",
+        "pageHint": "common room"
       },
       {
         "id": "c6",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "What must Ron do to win the wizard chess game?",
         "options": [
           {
             "id": "a",
-            "text": "Harry is becoming braver and more confident"
+            "text": "Let the white queen take him so Harry can checkmate the king"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "Capture every white pawn by himself"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Tip over the board and run"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Switch places with Hermione's castle"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "Ron says he must be taken by the queen to leave Harry free to checkmate.",
+        "pageHint": "chess chamber"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "Who goes through the black fire toward the final chamber?",
         "options": [
           {
             "id": "a",
-            "text": "A scene from 'Through the Trapdoor'"
+            "text": "Only Harry — there is enough potion for one swallow"
           },
           {
             "id": "b",
-            "text": "A trip to the Dursleys' house"
+            "text": "All three drink together"
           },
           {
             "id": "c",
-            "text": "A Quidditch match only"
+            "text": "Hermione goes ahead while Harry goes back"
           },
           {
             "id": "d",
-            "text": "A lesson about Muggles only"
+            "text": "Ron drinks after waking up from chess"
           }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'Through the Trapdoor'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 16"
+        "explanation": "The smallest bottle has only enough for one person; Harry sends Hermione back through the purple fire for help.",
+        "pageHint": "potion chamber"
       }
     ],
     "vocabulary": [
@@ -396,212 +390,230 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "Something 'sweltering' is —",
         "options": [
           {
             "id": "a",
-            "text": "bravery in facing danger"
+            "text": "uncomfortably hot"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "freezing cold"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "completely dark"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "perfectly silent"
           }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Exam week is sweltering hot in the classrooms.",
+        "relatedWord": "sweltering"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "The exam quills had been ___ with an AntiCheating spell.",
         "options": [
           {
             "id": "a",
-            "text": "something unknown or secret"
+            "text": "bewitched"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "sprinted"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "lurking"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "rigid"
           }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Special new quills are bewitched to stop cheating.",
+        "relatedWord": "bewitch"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "If a door is 'ajar,' it is —",
         "options": [
           {
             "id": "a",
-            "text": "something kept hidden"
+            "text": "slightly open"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "locked with three keys"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "hidden under a trapdoor"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "guarded by chessmen"
           }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "They find the third-floor door already ajar because Snape got past Fluffy.",
+        "relatedWord": "ajar"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'rigid'?",
         "options": [
           {
             "id": "a",
-            "text": "a large fortified building"
+            "text": "stiff and unable to move"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "hot and sweaty"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "slightly open"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "magically flying"
           }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Neville's whole body goes rigid after the Body Bind curse.",
+        "relatedWord": "rigid"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "Ron tells Harry and Hermione they have to make some ___ in chess.",
         "options": [
           {
             "id": "a",
-            "text": "words that create magic"
+            "text": "sacrifices"
           },
           {
             "id": "b",
-            "text": "a type of food"
+            "text": "tendrils"
           },
           {
             "id": "c",
-            "text": "a school rule"
+            "text": "enchantments"
           },
           {
             "id": "d",
-            "text": "a Muggle invention"
+            "text": "trapdoors"
           }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Ron accepts that he must be sacrificed so Harry can win the game.",
+        "relatedWord": "sacrifice"
       }
     ],
     "cloze": {
       "id": "cloze-ch16",
       "title": "Through the Trapdoor",
       "paragraphs": [
-        "The trio goes through the trapdoor to protect the Stone. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"Through the Trapdoor\", the key idea involves (5) ___ and (6) ___."
+        "During (1) ___ exam weather, Harry realizes a hooded stranger tricked drunk Hagrid into revealing Fluffy's secret. Dumbledore has left, so Harry decides Snape is going through the (2) ___ tonight.",
+        "Under the Invisibility Cloak they pass Fluffy, Devil's Snare with curling (3) ___, flying keys, and living chessmen where Ron makes a (4) ___ so Harry can (5) ___ the king.",
+        "Hermione solves Snape's logic puzzle. The third-floor door already stood (6) ___; only Harry drinks and passes the black fire, still unable to shake a (7) ___ feeling that something is wrong."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "sweltering",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 106"
+          "relatedWord": "sweltering",
+          "explanation": "It was sweltering hot during the written exam papers.",
+          "pageHint": "exams"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "trapdoor",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "trapdoor",
+          "explanation": "Harry says Snape is going through the trapdoor tonight.",
+          "pageHint": "entrance hall"
         },
         {
           "id": 3,
-          "answer": "secret",
-          "acceptAlternatives": [],
+          "answer": "tendrils",
+          "acceptAlternatives": [
+            "tendril"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "tendril",
+          "explanation": "Devil's Snare twists snakelike tendrils around their ankles.",
+          "pageHint": "plant chamber"
         },
         {
           "id": 4,
-          "answer": "castle",
-          "acceptAlternatives": [],
+          "answer": "sacrifice",
+          "acceptAlternatives": [
+            "sacrifices"
+          ],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "sacrifice",
+          "explanation": "Ron says you have got to make some sacrifices in chess.",
+          "pageHint": "chess chamber"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "checkmate",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "checkmate",
+          "explanation": "Ron lets the queen take him so Harry can checkmate the king.",
+          "pageHint": "chess chamber"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "ajar",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "ajar",
+          "explanation": "The door to Fluffy's corridor is already ajar.",
+          "pageHint": "third floor"
+        },
+        {
+          "id": 7,
+          "answer": "lurking",
+          "acceptAlternatives": [
+            "lurk"
+          ],
+          "gapType": "vocabulary",
+          "relatedWord": "lurk",
+          "explanation": "Harry cannot shake off a lurking feeling that he forgot something important.",
+          "pageHint": "after exams"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "sweltering",
+        "trapdoor",
+        "tendrils",
+        "sacrifice",
+        "checkmate",
+        "ajar",
+        "lurking",
+        "bewitched",
+        "rigid",
+        "sprinting",
+        "enchantments",
+        "expelled"
       ],
       "guidedMode": true,
       "openMode": true

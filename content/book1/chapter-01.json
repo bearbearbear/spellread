@@ -11,120 +11,128 @@
       "tier": 2,
       "partOfSpeech": "adjective",
       "definition": "strange or unusual",
-      "example": "They had a peculiar son.",
-      "pageHint": "p. 6",
-      "grammarTip": "Describes something that seems odd or different."
+      "example": "It was on the corner of the street that he noticed the first sign of something peculiar -- a cat reading a map.",
+      "pageHint": "p. 3",
+      "grammarTip": "Often used when something seems odd but you cannot explain it right away."
+    },
+    {
+      "word": "mysterious",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "hard to explain or understand",
+      "example": "involved in anything strange or mysterious, because they just didn't hold with such nonsense.",
+      "pageHint": "p. 1"
     },
     {
       "word": "whisper",
       "tier": 1,
       "partOfSpeech": "verb",
       "definition": "to speak very quietly",
-      "example": "People whispered about the Potters.",
-      "pageHint": "p. 2"
+      "example": "They were whispering excitedly together.",
+      "formInText": "whispering",
+      "pageHint": "p. 3"
     },
     {
-      "word": "survive",
+      "word": "shudder",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "to stay alive after something dangerous",
-      "example": "Harry survived when others did not.",
-      "pageHint": "p. 4"
-    },
-    {
-      "word": "fortune",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a large amount of money",
-      "example": "They spent their fortune on their son.",
-      "pageHint": "p. 6"
-    },
-    {
-      "word": "cupboard",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a small space for storing things",
-      "example": "Harry slept in a cupboard under the stairs.",
-      "pageHint": "p. 14"
-    },
-    {
-      "word": "nephew",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the son of your brother or sister",
-      "example": "Harry was their nephew.",
-      "pageHint": "p. 6"
-    },
-    {
-      "word": "Muggle",
-      "tier": 3,
-      "partOfSpeech": "noun",
-      "definition": "a person with no magical powers",
-      "example": "Mr. Dursley was a Muggle.",
-      "pageHint": "p. 3"
+      "definition": "to shake because you feel fear or disgust",
+      "example": "The Dursleys shuddered to think what the neighbors would say if the Potters arrived in the street.",
+      "formInText": "shuddered",
+      "pageHint": "p. 1"
     },
     {
       "word": "cloak",
       "tier": 2,
       "partOfSpeech": "noun",
       "definition": "a loose outer garment worn over clothes",
-      "example": "People in cloaks walked down the street.",
-      "pageHint": "p. 5"
+      "example": "People in cloaks.",
+      "formInText": "cloaks",
+      "pageHint": "p. 3"
+    },
+    {
+      "word": "Muggle",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a person with no magical powers",
+      "example": "He also thought he had been called a Muggle, whatever that was.",
+      "pageHint": "p. 4"
+    },
+    {
+      "word": "nephew",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "the son of your brother or sister",
+      "example": "Come to think of it, he wasn't even sure his nephew was called Harry.",
+      "pageHint": "p. 4"
     },
     {
       "word": "rejoice",
       "tier": 2,
       "partOfSpeech": "verb",
       "definition": "to feel or show great joy",
-      "example": "Wizards rejoiced at the news.",
+      "example": "Rejoice, for You-Know-Who has gone at last!",
+      "formInText": "Rejoice",
       "pageHint": "p. 4"
     },
     {
-      "word": "vanished",
+      "word": "survive",
       "tier": 2,
       "partOfSpeech": "verb",
-      "definition": "disappeared suddenly and completely",
-      "example": "You-Know-Who had vanished.",
-      "pageHint": "p. 4"
+      "definition": "to stay alive after something dangerous",
+      "example": "how in the name of heaven did Harry survive?",
+      "pageHint": "p. 10"
     },
     {
-      "word": "grateful",
-      "tier": 2,
+      "word": "famous",
+      "tier": 1,
       "partOfSpeech": "adjective",
-      "definition": "feeling thankful",
-      "example": "The Dursleys were not grateful for Harry.",
-      "pageHint": "p. 14"
+      "definition": "known by many people",
+      "example": "He'll be famous -- a legend --",
+      "pageHint": "p. 11"
     },
     {
       "word": "scar",
       "tier": 1,
       "partOfSpeech": "noun",
       "definition": "a mark left on the skin after a wound heals",
-      "example": "Harry had a lightning-shaped scar.",
-      "pageHint": "p. 15"
+      "example": "He'll have that scar forever.",
+      "pageHint": "p. 12"
+    },
+    {
+      "word": "tabby",
+      "tier": 2,
+      "partOfSpeech": "noun",
+      "definition": "a cat with striped or spotted fur",
+      "example": "There was a tabby cat standing on the corner of Privet Drive,",
+      "pageHint": "p. 3"
     }
   ],
   "background": {
     "characters": [
       {
         "name": "Harry Potter",
-        "description": "A baby boy who becomes famous in the wizarding world."
+        "description": "A baby boy who survives an attack and becomes famous in the wizarding world."
       },
       {
         "name": "The Dursleys",
-        "description": "Harry's aunt, uncle, and cousin who dislike magic."
+        "description": "Harry's aunt, uncle, and cousin who want to seem perfectly normal."
       },
       {
         "name": "Professor McGonagall",
-        "description": "A witch who watches over the Dursleys' street."
+        "description": "A witch who watches Privet Drive as a tabby cat before meeting Dumbledore."
       },
       {
         "name": "Dumbledore",
-        "description": "A powerful wizard who brings baby Harry to the Dursleys."
+        "description": "The head wizard who leaves baby Harry on the Dursleys' doorstep."
+      },
+      {
+        "name": "Hagrid",
+        "description": "A giant who brings Harry to Privet Drive on a flying motorcycle."
       }
     ],
-    "hook": "This chapter introduces Harry's world: ordinary people on Privet Drive, strange events in the wizarding world, and the mystery of how baby Harry survived a terrible attack.",
-    "readingFocus": "Notice how the Dursleys feel about magic and about Harry. Watch for clues about why Harry is special."
+    "hook": "On an ordinary Tuesday, the Dursleys try to ignore strange signs — whispering people in cloaks, a cat reading a map, and news about You-Know-Who. By nightfall, Dumbledore and McGonagall leave baby Harry on their doorstep.",
+    "readingFocus": "Notice how the Dursleys react to anything strange. Watch for the first clues about Harry's past and why wizards celebrate."
   },
   "miniCheck": [
     {
@@ -132,18 +140,9 @@
       "word": "peculiar",
       "stem": "What does 'peculiar' mean?",
       "options": [
-        {
-          "id": "a",
-          "text": "strange or unusual"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        }
+        { "id": "a", "text": "strange or unusual" },
+        { "id": "b", "text": "very happy" },
+        { "id": "c", "text": "extremely loud" }
       ],
       "correctId": "a"
     },
@@ -152,18 +151,9 @@
       "word": "Muggle",
       "stem": "A Muggle is someone who —",
       "options": [
-        {
-          "id": "a",
-          "text": "has no magical powers"
-        },
-        {
-          "id": "b",
-          "text": "teaches at Hogwarts"
-        },
-        {
-          "id": "c",
-          "text": "owns a pet owl"
-        }
+        { "id": "a", "text": "has no magical powers" },
+        { "id": "b", "text": "teaches at Hogwarts" },
+        { "id": "c", "text": "owns a pet owl" }
       ],
       "correctId": "a"
     },
@@ -172,18 +162,9 @@
       "word": "survive",
       "stem": "To survive means to —",
       "options": [
-        {
-          "id": "a",
-          "text": "stay alive after danger"
-        },
-        {
-          "id": "b",
-          "text": "forget everything"
-        },
-        {
-          "id": "c",
-          "text": "run very fast"
-        }
+        { "id": "a", "text": "stay alive after danger" },
+        { "id": "b", "text": "forget everything" },
+        { "id": "c", "text": "run very fast" }
       ],
       "correctId": "a"
     }
@@ -196,25 +177,13 @@
         "category": "comprehension",
         "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "How baby Harry came to live with the Dursleys and why he is famous"
-          },
-          {
-            "id": "b",
-            "text": "Harry's first day at Hogwarts"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match in the wizarding world"
-          },
-          {
-            "id": "d",
-            "text": "The Dursleys' vacation to the beach"
-          }
+          { "id": "a", "text": "How baby Harry came to live with the Dursleys and why he is famous" },
+          { "id": "b", "text": "Harry's first day at Hogwarts" },
+          { "id": "c", "text": "A Quidditch match in the wizarding world" },
+          { "id": "d", "text": "The Dursleys' vacation to the beach" }
         ],
         "correctId": "a",
-        "explanation": "The chapter sets up Harry's backstory: the attack on his family, his survival, and his arrival at Privet Drive."
+        "explanation": "The chapter moves from the Dursleys' ordinary day to the attack on Harry's parents, his survival, and Dumbledore leaving him on Privet Drive."
       },
       {
         "id": "c2",
@@ -222,26 +191,14 @@
         "category": "comprehension",
         "stem": "Where do the Dursleys live?",
         "options": [
-          {
-            "id": "a",
-            "text": "Number four, Privet Drive"
-          },
-          {
-            "id": "b",
-            "text": "Diagon Alley"
-          },
-          {
-            "id": "c",
-            "text": "Hogwarts Castle"
-          },
-          {
-            "id": "d",
-            "text": "The Forbidden Forest"
-          }
+          { "id": "a", "text": "Number four, Privet Drive" },
+          { "id": "b", "text": "Diagon Alley" },
+          { "id": "c", "text": "Hogwarts Castle" },
+          { "id": "d", "text": "The Forbidden Forest" }
         ],
         "correctId": "a",
-        "explanation": "The Dursleys live at number four, Privet Drive — a very ordinary suburban street.",
-        "pageHint": "pp. 1–2"
+        "explanation": "The chapter opens with Mr. and Mrs. Dursley of number four, Privet Drive.",
+        "pageHint": "p. 1"
       },
       {
         "id": "c3",
@@ -249,26 +206,14 @@
         "category": "comprehension",
         "stem": "Why do the Dursleys dislike talking about the Potters?",
         "options": [
-          {
-            "id": "a",
-            "text": "They are ashamed of their magical relatives"
-          },
-          {
-            "id": "b",
-            "text": "They never knew the Potters"
-          },
-          {
-            "id": "c",
-            "text": "The Potters live next door"
-          },
-          {
-            "id": "d",
-            "text": "Harry told them not to"
-          }
+          { "id": "a", "text": "They are ashamed of their magical relatives" },
+          { "id": "b", "text": "They never knew the Potters" },
+          { "id": "c", "text": "The Potters live next door" },
+          { "id": "d", "text": "Harry told them not to" }
         ],
         "correctId": "a",
-        "explanation": "The Dursleys want to seem perfectly normal and hide any connection to magic.",
-        "pageHint": "pp. 2–3"
+        "explanation": "Mrs. Dursley pretended she did not have a sister because the Potters were as unDursleyish as possible.",
+        "pageHint": "pp. 1–2"
       },
       {
         "id": "c4",
@@ -276,53 +221,29 @@
         "category": "comprehension",
         "stem": "What mark does baby Harry have on his forehead?",
         "options": [
-          {
-            "id": "a",
-            "text": "A lightning-shaped scar"
-          },
-          {
-            "id": "b",
-            "text": "A star tattoo"
-          },
-          {
-            "id": "c",
-            "text": "A round birthmark"
-          },
-          {
-            "id": "d",
-            "text": "Nothing unusual"
-          }
+          { "id": "a", "text": "A cut shaped like a bolt of lightning" },
+          { "id": "b", "text": "A star tattoo" },
+          { "id": "c", "text": "A round birthmark" },
+          { "id": "d", "text": "Nothing unusual" }
         ],
         "correctId": "a",
-        "explanation": "Harry's lightning scar is a famous sign of what happened the night his parents died.",
-        "pageHint": "p. 15"
+        "explanation": "McGonagall sees a curiously shaped cut, like a bolt of lightning, on Harry's forehead.",
+        "pageHint": "p. 12"
       },
       {
         "id": "c5",
         "type": "emotion",
         "category": "comprehension",
-        "stem": "How do most wizards feel when they hear Harry survived?",
+        "stem": "How do wizards in the street feel when they hear You-Know-Who is gone?",
         "options": [
-          {
-            "id": "a",
-            "text": "Joyful and relieved"
-          },
-          {
-            "id": "b",
-            "text": "Angry and afraid"
-          },
-          {
-            "id": "c",
-            "text": "Bored and uninterested"
-          },
-          {
-            "id": "d",
-            "text": "Confused about Muggles"
-          }
+          { "id": "a", "text": "Joyful and relieved" },
+          { "id": "b", "text": "Angry and afraid" },
+          { "id": "c", "text": "Bored and uninterested" },
+          { "id": "d", "text": "Confused about Muggles" }
         ],
         "correctId": "a",
-        "explanation": "Wizards rejoice because the dark wizard who terrorized them has gone.",
-        "pageHint": "pp. 3–4"
+        "explanation": "An old man in a violet cloak shouts, \"Rejoice, for You-Know-Who has gone at last!\"",
+        "pageHint": "p. 4"
       },
       {
         "id": "c6",
@@ -330,53 +251,29 @@
         "category": "comprehension",
         "stem": "Why does Dumbledore leave Harry with the Dursleys?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry has family there and will be safer until he is older"
-          },
-          {
-            "id": "b",
-            "text": "The Dursleys asked to adopt him"
-          },
-          {
-            "id": "c",
-            "text": "Hogwarts is full"
-          },
-          {
-            "id": "d",
-            "text": "Harry chose to live with them"
-          }
+          { "id": "a", "text": "Harry has family there and will be safer growing up away from fame" },
+          { "id": "b", "text": "The Dursleys asked to adopt him" },
+          { "id": "c", "text": "Hogwarts is full" },
+          { "id": "d", "text": "Harry chose to live with them" }
         ],
         "correctId": "a",
-        "explanation": "Dumbledore believes Harry is best protected with family, even if the Dursleys are unkind.",
-        "pageHint": "pp. 15–17"
+        "explanation": "Dumbledore says Harry is better off growing up away from his fame until he is ready for Hogwarts.",
+        "pageHint": "pp. 11–12"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "Where does Harry sleep at the Dursleys' house?",
+        "stem": "How does Hagrid bring baby Harry to Privet Drive?",
         "options": [
-          {
-            "id": "a",
-            "text": "In a cupboard under the stairs"
-          },
-          {
-            "id": "b",
-            "text": "In Dudley's second bedroom"
-          },
-          {
-            "id": "c",
-            "text": "In the garden shed"
-          },
-          {
-            "id": "d",
-            "text": "In the attic"
-          }
+          { "id": "a", "text": "On a huge flying motorcycle" },
+          { "id": "b", "text": "In a horse-drawn carriage" },
+          { "id": "c", "text": "By Apparating beside the hedge" },
+          { "id": "d", "text": "Inside a Grunnings delivery van" }
         ],
         "correctId": "a",
-        "explanation": "Harry's cupboard shows how poorly the Dursleys treat him compared to Dudley.",
-        "pageHint": "p. 14"
+        "explanation": "A huge motorcycle falls out of the air and lands on the road; Hagrid is riding it with baby Harry.",
+        "pageHint": "p. 12"
       }
     ],
     "vocabulary": [
@@ -386,53 +283,29 @@
         "category": "vocabulary",
         "stem": "In this chapter, 'peculiar' means —",
         "options": [
-          {
-            "id": "a",
-            "text": "strange or unusual"
-          },
-          {
-            "id": "b",
-            "text": "very wealthy"
-          },
-          {
-            "id": "c",
-            "text": "kind and gentle"
-          },
-          {
-            "id": "d",
-            "text": "magical and powerful"
-          }
+          { "id": "a", "text": "strange or unusual" },
+          { "id": "b", "text": "very wealthy" },
+          { "id": "c", "text": "kind and gentle" },
+          { "id": "d", "text": "magical and powerful" }
         ],
         "correctId": "a",
-        "explanation": "The Dursleys think their son Dudley is normal, but others might find his behavior peculiar.",
+        "explanation": "Mr. Dursley notices something peculiar — a cat reading a map.",
         "relatedWord": "peculiar"
       },
       {
         "id": "v2",
         "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "People ___ about the Potters because the family was involved in strange events.",
+        "stem": "On the corner of Privet Drive, Mr. Dursley saw a ___ cat, but there wasn't a map in sight.",
         "options": [
-          {
-            "id": "a",
-            "text": "whispered"
-          },
-          {
-            "id": "b",
-            "text": "shouted"
-          },
-          {
-            "id": "c",
-            "text": "danced"
-          },
-          {
-            "id": "d",
-            "text": "forgot"
-          }
+          { "id": "a", "text": "tabby" },
+          { "id": "b", "text": "golden" },
+          { "id": "c", "text": "invisible" },
+          { "id": "d", "text": "wooden" }
         ],
         "correctId": "a",
-        "explanation": "Whispering suggests people talked quietly about something secret or uncomfortable.",
-        "relatedWord": "whisper"
+        "explanation": "The tabby cat on the corner is later revealed to be Professor McGonagall.",
+        "relatedWord": "tabby"
       },
       {
         "id": "v3",
@@ -440,79 +313,43 @@
         "category": "vocabulary",
         "stem": "A 'Muggle' is a person who —",
         "options": [
-          {
-            "id": "a",
-            "text": "has no magical ability"
-          },
-          {
-            "id": "b",
-            "text": "works at Gringotts bank"
-          },
-          {
-            "id": "c",
-            "text": "flies on a broomstick"
-          },
-          {
-            "id": "d",
-            "text": "teaches Defence Against the Dark Arts"
-          }
+          { "id": "a", "text": "has no magical ability" },
+          { "id": "b", "text": "works at Gringotts bank" },
+          { "id": "c", "text": "flies on a broomstick" },
+          { "id": "d", "text": "teaches Defence Against the Dark Arts" }
         ],
         "correctId": "a",
-        "explanation": "Muggle is the wizarding word for non-magical people like Mr. Dursley.",
+        "explanation": "Mr. Dursley is a Muggle who knows nothing about magic.",
         "relatedWord": "Muggle"
       },
       {
         "id": "v4",
         "type": "synonym",
         "category": "vocabulary",
-        "stem": "Which word is closest in meaning to 'vanished'?",
+        "stem": "Which word is closest in meaning to 'mysterious'?",
         "options": [
-          {
-            "id": "a",
-            "text": "disappeared"
-          },
-          {
-            "id": "b",
-            "text": "arrived"
-          },
-          {
-            "id": "c",
-            "text": "celebrated"
-          },
-          {
-            "id": "d",
-            "text": "grew"
-          }
+          { "id": "a", "text": "hard to explain" },
+          { "id": "b", "text": "perfectly normal" },
+          { "id": "c", "text": "very wealthy" },
+          { "id": "d", "text": "extremely loud" }
         ],
         "correctId": "a",
-        "explanation": "When You-Know-Who vanished, he was gone — no one knew where he went.",
-        "relatedWord": "vanished"
+        "explanation": "The Dursleys do not hold with anything strange or mysterious.",
+        "relatedWord": "mysterious"
       },
       {
         "id": "v5",
         "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "The wizards ___ when they heard the dark wizard was gone.",
+        "stem": "The man in the violet cloak cried, \"___, for You-Know-Who has gone at last!\"",
         "options": [
-          {
-            "id": "a",
-            "text": "rejoiced"
-          },
-          {
-            "id": "b",
-            "text": "complained"
-          },
-          {
-            "id": "c",
-            "text": "slept"
-          },
-          {
-            "id": "d",
-            "text": "vanished"
-          }
+          { "id": "a", "text": "Rejoice" },
+          { "id": "b", "text": "Whisper" },
+          { "id": "c", "text": "Shudder" },
+          { "id": "d", "text": "Survive" }
         ],
         "correctId": "a",
-        "explanation": "Rejoiced means they celebrated with happiness and relief.",
+        "explanation": "Rejoice means to celebrate — wizards are relieved that You-Know-Who is gone.",
         "relatedWord": "rejoice"
       }
     ],
@@ -520,92 +357,88 @@
       "id": "cloze-ch01",
       "title": "The Boy Who Lived",
       "paragraphs": [
-        "The Dursleys wanted to seem perfectly normal on Privet Drive. However, people sometimes (1) ___ about the Potters because strange things had happened. Mr. Dursley was a (2) ___ who knew nothing about magic.",
-        "When the dark wizard attacked, he suddenly (3) ___ after failing to kill baby Harry. Wizards across Britain (4) ___ because the danger seemed to be over.",
-        "Harry was the only person known to (5) ___ that terrible night. He grew up with a lightning-shaped (6) ___ on his forehead and slept in a (7) ___ under the stairs."
+        "Mr. and Mrs. Dursley were proud to say they were perfectly (1) ___, thank you very much. They were the last people you'd expect to be involved in anything strange or (2) ___.",
+        "On his way to work, Mr. Dursley noticed something (3) ___ — a cat reading a map. Later he saw people in (4) ___ whispering excitedly together.",
+        "Professor McGonagall asked how Harry could possibly (5) ___. Dumbledore said the boy would be (6) ___ — a legend — and that he would keep his (7) ___ forever."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "whispered",
-          "acceptAlternatives": [
-            "whisper"
-          ],
-          "gapType": "vocabulary",
-          "relatedWord": "whisper",
-          "explanation": "People spoke quietly about the Potters' strange history.",
-          "pageHint": "p. 2"
+          "answer": "normal",
+          "acceptAlternatives": [],
+          "gapType": "plot",
+          "relatedWord": "normal",
+          "explanation": "The Dursleys want to seem perfectly normal.",
+          "pageHint": "p. 1"
         },
         {
           "id": 2,
-          "answer": "Muggle",
+          "answer": "mysterious",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "Muggle",
-          "explanation": "A Muggle is a person with no magical powers.",
-          "pageHint": "p. 3"
+          "relatedWord": "mysterious",
+          "explanation": "They dislike anything strange or mysterious.",
+          "pageHint": "p. 1"
         },
         {
           "id": 3,
-          "answer": "vanished",
+          "answer": "peculiar",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "vanished",
-          "explanation": "You-Know-Who disappeared after the attack failed.",
-          "pageHint": "p. 4"
+          "relatedWord": "peculiar",
+          "explanation": "Mr. Dursley sees the first sign of something peculiar on the corner.",
+          "pageHint": "p. 3"
         },
         {
           "id": 4,
-          "answer": "rejoiced",
-          "acceptAlternatives": [
-            "rejoice"
-          ],
+          "answer": "cloaks",
+          "acceptAlternatives": ["cloak"],
           "gapType": "vocabulary",
-          "relatedWord": "rejoice",
-          "explanation": "Wizards celebrated with joy and relief.",
-          "pageHint": "p. 4"
+          "relatedWord": "cloak",
+          "explanation": "Mr. Dursley is disturbed to see people in cloaks in broad daylight.",
+          "pageHint": "p. 3"
         },
         {
           "id": 5,
           "answer": "survive",
-          "acceptAlternatives": [
-            "survived"
-          ],
+          "acceptAlternatives": ["survived"],
           "gapType": "vocabulary",
           "relatedWord": "survive",
-          "explanation": "Harry stayed alive when the curse should have killed him.",
-          "pageHint": "p. 4"
+          "explanation": "McGonagall asks how Harry survived the attack.",
+          "pageHint": "p. 10"
         },
         {
           "id": 6,
+          "answer": "famous",
+          "acceptAlternatives": [],
+          "gapType": "vocabulary",
+          "relatedWord": "famous",
+          "explanation": "Dumbledore says Harry will be famous — a legend.",
+          "pageHint": "p. 11"
+        },
+        {
+          "id": 7,
           "answer": "scar",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
           "relatedWord": "scar",
-          "explanation": "The lightning-shaped mark was left by the failed curse.",
-          "pageHint": "p. 15"
-        },
-        {
-          "id": 7,
-          "answer": "cupboard",
-          "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "cupboard",
-          "explanation": "Harry's tiny bedroom shows how poorly the Dursleys treated him.",
-          "pageHint": "p. 14"
+          "explanation": "Dumbledore says Harry will have that scar forever.",
+          "pageHint": "p. 12"
         }
       ],
       "wordBank": [
-        "whispered",
-        "Muggle",
-        "vanished",
-        "rejoiced",
-        "survived",
-        "scar",
-        "cupboard",
+        "normal",
+        "mysterious",
         "peculiar",
-        "fortune",
-        "grateful"
+        "cloaks",
+        "survive",
+        "famous",
+        "scar",
+        "whispering",
+        "Muggle",
+        "tabby",
+        "rejoice",
+        "shuddered"
       ],
       "guidedMode": true,
       "openMode": true

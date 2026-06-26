@@ -7,198 +7,162 @@
   "estimatedWords": 4500,
   "vocabulary": [
     {
-      "word": "courage",
+      "word": "rickety",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "bravery in facing danger",
-      "example": "Harry showed great courage.",
-      "pageHint": "p. 98"
+      "partOfSpeech": "adjective",
+      "definition": "shaky and not very strong or safe",
+      "example": "There were a hundred and forty two staircases at Hogwarts: wide, sweeping ones; narrow, rickety ones; some that led somewhere different on a Friday;",
+      "pageHint": "Hogwarts staircases"
     },
     {
-      "word": "mystery",
+      "word": "vanish",
       "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "something unknown or secret",
-      "example": "The mystery deepened.",
-      "pageHint": "p. 101"
-    },
-    {
-      "word": "secret",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "something kept hidden",
-      "example": "They shared a secret.",
-      "pageHint": "p. 102"
-    },
-    {
-      "word": "castle",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "a large fortified building",
-      "example": "Hogwarts is a castle.",
-      "pageHint": "p. 103"
-    },
-    {
-      "word": "spell",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "words that create magic",
-      "example": "Hermione knew the spell.",
-      "pageHint": "p. 104"
-    },
-    {
-      "word": "potion",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a magical liquid mixture",
-      "example": "Snape taught potions.",
-      "pageHint": "p. 105"
-    },
-    {
-      "word": "friendship",
-      "tier": 2,
-      "partOfSpeech": "noun",
-      "definition": "a close bond between friends",
-      "example": "Their friendship grew.",
-      "pageHint": "p. 106"
-    },
-    {
-      "word": "danger",
-      "tier": 1,
-      "partOfSpeech": "noun",
-      "definition": "the possibility of harm",
-      "example": "They sensed danger.",
-      "pageHint": "p. 107"
-    },
-    {
-      "word": "discover",
-      "tier": 1,
       "partOfSpeech": "verb",
-      "definition": "to find something new",
-      "example": "Harry discovered the truth.",
-      "pageHint": "p. 108"
+      "definition": "to disappear suddenly",
+      "example": "some with a vanishing step halfway up that you had to remember to jump.",
+      "formInText": "vanishing",
+      "pageHint": "Hogwarts staircases"
     },
     {
-      "word": "challenge",
+      "word": "scrawny",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "very thin and bony",
+      "example": "Filch owned a cat called Mrs. Norris, a scrawny, dust colored creature with bulging, lamp like eyes just like Filch\u2019s.",
+      "pageHint": "Mrs. Norris"
+    },
+    {
+      "word": "wand",
+      "tier": 1,
+      "partOfSpeech": "noun",
+      "definition": "a stick used to perform magic",
+      "example": "There was a lot more to magic, as Harry quickly found out, than waving your wand and saying a few funny words.",
+      "pageHint": "classes at Hogwarts"
+    },
+    {
+      "word": "strict",
+      "tier": 2,
+      "partOfSpeech": "adjective",
+      "definition": "demanding that rules be followed",
+      "example": "Strict and clever, she gave them a talking to the moment they sat down in her first class.",
+      "pageHint": "McGonagall\u2019s Transfiguration class"
+    },
+    {
+      "word": "vampire",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a creature that drinks blood and fears garlic",
+      "example": "His classroom smelled strongly of garlic, which everyone said was to ward off a vampire he\u2019d met in Romania and was afraid would be coming back to get him one of these days.",
+      "pageHint": "Quirrell\u2019s classroom"
+    },
+    {
+      "word": "celebrity",
       "tier": 2,
       "partOfSpeech": "noun",
-      "definition": "a difficult task",
-      "example": "Each challenge was harder.",
-      "pageHint": "p. 109"
+      "definition": "a very famous person",
+      "example": "\u201cAh, Yes,\u201d he said softly, \u201cHarry Potter. Our new\u2014celebrity.\u201d",
+      "pageHint": "Potions lesson roll call"
     },
     {
-      "word": "loyal",
+      "word": "simmer",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to cook liquids gently just below boiling",
+      "example": "I don\u2019t expect you will really understand the beauty of the softly simmering cauldron with its shimmering fumes, the delicate power of liquids that creep through human veins, bewitching the mind, ensnaring the senses\u2026",
+      "formInText": "simmering",
+      "pageHint": "Snape\u2019s opening speech"
+    },
+    {
+      "word": "sneer",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to smile in a mean, mocking way",
+      "example": "Snape\u2019s lips curled into a sneer.",
+      "pageHint": "Snape questions Harry"
+    },
+    {
+      "word": "dunderhead",
+      "tier": 3,
+      "partOfSpeech": "noun",
+      "definition": "a foolish or stupid person",
+      "example": "I can teach you how to bottle fame, brew glory, even stopper death\u2014if you aren\u2019t as big a bunch of dunderheads as I usually have to teach.\u201d",
+      "pageHint": "Snape\u2019s opening speech"
+    },
+    {
+      "word": "seep",
+      "tier": 2,
+      "partOfSpeech": "verb",
+      "definition": "to leak or spread slowly",
+      "example": "Neville had somehow managed to melt Seamus\u2019s cauldron into a twisted blob, and their potion was seeping across the stone floor, burning holes in people\u2019s shoes.",
+      "formInText": "seeping",
+      "pageHint": "Potions accident"
+    },
+    {
+      "word": "grubby",
       "tier": 2,
       "partOfSpeech": "adjective",
-      "definition": "faithful to friends",
-      "example": "Ron was loyal to Harry.",
-      "pageHint": "p. 110"
-    },
-    {
-      "word": "brave",
-      "tier": 1,
-      "partOfSpeech": "adjective",
-      "definition": "willing to face fear",
-      "example": "Hermione was brave.",
-      "pageHint": "p. 111"
+      "definition": "dirty and worn",
+      "example": "Hagrid had emptied vault seven hundred and thirteen, if you could call it emptying, taking out that grubby little package.",
+      "pageHint": "tea at Hagrid\u2019s hut"
     }
   ],
   "background": {
     "characters": [
       {
-        "name": "Harry",
-        "description": "Appears in Chapter 8."
+        "name": "Harry Potter",
+        "description": "Still famous at Hogwarts and struggling to find his way to classes."
       },
       {
-        "name": "Snape",
-        "description": "Appears in Chapter 8."
+        "name": "Professor Snape",
+        "description": "The cold Potions master who seems to hate Harry on sight."
       },
       {
-        "name": "Ron",
-        "description": "Appears in Chapter 8."
+        "name": "Ron Weasley",
+        "description": "Harry\u2019s friend who shares his first miserable Potions lesson."
       },
       {
-        "name": "Hermione",
-        "description": "Appears in Chapter 8."
+        "name": "Rubeus Hagrid",
+        "description": "Invites Harry for tea and seems uneasy about the Gringotts break-in."
       },
       {
-        "name": "Quirrell",
-        "description": "Appears in Chapter 8."
+        "name": "Argus Filch",
+        "description": "The caretaker who patrols corridors with his cat, Mrs. Norris."
       }
     ],
-    "hook": "Harry attends his first classes and meets Professor Snape.",
-    "readingFocus": "Pay attention to Snape's attitude toward Harry."
+    "hook": "Harry\u2019s first week at Hogwarts is confusing and crowded with whispers. His first Potions lesson with Professor Snape goes badly, but tea with Hagrid raises a troubling question about the Gringotts break-in.",
+    "readingFocus": "Watch how Snape treats Harry compared to Malfoy, and notice what Hagrid won\u2019t say about the newspaper clipping on his table."
   },
   "miniCheck": [
     {
       "id": "mc1",
-      "word": "courage",
-      "stem": "What does 'courage' mean?",
+      "word": "scrawny",
+      "stem": "Something scrawny is —",
       "options": [
-        {
-          "id": "a",
-          "text": "bravery in facing danger"
-        },
-        {
-          "id": "b",
-          "text": "very happy"
-        },
-        {
-          "id": "c",
-          "text": "extremely loud"
-        },
-        {
-          "id": "d",
-          "text": "completely invisible"
-        }
+        { "id": "a", "text": "very thin and bony" },
+        { "id": "b", "text": "very round and fluffy" },
+        { "id": "c", "text": "made of solid gold" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc2",
-      "word": "mystery",
-      "stem": "What does 'mystery' mean?",
+      "word": "celebrity",
+      "stem": "A celebrity is —",
       "options": [
-        {
-          "id": "a",
-          "text": "something unknown or secret"
-        },
-        {
-          "id": "b",
-          "text": "to run quickly"
-        },
-        {
-          "id": "c",
-          "text": "a kind of bird"
-        },
-        {
-          "id": "d",
-          "text": "a school subject"
-        }
+        { "id": "a", "text": "a very famous person" },
+        { "id": "b", "text": "a type of potion ingredient" },
+        { "id": "c", "text": "a school staircase" }
       ],
       "correctId": "a"
     },
     {
       "id": "mc3",
-      "word": "secret",
-      "stem": "What does 'secret' mean?",
+      "word": "strict",
+      "stem": "A strict teacher —",
       "options": [
-        {
-          "id": "a",
-          "text": "something kept hidden"
-        },
-        {
-          "id": "b",
-          "text": "very boring"
-        },
-        {
-          "id": "c",
-          "text": "a type of food"
-        },
-        {
-          "id": "d",
-          "text": "to sleep deeply"
-        }
+        { "id": "a", "text": "demands that rules be followed" },
+        { "id": "b", "text": "never gives any homework" },
+        { "id": "c", "text": "lets students do whatever they want" }
       ],
       "correctId": "a"
     }
@@ -209,190 +173,105 @@
         "id": "c1",
         "type": "main_idea",
         "category": "comprehension",
-        "stem": "What is the main event in Chapter 8?",
+        "stem": "What is this chapter mainly about?",
         "options": [
-          {
-            "id": "a",
-            "text": "The events described in 'The Potions Master'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Harry\u2019s first week of classes, a harsh Potions lesson with Snape, and a revealing tea with Hagrid" },
+          { "id": "b", "text": "Harry\u2019s Sorting into Gryffindor at the welcome feast" },
+          { "id": "c", "text": "Harry\u2019s first flying lesson and Quidditch tryout" },
+          { "id": "d", "text": "Harry shopping for supplies in Diagon Alley" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: The events described in 'The Potions Master'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "The chapter covers Hogwarts classes, Snape\u2019s Potions lesson, and Harry\u2019s visit to Hagrid\u2019s hut."
       },
       {
         "id": "c2",
-        "type": "inference",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "Which characters are most important in this chapter?",
+        "stem": "How does Harry first get on Filch\u2019s bad side?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry and his friends"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "He and Ron try to open a door that leads to the out-of-bounds third-floor corridor" },
+          { "id": "b", "text": "He drops chalk on Filch\u2019s head" },
+          { "id": "c", "text": "He feeds Mrs. Norris rock cakes" },
+          { "id": "d", "text": "He uses magic in the corridor between classes" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry and his friends. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "Filch catches them at the forbidden corridor door and refuses to believe they are lost.",
+        "pageHint": "first morning"
       },
       {
         "id": "c3",
-        "type": "emotion",
+        "type": "detail",
         "category": "comprehension",
-        "stem": "What problem do the main characters face?",
+        "stem": "What potion ingredient does Snape say comes from a goat\u2019s stomach?",
         "options": [
-          {
-            "id": "a",
-            "text": "A challenge they must overcome together"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "A bezoar" },
+          { "id": "b", "text": "Powdered root of asphodel" },
+          { "id": "c", "text": "Monkshood" },
+          { "id": "d", "text": "Porcupine quills" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A challenge they must overcome together. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "Snape tells the class a bezoar is a stone from a goat\u2019s stomach that saves you from most poisons.",
+        "pageHint": "Potions lesson"
       },
       {
         "id": "c4",
         "type": "detail",
         "category": "comprehension",
-        "stem": "How do Harry's friends help in this chapter?",
+        "stem": "How many Gryffindor points does Harry lose in his first Potions lesson?",
         "options": [
-          {
-            "id": "a",
-            "text": "They support each other with loyalty and bravery"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Two" },
+          { "id": "b", "text": "Five" },
+          { "id": "c", "text": "None" },
+          { "id": "d", "text": "Ten" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: They support each other with loyalty and bravery. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "Snape takes one point for cheek and another because Harry didn\u2019t stop Neville adding quills too soon.",
+        "pageHint": "Potions lesson"
       },
       {
         "id": "c5",
-        "type": "inference",
+        "type": "emotion",
         "category": "comprehension",
-        "stem": "What magical element appears in this chapter?",
+        "stem": "How does Harry feel about Snape by the end of the first Potions lesson?",
         "options": [
-          {
-            "id": "a",
-            "text": "A spell, creature, or magical object"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "He realizes Snape hates him, not just dislikes him" },
+          { "id": "b", "text": "He thinks Snape is his favorite teacher" },
+          { "id": "c", "text": "He is sure Snape will recommend him for Quidditch" },
+          { "id": "d", "text": "He believes Snape is afraid of him" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A spell, creature, or magical object. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "Harry had thought Snape disliked him; by the lesson\u2019s end he knows Snape hates him.",
+        "pageHint": "after Potions"
       },
       {
         "id": "c6",
-        "type": "detail",
+        "type": "inference",
         "category": "comprehension",
-        "stem": "What can you infer about Harry's growth?",
+        "stem": "Why does Harry think Hagrid is hiding something about the Gringotts break-in?",
         "options": [
-          {
-            "id": "a",
-            "text": "Harry is becoming braver and more confident"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Hagrid won\u2019t meet Harry\u2019s eyes and changes the subject" },
+          { "id": "b", "text": "Hagrid shows Harry the vault key" },
+          { "id": "c", "text": "Hagrid calls the newspaper clipping a fake" },
+          { "id": "d", "text": "Hagrid says Snape broke into Gringotts" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: Harry is becoming braver and more confident. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "When Harry mentions the break-in on his birthday, Hagrid grunts and avoids his eyes.",
+        "pageHint": "Hagrid\u2019s hut"
       },
       {
         "id": "c7",
         "type": "detail",
         "category": "comprehension",
-        "stem": "What would be a good title for the key scene?",
+        "stem": "What does Hagrid invite Harry to do on Friday afternoon?",
         "options": [
-          {
-            "id": "a",
-            "text": "A scene from 'The Potions Master'"
-          },
-          {
-            "id": "b",
-            "text": "A trip to the Dursleys' house"
-          },
-          {
-            "id": "c",
-            "text": "A Quidditch match only"
-          },
-          {
-            "id": "d",
-            "text": "A lesson about Muggles only"
-          }
+          { "id": "a", "text": "Come for a cup of tea around three" },
+          { "id": "b", "text": "Try out for the Quidditch team" },
+          { "id": "c", "text": "Help him groom Fang" },
+          { "id": "d", "text": "Visit the forbidden forest" }
         ],
         "correctId": "a",
-        "explanation": "The correct answer is: A scene from 'The Potions Master'. Re-read this chapter in your book to find the evidence.",
-        "pageHint": "Chapter 8"
+        "explanation": "Hedwig delivers a note asking Harry to tea because he has Friday afternoons off.",
+        "pageHint": "Friday breakfast"
       }
     ],
     "vocabulary": [
@@ -400,212 +279,164 @@
         "id": "v1",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'courage' mean in this chapter?",
+        "stem": "In this chapter, a 'dunderhead' is —",
         "options": [
-          {
-            "id": "a",
-            "text": "bravery in facing danger"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "a foolish person" },
+          { "id": "b", "text": "a magic wand" },
+          { "id": "c", "text": "a school ghost" },
+          { "id": "d", "text": "a type of cauldron" }
         ],
         "correctId": "a",
-        "explanation": "'courage' means: bravery in facing danger.",
-        "relatedWord": "courage"
+        "explanation": "Snape calls his students dunderheads unless they prove otherwise.",
+        "relatedWord": "dunderhead"
       },
       {
         "id": "v2",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'mystery' mean in this chapter?",
+        "stem": "Snape\u2019s lips curled into a ___.",
         "options": [
-          {
-            "id": "a",
-            "text": "something unknown or secret"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "sneer" },
+          { "id": "b", "text": "wand" },
+          { "id": "c", "text": "vampire" },
+          { "id": "d", "text": "celebrity" }
         ],
         "correctId": "a",
-        "explanation": "'mystery' means: something unknown or secret.",
-        "relatedWord": "mystery"
+        "explanation": "Snape sneers when Harry cannot answer his questions.",
+        "relatedWord": "sneer"
       },
       {
         "id": "v3",
         "type": "definition",
         "category": "vocabulary",
-        "stem": "What does 'secret' mean in this chapter?",
+        "stem": "To seep means to —",
         "options": [
-          {
-            "id": "a",
-            "text": "something kept hidden"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "leak or spread slowly" },
+          { "id": "b", "text": "shout an answer loudly" },
+          { "id": "c", "text": "turn a desk into a pig" },
+          { "id": "d", "text": "fly on a broomstick" }
         ],
         "correctId": "a",
-        "explanation": "'secret' means: something kept hidden.",
-        "relatedWord": "secret"
+        "explanation": "Neville\u2019s ruined potion seeps across the dungeon floor.",
+        "relatedWord": "seep"
       },
       {
         "id": "v4",
-        "type": "definition",
+        "type": "synonym",
         "category": "vocabulary",
-        "stem": "What does 'castle' mean in this chapter?",
+        "stem": "Which word is closest in meaning to 'grubby'?",
         "options": [
-          {
-            "id": "a",
-            "text": "a large fortified building"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "dirty and worn" },
+          { "id": "b", "text": "shiny and new" },
+          { "id": "c", "text": "enormous and heavy" },
+          { "id": "d", "text": "frozen and cold" }
         ],
         "correctId": "a",
-        "explanation": "'castle' means: a large fortified building.",
-        "relatedWord": "castle"
+        "explanation": "Harry remembers Hagrid taking a grubby little package from vault 713.",
+        "relatedWord": "grubby"
       },
       {
         "id": "v5",
-        "type": "definition",
+        "type": "context_cloze",
         "category": "vocabulary",
-        "stem": "What does 'spell' mean in this chapter?",
+        "stem": "\u201cAh, Yes,\u201d he said softly, \u201cHarry Potter. Our new\u2014___.\u201d",
         "options": [
-          {
-            "id": "a",
-            "text": "words that create magic"
-          },
-          {
-            "id": "b",
-            "text": "a type of food"
-          },
-          {
-            "id": "c",
-            "text": "a school rule"
-          },
-          {
-            "id": "d",
-            "text": "a Muggle invention"
-          }
+          { "id": "a", "text": "celebrity" },
+          { "id": "b", "text": "dunderhead" },
+          { "id": "c", "text": "vampire" },
+          { "id": "d", "text": "rickety" }
         ],
         "correctId": "a",
-        "explanation": "'spell' means: words that create magic.",
-        "relatedWord": "spell"
+        "explanation": "Snape mocks Harry\u2019s fame during roll call.",
+        "relatedWord": "celebrity"
       }
     ],
     "cloze": {
       "id": "cloze-ch08",
       "title": "The Potions Master",
       "paragraphs": [
-        "Harry attends his first classes and meets Professor Snape. In this chapter, an important word is (1) ___. The characters also face (2) ___ situations.",
-        "As the story continues, readers notice (3) ___ details. Someone might (4) ___ when they feel strongly about events.",
-        "By the end of \"The Potions Master\", the key idea involves (5) ___ and (6) ___."
+        "Hogwarts was hard to navigate, with (1) ___ staircases and even a (2) ___ step. Filch\u2019s (3) ___ cat, Mrs. Norris, patrolled the corridors.",
+        "In Potions, Snape called Harry a (4) ___ and curled his lips into a (5) ___. When Neville\u2019s cauldron melted, potion began (6) ___ across the floor.",
+        "At tea, Harry read about the Gringotts break-in and wondered about the (7) ___ little package Hagrid had taken from vault 713."
       ],
       "gaps": [
         {
           "id": 1,
-          "answer": "courage",
+          "answer": "rickety",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "courage",
-          "explanation": "courage: bravery in facing danger",
-          "pageHint": "p. 98"
+          "relatedWord": "rickety",
+          "explanation": "Some Hogwarts staircases are narrow and rickety.",
+          "pageHint": "Hogwarts staircases"
         },
         {
           "id": 2,
-          "answer": "mystery",
+          "answer": "vanishing",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "mystery",
-          "explanation": "mystery: something unknown or secret",
-          "pageHint": "p. 101"
+          "relatedWord": "vanish",
+          "explanation": "Some stairs have a vanishing step you must jump over.",
+          "pageHint": "Hogwarts staircases"
         },
         {
           "id": 3,
-          "answer": "secret",
+          "answer": "scrawny",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "secret",
-          "explanation": "secret: something kept hidden",
-          "pageHint": "p. 102"
+          "relatedWord": "scrawny",
+          "explanation": "Mrs. Norris is a scrawny, dust-colored cat.",
+          "pageHint": "Mrs. Norris"
         },
         {
           "id": 4,
-          "answer": "castle",
+          "answer": "celebrity",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "castle",
-          "explanation": "castle: a large fortified building",
-          "pageHint": "p. 103"
+          "relatedWord": "celebrity",
+          "explanation": "Snape introduces Harry as their new celebrity.",
+          "pageHint": "Potions roll call"
         },
         {
           "id": 5,
-          "answer": "spell",
+          "answer": "sneer",
           "acceptAlternatives": [],
-          "gapType": "plot",
-          "relatedWord": "spell",
-          "explanation": "spell: words that create magic",
-          "pageHint": "p. 104"
+          "gapType": "vocabulary",
+          "relatedWord": "sneer",
+          "explanation": "Snape sneers when Harry cannot answer his questions.",
+          "pageHint": "Potions lesson"
         },
         {
           "id": 6,
-          "answer": "potion",
+          "answer": "seeping",
+          "acceptAlternatives": ["seep"],
+          "gapType": "vocabulary",
+          "relatedWord": "seep",
+          "explanation": "The ruined potion seeps across the stone floor.",
+          "pageHint": "Potions accident"
+        },
+        {
+          "id": 7,
+          "answer": "grubby",
           "acceptAlternatives": [],
           "gapType": "vocabulary",
-          "relatedWord": "potion",
-          "explanation": "potion: a magical liquid mixture",
-          "pageHint": "p. 105"
+          "relatedWord": "grubby",
+          "explanation": "Harry recalls the grubby package from vault 713.",
+          "pageHint": "Hagrid\u2019s hut"
         }
       ],
       "wordBank": [
-        "courage",
-        "mystery",
-        "secret",
-        "castle",
-        "spell",
-        "potion",
-        "friendship",
-        "danger",
-        "discover"
+        "rickety",
+        "vanishing",
+        "scrawny",
+        "celebrity",
+        "sneer",
+        "seeping",
+        "grubby",
+        "strict",
+        "wand",
+        "simmering",
+        "dunderhead",
+        "vampire"
       ],
       "guidedMode": true,
       "openMode": true
