@@ -11,6 +11,7 @@ import { ReviewPage } from "@/pages/ReviewPage";
 import { ProfilePage } from "@/pages/ProfilePage";
 import { ParentDashboardPage } from "@/pages/ParentDashboardPage";
 import { FeedbackPage } from "@/pages/FeedbackPage";
+import { UserSelectPage } from "@/pages/UserSelectPage";
 
 function PreviewRedirect() {
   const { bookId, chapterId } = useParams();
@@ -23,6 +24,7 @@ export function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<HomePage />} />
+          <Route path="/select-user" element={<UserSelectPage />} />
           <Route path="/onboarding" element={<OnboardingPage />} />
           <Route path="/book/:bookId/chapter/:chapterId/overview" element={<OverviewPage />} />
           <Route path="/book/:bookId/chapter/:chapterId/preview" element={<PreviewRedirect />} />

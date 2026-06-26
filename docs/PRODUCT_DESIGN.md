@@ -463,5 +463,47 @@ Debug Mode 开启后，地图显示 **🧪 Test** 格子（Chapter 0），用于
 - **激励**：Quiz 通关 +30 House Points；结果页展示三 Section 得分
 - **信息架构**：`Books → Chapter → Overview（词汇 + 状态卡片）→ Read / Quiz`；Quiz 内含 Hub 与三 Section 子页
 - **实现状态**：三 Section Quiz（含完形填空）与 Hub 导航**已上线**（`QuizPage.tsx`、`ClozePassageView.tsx`、`quiz.cloze` 内容包）
+- **多用户（设计中）**：见 [MULTI_USER.md](./MULTI_USER.md) — 设备内多 Profile、进度按用户隔离、新用户空白进度
 
 完整架构、版权与迭代路线见项目 README 与 `docs/` 目录。
+
+---
+
+## 5. 多用户系统（Phase 1 已上线）
+
+> 完整规格见 [MULTI_USER.md](./MULTI_USER.md)。
+
+### 5.1 现状 vs 目标
+
+| | 现状（MVP） | 目标 |
+|---|------------|------|
+| 存储 | `localStorage` 单键 `spellread-state` | `DeviceState` 含多个 `UserSave` |
+| 用户 | 单一 `profile` | 多个学习者，每人独立档案 |
+| 进度 | 全局一份 | **按用户隔离**；新建用户 = 空白进度（仅 Ch.1 可预习） |
+| 切换 | 无 | 首页头像条 / 冷启动选择「Who's reading today?」 |
+
+### 5.2 每个用户独立保存的内容
+
+- `UserProfile`（昵称、学院、House Points、自适应等级、连续天数等）
+- `chapterProgress`（章节状态、阅读时长、Quiz 草稿与成绩）
+- `vocabJournal`（生词本与 SRS 复习队列）
+- `badges`、`recentQuizScores`
+
+**设备级共享**：`debugMode`、章节 JSON 内容包。
+
+### 5.3 核心用户流程
+
+1. **添加学习者** → Onboarding → 写入空白 `UserSave` → 设为当前用户  
+2. **切换学习者** → 更新 `activeUserId` → 全站展示该用户进度  
+3. **删除学习者** → 家长 PIN 确认 → 仅删除该用户 Save  
+
+### 5.4 迁移
+
+已有 `spellread-state` 自动迁移为 v2 中**第一个用户**，进度不丢失。
+
+### 5.5 分阶段
+
+| 阶段 | 范围 |
+|------|------|
+| **Phase 1** | 本地多用户（本文档 + MULTI_USER.md） |
+| **Phase 2** | 可选账号登录与云同步（预留 `accountId`） |

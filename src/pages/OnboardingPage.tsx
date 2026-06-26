@@ -1,8 +1,8 @@
 
-import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useState, useEffect } from "react";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import { useApp } from "@/context/AppContext";
-import { createProfile, setPlacement } from "@/lib/store";
+import { createProfile } from "@/lib/store";
 import { placementRecommendation } from "@/lib/adaptive";
 import { Button } from "@/components/ui/Button";
 import { shuffleStringOptions } from "@/lib/shuffle-options";
@@ -38,8 +38,10 @@ type Step = "welcome" | "profile" | "placement" | "consent" | "done";
 
 export function OnboardingPage() {
   const navigate = useNavigate();
-  const { setState } = useApp();
-  const [step, setStep] = useState<Step>("welcome");
+  const [searchParams] = useSearchParams();
+  const isAdditional = searchParams.get("mode") === "additional";
+  const { addLearner, learners } = useApp();
+  const [step, setStep] = useState<Step>(isAdditional ? "profile" : "welcome");
   const [nickname, setNickname] = useState("");
   const [avatar, setAvatar] = useState(AVATARS[0]);
   const [house, setHouse] = useState<typeof HOUSES[number]["id"]>("gryffindor");
@@ -48,21 +50,19 @@ export function OnboardingPage() {
   const [compScore, setCompScore] = useState(0);
   const [parentConsent, setParentConsent] = useState(false);
 
+  useEffect(() => {
+    if (isAdditional && learners.length > 0 && step === "welcome") {
+      setStep("profile");
+    }
+  }, [isAdditional, learners.length, step]);
+
   const finishOnboarding = () => {
     const vocabRate = vocabScore / PLACEMENT_VOCAB.length;
     const compRate = compScore / PLACEMENT_COMP.length;
     const rec = placementRecommendation(vocabRate, compRate);
 
     const profile = createProfile(nickname, avatar, house);
-    profile.lexileEstimate = rec.lexile;
-
-    setState((prev) =>
-      setPlacement(
-        { ...prev, profile: { ...profile, placementDone: true } },
-        rec.lexile,
-        rec.chapter,
-      ),
-    );
+    addLearner(profile, { lexile: rec.lexile, startChapter: rec.chapter });
 
     navigate("/");
   };
@@ -91,7 +91,14 @@ export function OnboardingPage() {
   if (step === "profile") {
     return (
       <div className="space-y-6">
-        <h1 className="text-2xl font-bold">Create Your Profile</h1>
+        <h1 className="text-2xl font-bold">
+          {isAdditional ? "Add a New Learner" : "Create Your Profile"}
+        </h1>
+        {isAdditional && (
+          <p className="text-sm text-ink-muted">
+            They will start from Chapter 1 with a fresh progress map — no data is copied from other learners.
+          </p>
+        )}
 
         <div>
           <label className="mb-2 block font-medium">Pick an avatar</label>

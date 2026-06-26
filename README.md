@@ -53,7 +53,7 @@ content/book1/          # Chapter JSON content packs (17 chapters)
 src/pages/              # Route pages
 src/components/         # UI + learning components
 src/lib/                # Store, adaptive engine, SRS, TTS
-docs/                   # Product design, copyright, beta protocol
+docs/                   # Product design, multi-user spec, copyright, beta protocol
 ```
 
 ## License

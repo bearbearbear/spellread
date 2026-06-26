@@ -226,6 +226,28 @@ export interface AppState {
   debugMode: boolean;
 }
 
+/** Per-learner persisted data (schema v2) */
+export interface UserSave {
+  profile: UserProfile;
+  chapterProgress: Record<string, ChapterProgress>;
+  vocabJournal: Record<string, VocabEntry>;
+  badges: Badge[];
+  recentQuizScores: number[];
+  createdAt: string;
+  updatedAt: string;
+}
+
+/** Device-level persistence root (localStorage spellread-v2) */
+export interface DeviceState {
+  schemaVersion: number;
+  activeUserId: string | null;
+  debugMode: boolean;
+  users: Record<string, UserSave>;
+  userOrder: string[];
+}
+
+export const DEVICE_SCHEMA_VERSION = 2;
+
 export const PASS_THRESHOLD = 0.8;
 export const POINTS = {
   preview: 10,

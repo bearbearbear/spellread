@@ -16,7 +16,7 @@ import { updateProfileAfterQuiz } from "./adaptive";
 
 const STORAGE_KEY = "spellread-state";
 
-const DEFAULT_BADGES: Badge[] = [
+export const DEFAULT_BADGES: Badge[] = [
   { id: "first_chapter", name: "First Steps", description: "Complete your first chapter" },
   { id: "streak_7", name: "Week Warrior", description: "Read 7 days in a row" },
   { id: "book_complete", name: "Stone Scholar", description: "Finish Book 1" },
@@ -43,7 +43,7 @@ function quizResultFromAttempts(progress: ChapterProgress): QuizResultSummary | 
   };
 }
 
-function defaultProgress(book: number, chapter: number): ChapterProgress {
+export function defaultProgress(book: number, chapter: number): ChapterProgress {
   return {
     book,
     chapter,

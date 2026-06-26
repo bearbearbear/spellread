@@ -7,7 +7,7 @@ import { readerLevelLabel } from "@/lib/adaptive";
 import { Button } from "@/components/ui/Button";
 
 export function ParentDashboardPage() {
-  const { state, setState } = useApp();
+  const { state, setState, learners, switchUser } = useApp();
   const [unlocked, setUnlocked] = useState(false);
   const [pin, setPin] = useState("");
   const [startChapter, setStartChapter] = useState(1);
@@ -19,7 +19,7 @@ export function ParentDashboardPage() {
     return (
       <div className="text-center">
         <p>No student profile found.</p>
-        <Link to="/onboarding" className="text-burgundy underline">Set up profile</Link>
+        <Link to="/select-user" className="text-burgundy underline">Choose a learner</Link>
       </div>
     );
   }
@@ -63,10 +63,30 @@ export function ParentDashboardPage() {
 
   return (
     <div className="space-y-6">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-3">
         <h1 className="text-2xl font-bold text-burgundy">Parent Dashboard</h1>
         <Link to="/" className="text-sm text-ink-muted underline">← Home</Link>
       </div>
+
+      {learners.length > 1 && (
+        <section className="parchment-card p-4">
+          <label htmlFor="parent-learner-select" className="mb-2 block text-sm font-medium">
+            Viewing report for
+          </label>
+          <select
+            id="parent-learner-select"
+            value={profile.id}
+            onChange={(e) => switchUser(e.target.value)}
+            className="w-full rounded-xl border-2 border-parchment-dark bg-white/50 px-4 py-2"
+          >
+            {learners.map((learner) => (
+              <option key={learner.id} value={learner.id}>
+                {learner.avatar} {learner.nickname}
+              </option>
+            ))}
+          </select>
+        </section>
+      )}
 
       <section className="parchment-card p-6">
         <h2 className="mb-4 text-lg font-semibold">Weekly Report</h2>

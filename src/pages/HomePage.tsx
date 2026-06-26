@@ -7,20 +7,26 @@ import { getChapterProgress, setDebugMode } from "@/lib/store";
 import { readerLevelLabel } from "@/lib/adaptive";
 import { countByStatus } from "@/lib/srs";
 import { ChapterMap } from "@/components/learning/ChapterMap";
+import { UserSwitcher } from "@/components/learning/UserSwitcher";
 import { Button } from "@/components/ui/Button";
 import { Link } from "react-router-dom";
 
 export function HomePage() {
   const navigate = useNavigate();
-  const { state, setState, isReady } = useApp();
+  const { state, setState, isReady, device, learners } = useApp();
   const profile = state.profile;
   const book = getBook(1);
 
   useEffect(() => {
-    if (isReady && !profile) {
+    if (!isReady) return;
+    if (learners.length === 0) {
       navigate("/onboarding", { replace: true });
+      return;
     }
-  }, [isReady, profile, navigate]);
+    if (!device.activeUserId || !profile) {
+      navigate("/select-user", { replace: true });
+    }
+  }, [isReady, learners.length, device.activeUserId, profile, navigate]);
 
   if (!isReady || !profile || !book) {
     return <div className="text-center text-ink-muted">Loading your map...</div>;
@@ -47,6 +53,8 @@ export function HomePage() {
 
   return (
     <div className="space-y-6">
+      {learners.length > 1 && <UserSwitcher />}
+
       <header className="parchment-card p-6">
         <p className="text-sm text-ink-muted">Welcome back,</p>
         <h1 className="text-3xl font-bold text-burgundy">
